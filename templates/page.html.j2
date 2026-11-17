@@ -50,6 +50,7 @@
     <div class="leg el"><h3>Electrons</h3><p>{{ d.lead.nexus.electrons }}</p></div>
     <div class="leg mo"><h3>Molecules</h3><p>{{ d.lead.nexus.molecules }}</p></div>
     <div class="leg po"><h3>Pore space</h3><p>{{ d.lead.nexus.pore }}</p></div>
+    {% if d.lead.nexus.water %}<div class="leg wa"><h3>Water</h3><p>{{ d.lead.nexus.water }}</p></div>{% endif %}
    </aside>
   </div>
   <div class="use">

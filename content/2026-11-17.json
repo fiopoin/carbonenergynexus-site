@@ -14,31 +14,121 @@
   "nexus": {
    "electrons": "Power generators are not the target of this deal. It covers industrial installations whose free allowances depend on heat and fuel use, so electricity's carbon cost stays tied to the market price.",
    "molecules": "Plants that burn fuel for process heat, such as paper and other energy-intensive producers, get lower compliance bills through 2030. Less cost pressure means less urgency to switch fuels or electrify heat.",
-   "pore": "Capture and storage projects compete with the price of an allowance. A lower or less certain price weakens the business case, while the proposed 250 million tonne removals channel after 2031 is the clearest long-run demand signal for European storage."
+   "pore": "Capture and storage projects compete with the price of an allowance. A lower or less certain price weakens the business case, while the proposed 250 million tonne removals channel after 2031 is the clearest long-run demand signal for European storage.",
+   "water": "Carbon capture is thirsty. A European Commission JRC assessment found that adding CO2 capture raises a plant's water use per unit of power by 50% to 62% for coal and gas combined cycle plants. Storage has its own water story: pulling brine out of a storage formation frees space for CO2, turning a disposal cost into a treatment opportunity."
   },
   "use": [
-   {"who": "Investors", "text": "Treat EU carbon price forecasts as policy exposed. Run any CCS, removals or industrial decarbonization model at a lower allowance price as well as the current one."},
-   {"who": "Regulators", "text": "Watch whether the final text ties free allowances to real decarbonization investment. A November 5 draft reported by MLex would let companies keep most of them even without it."},
-   {"who": "Industry", "text": "If your site is allocated on heat or fuel benchmarks, your 2026 to 2030 free allocation is likely to rise. Confirm with your national authority once the text is final."},
-   {"who": "Founders", "text": "Removal developers should read the 250 million tonne purchasing proposal closely. A compliance buyer is worth more than any voluntary offtake."}
+   {
+    "who": "Investors",
+    "text": "Treat EU carbon price forecasts as policy exposed. Run any CCS, removals or industrial decarbonization model at a lower allowance price as well as the current one."
+   },
+   {
+    "who": "Regulators",
+    "text": "Watch whether the final text ties free allowances to real decarbonization investment. A November 5 draft reported by MLex would let companies keep most of them even without it."
+   },
+   {
+    "who": "Industry",
+    "text": "If your site is allocated on heat or fuel benchmarks, your 2026 to 2030 free allocation is likely to rise. Confirm with your national authority once the text is final."
+   },
+   {
+    "who": "Founders",
+    "text": "Removal developers should read the 250 million tonne purchasing proposal closely. A compliance buyer is worth more than any voluntary offtake."
+   }
   ],
   "sources": [
-   {"name": "Brussels Times, Nov 13, 2026", "url": "https://www.brusselstimes.com/2405908/eu-strikes-carbon-deal-giving-energy-intensive-sectors-millions-in-free-allowances"},
-   {"name": "Eunews, Nov 13, 2026", "url": "https://www.eunews.it/en/?p=471164"},
-   {"name": "GMK Center (ICE data), Nov 2026", "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/amp/"},
-   {"name": "IEEFA, Nov 11, 2026", "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"},
-   {"name": "Global Banking & Finance Review (Reuters), Nov 15, 2026", "url": "https://www.globalbankingandfinance.com/irish-eu-presidency-proposes-slower-cuts-industrys-free/"},
-   {"name": "MLex, Nov 5, 2026", "url": "https://www.mlex.com/mlex/articles/2546867"},
-   {"name": "A&O Shearman, ETS revision", "url": "https://www.aoshearman.com/en/insights/the-revision-of-the-eu-emissions-trading-system"}
+   {
+    "name": "Brussels Times, Nov 13, 2026",
+    "url": "https://www.brusselstimes.com/2405908/eu-strikes-carbon-deal-giving-energy-intensive-sectors-millions-in-free-allowances"
+   },
+   {
+    "name": "Eunews, Nov 13, 2026",
+    "url": "https://www.eunews.it/en/?p=471164"
+   },
+   {
+    "name": "GMK Center (ICE data), Nov 2026",
+    "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/amp/"
+   },
+   {
+    "name": "IEEFA, Nov 11, 2026",
+    "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"
+   },
+   {
+    "name": "Global Banking & Finance Review (Reuters), Nov 15, 2026",
+    "url": "https://www.globalbankingandfinance.com/irish-eu-presidency-proposes-slower-cuts-industrys-free/"
+   },
+   {
+    "name": "MLex, Nov 5, 2026",
+    "url": "https://www.mlex.com/mlex/articles/2546867"
+   },
+   {
+    "name": "A&O Shearman, ETS revision",
+    "url": "https://www.aoshearman.com/en/insights/the-revision-of-the-eu-emissions-trading-system"
+   },
+   {
+    "name": "EC Joint Research Centre",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC69474"
+   },
+   {
+    "name": "IEAGHG 2020-09",
+    "url": "https://ieaghg.org/publications/understanding-the-cost-of-reducing-water-usage/"
+   }
   ]
  },
  "signals": [
-  {"label": "EU carbon allowance, Dec 2026", "value": "€90.5/t", "note": "Close on Nov 2, highest since January", "source": {"name": "GMK Center, ICE data", "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/amp/"}},
-  {"label": "EU free permit cushion, 2026 to 2030", "value": "~121M", "note": "Allowances, vs ~88M first proposed", "source": {"name": "Brussels Times", "url": "https://www.brusselstimes.com/2405908/eu-strikes-carbon-deal-giving-energy-intensive-sectors-millions-in-free-allowances"}},
-  {"label": "US 45Q credit, point source", "value": "$85/t", "note": "$180/t for direct air capture", "source": {"name": "IEEFA, Oct 22", "url": "https://ieefa.org/resources/planned-treasury-rule-change-could-hide-billions-co2-tax-credit-claims-oversight"}},
-  {"label": "US states with Class VI primacy", "value": "6", "note": "AZ, LA, ND, TX, WV, WY", "source": {"name": "CRS, Oct 19", "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"}},
-  {"label": "US carbon capture facilities", "value": "33", "note": "As of March 2026", "source": {"name": "GAO, Aug 2026", "url": "https://www.gao.gov/products/gao-26-107711"}},
-  {"label": "Pathways CCS target", "value": "6 Mt/yr", "note": "By 2035, rising to 16 Mt by 2045", "source": {"name": "PR Newswire, Sep 2026", "url": "https://www.prnewswire.com/news-releases/canada-and-alberta-seal-historic-oil-sands-agreement-linking-production-growth-to-carbon-capture-302894190.html"}}
+  {
+   "label": "EU carbon allowance, Dec 2026",
+   "value": "€90.5/t",
+   "note": "Close on Nov 2, highest since January",
+   "source": {
+    "name": "GMK Center, ICE data",
+    "url": "https://gmk.center/en/news/european-carbon-prices-exceeded-e90-t-in-november/amp/"
+   }
+  },
+  {
+   "label": "EU free permit cushion, 2026 to 2030",
+   "value": "~121M",
+   "note": "Allowances, vs ~88M first proposed",
+   "source": {
+    "name": "Brussels Times",
+    "url": "https://www.brusselstimes.com/2405908/eu-strikes-carbon-deal-giving-energy-intensive-sectors-millions-in-free-allowances"
+   }
+  },
+  {
+   "label": "US 45Q credit, point source",
+   "value": "$85/t",
+   "note": "$180/t for direct air capture",
+   "source": {
+    "name": "IEEFA, Oct 22",
+    "url": "https://ieefa.org/resources/planned-treasury-rule-change-could-hide-billions-co2-tax-credit-claims-oversight"
+   }
+  },
+  {
+   "label": "US states with Class VI primacy",
+   "value": "6",
+   "note": "AZ, LA, ND, TX, WV, WY",
+   "source": {
+    "name": "CRS, Oct 19",
+    "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"
+   }
+  },
+  {
+   "label": "US carbon capture facilities",
+   "value": "33",
+   "note": "As of March 2026",
+   "source": {
+    "name": "GAO, Aug 2026",
+    "url": "https://www.gao.gov/products/gao-26-107711"
+   }
+  },
+  {
+   "label": "Pathways CCS target",
+   "value": "6 Mt/yr",
+   "note": "By 2035, rising to 16 Mt by 2045",
+   "source": {
+    "name": "PR Newswire, Sep 2026",
+    "url": "https://www.prnewswire.com/news-releases/canada-and-alberta-seal-historic-oil-sands-agreement-linking-production-growth-to-carbon-capture-302894190.html"
+   }
+  }
  ],
  "briefs": [
   {
@@ -47,14 +137,32 @@
    "headline": "A year after Texas took over carbon storage permits, the queue is the story",
    "text": "EPA approved the Railroad Commission of Texas as the Class VI permitting authority on November 12, 2025, making Texas the sixth state with primacy. At the time, more than 60 Class VI applications were pending in Texas, about 24% of EPA's national backlog. Louisiana, the first large primacy state, had issued one permit since 2023 and its governor paused new reviews in October 2025. Carbon Pulse has since reported that new Texas applications have slowed and that long-term liability is still unsettled.",
    "use": [
-    {"who": "Investors", "text": "Permit timing is now a state by state variable. Price Gulf Coast storage on Texas timelines, not EPA's."},
-    {"who": "Landowners", "text": "Pore space leases are long contracts. Ask who holds liability after injection stops before you sign."}
+    {
+     "who": "Investors",
+     "text": "Permit timing is now a state by state variable. Price Gulf Coast storage on Texas timelines, not EPA's."
+    },
+    {
+     "who": "Landowners",
+     "text": "Pore space leases are long contracts. Ask who holds liability after injection stops before you sign."
+    }
    ],
    "sources": [
-    {"name": "Clifford Chance, Jan 12, 2026", "url": "https://www.cliffordchance.com/briefings/2026/01/texas-poised-for-carbon-sequestration-expansion-as-epa-grants-cl.html"},
-    {"name": "Gravel2Gavel (Pillsbury)", "url": "https://www.gravel2gavel.com/texas-primacy-class-vi-carbon-storage-wells/"},
-    {"name": "CRS R48033, Oct 19, 2026", "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"},
-    {"name": "Carbon Pulse", "url": "https://carbon-pulse.com/554672/?site=nzp"}
+    {
+     "name": "Clifford Chance, Jan 12, 2026",
+     "url": "https://www.cliffordchance.com/briefings/2026/01/texas-poised-for-carbon-sequestration-expansion-as-epa-grants-cl.html"
+    },
+    {
+     "name": "Gravel2Gavel (Pillsbury)",
+     "url": "https://www.gravel2gavel.com/texas-primacy-class-vi-carbon-storage-wells/"
+    },
+    {
+     "name": "CRS R48033, Oct 19, 2026",
+     "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"
+    },
+    {
+     "name": "Carbon Pulse",
+     "url": "https://carbon-pulse.com/554672/?site=nzp"
+    }
    ]
   },
   {
@@ -63,14 +171,32 @@
    "headline": "45Q survived the tax bill. The fight now is over who checks the tonnes",
    "text": "The 45Q credit pays $85 per tonne of CO2 captured at a facility and $180 for direct air capture, and the 2025 tax law set equal values across storage and use. Treasury's Notice 2026-50, issued August 14, extended the safe harbor that lets companies report stored volumes while EPA's reporting rules are in flux. IEEFA argued on October 22 that the change makes claims harder to verify. GAO counted 33 US carbon capture facilities as of March 2026 and found 45Q claims more than tripled from 2019 to 2023.",
    "use": [
-    {"who": "Investors", "text": "The credit value is intact. The risk to model is verification and recapture, not repeal."},
-    {"who": "Operators", "text": "PwC advises checking you can meet the independent certification requirement by the time you file."}
+    {
+     "who": "Investors",
+     "text": "The credit value is intact. The risk to model is verification and recapture, not repeal."
+    },
+    {
+     "who": "Operators",
+     "text": "PwC advises checking you can meet the independent certification requirement by the time you file."
+    }
    ],
    "sources": [
-    {"name": "IEEFA, Oct 22, 2026", "url": "https://ieefa.org/resources/planned-treasury-rule-change-could-hide-billions-co2-tax-credit-claims-oversight"},
-    {"name": "Holland & Knight, Sep 2026", "url": "https://www.hklaw.com/en/insights/publications/2026/09/treasury-department-expands-extends-section-45q"},
-    {"name": "GAO-26-107711, Aug 6, 2026", "url": "https://www.gao.gov/products/gao-26-107711"},
-    {"name": "PwC, Sep 10, 2026", "url": "https://www.pwc.com/us/en/services/tax/library/pwc-irs-expands-safe-harbor-for-45q-carbon-sequestration-credit.html"}
+    {
+     "name": "IEEFA, Oct 22, 2026",
+     "url": "https://ieefa.org/resources/planned-treasury-rule-change-could-hide-billions-co2-tax-credit-claims-oversight"
+    },
+    {
+     "name": "Holland & Knight, Sep 2026",
+     "url": "https://www.hklaw.com/en/insights/publications/2026/09/treasury-department-expands-extends-section-45q"
+    },
+    {
+     "name": "GAO-26-107711, Aug 6, 2026",
+     "url": "https://www.gao.gov/products/gao-26-107711"
+    },
+    {
+     "name": "PwC, Sep 10, 2026",
+     "url": "https://www.pwc.com/us/en/services/tax/library/pwc-irs-expands-safe-harbor-for-45q-carbon-sequestration-credit.html"
+    }
    ]
   },
   {
@@ -79,17 +205,44 @@
    "headline": "Canada's biggest carbon capture bet hit its signing deadline",
    "text": "Ottawa, Alberta and the five Oil Sands Alliance producers set November 15 as the target for binding agreements on the Pathways CCS project, which aims to capture about 6 million tonnes a year by 2035 and 16 million by 2045. Ottawa has committed to extend investment tax credits of 50% on capture equipment and 37.5% on transport and storage. Alberta unveiled lower royalties on some new oil sands output on November 13. A Cenovus executive called the timeline tight on November 4. We found no public confirmation of signed agreements as of this morning. The alliance targets a final investment decision in late 2027 or early 2028.",
    "use": [
-    {"who": "Investors", "text": "Canadian Natural says its 2027 spending plan depends on these agreements. Expect producer guidance to move with them."},
-    {"who": "Suppliers", "text": "Pre-FID engineering for the capture sites and the shared CO2 pipeline is the contract flow to watch in 2027."}
+    {
+     "who": "Investors",
+     "text": "Canadian Natural says its 2027 spending plan depends on these agreements. Expect producer guidance to move with them."
+    },
+    {
+     "who": "Suppliers",
+     "text": "Pre-FID engineering for the capture sites and the shared CO2 pipeline is the contract flow to watch in 2027."
+    }
    ],
    "sources": [
-    {"name": "PR Newswire, Sep 2026", "url": "https://www.prnewswire.com/news-releases/canada-and-alberta-seal-historic-oil-sands-agreement-linking-production-growth-to-carbon-capture-302894190.html"},
-    {"name": "CP24, Jul 13, 2026", "url": "https://www.cp24.com/news/money/2026/07/13/alberta-ottawa-and-oilsands-companies-reach-pathways-agreement/"},
-    {"name": "Globe and Mail, Nov 13, 2026", "url": "https://www.theglobeandmail.com/business/article-alberta-danielle-smith-unveils-new-oil-sands-royalty-regime/"},
-    {"name": "CP24, Nov 4, 2026", "url": "https://www.cp24.com/news/money/2026/11/04/tight-timeline-to-nail-down-trade-offs-in-pathways-deals-cenovus-executive-says/"},
-    {"name": "The Canadian Press", "url": "https://www.thecanadianpressnews.ca/business/outcome-of-pathways-talks-to-factor-into-canadian-natural-investment-plans-president/article_4b88c513-8ba8-58b1-8f83-1b395e022b97.html"},
-    {"name": "National Observer, Jul 13, 2026", "url": "https://www.nationalobserver.com/2026/07/13/news/feds-lower-carbon-capture-project-targets-offer-new-subsidies-costs-double"},
-    {"name": "Decarbonfuse", "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"}
+    {
+     "name": "PR Newswire, Sep 2026",
+     "url": "https://www.prnewswire.com/news-releases/canada-and-alberta-seal-historic-oil-sands-agreement-linking-production-growth-to-carbon-capture-302894190.html"
+    },
+    {
+     "name": "CP24, Jul 13, 2026",
+     "url": "https://www.cp24.com/news/money/2026/07/13/alberta-ottawa-and-oilsands-companies-reach-pathways-agreement/"
+    },
+    {
+     "name": "Globe and Mail, Nov 13, 2026",
+     "url": "https://www.theglobeandmail.com/business/article-alberta-danielle-smith-unveils-new-oil-sands-royalty-regime/"
+    },
+    {
+     "name": "CP24, Nov 4, 2026",
+     "url": "https://www.cp24.com/news/money/2026/11/04/tight-timeline-to-nail-down-trade-offs-in-pathways-deals-cenovus-executive-says/"
+    },
+    {
+     "name": "The Canadian Press",
+     "url": "https://www.thecanadianpressnews.ca/business/outcome-of-pathways-talks-to-factor-into-canadian-natural-investment-plans-president/article_4b88c513-8ba8-58b1-8f83-1b395e022b97.html"
+    },
+    {
+     "name": "National Observer, Jul 13, 2026",
+     "url": "https://www.nationalobserver.com/2026/07/13/news/feds-lower-carbon-capture-project-targets-offer-new-subsidies-costs-double"
+    },
+    {
+     "name": "Decarbonfuse",
+     "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"
+    }
    ]
   },
   {
@@ -98,14 +251,58 @@
    "headline": "At COP31, governments start acting like carbon removal buyers",
    "text": "COP31 runs in Antalya through November 20, with Türkiye holding the presidency and Australia leading negotiations. On November 11, fifteen countries released a statement on policies to scale carbon credit markets, while delegates split over when credits should be authorized under Article 6. The same day, a Canadian official said the government would announce competitive standing offers for carbon removal in the coming days, part of a plan to buy at least C$10 million of durable removals from direct air capture, bioenergy with CCS and enhanced mineralization.",
    "use": [
-    {"who": "Founders", "text": "Government procurement is small in dollars and large in signal. A standing offer is a reference price you can show lenders."},
-    {"who": "Buyers", "text": "Article 6 authorization timing decides whether a credit can count toward a country's target. Ask sellers which status yours carries."}
+    {
+     "who": "Founders",
+     "text": "Government procurement is small in dollars and large in signal. A standing offer is a reference price you can show lenders."
+    },
+    {
+     "who": "Buyers",
+     "text": "Article 6 authorization timing decides whether a credit can count toward a country's target. Ask sellers which status yours carries."
+    }
    ],
    "sources": [
-    {"name": "Sylvera COP31", "url": "https://www.sylvera.com/cop31"},
-    {"name": "Carbon Pulse, Nov 11, 2026", "url": "https://carbon-pulse.com/570045/"},
-    {"name": "Carbon Pulse ticker, Nov 11, 2026", "url": "https://carbon-pulse.com/569727/?category=americas"},
-    {"name": "Argus, Nov 11, 2026", "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2902958-cop-canada-set-to-buy-carbon-removal-credits"}
+    {
+     "name": "Sylvera COP31",
+     "url": "https://www.sylvera.com/cop31"
+    },
+    {
+     "name": "Carbon Pulse, Nov 11, 2026",
+     "url": "https://carbon-pulse.com/570045/"
+    },
+    {
+     "name": "Carbon Pulse ticker, Nov 11, 2026",
+     "url": "https://carbon-pulse.com/569727/?category=americas"
+    },
+    {
+     "name": "Argus, Nov 11, 2026",
+     "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2902958-cop-canada-set-to-buy-carbon-removal-credits"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "The carbon business is becoming a water business",
+   "text": "Capture6 opened Project Tortuga near Perth on October 12: eight containerised units that recover freshwater from brine and capture CO2 from the air, funded under Australia's Carbon Capture Technologies Program. The company estimates that treating Australia's brine could yield up to 470 gigalitres of extra freshwater a year. It is also building Project Monarch for California's Palmdale Water District, due to start operating in the second quarter of 2027. Separately, a KAUST led team reported in Nature that recirculating groundwater lets CO2 be turned to stone in basalt without the large freshwater volumes once assumed; 70% of 131 tons injected in western Saudi Arabia mineralized within ten months.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Projects that sell both water and carbon removal have two revenue lines. Ask which one carries the economics."
+    },
+    {
+     "who": "Operators",
+     "text": "Brine you pay to dispose of is feedstock for these models. Produced water and storage brine are the supply to watch."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Water Online, Oct 13, 2026",
+     "url": "https://www.wateronline.com/doc/capture-launches-project-tortuga-in-western-australia-demonstrating-scalable-water-recovery-and-carbon-removal-0001"
+    },
+    {
+     "name": "EurekAlert (KAUST), Mar 25, 2026",
+     "url": "https://www.eurekalert.org/news-releases/1126848"
+    }
    ]
   },
   {
@@ -114,48 +311,176 @@
    "headline": "Northern Lights moves its second phase into fabrication",
    "text": "Worley Rosenberg won a Subsea7 contract on October 16 to fabricate subsea structures and spools for Northern Lights Phase II, which expands Norway's open-access CO2 transport and storage network to more than 5 million tonnes a year by 2028. Phase II is the clearest test of whether third-party storage can be sold like pipeline capacity to emitters across Europe.",
    "use": [
-    {"who": "Industry", "text": "European emitters without their own storage can plan around shipped CO2 to Norway on a 2028 horizon."},
-    {"who": "Investors", "text": "Open-access storage tariffs are the number to track. They set the floor cost of a stored tonne in Europe."}
+    {
+     "who": "Industry",
+     "text": "European emitters without their own storage can plan around shipped CO2 to Norway on a 2028 horizon."
+    },
+    {
+     "who": "Investors",
+     "text": "Open-access storage tariffs are the number to track. They set the floor cost of a stored tonne in Europe."
+    }
    ],
    "sources": [
-    {"name": "World Oil, Oct 16, 2026", "url": "https://worldoil.com/topics/energy-transition/carbon-capture"}
+    {
+     "name": "World Oil, Oct 16, 2026",
+     "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+    }
    ]
   }
  ],
  "tracker": [
-  {"name": "Northern Lights Phase II", "where": "Norway", "type": "Transport and storage", "stage": 6, "last": "Subsea fabrication contract awarded Oct 16; more than 5 Mt/yr by 2028", "source": {"name": "World Oil", "url": "https://worldoil.com/topics/energy-transition/carbon-capture"}},
-  {"name": "Porthos", "where": "Netherlands", "type": "Transport and storage", "stage": 6, "last": "Set to begin operations in 2026 as Europe's second large CO2 network", "source": {"name": "IEA", "url": "https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks"}},
-  {"name": "Pathways CCS", "where": "Alberta, Canada", "type": "Capture, pipeline, storage", "stage": 3, "last": "Binding fiscal agreements targeted for Nov 15; FID late 2027 to early 2028", "source": {"name": "Decarbonfuse", "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"}},
-  {"name": "Havstjerne", "where": "Norwegian North Sea", "type": "Storage", "stage": 3, "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25", "source": {"name": "World Oil", "url": "https://worldoil.com/topics/energy-transition/carbon-capture"}}
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Subsea fabrication contract awarded Oct 16; more than 5 Mt/yr by 2028",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   }
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Set to begin operations in 2026 as Europe's second large CO2 network",
+   "source": {
+    "name": "IEA",
+    "url": "https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks"
+   }
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Binding fiscal agreements targeted for Nov 15; FID late 2027 to early 2028",
+   "source": {
+    "name": "Decarbonfuse",
+    "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"
+   }
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   }
+  }
  ],
  "voices": [
-  {"name": "Darragh O'Brien", "role": "Ireland's climate and energy minister, chairing EU Council talks", "text": "Said the provisional deal would quickly raise free allowances for energy-intensive sectors on the heat and fuel benchmarks.", "source": {"name": "Eunews, Nov 13, 2026", "url": "https://www.eunews.it/en/?p=471164"}},
-  {"name": "Andrew Reid", "role": "IEEFA", "text": "Argues that a weaker EU carbon price turns polluter pays into taxpayer pays for industrial carbon capture.", "source": {"name": "IEEFA, Nov 11, 2026", "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"}},
-  {"name": "Kendall Dilling", "role": "President, Oil Sands Alliance", "text": "Said the July agreement gives a clearer framework for both production growth and carbon infrastructure.", "source": {"name": "P&GJ, Jul 2026", "url": "https://pgjonline.com/news/2026/july/pathways-ccs-west-coast-oil-pipeline-gain-government-backing"}}
+  {
+   "name": "Darragh O'Brien",
+   "role": "Ireland's climate and energy minister, chairing EU Council talks",
+   "text": "Said the provisional deal would quickly raise free allowances for energy-intensive sectors on the heat and fuel benchmarks.",
+   "source": {
+    "name": "Eunews, Nov 13, 2026",
+    "url": "https://www.eunews.it/en/?p=471164"
+   }
+  },
+  {
+   "name": "Andrew Reid",
+   "role": "IEEFA",
+   "text": "Argues that a weaker EU carbon price turns polluter pays into taxpayer pays for industrial carbon capture.",
+   "source": {
+    "name": "IEEFA, Nov 11, 2026",
+    "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"
+   }
+  },
+  {
+   "name": "Kendall Dilling",
+   "role": "President, Oil Sands Alliance",
+   "text": "Said the July agreement gives a clearer framework for both production growth and carbon infrastructure.",
+   "source": {
+    "name": "P&GJ, Jul 2026",
+    "url": "https://pgjonline.com/news/2026/july/pathways-ccs-west-coast-oil-pipeline-gain-government-backing"
+   }
+  }
  ],
  "research": [
-  {"title": "Carbon Capture Tax Credit: Actions Needed to Improve Federal Administration", "by": "US Government Accountability Office", "date": "Aug 6, 2026", "text": "How 45Q is claimed, verified and evaluated, with recommendations IRS and DOE partly rejected.", "url": "https://www.gao.gov/products/gao-26-107711"},
-  {"title": "Class VI Carbon Sequestration Wells: Permitting and State Program Primacy", "by": "Congressional Research Service", "date": "Oct 19, 2026", "text": "The clearest public map of who permits CO2 storage wells and the open questions Congress faces.", "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"},
-  {"title": "Polluter pays or taxpayer pays?", "by": "IEEFA", "date": "Nov 11, 2026", "text": "Links EU carbon price expectations to the funding gap for industrial carbon capture.", "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"},
-  {"title": "EU carbon markets 2026", "by": "European Securities and Markets Authority", "date": "Jul 9, 2026", "text": "Who trades EU allowances, how prices behaved in 2025, and what the regulator watches.", "url": "https://www.esma.europa.eu/sites/default/files/2026-07/ESMA50-481369926-34622_Carbon_markets_report_2026.pdf"}
+  {
+   "title": "Carbon Capture Tax Credit: Actions Needed to Improve Federal Administration",
+   "by": "US Government Accountability Office",
+   "date": "Aug 6, 2026",
+   "text": "How 45Q is claimed, verified and evaluated, with recommendations IRS and DOE partly rejected.",
+   "url": "https://www.gao.gov/products/gao-26-107711"
+  },
+  {
+   "title": "Class VI Carbon Sequestration Wells: Permitting and State Program Primacy",
+   "by": "Congressional Research Service",
+   "date": "Oct 19, 2026",
+   "text": "The clearest public map of who permits CO2 storage wells and the open questions Congress faces.",
+   "url": "https://www.everycrsreport.com/files/2026-10-19_R48033_44545d2f154aa520e6e6e26e080b91c450d0104e.html"
+  },
+  {
+   "title": "Polluter pays or taxpayer pays?",
+   "by": "IEEFA",
+   "date": "Nov 11, 2026",
+   "text": "Links EU carbon price expectations to the funding gap for industrial carbon capture.",
+   "url": "https://ieefa.org/resources/polluter-pays-or-taxpayer-pays-weaker-eu-carbon-prices-widen-carbon-capture-funding-gap"
+  },
+  {
+   "title": "EU carbon markets 2026",
+   "by": "European Securities and Markets Authority",
+   "date": "Jul 9, 2026",
+   "text": "Who trades EU allowances, how prices behaved in 2025, and what the regulator watches.",
+   "url": "https://www.esma.europa.eu/sites/default/files/2026-07/ESMA50-481369926-34622_Carbon_markets_report_2026.pdf"
+  }
  ],
  "calendar": [
-  {"when": "Nov 20, 2026", "what": "COP31 scheduled to close in Antalya"},
-  {"when": "Nov 20, 2026", "what": "UK and EU summit; carbon market linkage on the agenda"},
-  {"when": "Late 2027 to early 2028", "what": "Pathways CCS final investment decision window"},
-  {"when": "Jan 1, 2032", "what": "Pathways shared CO2 transport and storage targeted to operate"},
-  {"when": "Jan 1, 2033", "what": "45Q deadline to begin construction of capture equipment"}
+  {
+   "when": "Nov 20, 2026",
+   "what": "COP31 scheduled to close in Antalya"
+  },
+  {
+   "when": "Nov 20, 2026",
+   "what": "UK and EU summit; carbon market linkage on the agenda"
+  },
+  {
+   "when": "Late 2027 to early 2028",
+   "what": "Pathways CCS final investment decision window"
+  },
+  {
+   "when": "Jan 1, 2032",
+   "what": "Pathways shared CO2 transport and storage targeted to operate"
+  },
+  {
+   "when": "Jan 1, 2033",
+   "what": "45Q deadline to begin construction of capture equipment"
+  }
  ],
  "calendar_sources": [
-  {"name": "Sylvera", "url": "https://www.sylvera.com/cop31"},
-  {"name": "ABN AMRO", "url": "https://www.abnamro.com/research/en/our-research/carbon-market-watch-carbon-prices-climb-as-policy-reforms-take-shape"},
-  {"name": "Decarbonfuse", "url": "https://decarbonfuse.com/posts/alberta-cuts-carbon-costs-to-fast-track-pathways-ccs"},
-  {"name": "White & Case", "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"}
+  {
+   "name": "Sylvera",
+   "url": "https://www.sylvera.com/cop31"
+  },
+  {
+   "name": "ABN AMRO",
+   "url": "https://www.abnamro.com/research/en/our-research/carbon-market-watch-carbon-prices-climb-as-policy-reforms-take-shape"
+  },
+  {
+   "name": "Decarbonfuse",
+   "url": "https://decarbonfuse.com/posts/alberta-cuts-carbon-costs-to-fast-track-pathways-ccs"
+  },
+  {
+   "name": "White & Case",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
  ],
  "social": {
   "kicker": "Morning: the nexus",
   "headline": "Europe eases carbon costs for heavy industry",
-  "points": ["~121M free permits for 2026 to 2030", "EU carbon near €90 a tonne", "Weaker price, harder CCS math"],
+  "points": [
+   "~121M free permits for 2026 to 2030",
+   "EU carbon near €90 a tonne",
+   "Weaker price, harder CCS math"
+  ],
   "watch": "UK and EU summit on carbon market linkage, Nov 20.",
   "caption": "EU governments and Parliament agreed on Nov 12 to give energy-intensive industry roughly 121 million more free carbon permits through 2030. Allowances traded near €90 a tonne, but a softer long-run price weakens the case for carbon capture and shifts cost to taxpayers.\n\nWhat it means for investors, regulators and industry at carbonenergynexus.com\n\n#CarbonMarkets #EUETS #CCS #EnergyTransition #COP31"
  },
@@ -163,14 +488,22 @@
   "midday": {
    "kicker": "Midday: the money",
    "headline": "45Q pays $85 a tonne. Who checks?",
-   "points": ["$180 a tonne for direct air capture", "33 US capture plants as of March", "Safe harbor extended Aug 14"],
+   "points": [
+    "$180 a tonne for direct air capture",
+    "33 US capture plants as of March",
+    "Safe harbor extended Aug 14"
+   ],
    "watch": "Final Treasury rules on how stored tonnes are verified.",
    "caption": "The US 45Q credit pays $85 per tonne of captured CO2 and $180 for direct air capture. Treasury extended a reporting safe harbor in August; IEEFA says that makes claims harder to verify. The credit is safe. Verification is the risk.\n\nMore at carbonenergynexus.com\n\n#CarbonCapture #45Q #CCS #EnergyPolicy"
   },
   "evening": {
    "kicker": "Evening: the world",
    "headline": "Canada steps up as a carbon removal buyer",
-   "points": ["C$10M for durable removals", "DAC, BECCS and mineralization", "COP31 closes Nov 20"],
+   "points": [
+    "C$10M for durable removals",
+    "DAC, BECCS and mineralization",
+    "COP31 closes Nov 20"
+   ],
    "watch": "Whether other governments copy standing offers for removals.",
    "caption": "At COP31, Canada said it will announce standing offers to buy carbon removal, part of a C$10 million plan covering direct air capture, bioenergy with CCS and mineralization. Fifteen countries also backed policies to scale carbon credit markets.\n\nMore at carbonenergynexus.com\n\n#CarbonRemoval #COP31 #CarbonMarkets #ClimateFinance"
   }

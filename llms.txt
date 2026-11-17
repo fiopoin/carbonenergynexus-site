@@ -1,6 +1,6 @@
 # Carbon Energy Nexus
 
-> A free daily publication at carbonenergynexus.com on where carbon, energy and capital meet: CO2 capture and storage, carbon markets and removals, energy policy, project finance and research. Each edition sorts news by electrons (power), molecules (fuels) and pore space (the subsurface), tracks projects on a seven step ladder from announcement to operation, and says what each story means for investors, regulators, industry and founders. Facts are sourced and dated; stages and outlooks are labeled as our judgment. General information, not investment advice.
+> A free daily publication at carbonenergynexus.com on where carbon, energy, water and capital meet: CO2 capture and storage, carbon markets and removals, energy policy, produced water and the water footprint of energy, project finance and research. Each edition sorts news by electrons (power), molecules (fuels), pore space (the subsurface) and water, tracks projects on a seven step ladder from announcement to operation, and says what each story means for investors, regulators, industry and founders. Facts are sourced and dated; stages and outlooks are labeled as our judgment. General information, not investment advice.
 
 ## Tools
 - [Energy and carbon footprint calculator](https://carbonenergynexus.com/calculator.html): households and companies, EPA and EIA factors, transparent Nexus Score
@@ -12,6 +12,7 @@
 - [Capital: 45Q survived the tax bill. The fight now is over who checks the tonnes](https://carbonenergynexus.com/#money)
 - [Projects: Canada's biggest carbon capture bet hit its signing deadline](https://carbonenergynexus.com/#pathways)
 - [Markets: At COP31, governments start acting like carbon removal buyers](https://carbonenergynexus.com/#world)
+- [Water: The carbon business is becoming a water business](https://carbonenergynexus.com/#water)
 - [Projects: Northern Lights moves its second phase into fabrication](https://carbonenergynexus.com/#northsea)
 
 ## Archive and feeds

@@ -35,7 +35,7 @@ SITE = "https://carbonenergynexus.com/"
 NAME = "Carbon Energy Nexus"
 ORG = {"@type": "NewsMediaOrganization", "@id": SITE + "#org", "name": NAME, "url": SITE,
        "logo": {"@type": "ImageObject", "url": SITE + "brand/cen-icon-512.png", "width": 512, "height": 512},
-       "description": "Sourced daily intelligence on carbon, energy and capital: projects, policy, markets and research.",
+       "description": "Sourced daily intelligence on carbon, energy, water and capital: projects, policy, markets and research.",
        "sameAs": CFG.get("same_as", [])}
 
 def published(d):
@@ -98,7 +98,7 @@ def rfc822(ds):
 entries = "".join(f"""<item><title>{html.escape(d['lead']['headline'])}</title><link>{page_url(d, True)}</link><guid>{page_url(d, True)}</guid>
 <pubDate>{rfc822(d['date'])}</pubDate><description>{html.escape(summary(d))}</description><enclosure url="{SITE}social/{d['date']}.png" type="image/png" length="0"/></item>""" for d in reversed(data[-30:]))
 open("feed.xml", "w").write(f"""<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{NAME}</title><link>{SITE}</link>
-<description>Sourced daily intelligence on carbon, energy and capital.</description>{entries}</channel></rss>""")
+<description>Sourced daily intelligence on carbon, energy, water and capital.</description>{entries}</channel></rss>""")
 
 # Search and AI discovery
 urls = [(SITE, latest["date"], "daily", "1.0"), (SITE + "calculator.html", latest["date"], "monthly", "0.9"), (SITE + "frameworks.html", latest["date"], "monthly", "0.7"),
@@ -110,7 +110,7 @@ bots = ["Googlebot", "Bingbot", "Applebot", "DuckDuckBot", "GPTBot", "OAI-Search
         "FacebookBot", "CCBot", "Amazonbot", "cohere-ai"]
 open("robots.txt", "w").write("# Carbon Energy Nexus welcomes search engines and AI assistants.\n# Quote and link freely; please credit Carbon Energy Nexus and link to carbonenergynexus.com.\n\n"
     + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n")
-L = [f"# {NAME}", "", "> A free daily publication at carbonenergynexus.com on where carbon, energy and capital meet: CO2 capture and storage, carbon markets and removals, energy policy, project finance and research. Each edition sorts news by electrons (power), molecules (fuels) and pore space (the subsurface), tracks projects on a seven step ladder from announcement to operation, and says what each story means for investors, regulators, industry and founders. Facts are sourced and dated; stages and outlooks are labeled as our judgment. General information, not investment advice.", "",
+L = [f"# {NAME}", "", "> A free daily publication at carbonenergynexus.com on where carbon, energy, water and capital meet: CO2 capture and storage, carbon markets and removals, energy policy, produced water and the water footprint of energy, project finance and research. Each edition sorts news by electrons (power), molecules (fuels), pore space (the subsurface) and water, tracks projects on a seven step ladder from announcement to operation, and says what each story means for investors, regulators, industry and founders. Facts are sourced and dated; stages and outlooks are labeled as our judgment. General information, not investment advice.", "",
      "## Tools", f"- [Energy and carbon footprint calculator]({SITE}calculator.html): households and companies, EPA and EIA factors, transparent Nexus Score",
      f"- [Frameworks]({SITE}frameworks.html): how projects, policy and carbon claims are judged", "",
      "## Today's edition", f"- [{latest['lead']['headline']}]({SITE}): {latest['date_long']}. {summary(latest)}"]
@@ -120,7 +120,7 @@ L += [f"- [{d['date_long']}: {d['lead']['headline']}]({page_url(d, True)})" for 
 open("llms.txt", "w").write("\n".join(L) + "\n")
 
 # Social graphics
-G, PAPER, VOLT, EMBER, AQ, MUTE, LINE = (26, 34, 38), (238, 242, 241), (242, 193, 78), (228, 87, 46), (43, 138, 158), (174, 185, 183), (58, 70, 76)
+G, PAPER, VOLT, EMBER, AQ, MUTE, LINE, WAT = (26, 34, 38), (238, 242, 241), (242, 193, 78), (228, 87, 46), (43, 138, 158), (174, 185, 183), (58, 70, 76), (95, 184, 230)
 def F(w, s): return ImageFont.truetype(f"tools/fonts/{w}.ttf", s)
 SERIF, SERIFB, SANS, SANSM, SANSB = "SourceSerif4-SemiBold", "SourceSerif4-Bold", "IBMPlexSans-Regular", "IBMPlexSans-Medium", "IBMPlexSans-SemiBold"
 lock = Image.open("brand/cen-lockup-white-1200.png").convert("RGBA")
@@ -144,9 +144,9 @@ def card(d, s, W, H, path, pad=0):
     for line in wrap(dr, s["headline"], hf, W - 2 * M):
         dr.text((M, y), line, font=hf, fill=PAPER); y += int(hf.size * 1.13)
     y += 44
-    seg = (W - 2 * M) // 3
-    for i, c in enumerate((VOLT, EMBER, AQ)):
-        dr.rectangle((M + i * seg, y, M + (i + 1) * seg - (8 if i < 2 else 0), y + 8), fill=c)
+    seg = (W - 2 * M) // 4
+    for i, c in enumerate((VOLT, EMBER, AQ, WAT)):
+        dr.rectangle((M + i * seg, y, M + (i + 1) * seg - (8 if i < 3 else 0), y + 8), fill=c)
     y += 62
     pf = F(SANSM, 44)
     for i, p in enumerate(s["points"]):
