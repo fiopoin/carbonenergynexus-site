@@ -1,0 +1,23 @@
+# Carbon Energy Nexus
+
+> A free daily publication at carbonenergynexus.com on where carbon, energy and capital meet: CO2 capture and storage, carbon markets and removals, energy policy, project finance and research. Each edition sorts news by electrons (power), molecules (fuels) and pore space (the subsurface), tracks projects on a seven step ladder from announcement to operation, and says what each story means for investors, regulators, industry and founders. Facts are sourced and dated; stages and outlooks are labeled as our judgment. General information, not investment advice.
+
+## Tools
+- [Energy and carbon footprint calculator](https://carbonenergynexus.com/calculator.html): households and companies, EPA and EIA factors, transparent Nexus Score
+- [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
+
+## Today's edition
+- [Europe hands heavy industry more free carbon permits as COP31 enters its final week](https://carbonenergynexus.com/): November 17, 2026. EU governments and Parliament agreed on Nov 12 to give energy-intensive industry roughly 121 million more free carbon permits through 2030. Allowances traded near €90 a tonne, but a softer long-run price weakens the case for carbon capture and shifts cost to taxpayers.
+- [Regulation: A year after Texas took over carbon storage permits, the queue is the story](https://carbonenergynexus.com/#storage)
+- [Capital: 45Q survived the tax bill. The fight now is over who checks the tonnes](https://carbonenergynexus.com/#money)
+- [Projects: Canada's biggest carbon capture bet hit its signing deadline](https://carbonenergynexus.com/#pathways)
+- [Markets: At COP31, governments start acting like carbon removal buyers](https://carbonenergynexus.com/#world)
+- [Projects: Northern Lights moves its second phase into fabrication](https://carbonenergynexus.com/#northsea)
+
+## Archive and feeds
+- [Past editions](https://carbonenergynexus.com/archive/)
+- [RSS feed](https://carbonenergynexus.com/feed.xml)
+- [Sitemap](https://carbonenergynexus.com/sitemap.xml)
+
+## Recent editions
+- [November 17, 2026: Europe hands heavy industry more free carbon permits as COP31 enters its final week](https://carbonenergynexus.com/archive/2026-11-17.html)

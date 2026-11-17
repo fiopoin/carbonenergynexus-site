@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="{{ csp|safe }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Frameworks for carbon and energy decisions | Carbon Energy Nexus</title>
+<meta name="description" content="Six frameworks Carbon Energy Nexus uses to judge carbon and energy projects, policy and capital: the nexus ripple, electrons, molecules and pore space, the project ladder, bankability, policy durability and carbon integrity.">
+<link rel="canonical" href="https://carbonenergynexus.com/frameworks.html">
+<link rel="icon" type="image/svg+xml" href="brand/cen-icon.svg">
+<link rel="stylesheet" href="assets/style.css?v={{ v }}">
+{% if cfg.ga_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.ga_id }}"></script><script src="assets/ga.js?v={{ v }}" data-id="{{ cfg.ga_id }}"></script>{% endif %}
+</head>
+<body>
+{% set root = "" %}
+{% include "header.html.j2" %}
+<main id="main" class="page">
+ <div class="wrap">
+  <h1>How we read the carbon and energy nexus</h1>
+  <p class="dek">Announcements are cheap. These six frameworks are how we separate what is real from what is press release, and how we turn a headline into a decision for an investor, a regulator, an operator or a founder.</p>
+  <div class="fw">
+   <article>
+    <h2>Electrons, molecules, pore space</h2>
+    <p>Every story is sorted by where it lands. Electrons are power: grids, generation, data center load. Molecules are fuels and feedstocks: oil, gas, hydrogen, ammonia, biofuels. Pore space is the subsurface: CO2 storage, produced water, geothermal and the rights and liability that come with rock. Most money moves where two of the three meet.</p>
+   </article>
+   <article>
+    <h2>The nexus ripple</h2>
+    <p>We trace each event outward in five steps: the trigger, the first market it moves, the second order effect, who pays or gains, and what it means for the reader. A rule in Brussels becomes a permit price, then a project's return, then a tax bill or a job.</p>
+   </article>
+   <article>
+    <h2>The project ladder</h2>
+    <p>Every tracked project sits on one of seven steps. Moving up a step needs public evidence.</p>
+    <ol><li>Announced</li><li>Feasibility</li><li>Engineering (FEED)</li><li>Permits and contracts</li><li>Final investment decision</li><li>Construction</li><li>Operating</li></ol>
+   </article>
+   <article>
+    <h2>Bankability</h2>
+    <p>Five questions decide whether a carbon or energy project can borrow money: Is the revenue contracted? Is the policy support durable? Is the technology proven at this scale? Is the permit in hand? Is long term liability assigned? A project that cannot answer three of the five is a story, not an asset.</p>
+   </article>
+   <article>
+    <h2>Policy durability</h2>
+    <p>We rate support by how hard it is to undo: statute beats regulation, regulation beats guidance, and contracts beat all three. We also ask who would have to change their mind, and what it would cost them politically to do it.</p>
+   </article>
+   <article>
+    <h2>Carbon integrity</h2>
+    <p>For any claimed tonne we ask four things: Is it measured or modeled? Is it additional? How long is it stored? Who verifies it, and who is liable if it leaks? The answers set its fair price far more than the label on the credit.</p>
+   </article>
+  </div>
+  <p class="src" style="margin-top:26px">Stages and ratings on this site are Carbon Energy Nexus judgment, built from public filings and reporting. They are not investment advice.</p>
+ </div>
+</main>
+{% include "footer.html.j2" %}
+</body>
+</html>

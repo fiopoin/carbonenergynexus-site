@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="{{ csp|safe }}">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Energy and carbon footprint calculator for households and companies | Carbon Energy Nexus</title>
+<meta name="description" content="Estimate the energy use and CO2 emissions of a household or company from electricity, natural gas, fuel and travel, using EPA and EIA factors. Includes a transparent Nexus Score.">
+<link rel="canonical" href="https://carbonenergynexus.com/calculator.html">
+<meta property="og:title" content="Energy and carbon footprint calculator">
+<meta property="og:description" content="Households and companies: estimate energy use and CO2 from your bills, fuel and travel with published EPA and EIA factors.">
+<meta property="og:image" content="https://carbonenergynexus.com/brand/cen-og.png">
+<link rel="icon" type="image/svg+xml" href="brand/cen-icon.svg">
+<link rel="apple-touch-icon" href="brand/cen-icon-180.png">
+<link rel="stylesheet" href="assets/style.css?v={{ v }}">
+<link rel="stylesheet" href="assets/calc.css?v={{ v }}">
+{% if cfg.ga_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ cfg.ga_id }}"></script><script src="assets/ga.js?v={{ v }}" data-id="{{ cfg.ga_id }}"></script>{% endif %}
+<script type="application/ld+json">{{ ld|safe }}</script>
+<script src="assets/calc.js?v={{ v }}" defer></script>
+</head>
+<body>
+{% set root = "" %}
+{% include "header.html.j2" %}
+<main id="main" class="page calc">
+ <div class="wrap">
+  <h1>Energy and carbon footprint calculator</h1>
+  <p class="dek">Enter a year of energy bills, fuel and travel. You get your energy use, your carbon emissions, where they come from, and a Nexus Score that shows which levers you have already pulled.</p>
+
+  <div class="mode" role="group" aria-label="Who is this for">
+   <button type="button" data-mode="home" aria-pressed="true">Household</button>
+   <button type="button" data-mode="co" aria-pressed="false">Company</button>
+  </div>
+
+  <div class="calc-grid">
+   <form id="calc" autocomplete="off">
+    <fieldset class="m-home">
+     <legend>Your household</legend>
+     <label>People in the household<input type="number" id="people" min="1" step="1" value="3" inputmode="numeric"></label>
+    </fieldset>
+    <fieldset class="m-co" hidden>
+     <legend>Your company</legend>
+     <div class="row2">
+      <label>Employees<input type="number" id="employees" min="1" step="1" value="50" inputmode="numeric"></label>
+      <label>Annual revenue, $ million<input type="number" id="revenue" min="0" step="0.1" value="10" inputmode="decimal"></label>
+     </div>
+    </fieldset>
+
+    <fieldset>
+     <legend><span class="dot el"></span>Electricity</legend>
+     <div class="row2">
+      <label>Electricity used, kWh per year<input type="number" id="kwh" min="0" step="1" value="12000" inputmode="numeric"><small>Add up 12 monthly bills. Your bill lists kWh.</small></label>
+      <label>Share from renewable contracts or your own solar, %<input type="number" id="clean" min="0" max="100" step="1" value="0" inputmode="numeric"></label>
+     </div>
+     <details><summary>Use my utility's emission rate</summary>
+      <label>Utility CO2 rate, lb per MWh (optional)<input type="number" id="gridlb" min="0" step="1" placeholder="US average used if blank" inputmode="numeric"><small>Many utilities publish this. EPA's Power Profiler gives regional rates.</small></label>
+     </details>
+    </fieldset>
+
+    <fieldset>
+     <legend><span class="dot mo"></span>Fuels burned on site</legend>
+     <div class="row2">
+      <label>Natural gas, therms per year<input type="number" id="therms" min="0" step="1" value="600" inputmode="numeric"><small>If your bill shows CCF, multiply by 1.037.</small></label>
+      <label>Propane, gallons per year<input type="number" id="propane" min="0" step="1" value="0" inputmode="numeric"></label>
+     </div>
+     <label class="m-home">Main heating<select id="heat"><option value="gas">Natural gas, propane or oil furnace</option><option value="resist">Electric resistance or baseboard</option><option value="hp">Electric heat pump</option></select></label>
+    </fieldset>
+
+    <fieldset>
+     <legend><span class="dot mo"></span>Vehicles</legend>
+     <div class="m-home row2">
+      <label>Miles driven per year, all gas cars<input type="number" id="miles" min="0" step="100" value="12000" inputmode="numeric"></label>
+      <label>Average miles per gallon<input type="number" id="mpg" min="5" step="1" value="25" inputmode="numeric"></label>
+     </div>
+     <label class="m-home check"><input type="checkbox" id="ev"> Our main car is electric, or we have no car <small>Electric car charging at home is already in your electricity.</small></label>
+     <div class="m-co row2" hidden>
+      <label>Gasoline, gallons per year<input type="number" id="gas_gal" min="0" step="1" value="3000" inputmode="numeric"></label>
+      <label>Diesel, gallons per year<input type="number" id="diesel" min="0" step="1" value="2000" inputmode="numeric"></label>
+      <label>Share of fleet that is electric, %<input type="number" id="fleetev" min="0" max="100" step="1" value="0" inputmode="numeric"></label>
+     </div>
+    </fieldset>
+
+    <fieldset>
+     <legend><span class="dot po"></span>Flights and transit</legend>
+     <p class="hint">Count every flight leg in miles per passenger. A Dallas to Chicago round trip is about 1,600 miles.</p>
+     <div class="row3">
+      <label>Short flights, under 300 mi<input type="number" id="f_short" min="0" step="100" value="0" inputmode="numeric"></label>
+      <label>Medium, 300 to 2,300 mi<input type="number" id="f_med" min="0" step="100" value="3000" inputmode="numeric"></label>
+      <label>Long, 2,300 mi and up<input type="number" id="f_long" min="0" step="100" value="0" inputmode="numeric"></label>
+     </div>
+     <div class="row3">
+      <label>Bus, miles<input type="number" id="bus" min="0" step="10" value="0" inputmode="numeric"></label>
+      <label>Commuter rail, miles<input type="number" id="crail" min="0" step="10" value="0" inputmode="numeric"></label>
+      <label>Subway or tram, miles<input type="number" id="trail" min="0" step="10" value="0" inputmode="numeric"></label>
+     </div>
+    </fieldset>
+
+    <fieldset>
+     <legend>How you manage it</legend>
+     <label class="check"><input type="checkbox" id="measured"> These numbers come from 12 months of actual bills, meters or fuel invoices</label>
+     <label class="m-co" hidden>Emissions target<select id="target"><option value="0">No target</option><option value="10">Internal target</option><option value="20">Externally validated target, such as SBTi</option></select></label>
+    </fieldset>
+   </form>
+
+   <aside class="results" aria-live="polite">
+    <h2>Your result</h2>
+    <p class="big"><span id="r_total">0</span><small>tonnes CO2e per year</small></p>
+    <p class="per" id="r_per"></p>
+    <dl class="kpis">
+     <div><dt>Energy used on site</dt><dd><span id="r_energy">0</span> MMBtu</dd></div>
+     <div><dt>Same as driving</dt><dd><span id="r_cars">0</span> average cars for a year</dd></div>
+    </dl>
+    <div id="r_scopes" class="scopes m-co" hidden></div>
+    <h3>Where it comes from</h3>
+    <div id="r_bars" class="bars"></div>
+    <h3>Nexus Score <span id="r_score" class="score">0</span><span class="of">/100</span></h3>
+    <ul id="r_levers" class="levers"></ul>
+    <p class="note">The Nexus Score is a Carbon Energy Nexus method, not an official standard. It awards up to 20 points for each of five levers you control.</p>
+   </aside>
+  </div>
+
+  <section class="prose method">
+   <h2>How we calculate</h2>
+   <p>Each input is multiplied by a published emission factor. Electricity uses the US average rate for electricity consumed unless you enter your utility's rate. For companies, the clean share lowers a market-based Scope 2 estimate; the location-based figure is shown as well. Energy is converted with EIA heat contents. Flights and transit count toward emissions, not on-site energy.</p>
+   <p>EPA says factors like these give approximate results and are not meant for formal emission inventories. For reporting, use your utility's factors, the GHG Protocol and the full EPA Emission Factors Hub.</p>
+   <div class="tablewrap">
+   <table class="factors">
+    <thead><tr><th scope="col">Activity</th><th scope="col">Factor</th><th scope="col">Energy</th><th scope="col">Source</th></tr></thead>
+    <tbody>
+     <tr><th scope="row">Electricity, US average</th><td>0.394 kg CO2 per kWh</td><td>3,412 Btu per kWh</td><td><a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references">EPA</a>, <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php">EIA</a></td></tr>
+     <tr><th scope="row">Natural gas</th><td>5.3 kg CO2 per therm</td><td>100,000 Btu per therm</td><td><a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references">EPA</a>, <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php">EIA</a></td></tr>
+     <tr><th scope="row">Gasoline</th><td>8.887 kg CO2 per gallon</td><td>120,214 Btu per gallon</td><td><a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references">EPA</a>, <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php">EIA</a></td></tr>
+     <tr><th scope="row">Diesel</th><td>10.21 kg CO2 per gallon</td><td>137,381 Btu per gallon</td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Emission Factors Hub 2025</a>, <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php">EIA</a></td></tr>
+     <tr><th scope="row">Propane</th><td>12.68 lb (5.75 kg) CO2 per gallon</td><td>91,452 Btu per gallon</td><td><a href="https://shop.climeco.com/calculation-methods/">US DOE via ClimeCo</a>, <a href="https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php">EIA</a></td></tr>
+     <tr><th scope="row">Flight under 300 miles</th><td>0.2089 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2025</a></td></tr>
+     <tr><th scope="row">Flight 300 to 2,300 miles</th><td>0.1301 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2023</a></td></tr>
+     <tr><th scope="row">Flight 2,300 miles and up</th><td>0.1640 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2025</a></td></tr>
+     <tr><th scope="row">Bus</th><td>0.0666 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2025</a></td></tr>
+     <tr><th scope="row">Commuter rail</th><td>0.1340 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2025</a></td></tr>
+     <tr><th scope="row">Subway or tram</th><td>0.0935 kg CO2e per passenger mile</td><td></td><td><a href="https://www.epa.gov/climateleadership/ghg-emission-factors-hub">EPA Hub 2025</a></td></tr>
+     <tr><th scope="row">Average passenger car, one year</th><td>4.29 t CO2e</td><td></td><td><a href="https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator-calculations-and-references">EPA</a></td></tr>
+    </tbody>
+   </table>
+   </div>
+   <h2>The Nexus Score levers</h2>
+   <p><strong>Households:</strong> clean electricity share (up to 20), car efficiency, where an electric car or no car earns 20 and gas cars earn points from 20 mpg (0) to 50 mpg (20), heating (heat pump 20, electric resistance 10, fuel 0), flights under 10% of your footprint (20) or under 25% (10), and measured from real bills (20).</p>
+   <p><strong>Companies:</strong> clean electricity share (up to 20), electric share of the fleet (up to 20), measured from meters and invoices (20), an emissions target (internal 10, externally validated 20), and business flights under 10% of the footprint (20) or under 25% (10).</p>
+   <p>Nothing you enter leaves your browser. The calculator runs on this page and stores nothing.</p>
+  </section>
+ </div>
+</main>
+{% include "footer.html.j2" %}
+</body>
+</html>
