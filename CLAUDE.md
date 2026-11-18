@@ -20,8 +20,12 @@ Brief ids "money" and "world" must exist. Tracker stages: 1 Announced, 2 Feasibi
 ## Brand
 Wordmark colors: on light, Carbon #1A2226, Energy #D0481E, Nexus #1F7A8C; on dark, Carbon #EEF2F1, Energy #E4572E, Nexus #4FB0C2. Mark: light benzene ring with alternating double bonds; six energy forms at the carbon positions (solar and wind in volt #F2C14E, nuclear and oil and gas in ember #E4572E, hydrogen and geothermal in aquifer #2B8A9E); a water drop (#5FB8E6) at the center. Favicon uses the simple ring with six colored dots and the center drop. Every edition carries a water angle in the lead. Graphite #1A2226, paper #F4F6F5. Files in brand/.
 
-## Schedule (audience: Europe first, then US West)
-Daily edition publishes at 06:37 Europe/Berlin. Social posts, once accounts are connected: morning 08:23, midday 13:07, evening 17:17 Europe/Berlin (17:17 Berlin is about 8:17 AM in California). These sit apart from fiopoin's posts at 06:42, 11:42 and 17:42 America/Chicago; never post both brands at the same minute.
+## Schedule
+Daily edition publishes at 06:37 Europe/Berlin. Social posts, once accounts are connected, each pinned to its audience's own time zone:
+- Midday "the money" post: 12:37 Europe/Berlin. Europe at lunch, the Middle East and Africa in the afternoon, India and Asia in the evening.
+- Evening "the world" post: 18:07 Europe/Berlin. Europe after work, Latin America at midday.
+- Morning "the nexus" post (the lead story): 09:17 America/New_York. US East at the start of the workday, 06:17 in California.
+These stay apart from fiopoin's posts at 06:42, 11:42 and 17:42 America/Chicago (closest gap 35 minutes); never post both brands at the same minute. Write the midday and evening posts for a global reader (no US-only framing) and the morning post for a US reader.
 
 ## Publish and verify
 Commit as user "fiopoin" and push to main. Verify the live site in a browser (desktop and phone) after every update before reporting done.
