@@ -1,1 +1,26 @@
-{"ga_id": "", "google_site_verification": "", "bing_site_verification": "", "publish_time": "05:30", "same_as": []}
+{
+ "ga_id": "",
+ "google_site_verification": "",
+ "bing_site_verification": "",
+ "publish_time": "05:30",
+ "same_as": [
+  "https://www.facebook.com/profile.php?id=61596702510478",
+  "https://www.instagram.com/carbonenergynexus/"
+ ],
+ "site_url": "https://carbonenergynexus.com/",
+ "qr_dark": "#1A2226",
+ "follow": [
+  {
+   "key": "facebook",
+   "name": "Facebook",
+   "handle": "Carbon Energy Nexus",
+   "url": "https://www.facebook.com/profile.php?id=61596702510478"
+  },
+  {
+   "key": "instagram",
+   "name": "Instagram",
+   "handle": "@carbonenergynexus",
+   "url": "https://www.instagram.com/carbonenergynexus/"
+  }
+ ]
+}

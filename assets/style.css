@@ -304,3 +304,14 @@ nav.main a:nth-child(4n+4):hover{border-bottom-color:var(--water)}
 .dates .calc-promo{margin-top:36px;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .dates .calc-promo p{margin-bottom:0;max-width:70ch}
 @media (max-width:960px){.events{grid-template-columns:1fr}.dates .calc-promo{flex-direction:column;align-items:flex-start}}
+
+/* follow us */
+.follow{margin:6px 0 16px}
+.follow .fh{font-size:13px;letter-spacing:.12em;text-transform:uppercase;margin:0 0 10px;opacity:.85}
+.follow ul{list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap}
+.follow a{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.follow img{width:104px;height:104px;background:#fff;padding:6px;border-radius:8px;display:block}
+.follow span{display:flex;flex-direction:column;font-size:14px;line-height:1.35}
+.follow b{font-size:15px}
+.follow a:hover b{text-decoration:underline}
+@media (max-width:640px){.follow img{width:88px;height:88px}}
