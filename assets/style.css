@@ -167,3 +167,5 @@ footer .small{font-size:13px;color:#93A09E}
  .brief h3,.sh,.use h2{font-size:24px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+.wm .w1{color:var(--paper)}.wm .w2{color:#E4572E}.wm .w3{color:#4FB0C2}
