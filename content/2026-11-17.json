@@ -338,7 +338,9 @@
    "source": {
     "name": "World Oil",
     "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
-   }
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
   },
   {
    "name": "Porthos",
@@ -349,7 +351,9 @@
    "source": {
     "name": "IEA",
     "url": "https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks"
-   }
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
   },
   {
    "name": "Pathways CCS",
@@ -360,7 +364,9 @@
    "source": {
     "name": "Decarbonfuse",
     "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"
-   }
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
   },
   {
    "name": "Havstjerne",
@@ -371,6 +377,21 @@
    "source": {
     "name": "World Oil",
     "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
    }
   }
  ],
@@ -507,5 +528,270 @@
    "watch": "Whether other governments copy standing offers for removals.",
    "caption": "At COP31, Canada said it will announce standing offers to buy carbon removal, part of a C$10 million plan covering direct air capture, bioenergy with CCS and mineralization. Fifteen countries also backed policies to scale carbon credit markets.\n\nMore at carbonenergynexus.com\n\n#CarbonRemoval #COP31 #CarbonMarkets #ClimateFinance"
   }
- }
+ },
+ "minerals": {
+  "intro": "The metals behind grids, batteries, magnets and reactors. Supply sits in a few countries, so policy moves prices as much as demand does, and every mine and refinery is also a water and power project.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "China buys two more months on its widest export controls",
+    "text": "Beijing extended its pause on the October 2025 controls to Jan 10, 2027, a day before it lapsed. Licensing on seven medium and heavy rare earths, including dysprosium and terbium, stays in force, and North American oxide prices have climbed. On Nov 6, neodymium metal was quoted at $145 to $157 a kg FOB.",
+    "sources": [
+     {
+      "name": "S&P Global",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+     },
+     {
+      "name": "SMM",
+      "url": "https://news.metal.com/newscontent/104210265-ex-china-rare-earth-supply-chain-acceleration-gains-pace-with-supply-disruptions-and-capacity-rollouts-in-parallel-smm-rare-earth-ex-china-weekly-review"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "The AI metal takes a breather",
+    "text": "US copper fell to $6.20 a pound in November, a four month low, as traders reconsidered how fast data center and electrification demand will grow. It set a record of $6.85 in September.",
+    "sources": [
+     {
+      "name": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/copper/news/600135"
+     }
+    ]
+   },
+   {
+    "symbol": "Li",
+    "name": "Lithium",
+    "headline": "Prices near a one year low as a new hedge arrives",
+    "text": "Lithium carbonate in China fell below 95,000 yuan a tonne in November on softer demand and rising supply. The Guangzhou Futures Exchange opens lithium hydroxide futures on Nov 26, giving producers and cathode makers a new way to hedge.",
+    "sources": [
+     {
+      "name": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/lithium/news/599578"
+     },
+     {
+      "name": "SMM",
+      "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+     }
+    ]
+   },
+   {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "headline": "Congo keeps its hand on the tap",
+    "text": "The DRC caps cobalt exports at 96,600 tonnes a year for 2026 and 2027, about half of what it shipped in 2024 by Argus estimates. Its regulator said in August it will hold the quotas and may cut them if the market needs rebalancing.",
+    "sources": [
+     {
+      "name": "Argus",
+      "url": "https://www.argusmedia.com/news-and-insights/latest-market-news/2734806-drc-cobalt-quotas-to-address-structural-surplus"
+     },
+     {
+      "name": "Fastmarkets",
+      "url": "https://www.fastmarkets.com/insights/drc-may-reduce-cobalt-quota-if-market-needs-rebalancing-arecoms-says-exclusive/"
+     }
+    ]
+   },
+   {
+    "symbol": "U",
+    "name": "Uranium",
+    "headline": "Utilities pay up for fuel years ahead",
+    "text": "TradeTech's long term uranium price reached $99 a pound on Oct 31, the highest since the series began in 1996. US futures traded above $91 in November, the highest since February, on a stronger outlook for nuclear power.",
+    "sources": [
+     {
+      "name": "Crux Investor",
+      "url": "https://www.cruxinvestor.com/posts/record-us-99-uranium-contract-price-favors-miners-with-supply-left-to-sell"
+     },
+     {
+      "name": "Trading Economics",
+      "url": "https://tradingeconomics.com/commodity/uranium/news/599976"
+     }
+    ]
+   },
+   {
+    "symbol": "§",
+    "name": "Minerals policy",
+    "headline": "Washington signs deals faster than mines can open",
+    "text": "The US has signed more than 40 mineral pacts in the current administration, and related investment hit a record $3.2 billion in the second quarter. The agreements lack binding legal force, so projects still need buyers, permits and finance.",
+    "sources": [
+     {
+      "name": "S&P Global",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/111026-us-turns-to-minerals-diplomacy-to-spur-investment-diversify-supply"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Battery style direct air capture",
+   "org": "University of Delaware and RepAir",
+   "kind": "Academia and private",
+   "date": "Oct 2026",
+   "text": "Researchers pulled CO2 from air with an electrochemical cell powered by electricity instead of heat, and showed it working in the lab and at scale with licensee RepAir. Published in Nature Energy.",
+   "url": "https://www.udel.edu/udaily/2026/october/UD-battery-operated-carbon-capture-technology-direct-air-capture-Yan/"
+  },
+  {
+   "name": "Batteries that run on captured CO2",
+   "org": "Paderborn University",
+   "kind": "Academia",
+   "date": "Nov 10, 2026",
+   "text": "Chemists are testing batteries that store energy while capturing CO2 and converting it to carbon monoxide, a chemical feedstock, if wired directly to industrial emitters.",
+   "url": "https://www.chemeurope.com/en/news/1190290/recyclable-batteries-to-reduce-co-emissions.html"
+  },
+  {
+   "name": "Enhanced geothermal goes commercial",
+   "org": "Fervo Energy",
+   "kind": "Private",
+   "date": "Sept 30, 2026",
+   "text": "Fervo's first 33 MW GeoBlock at Cape Station in Utah reached commercial operation a day early, built in 23 months. It is the first greenfield enhanced geothermal plant to earn revenue.",
+   "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+  },
+  {
+   "name": "Sodium ion grid storage",
+   "org": "CATL",
+   "kind": "Private",
+   "date": "2026",
+   "text": "CATL launched TENER Sodium, a lithium free storage system, and expects 1 GWh of cumulative shipments by the end of 2026 with international deliveries from June 2027.",
+   "url": "https://taiyangnews.info/storage/catl-commercial-tener-sodium-ion-energy-storage-debut"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Policy",
+   "what": "COP31 scheduled to close",
+   "where": "Antalya",
+   "url": "https://www.sylvera.com/cop31"
+  },
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Carbon",
+   "what": "UK and EU summit; carbon market linkage on the agenda",
+   "where": "",
+   "url": "https://www.abnamro.com/research/en/our-research/carbon-market-watch-carbon-prices-climb-as-policy-reforms-take-shape"
+  },
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-11-30",
+   "when": "Nov 30, 2026",
+   "type": "Minerals",
+   "what": "TradeTech month end uranium price indicator",
+   "where": "",
+   "url": "https://www.cruxinvestor.com/posts/record-us-99-uranium-contract-price-favors-miners-with-supply-left-to-sell"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pause on its October 2025 rare earth and battery export controls ends unless extended",
+   "where": "",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  },
+  {
+   "date": "2027-12-31",
+   "when": "Late 2027 to early 2028",
+   "type": "Carbon",
+   "what": "Pathways CCS final investment decision window",
+   "where": "Alberta",
+   "url": "https://decarbonfuse.com/posts/alberta-cuts-carbon-costs-to-fast-track-pathways-ccs"
+  },
+  {
+   "date": "2033-01-01",
+   "when": "Jan 1, 2033",
+   "type": "Policy",
+   "what": "45Q deadline to begin construction of capture equipment",
+   "where": "United States",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
+ ]
 }

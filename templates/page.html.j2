@@ -39,7 +39,7 @@
   <p class="dateline">{{ d.date_long }}<span class="ed">Edition {{ d.edition }}</span>{% if archived %}<a href="{{ root }}">Today's edition</a>{% endif %}</p>
   <div class="lead-grid">
    <article class="lead-story">
-    <p class="lane">{{ d.lead.kicker }}</p>
+    <p class="lane"><span class="chip kick">{{ d.lead.kicker }}</span></p>
     <h1>{{ d.lead.headline }}</h1>
     <p class="dek">{{ d.lead.dek }}</p>
     {% for p in d.lead.body %}<p>{{ p }}</p>{% endfor %}
@@ -63,10 +63,9 @@
 <section class="signals" aria-label="The numbers that matter today">
  <div class="wrap">
   <h2 class="sh">The numbers</h2>
-  <table>
-   <thead><tr><th scope="col">Measure</th><th scope="col">Value</th><th scope="col">Context</th><th scope="col">Source</th></tr></thead>
-   <tbody>{% for s in d.signals %}<tr><th scope="row">{{ s.label }}</th><td class="v">{{ s.value }}</td><td>{{ s.note }}</td><td><a href="{{ s.source.url }}" rel="noopener">{{ s.source.name }}</a></td></tr>{% endfor %}</tbody>
-  </table>
+  <div class="sig-grid">{% for s in d.signals %}
+   <div class="sig c{{ loop.index0 % 4 }}"><p class="sig-l">{{ s.label }}</p><p class="sig-v">{{ s.value }}</p><p class="sig-n">{{ s.note }}</p><p class="sig-s"><a href="{{ s.source.url }}" rel="noopener">{{ s.source.name }}</a></p></div>{% endfor %}
+  </div>
  </div>
 </section>
 
@@ -75,7 +74,7 @@
   <h2 class="sh">The brief</h2>
   {% for b in d.briefs %}
   <article class="brief" id="{{ b.id }}">
-   <p class="lane lane-{{ b.lane|lower }}">{{ b.lane }}</p>
+   <p class="lane"><span class="chip lane-{{ b.lane|lower }}">{{ b.lane }}</span></p>
    <h3>{{ b.headline }}</h3>
    <div class="brief-body">
     <p>{{ b.text }}</p>
@@ -90,12 +89,12 @@
 <section class="tracker" id="projects">
  <div class="wrap">
   <h2 class="sh">Project tracker</h2>
-  <p class="intro">Where each project stands on our seven step ladder from announcement to operation. Stage is our reading of public filings and reports, not the developer's claim.</p>
+  <p class="intro">Tap a project name to open its official site. Where each project stands on our seven step ladder from announcement to operation. Stage is our reading of public filings and reports, not the developer's claim.</p>
   <ol class="ladder-key">{% for st in stages %}<li>{{ st }}</li>{% endfor %}</ol>
   <div class="projects">
   {% for p in d.tracker %}
    <div class="proj">
-    <div class="proj-h"><h3>{{ p.name }}</h3><p>{{ p.where }}. {{ p.type }}.</p></div>
+    <div class="proj-h">{% if p.sector %}<span class="tag sec-{{ p.sector|lower|replace(' ','-') }}">{{ p.sector }}</span>{% endif %}<h3>{% if p.url %}<a href="{{ p.url }}" rel="noopener">{{ p.name }} <span aria-hidden="true">&#8599;</span></a>{% else %}{{ p.name }}{% endif %}</h3><p>{{ p.where }}. {{ p.type }}.</p></div>
     <div class="ladder" role="img" aria-label="Stage {{ p.stage }} of 7: {{ stages[p.stage-1] }}">{% for i in range(1,8) %}<span class="{{ 'on' if i <= p.stage else '' }}{{ ' now' if i == p.stage else '' }}"></span>{% endfor %}</div>
     <p class="stage-name">{{ stages[p.stage-1] }}</p>
     <p class="last">{{ p.last }}. <a href="{{ p.source.url }}" rel="noopener">{{ p.source.name }}</a></p>
@@ -104,6 +103,44 @@
   </div>
  </div>
 </section>
+
+{% if d.minerals %}
+<section class="minerals" id="minerals">
+ <div class="wrap">
+  <h2 class="sh">Critical minerals and mining</h2>
+  <p class="intro">{{ d.minerals.intro }}</p>
+  <div class="min-grid">
+  {% for m in d.minerals["items"] %}
+   <article class="mineral m{{ loop.index0 % 6 }}">
+    <div class="elem"><span class="sym">{{ m.symbol }}</span><span class="ename">{{ m.name }}</span></div>
+    <h3>{{ m.headline }}</h3>
+    <p>{{ m.text }}</p>
+    <p class="src">Sources: {% for x in m.sources %}<a href="{{ x.url }}" rel="noopener">{{ x.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+   </article>
+  {% endfor %}
+  </div>
+ </div>
+</section>
+{% endif %}
+
+{% if d.innovation %}
+<section class="innovation" id="innovation">
+ <div class="wrap">
+  <h2 class="sh">Innovation watch</h2>
+  <p class="intro">New science from universities and new technology from companies, with the original source one tap away.</p>
+  <div class="inno-grid">
+  {% for n in d.innovation %}
+   <article class="inno">
+    <p class="inno-top"><span class="tag k-{{ n.kind|lower|replace(' ','-') }}">{{ n.kind }}</span><span class="when">{{ n.date }}</span></p>
+    <h3><a href="{{ n.url }}" rel="noopener">{{ n.name }}</a></h3>
+    <p class="role">{{ n.org }}</p>
+    <p>{{ n.text }}</p>
+   </article>
+  {% endfor %}
+  </div>
+ </div>
+</section>
+{% endif %}
 
 <section class="two">
  <div class="wrap two-grid">
@@ -118,16 +155,19 @@
  </div>
 </section>
 
-<section class="dates">
- <div class="wrap two-grid">
-  <div>
-   <h2 class="sh">Dates that move money</h2>
-   <ul class="cal">{% for c in d.calendar %}<li><span>{{ c.when }}</span>{{ c.what }}</li>{% endfor %}</ul>
-   <p class="src">Sources: {% for s in d.calendar_sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
-  </div>
+<section class="dates" id="events">
+ <div class="wrap">
+  <h2 class="sh">Events and dates ahead</h2>
+  {% if d.events %}
+  <p class="intro">Conferences, deadlines and market dates across carbon, renewables, hydrogen, power and minerals. Tap any line for the official page or source.</p>
+  <ul class="events">{% for e in d.events %}<li class="ev"><span class="ev-when">{{ e.when }}</span><span class="ev-body"><span class="tag t-{{ e.type|lower }}">{{ e.type }}</span> {% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.what }}</a>{% else %}{{ e.what }}{% endif %}{% if e.where %}<span class="ev-where">{{ e.where }}</span>{% endif %}</span></li>{% endfor %}</ul>
+  {% else %}
+  <ul class="cal">{% for c in d.calendar %}<li><span>{{ c.when }}</span>{{ c.what }}</li>{% endfor %}</ul>
+  <p class="src">Sources: {% for s in d.calendar_sources %}<a href="{{ s.url }}" rel="noopener">{{ s.name }}</a>{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  {% endif %}
   <div class="calc-promo">
-   <h2>What is your footprint?</h2>
-   <p>Estimate the energy use and carbon emissions of your household or company from your bills, fuel and travel, using published EPA and EIA factors. Every factor is shown with its source.</p>
+   <div><h2>What is your footprint?</h2>
+   <p>Estimate the energy use and carbon emissions of your household or company from your bills, fuel and travel, using published EPA and EIA factors. Every factor is shown with its source.</p></div>
    <a class="btn" href="{{ root }}calculator.html">Open the calculator</a>
   </div>
  </div>
