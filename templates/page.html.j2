@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="{{ csp|safe }}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>{{ d.lead.headline }} | Carbon Energy Nexus</title>
+<title>{% if archived %}{{ d.lead.headline }} | Carbon Energy Nexus{% else %}Carbon Energy Nexus: Daily Carbon, Energy, Water and Capital News{% endif %}</title>
 <meta name="description" content="{{ desc }}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="{{ url }}">

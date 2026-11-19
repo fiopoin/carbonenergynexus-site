@@ -315,3 +315,5 @@ nav.main a:nth-child(4n+4):hover{border-bottom-color:var(--water)}
 .follow b{font-size:15px}
 .follow a:hover b{text-decoration:underline}
 @media (max-width:640px){.follow img{width:88px;height:88px}}
+
+.sister{font-size:14px;margin:4px 0 10px}.sister a{color:inherit;white-space:nowrap}

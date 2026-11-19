@@ -34,3 +34,9 @@ Combined daily order, Chicago time: 05:37 CEN midday, 06:42 FIOPO, 09:27 Utica, 
 
 ## Publish and verify
 Commit as user "fiopoin" and push to main. Verify the live site in a browser (desktop and phone) after every update before reporting done.
+
+## Search engines (Raj, Nov 19, 2026)
+- After every published edition is verified live, notify search engines with IndexNow: WebFetch https://api.indexnow.org/indexnow?url=https://carbonenergynexus.com/&key=ca7ffb21838b9b6b504c81b348ae4879 and then the same with url=https://carbonenergynexus.com/archive/<date>.html. The key file `ca7ffb21838b9b6b504c81b348ae4879.txt` at the site root must stay in place (do not delete or rename it; its value is site.json indexnow_key). A 200 or 202 reply means accepted; a failure here never blocks publishing.
+- Google Search Console and Bing Webmaster Tools verification codes go in site.json (google_site_verification, bing_site_verification); the template prints them.
+- The homepage title leads with the brand name; archive pages lead with the headline. Footers link the sister sites (FIOPO Intelligence, Carbon Energy Nexus, Utica Midstream).
+
