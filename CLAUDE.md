@@ -40,3 +40,5 @@ Commit as user "fiopoin" and push to main. Verify the live site in a browser (de
 - Google Search Console and Bing Webmaster Tools verification codes go in site.json (google_site_verification, bing_site_verification); the template prints them.
 - The homepage title leads with the brand name; archive pages lead with the headline. Footers link the sister sites (FIOPO Intelligence, Carbon Energy Nexus, Utica Midstream).
 
+
+- Never name the owner or FIOPO LLC anywhere on the site.
