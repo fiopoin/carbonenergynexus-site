@@ -1,0 +1,703 @@
+{
+ "date": "2026-11-19",
+ "date_long": "November 19, 2026",
+ "edition": 2,
+ "lead": {
+  "kicker": "COP31 and carbon capture",
+  "headline": "COP31's draft deal asks the world to build 500 million tonnes of carbon capture by 2035",
+  "dek": "The first draft cover decision in Antalya puts a number on carbon capture for the first time, alongside an electrification goal. The world runs about 68 million tonnes today, and the text still has to survive a divided room before talks close on Friday.",
+  "body": [
+   "The COP31 presidency published an 18-page draft cover decision on November 16. It calls on countries to help scale carbon capture, utilisation and storage to at least 500 million tonnes of CO2 a year by 2035 under current policies, with a more ambitious range of 1.3 to 2.5 billion tonnes. It also recognizes carbon dioxide removal as necessary to bring warming back below 1.5°C, as a complement to emissions cuts rather than a substitute. The presidency says the draft does not reflect consensus.",
+   "The gap is large. The Global CCS Institute counted 68 million tonnes a year of operating capture capacity and 56 million under construction as of July 31, 2026. Even with every project under construction finished, the 500 million tonne floor is about four times that. The draft also proposes raising electricity from about 20% to 35% of final energy use by 2035 and asks developed countries to phase out unilateral climate trade measures by the end of 2027.",
+   "The room is split. EU climate commissioner Wopke Hoekstra said on November 17 the text needs significant change, while the Arab Group and the Like-Minded Developing Countries oppose new sectoral targets such as the electrification pledge. Talks are scheduled to close on November 20, and Australia's Chris Bowen, who leads the negotiations, expects at least one more draft. In Europe's carbon market the mood was soft: the benchmark EU allowance fell more than 5% to €82.95 a tonne on November 18 amid reform talks and weaker equities."
+  ],
+  "nexus": {
+   "electrons": "The draft's electrification goal, about 35% of final energy from electricity by 2035, would pull more load onto grids that are already stretched by data centers. Capture plants also need power to run, which adds to that demand.",
+   "molecules": "The text reaffirms the transition away from fossil fuels and asks for faster cuts in methane from fugitive sources. A capture target gives gas processors, ammonia, cement and steel producers a route to keep using molecules with lower emissions.",
+   "pore": "Capture only counts if the CO2 has somewhere to go. Reaching 500 million tonnes means permitted storage on the same scale, and today's operating capacity of 68 million tonnes shows how far storage permitting and site appraisal must move in nine years.",
+   "water": "Capture is thirsty. A European Commission JRC assessment found that adding CO2 capture raises a power plant's water use per unit of output by 50% to 62% for coal and gas combined cycle plants. A sevenfold scale-up of capture is also a large new water demand, often in dry regions."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "A COP target is a signal, not a subsidy. Value capture projects on national support such as 45Q, the EU ETS and Canada's tax credits, and treat the 500 million tonne figure as upside."
+   },
+   {
+    "who": "Regulators",
+    "text": "If the target survives, storage permitting becomes the bottleneck. Check how many wells your agency can review a year against your country's share of 500 million tonnes."
+   },
+   {
+    "who": "Industry",
+    "text": "Hard to abate sites without a storage plan should start appraisal now. Storage takes years to permit, longer than the capture plant takes to build."
+   },
+   {
+    "who": "Founders",
+    "text": "Lower water and energy use per tonne is a selling point. Tools that cut the water footprint of capture fit a market that may need to grow several times over."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Carbon Herald, Nov 16, 2026",
+    "url": "https://carbonherald.com/cop31-first-draft-2035-targets-carbon-capture-removal/"
+   },
+   {
+    "name": "Carbon Brief, Nov 16, 2026",
+    "url": "https://connect.carbonbrief.org/t/first-draft-cover-decision-lands-at-cop31/167"
+   },
+   {
+    "name": "UNFCCC draft cover decision",
+    "url": "https://unfccc.int/sites/default/files/resource/dt_cop31_cover_decision.pdf"
+   },
+   {
+    "name": "Al Jazeera (AFP), Nov 17, 2026",
+    "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+   },
+   {
+    "name": "Rio Times, Nov 18, 2026",
+    "url": "https://www.riotimesonline.com/cop31-ministers-take-up-divided-draft-cover-decision/"
+   },
+   {
+    "name": "CO2CRC (Global Status of CCS 2026)",
+    "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+   },
+   {
+    "name": "Investing.com, Nov 18, 2026",
+    "url": "https://investing.com/news/economy-news/eu-carbon-prices-drop-over-5-on-reform-talks-and-weaker-markets-93CH-5036284"
+   },
+   {
+    "name": "EC Joint Research Centre",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC69474"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "EU carbon allowance, benchmark",
+   "value": "€82.95/t",
+   "note": "Nov 18 midday, down more than 5% on the day",
+   "source": {
+    "name": "Investing.com, ICE data",
+    "url": "https://investing.com/news/economy-news/eu-carbon-prices-drop-over-5-on-reform-talks-and-weaker-markets-93CH-5036284"
+   }
+  },
+  {
+   "label": "COP31 draft capture goal",
+   "value": "500 Mt",
+   "note": "CO2 a year by 2035; 1.3 to 2.5 Gt in a higher case",
+   "source": {
+    "name": "Carbon Brief",
+    "url": "https://connect.carbonbrief.org/t/first-draft-cover-decision-lands-at-cop31/167"
+   }
+  },
+  {
+   "label": "Operating capture capacity",
+   "value": "68 Mt/yr",
+   "note": "Plus 56 Mt under construction, July 31",
+   "source": {
+    "name": "Global CCS Institute via CO2CRC",
+    "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+   }
+  },
+  {
+   "label": "US states with Class VI primacy",
+   "value": "7",
+   "note": "Colorado took over permitting Nov 12",
+   "source": {
+    "name": "Carbon Herald",
+    "url": "https://carbonherald.com/colorado-secures-epa-class-vi-primacy-to-regulate-underground-carbon-storage/"
+   }
+  },
+  {
+   "label": "LME copper, three month",
+   "value": "$13,210/t",
+   "note": "Nov 16 low, weakest since July 8",
+   "source": {
+    "name": "SMM",
+    "url": "https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh"
+   }
+  },
+  {
+   "label": "Uranium, long term price",
+   "value": "$99/lb",
+   "note": "Spot $90, week to Nov 13 (TradeTech)",
+   "source": {
+    "name": "FNArena",
+    "url": "https://fnarena.com/2026/11/17/uranium-week-paladin-taps-market-for-cash/"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Capital",
+   "headline": "North Carolina makes big data centers sign long contracts and pay for their own grid",
+   "text": "The North Carolina Utilities Commission on November 16 approved Duke Energy's first separate rate schedule for data centers of 50 MW or more. They must pay demand charges on at least 75% of contracted load, sign for 10 years, or 15 years at 100 MW and above, pay upfront for dedicated infrastructure, post guarantees for transmission upgrades and pay exit fees if they leave early. Data centers are 92% of the 6.7 GW of new contracted demand Duke signed from March 2024 to April 2026. The same day the commission approved residential increases of about 9.5% and 9.3% over two years and a plan with nearly 3,850 MW of new gas generation. In Kentucky, Kentucky Power asked regulators on November 18 to approve a $2.81 billion, 769 MW gas plant to serve a planned 1 GW TeraWulf data center from 2031.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Large load tariffs shift stranded asset risk from households to tech tenants. Read the minimum take and exit terms before valuing utility capex plans."
+    },
+    {
+     "who": "Developers",
+     "text": "Expect 10 to 15 year commitments and collateral as the price of grid access in more US states."
+    }
+   ],
+   "sources": [
+    {
+     "name": "WRAL, Nov 17, 2026",
+     "url": "https://wral.com/news/state/nc-approves-duke-energy-rate-hikes-new-rules-for-data-centers-november-2026"
+    },
+    {
+     "name": "WCLU (Kentucky Power), Nov 18, 2026",
+     "url": "https://www.wcluradio.com/2026/11/18/kentucky-power-asks-permission-to-build-a-2-8-billion-power-plant-for-big-data-center/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Projects",
+   "headline": "India gets a $3.6 billion green ammonia plant with buyers in hand",
+   "text": "ACME Group took a final investment decision on November 18 on a $3.6 billion green ammonia plant in Odisha, designed for 760,000 tonnes a year and commissioning by 2029. About 60% of output is contracted: 370,000 tonnes a year to Indian fertilizer makers through SECI's SIGHT scheme and 83,000 tonnes to Japan's IHI under Japan's contract for difference program. Thyssenkrupp Uhde supplies the ammonia loop, and Brookfield has committed $600 million to ACME's green molecules business. In Spain, Repsol approved a 150 MW electrolyzer at Tarragona, about €400 million with up to €104 million in public support, to feed a renewable methanol plant.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Signed offtake is what moved this project to FID. Use contracted share of output as the first screen for hydrogen deals."
+    },
+    {
+     "who": "Buyers",
+     "text": "The plant is designed to meet EU RFNBO rules, so European buyers can bid for the uncontracted 40%."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Business Standard, Nov 18, 2026",
+     "url": "https://www.business-standard.com/amp/companies/news/acme-group-s-3-6-bn-green-ammonia-project-in-odisha-enters-execution-phase-126111801501_1.html"
+    },
+    {
+     "name": "Rigzone, Nov 15, 2026",
+     "url": "https://www.rigzone.com/news/repsol_approves_150_mw_tarragona_green_hydrogen_project-15-nov-2026-185078-article/"
+    }
+   ]
+  },
+  {
+   "id": "storage",
+   "lane": "Regulation",
+   "headline": "Colorado becomes the seventh state to permit its own CO2 storage wells",
+   "text": "Colorado's Energy and Carbon Management Commission took over Class VI permitting and enforcement on November 12, after EPA published its final rule on October 13. It joins Arizona, Louisiana, North Dakota, Texas, West Virginia and Wyoming. Carbon America's Denova project, which would store emissions from Sterling Ethanol and Yuma Ethanol, is under state review. A state official estimated fewer than a dozen companies may pursue new storage projects in Colorado in the next year or two.",
+   "use": [
+    {
+     "who": "Developers",
+     "text": "State primacy usually means a single regulator for wells and surface rules. Ask the commission for its review timeline before you file."
+    },
+    {
+     "who": "Landowners",
+     "text": "Pore space and long term liability rules differ by state. Read Colorado's before signing a storage lease."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Carbon Herald",
+     "url": "https://carbonherald.com/colorado-secures-epa-class-vi-primacy-to-regulate-underground-carbon-storage/"
+    },
+    {
+     "name": "KUNC, Oct 29, 2026",
+     "url": "https://www.kunc.org/regional-news/2026-10-29/colorado-now-has-the-authority-to-greenlight-injecting-carbon-dioxide-underground"
+    },
+    {
+     "name": "Colorado ECMC",
+     "url": "https://ecmc.colorado.gov/class-vi-primacy-announcement"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "AI's biggest water draw sits at the power plant, not the server hall",
+   "text": "Using Lawrence Berkeley National Laboratory figures, Forbes reported on October 30 that US data centers used about 17.4 billion gallons for cooling in 2023, while the power plants supplying them used about 211 billion, roughly 12 gallons at the plant for each gallon on site. Federal lab data put gas plants near 198 gallons per MWh, coal and nuclear near 690 and 670, and wind close to zero. Local data are mixed: in Durham, North Carolina, four likely data centers used 0.2% of city water, WRAL reported on November 16, yet Raleigh and Durham have paused some new data center approvals. Google signed on November 17 for 50 MW of superhot geothermal power from Quaise in Central Oregon for its data centers in The Dalles, from as early as 2030.",
+   "use": [
+    {
+     "who": "Regulators",
+     "text": "Cooling rules miss most of the footprint. Count the water used by the generation a data center contracts, not just the site."
+    },
+    {
+     "who": "Operators",
+     "text": "Low water power such as wind, solar and geothermal can ease local permitting fights over new load."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Forbes, Oct 30, 2026",
+     "url": "https://www.forbes.com/sites/annademeo/2026/10/30/ais-biggest-water-problem-isnt-the-data-center-its-the-power-plant/"
+    },
+    {
+     "name": "WRAL, Nov 16, 2026",
+     "url": "https://www.wral.com/news/local/are-data-centers-draining-the-triangle-water-supply-november-2026/"
+    },
+    {
+     "name": "Quaise Energy, Nov 17, 2026",
+     "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google"
+    }
+   ]
+  },
+  {
+   "id": "europe",
+   "lane": "Projects",
+   "headline": "Europe's first full cross-border CO2 chain is running, but the storage pipeline is thin",
+   "text": "The European Commission said on November 17 that Yara's Sluiskil ammonia plant in the Netherlands began capturing CO2 in September, up to 800,000 tonnes a year shipped to Northern Lights under the Norwegian North Sea. Porthos in the Netherlands and Greensand in Denmark are still under construction. The EU's Net-Zero Industry Act targets at least 50 million tonnes of annual storage capacity by 2030, and the Commission plans legislation for an internal CO2 market in early 2027. Northern Lights now has seven industrial customers in four countries and is expanding from 1.5 to more than 5 million tonnes a year.",
+   "use": [
+    {
+     "who": "Industry",
+     "text": "Storage slots are scarce before 2030. Emitters planning capture should secure transport and storage terms early."
+    },
+    {
+     "who": "Investors",
+     "text": "Watch the 2027 CO2 market proposal. Tariff and access rules will set returns for pipelines, ships and terminals."
+    }
+   ],
+   "sources": [
+    {
+     "name": "European Commission, Nov 17, 2026",
+     "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+    },
+    {
+     "name": "Bioenergy International, Sep 2026",
+     "url": "https://bioenergyinternational.com/yara-officially-inaugurates-europes-largest-industrial-carbon-capture-facility/"
+    },
+    {
+     "name": "Northern Lights, Oct 1, 2026",
+     "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Binding fiscal agreements targeted for Nov 15; FID late 2027 to early 2028",
+   "source": {
+    "name": "Decarbonfuse",
+    "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "Wopke Hoekstra",
+   "role": "EU climate commissioner",
+   "text": "Warned that the COP31 draft needs significant change and could make the talks untenable as written.",
+   "source": {
+    "name": "Al Jazeera (AFP), Nov 17, 2026",
+    "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+   }
+  },
+  {
+   "name": "Chris Bowen",
+   "role": "Australian climate minister, leading COP31 negotiations",
+   "text": "Acknowledged that not every party agrees with parts of the draft and said at least one more version would come before the week ends.",
+   "source": {
+    "name": "Al Jazeera (AFP), Nov 17, 2026",
+    "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+   }
+  },
+  {
+   "name": "Jamie Collins",
+   "role": "Deschutes County commissioner-elect",
+   "text": "Called for transparent public engagement on the Google geothermal deal and asked whether any of the power will serve Central Oregon, which lacks its own grid capacity.",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "COP31 draft cover decision",
+   "by": "COP31 Presidency, UNFCCC",
+   "date": "Nov 16, 2026",
+   "text": "The negotiating text with the capture, removal, electrification and adaptation finance proposals.",
+   "url": "https://unfccc.int/sites/default/files/resource/dt_cop31_cover_decision.pdf"
+  },
+  {
+   "title": "Global Status of CCS 2026",
+   "by": "Global CCS Institute (summary by CO2CRC)",
+   "date": "Oct 2026",
+   "text": "68 Mt a year operating, 56 Mt under construction and 832 projects in the pipeline as of July 31.",
+   "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+  },
+  {
+   "title": "In focus: Industrial carbon management",
+   "by": "European Commission",
+   "date": "Nov 17, 2026",
+   "text": "How Europe plans to reach 50 Mt of annual storage by 2030 and what it has funded so far.",
+   "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "COP31 draft: 500 Mt of carbon capture by 2035",
+  "points": [
+   "World runs 68 Mt a year today",
+   "EU and oil states push back",
+   "Talks close Friday, Nov 20"
+  ],
+  "watch": "A second COP31 draft and whether the capture goal survives.",
+  "caption": "COP31's first draft deal asks countries to scale carbon capture to at least 500 million tonnes a year by 2035. The world runs about 68 million today. The EU and a bloc including Saudi Arabia and India want changes before talks close Nov 20.\n\nWhat it means for investors, regulators and industry at carbonenergynexus.com\n\n#CarbonCapture #COP31 #CCS #ClimatePolicy #EnergyTransition"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Data centers now pay their own way in NC",
+   "points": [
+    "10 to 15 year minimum contracts",
+    "Pay on 75% of contracted load",
+    "92% of Duke's new demand"
+   ],
+   "watch": "Which grids copy large load tariffs next.",
+   "caption": "North Carolina regulators approved Duke Energy's first tariff for data centers of 50 MW or more: 10 to 15 year contracts, payment on at least 75% of contracted load and upfront grid costs. Data centers are 92% of Duke's new contracted demand.\n\nMore at carbonenergynexus.com\n\n#DataCenters #PowerGrid #Utilities #EnergyMarkets"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "India greenlights a $3.6B green ammonia plant",
+   "points": [
+    "760,000 tonnes a year by 2029",
+    "60% of output already sold",
+    "Buyers in India and Japan"
+   ],
+   "watch": "Whether EU buyers sign for the remaining output.",
+   "caption": "ACME Group took a final investment decision on a $3.6 billion green ammonia plant in Odisha, India, sized for 760,000 tonnes a year by 2029. About 60% is sold to Indian fertilizer makers and Japan's IHI.\n\nMore at carbonenergynexus.com\n\n#GreenHydrogen #Ammonia #India #EnergyTransition"
+  }
+ },
+ "minerals": {
+  "intro": "The metals behind grids, batteries, magnets and reactors. Supply sits in a few countries, so policy moves prices as much as demand does, and every mine and refinery is also a water and power project.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "Malaysia bends its raw export ban, for France only",
+    "text": "On Nov 17 Malaysia granted France a one-off exception to its 2024 ban on exporting raw rare earths, in return for local processing. A 10 year venture between France's Carester and Malaysia's Malaco Mining will run a separation plant in Perak handling about 13,000 tonnes a year from early 2027. In China, praseodymium-neodymium oxide offers kept rising on Nov 18 on tighter supply of cheaper material.",
+    "sources": [
+     {
+      "name": "The Rakyat Post, Nov 18, 2026",
+      "url": "https://www.therakyatpost.com/news/malaysia/2026/11/18/chinatown-walk-rare-earths-talk-malaysia-unlocks-rare-earths-only-for-france/"
+     },
+     {
+      "name": "SMM, Nov 18, 2026",
+      "url": "https://news.metal.com/newscontent/NKTXJKCLZ3USCX2XJWDTBMK3PN3LHYZT3UT7JGI-smm-rare-earth-afternoon-trading-comment-on-november-18"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "Funds sell, Chinese buyers step in",
+    "text": "LME copper fell as much as 1.4% to about $13,210 a tonne on Nov 16, its lowest since July 8 and about 10% below September's record, on an AI stock selloff, rate hike bets and weak Chinese data. Physical demand held: the Yangshan premium stayed near a record $290 a tonne and Shanghai inventories fell 18% in a week.",
+    "sources": [
+     {
+      "name": "SMM, Nov 17, 2026",
+      "url": "https://news.metal.com/newscontent/HPSJFB5W7OIYMM4YPU4ZEOJU7MTVWGRUBNTCQ2A-lme-copper-hits-four-month-low-as-ai-selloff-and-china-weakness-weigh"
+     }
+    ]
+   },
+   {
+    "symbol": "Li",
+    "name": "Lithium",
+    "headline": "Prices at a 2026 low; miners at 12 month lows",
+    "text": "Chinese lithium carbonate traded near 90,000 yuan a tonne on Nov 17, a 2026 low. The LIT lithium miners fund and Albemarle both closed at 12 month lows the same day. Lithium hydroxide futures open in Guangzhou on Nov 26.",
+    "sources": [
+     {
+      "name": "Rio Times, Nov 17, 2026",
+      "url": "https://www.riotimesonline.com/lithium-markets-latam-tuesday-november-17-2026"
+     }
+    ]
+   },
+   {
+    "symbol": "Ni",
+    "name": "Nickel",
+    "headline": "Jakarta hints at a tighter 2027 ore quota",
+    "text": "Indonesia's energy minister Bahlil Lahadalia blamed excess output for falling prices and called for supply control through the RKAB quota system, and officials hinted the 2027 ceiling could fall below the revised 2026 level. No figure has been set, and the nickel study group expects a larger surplus next year.",
+    "sources": [
+     {
+      "name": "Energy News, Nov 3, 2026",
+      "url": "https://energynews.pro/en/indonesia-signals-lower-nickel-ore-quota-for-2027"
+     }
+    ]
+   },
+   {
+    "symbol": "U",
+    "name": "Uranium",
+    "headline": "Spot eases, term holds at $99, miners raise cash",
+    "text": "TradeTech put spot uranium at $90 a pound in the week to Nov 13, down $2, with the long term price steady at $99. Paladin Energy raised A$525 million at a 10% discount to help fund its Patterson Lake South project in Canada, and its shares fell about 13% in the week.",
+    "sources": [
+     {
+      "name": "FNArena, Nov 17, 2026",
+      "url": "https://fnarena.com/2026/11/17/uranium-week-paladin-taps-market-for-cash/"
+     }
+    ]
+   },
+   {
+    "symbol": "§",
+    "name": "Minerals policy",
+    "headline": "US defense rules on Chinese rare earths near a deadline",
+    "text": "Defense Department sourcing rules that bar Chinese-origin rare earth metals face a January 2027 deadline. China produced about 69% of the world's mined rare earths in 2025, and the Pentagon announced $1.2 billion in loans for domestic projects in June.",
+    "sources": [
+     {
+      "name": "TokenPost, Nov 18, 2026",
+      "url": "https://www.tokenpost.com/news/regulation/60157"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Capture material that ignores humidity",
+   "org": "Oregon State University",
+   "kind": "Academia",
+   "date": "Nov 2026",
+   "text": "A redox-active metal-organic framework called BVR-X keeps water and CO2 in separate pores, capturing CO2 from humid gas with only 4% CO2 over dozens of cycles. Published in Angewandte Chemie.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+  },
+  {
+   "name": "Superhot geothermal for a data center",
+   "org": "Quaise Energy and Google",
+   "kind": "Private",
+   "date": "Nov 17, 2026",
+   "text": "Google signed for 50 MW from Quaise's Project Obsidian in Oregon. Phase 1 uses conventional drilling; Phase 2 is planned as the first use of Quaise's millimeter wave drilling.",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google"
+  },
+  {
+   "name": "Carbon negative hydrogen from biomass",
+   "org": "Jeonbuk National University",
+   "kind": "Academia",
+   "date": "Nov 5, 2026",
+   "text": "A life cycle study in Bioresource Technology found hydrogen from biomass with carbon storage can be net negative, with larger benefits when the plant makes its own power from biomass and recovered heat.",
+   "url": "https://www.eurekalert.org/news-releases/1150488"
+  },
+  {
+   "name": "Europe's first full cross-border CCS chain",
+   "org": "Yara and Northern Lights",
+   "kind": "Private",
+   "date": "Sept 7, 2026",
+   "text": "Yara's Sluiskil ammonia plant can capture and liquefy up to 800,000 tonnes of CO2 a year for shipment to permanent storage off Norway.",
+   "url": "https://bioenergyinternational.com/yara-officially-inaugurates-europes-largest-industrial-carbon-capture-facility/"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Policy",
+   "what": "COP31 scheduled to close",
+   "where": "Antalya",
+   "url": "https://www.sylvera.com/cop31"
+  },
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Carbon",
+   "what": "UK and EU summit; carbon market linkage on the agenda",
+   "where": "",
+   "url": "https://www.abnamro.com/research/en/our-research/carbon-market-watch-carbon-prices-climb-as-policy-reforms-take-shape"
+  },
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pause on its October 2025 rare earth and battery export controls ends unless extended",
+   "where": "",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  },
+  {
+   "date": "2027-12-31",
+   "when": "Late 2027 to early 2028",
+   "type": "Carbon",
+   "what": "Pathways CCS final investment decision window",
+   "where": "Alberta",
+   "url": "https://decarbonfuse.com/posts/alberta-cuts-carbon-costs-to-fast-track-pathways-ccs"
+  },
+  {
+   "date": "2033-01-01",
+   "when": "Jan 1, 2033",
+   "type": "Policy",
+   "what": "45Q deadline to begin construction of capture equipment",
+   "where": "United States",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
+ ]
+}

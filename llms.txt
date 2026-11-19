@@ -7,13 +7,12 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [Europe hands heavy industry more free carbon permits as COP31 enters its final week](https://carbonenergynexus.com/): November 17, 2026. EU governments and Parliament agreed on Nov 12 to give energy-intensive industry roughly 121 million more free carbon permits through 2030. Allowances traded near €90 a tonne, but a softer long-run price weakens the case for carbon capture and shifts cost to taxpayers.
-- [Regulation: A year after Texas took over carbon storage permits, the queue is the story](https://carbonenergynexus.com/#storage)
-- [Capital: 45Q survived the tax bill. The fight now is over who checks the tonnes](https://carbonenergynexus.com/#money)
-- [Projects: Canada's biggest carbon capture bet hit its signing deadline](https://carbonenergynexus.com/#pathways)
-- [Markets: At COP31, governments start acting like carbon removal buyers](https://carbonenergynexus.com/#world)
-- [Water: The carbon business is becoming a water business](https://carbonenergynexus.com/#water)
-- [Projects: Northern Lights moves its second phase into fabrication](https://carbonenergynexus.com/#northsea)
+- [COP31's draft deal asks the world to build 500 million tonnes of carbon capture by 2035](https://carbonenergynexus.com/): November 19, 2026. COP31's first draft deal asks countries to scale carbon capture to at least 500 million tonnes a year by 2035. The world runs about 68 million today. The EU and a bloc including Saudi Arabia and India want changes before talks close Nov 20.
+- [Capital: North Carolina makes big data centers sign long contracts and pay for their own grid](https://carbonenergynexus.com/#money)
+- [Projects: India gets a $3.6 billion green ammonia plant with buyers in hand](https://carbonenergynexus.com/#world)
+- [Regulation: Colorado becomes the seventh state to permit its own CO2 storage wells](https://carbonenergynexus.com/#storage)
+- [Water: AI's biggest water draw sits at the power plant, not the server hall](https://carbonenergynexus.com/#water)
+- [Projects: Europe's first full cross-border CO2 chain is running, but the storage pipeline is thin](https://carbonenergynexus.com/#europe)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -21,4 +20,5 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 19, 2026: COP31's draft deal asks the world to build 500 million tonnes of carbon capture by 2035](https://carbonenergynexus.com/archive/2026-11-19.html)
 - [November 17, 2026: Europe hands heavy industry more free carbon permits as COP31 enters its final week](https://carbonenergynexus.com/archive/2026-11-17.html)
