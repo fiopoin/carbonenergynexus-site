@@ -26,11 +26,11 @@ Brief ids "money" and "world" must exist. Tracker stages: 1 Announced, 2 Feasibi
 Wordmark colors: on light, Carbon #1A2226, Energy #D0481E, Nexus #1F7A8C; on dark, Carbon #EEF2F1, Energy #E4572E, Nexus #4FB0C2. Mark: light benzene ring with alternating double bonds; six energy forms at the carbon positions (solar and wind in volt #F2C14E, nuclear and oil and gas in ember #E4572E, hydrogen and geothermal in aquifer #2B8A9E); a water drop (#5FB8E6) at the center. Favicon uses the simple ring with six colored dots and the center drop. Every edition carries a water angle in the lead. Graphite #1A2226, paper #F4F6F5. Files in brand/.
 
 ## Schedule
-Daily edition publishes at 06:37 Europe/Berlin. Social posts, once accounts are connected, each pinned to its audience's own time zone:
-- Midday "the money" post: 12:37 Europe/Berlin. Europe at lunch, the Middle East and Africa in the afternoon, India and Asia in the evening.
-- Evening "the world" post: 18:07 Europe/Berlin. Europe after work, Latin America at midday.
-- Morning "the nexus" post (the lead story): 09:17 America/New_York. US East at the start of the workday, 06:17 in California.
-These stay apart from fiopoin's posts at 06:42, 11:42 and 17:42 America/Chicago (closest gap 35 minutes); never post both brands at the same minute. Write the midday and evening posts for a global reader (no US-only framing) and the morning post for a US reader.
+Daily edition publishes at 06:37 Europe/Berlin. Social posts are scheduled in America/Chicago time (Raj, Nov 19, 2026) so all three brands keep at least an hour apart year round:
+- Midday "the money": 05:37 Chicago (12:37 Berlin in winter). Europe at lunch, the Middle East, Africa and Asia later in the day.
+- Morning "the nexus" (the lead story): 08:17 Chicago (09:17 New York). US workday start.
+- Evening "the world": 10:37 Chicago (17:37 Berlin in winter). Europe after work, Latin America mid morning.
+Combined daily order, Chicago time: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 10:37 CEN, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO. Keep every post at least 60 minutes from any other brand's. Write the midday and evening posts for a global reader and the morning post for a US reader.
 
 ## Publish and verify
 Commit as user "fiopoin" and push to main. Verify the live site in a browser (desktop and phone) after every update before reporting done.
