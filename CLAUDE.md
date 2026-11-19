@@ -29,8 +29,8 @@ Wordmark colors: on light, Carbon #1A2226, Energy #D0481E, Nexus #1F7A8C; on dar
 Daily edition publishes at 06:37 Europe/Berlin. Social posts are scheduled in America/Chicago time (Raj, Nov 19, 2026) so all three brands keep at least an hour apart year round:
 - Midday "the money": 05:37 Chicago (12:37 Berlin in winter). Europe at lunch, the Middle East, Africa and Asia later in the day.
 - Morning "the nexus" (the lead story): 08:17 Chicago (09:17 New York). US workday start.
-- Evening "the world": 10:37 Chicago (17:37 Berlin in winter). Europe after work, Latin America mid morning.
-Combined daily order, Chicago time: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 10:37 CEN, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO. Keep every post at least 60 minutes from any other brand's. Write the midday and evening posts for a global reader and the morning post for a US reader.
+- Evening "the world": 22:37 Chicago (Raj, Nov 19, 2026), using the Chicago date's edition. India and Asia in their morning, the Middle East early, Europe before work.
+Combined daily order, Chicago time: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO, 22:37 CEN. Keep every post at least 60 minutes from any other brand's. Write the midday and evening posts for a global reader and the morning post for a US reader.
 
 ## Publish and verify
 Commit as user "fiopoin" and push to main. Verify the live site in a browser (desktop and phone) after every update before reporting done.
