@@ -26,11 +26,11 @@ Brief ids "money" and "world" must exist. Tracker stages: 1 Announced, 2 Feasibi
 Wordmark colors: on light, Carbon #1A2226, Energy #D0481E, Nexus #1F7A8C; on dark, Carbon #EEF2F1, Energy #E4572E, Nexus #4FB0C2. Mark: light benzene ring with alternating double bonds; six energy forms at the carbon positions (solar and wind in volt #F2C14E, nuclear and oil and gas in ember #E4572E, hydrogen and geothermal in aquifer #2B8A9E); a water drop (#5FB8E6) at the center. Favicon uses the simple ring with six colored dots and the center drop. Every edition carries a water angle in the lead. Graphite #1A2226, paper #F4F6F5. Files in brand/.
 
 ## Schedule
-Daily edition publishes at 06:37 Europe/Berlin. Social posts are scheduled in America/Chicago time (Raj, Nov 19, 2026) so all three brands keep at least an hour apart year round:
-- Midday "the money": 05:37 Chicago (12:37 Berlin in winter). Europe at lunch, the Middle East, Africa and Asia later in the day.
-- Morning "the nexus" (the lead story): 08:17 Chicago (09:17 New York). US workday start.
-- Evening "the world": 22:37 Chicago (Raj, Nov 19, 2026), using the Chicago date's edition. India and Asia in their morning, the Middle East early, Europe before work.
-Combined daily order, Chicago time: 05:37 CEN, 06:42 FIOPO, 08:17 CEN, 09:27 Utica, 11:42 FIOPO, 12:47 Utica, 16:37 Utica, 17:42 FIOPO, 22:37 CEN. Keep every post at least 60 minutes from any other brand's. Write the midday and evening posts for a global reader and the morning post for a US reader.
+Daily edition publishes at 06:37 Europe/Berlin (23:37 Chicago the evening before). Social posts are scheduled in America/Chicago time (Raj, Nov 19, 2026) and use the Chicago date's edition:
+- Midday "the money": 05:37 Chicago. Europe at lunch, the Middle East, Africa and Asia later in the day.
+- Evening "the world": 13:47 Chicago. Europe in the evening, the Americas in the afternoon.
+- Morning "the nexus" (the lead story): 20:17 Chicago. US evening reading, Asia early morning.
+Combined daily order, Chicago time: 05:37 CEN midday, 06:42 FIOPO, 09:27 Utica, 11:42 FIOPO, 12:47 Utica, 13:47 CEN evening, 16:37 Utica, 20:17 CEN morning, 22:32 FIOPO. Keep every post at least 60 minutes from any other brand's.
 
 ## Publish and verify
 Commit as user "fiopoin" and push to main. Verify the live site in a browser (desktop and phone) after every update before reporting done.
