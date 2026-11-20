@@ -1,0 +1,687 @@
+{
+ "date": "2026-11-20",
+ "date_long": "November 20, 2026",
+ "edition": 3,
+ "lead": {
+  "kicker": "COP31 and carbon capture",
+  "headline": "COP31's new draft drops fossil fuel language but keeps a carbon capture goal",
+  "dek": "The second cover text from Antalya is half the length of the first. The 500 million tonne capture figure and a 35% electrification goal remain, the capture language in brackets, while every direct reference to fossil fuels is gone.",
+  "body": [
+   "The COP31 presidency released a nine page second draft of the cover decision on the afternoon of November 19, half the length of the November 16 version. It removes all direct references to fossil fuels, including wording that welcomed the COP30 presidency's roadmap for transitioning away from them. What stays is a menu of measures for an expected overshoot of 1.5°C, which includes efforts to boost carbon capture and storage and carbon dioxide removal. That language is still in brackets, meaning unresolved.",
+   "David Waskow of the World Resources Institute said the only numerical targets left are the electrification pledge and a capture goal of at least 500 million tonnes of CO2 a year by 2035. The 35 by 35 pledge would lift electricity from about 23% to 35% of final energy use, and IEA chief Fatih Birol urged countries to back it. For scale, the Global CCS Institute counted 68 million tonnes a year of operating capture capacity as of July 31. Oil Change International called the capture figure unrealistic, saying it implies a 20 to 40 fold increase.",
+   "The trade off is plain. Climate Home News reported that the change appears to placate Arab states, which oppose new sectoral goals but push for carbon capture, while small islands and African groups said the text had lost its core. The draft also sets no number for tripling adaptation finance and instead asks for a baseline report by COP32. Talks entered their final hours on November 19, and observers said fossil fuel wording could still return."
+  ],
+  "nexus": {
+   "electrons": "The 35% electrification goal survived both drafts. If adopted, it puts grids at the center of national plans, and capture plants add their own power demand on top.",
+   "molecules": "With fossil fuel references gone, the text says nothing direct about oil and gas supply. Capture becomes the main lever left in the document for emitters that keep using molecules.",
+   "pore": "A capture goal is only as real as the storage behind it. Moving from 68 million to 500 million tonnes a year means permitting storage wells at several times today's pace within nine years.",
+   "water": "Capture is thirsty. A European Commission JRC assessment found adding CO2 capture raises a power plant's water use per unit of output by 50% to 62% for coal and gas combined cycle plants, so a capture target is also a water target."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Bracketed text is not a mandate. Underwrite capture projects on 45Q, the EU ETS and national credits, and treat any COP figure as upside until it is adopted."
+   },
+   {
+    "who": "Regulators",
+    "text": "Whether or not the number survives, storage review capacity is the constraint. Count the wells your agency can permit each year."
+   },
+   {
+    "who": "Industry",
+    "text": "Emitters that see capture as their path should start storage appraisal now; it takes longer than building the capture unit."
+   },
+   {
+    "who": "Founders",
+    "text": "Tools that cut the energy and water used per tonne captured answer the strongest critique of the target."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   },
+   {
+    "name": "IPS, Nov 19, 2026",
+    "url": "https://www.ipsnews.net/2026/11/cop31-nears-close-as-weak-compromised-draft-draws-fierce-backlash/"
+   },
+   {
+    "name": "Premium Times via allAfrica, Nov 19, 2026",
+    "url": "https://allafrica.com/stories/202611190154.html"
+   },
+   {
+    "name": "CO2CRC (Global Status of CCS 2026)",
+    "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+   },
+   {
+    "name": "EC Joint Research Centre",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC69474"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "COP31 capture goal",
+   "value": "500 Mt",
+   "note": "CO2 a year by 2035, still bracketed in Nov 19 draft",
+   "source": {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   }
+  },
+  {
+   "label": "Electrification goal",
+   "value": "35%",
+   "note": "Of final energy by 2035, up from about 23%",
+   "source": {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   }
+  },
+  {
+   "label": "LME copper, three month",
+   "value": "$13,027.50/t",
+   "note": "Nov 18 midday, lowest since June 24",
+   "source": {
+    "name": "Bloomberg via Yahoo Finance, Nov 18, 2026",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/copper-extends-fall-near-five-051625319.html"
+   }
+  },
+  {
+   "label": "Lithium carbonate, China spot",
+   "value": "¥91,300/t",
+   "note": "SMM battery grade average, Nov 19",
+   "source": {
+    "name": "SMM, Nov 20, 2026",
+    "url": "https://news.metal.com/newscontent/ENBCAPB5J7UPD4XSUW2EDDL77EOQRPWZ4WV3C5I-smm-cobalt-lithium-morning-meeting-summary-lithium-prices-fell-before-rising-cobalt-prices-were-under-pressure-and-pulled-back-and-new-energy-demand-remained-differentiated"
+   }
+  },
+  {
+   "label": "China magnet exports",
+   "value": "5,693 t",
+   "note": "October, up 4% on the year, down 7.6% on September",
+   "source": {
+    "name": "SMM, Nov 20, 2026",
+    "url": "https://news.metal.com/newscontent/SO3ZG5PR6T2RPLFIKKKWJZ6XZOOX725W2Y3BTTA-chinas-rare-earth-magnet-exports-rise-4-yoy-in-oct-2026-smm-projects-13-annual-growth"
+   }
+  },
+  {
+   "label": "Jordan water carrier",
+   "value": "300 Mm³/yr",
+   "note": "Desalinated water, about $6.6 billion",
+   "source": {
+    "name": "Petra (Jordan News Agency), Nov 18, 2026",
+    "url": "https://petra.gov.jo/en/news/prince-faisal-launches-jd468b-national-water-carrier-project-with-pumping-expected-by-end-of-2030"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Markets",
+   "headline": "Canada starts buying durable carbon removal through a standing federal offer",
+   "text": "Treasury Board President Shafqat Ali announced the National Master Standing Offer for carbon removal credits, with 19 standing offers across five removal pathways that designated federal departments can use until March 31, 2029, with an option to extend to 2031. Remova Carbon Systems said on November 19 it was one of three suppliers chosen in the bioenergy with capture and storage stream and won half of that stream's allocated dollars. Its plant near Whitecourt, Alberta would burn biomass for heat and power, capture CO2 with amines and store it in a deep saline formation through a repurposed oil and gas well, about 20,000 tonnes a year net, verified under Isometric, from 2028. Prices were not disclosed.",
+   "use": [
+    {
+     "who": "Developers",
+     "text": "A government buyer with a multi-year window is a bankable signal. Check which pathways the offer covers before you bid in the next round."
+    },
+    {
+     "who": "Investors",
+     "text": "Repurposed wells and saline storage cut cost and time. Watch whether Remova's planned 125,000 to 250,000 tonne second project finds buyers."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Remova via GlobeNewswire, Nov 19, 2026",
+     "url": "https://globenewswire.com/news-release/2026/11/19/3406813/0/en/remova-carbon-systems-selected-by-government-of-canada-to-supply-durable-carbon-removal-credits.html"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Water",
+   "headline": "Jordan launches a $6.6 billion plan to pipe desalinated Red Sea water to Amman",
+   "text": "Prince Faisal bin Al Hussein launched the National Water Carrier in Aqaba on November 18. The JD 4.68 billion project, about $6.6 billion, would desalinate 300 million cubic meters a year from the Gulf of Aqaba, about 40% of Jordan's drinking water, and pump it 417 km to Amman, lifting it up to 1,100 meters. About 300 MW of solar would cover roughly 30% of its power needs. A Meridiam led consortium with SUEZ will build and operate it and hand it to the state 26 years after operations start, with water due by the end of 2030. In September the US DFC approved up to $1 billion in loans plus $800 million in risk insurance, and MEED reported then that financial close was still pending.",
+   "use": [
+    {
+     "who": "Regulators",
+     "text": "Pumping water uphill is an energy project. Size the grid and solar supply with the water plan, not after it."
+    },
+    {
+     "who": "Industry",
+     "text": "Brine handling and power supply are the open contracts in mega desalination. Track tenders as financing closes."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Petra (Jordan News Agency), Nov 18, 2026",
+     "url": "https://petra.gov.jo/en/news/prince-faisal-launches-jd468b-national-water-carrier-project-with-pumping-expected-by-end-of-2030"
+    },
+    {
+     "name": "MEED, Sep 24, 2026",
+     "url": "https://guest.meed.com/?p=17901"
+    }
+   ]
+  },
+  {
+   "id": "nuclear",
+   "lane": "Projects",
+   "headline": "New York names 10 nuclear developers as federal reviews speed up",
+   "text": "The New York Power Authority named 10 developer integrators on November 16 for at least 1 GW of new nuclear upstate, part of a 5 GW statewide goal. Avangrid, Elementl Power, NextEra Energy, Oppenheimer Energy, The Nuclear Company and Turquoise Power qualified for both large reactors and small modular reactors; Blue Energy, Holtec, TerraPower and X-energy for SMRs only. A host community, technology and partner are due in the coming months, and eight communities have shown interest. On November 17 the NRC published a final rule narrowing its Advisory Committee on Reactor Safeguards to safety significant or novel issues, effective February 1, 2027. The NRC issued a construction permit on November 9 for Dow and X-energy's four unit, 320 MWe Long Mott station in Seadrift, Texas.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Ten bidders for one site means pricing pressure on developers. Value suppliers and fuel providers, who win whichever team is picked."
+    },
+    {
+     "who": "Communities",
+     "text": "Host site selection comes first. Ask about water for cooling and transmission before the shortlist narrows."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ANS Nuclear Newswire, Nov 16, 2026",
+     "url": "https://www.ans.org/news/article-8582/new-york-picks-10-finalists-for-upstate-new-nuclear-project/"
+    },
+    {
+     "name": "World Nuclear News, Nov 17, 2026",
+     "url": "https://world-nuclear-news.org/articles/new-york-names-contenders-for-next-step-of-nuclear-programme"
+    },
+    {
+     "name": "ANS Nuclear Newswire, Nov 17, 2026",
+     "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+    },
+    {
+     "name": "US DOE, Nov 13, 2026",
+     "url": "https://www.energy.gov/node/4861398"
+    }
+   ]
+  },
+  {
+   "id": "hydrogen",
+   "lane": "Projects",
+   "headline": "A paper mill turbine runs on pure hydrogen, and the cost question follows",
+   "text": "Siemens Energy said on November 16 that an SGT-400 turbine at Smurfit Westrock's Saillat-sur-Vienne paper mill in France ran on 100% hydrogen through startup, load changes and full load cogeneration. An analysis in CleanTechnica on November 19 counted about €16.5 million in public support across the HYFLEXPOWER and HyCoFlex programs and, using Siemens figures, estimated that the onsite electrolyzer covers about 2% of the turbine's hourly fuel need at full load. It pointed to Delfort's Tervakoski mill, where a heat pump and vapor recompression system has supplied about 12 MW of steam since January 2026, as the alternative.",
+   "use": [
+    {
+     "who": "Industry",
+     "text": "Fuel flexible turbines are proven; fuel supply is not. Price delivered hydrogen against electrified steam before you choose."
+    },
+    {
+     "who": "Funders",
+     "text": "Ask grantees how the fuel will be sourced at scale, not only whether the hardware runs."
+    }
+   ],
+   "sources": [
+    {
+     "name": "CleanTechnica (analysis), Nov 19, 2026",
+     "url": "https://cleantechnica.com/2026/11/19/hydrogen-turbine-hycoflex-public-grants-industrial-steam/"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "New Mexico drills for brackish water, and brine disposal goes underground",
+   "text": "New Mexico is investigating an estimated 1.3 trillion gallons of brackish groundwater, about 4 million acre feet, under its 2025 Strategic Water Supply Act, The Cool Down reported on November 19. Engineering firm WSP will drill two wells to 7,600 feet at Quail Ranch, with more than $40 million allocated through grants and contracts. The state wants plants on the model of El Paso's Kay Bailey Hutchison desalination plant, about 30 million gallons a day. Brine disposal options include deep injection wells and evaporation ponds, and a brine plan has been filed with the state Environment Department.",
+   "use": [
+    {
+     "who": "Regulators",
+     "text": "Brine injection competes for the same pore space as produced water and CO2 storage. Plan injection capacity across all three."
+    },
+    {
+     "who": "Industry",
+     "text": "Oilfield water firms already run injection and treatment. Brackish desalination is an adjacent market to watch."
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Cool Down via Yahoo, Nov 19, 2026",
+     "url": "https://www.yahoo.com/news/science/articles/mexico-weighs-desalination-estimated-1-075100896.html"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Binding fiscal agreements targeted for Nov 15; FID late 2027 to early 2028",
+   "source": {
+    "name": "Decarbonfuse",
+    "url": "https://decarbonfuse.com/posts/pathways-ccs-what-still-has-to-be-signed-before-fid"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "David Waskow",
+   "role": "World Resources Institute",
+   "text": "Said the new text is more focused but that negotiators still have a way to go, noting the only numbers left are the electrification pledge and the capture goal.",
+   "source": {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   }
+  },
+  {
+   "name": "Mohamed Adow",
+   "role": "Power Shift Africa",
+   "text": "Warned that if the text stays as written, Antalya will be remembered as a ghost COP with no mention of fossil fuels at all.",
+   "source": {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   }
+  },
+  {
+   "name": "Maina Talia",
+   "role": "Tuvalu delegation",
+   "text": "Said fossil fuel language appears to be out of the text, with only a small window left to restore it.",
+   "source": {
+    "name": "Climate Home News, Nov 19, 2026",
+    "url": "https://www.climatechangenews.com/2026/11/19/cop31-antalya-turkiye-australia-ministers-agremeent-fossil-fuels-electrification/"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "Iridium catalyst on a high entropy perovskite support",
+   "by": "Tohoku University AIMR, Journal of the American Chemical Society",
+   "date": "Aug 29, 2026",
+   "text": "Ran more than 3,800 hours in a PEM electrolyzer with little loss, versus heavy degradation within 300 hours for a standard catalyst in comparison tests.",
+   "url": "https://www.eurekalert.org/news-releases/1148700"
+  },
+  {
+   "title": "Global Status of CCS 2026",
+   "by": "Global CCS Institute (summary by CO2CRC)",
+   "date": "Oct 2026",
+   "text": "68 Mt a year operating and 56 Mt under construction as of July 31, the baseline for the COP31 capture goal.",
+   "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+  },
+  {
+   "title": "Final rule on the Advisory Committee on Reactor Safeguards",
+   "by": "US Nuclear Regulatory Commission (via ANS)",
+   "date": "Nov 17, 2026",
+   "text": "Narrows committee review to safety significant or novel issues, effective Feb 1, 2027.",
+   "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "COP31 draft drops fossil fuels, keeps CCS goal",
+  "points": [
+   "New text is half the length",
+   "500 Mt capture goal in brackets",
+   "35% electrification by 2035"
+  ],
+  "watch": "Whether fossil fuel wording returns before the gavel.",
+  "caption": "COP31's second draft deal, released Nov 19, removes every direct reference to fossil fuels but keeps a goal of at least 500 million tonnes of carbon capture a year by 2035, still in brackets, and a 35% electrification target.\n\nWhat it means for investors, regulators and industry at carbonenergynexus.com\n\n#COP31 #CarbonCapture #CCS #ClimatePolicy #EnergyTransition"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Canada starts buying durable carbon removal",
+   "points": [
+    "19 standing offers, 5 pathways",
+    "BECCS in Alberta from 2028",
+    "Open to departments to 2029"
+   ],
+   "watch": "Who wins the next pathways and at what price.",
+   "caption": "Canada launched a standing federal offer to buy durable carbon removal credits: 19 offers across five pathways, open to departments until 2029. Remova's Alberta BECCS plant, about 20,000 tonnes a year from 2028, is one winner.\n\nMore at carbonenergynexus.com\n\n#CarbonRemoval #CDR #Canada #CarbonMarkets"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Jordan launches a $6.6B desalination carrier",
+   "points": [
+    "300 million m³ of water a year",
+    "417 km pipe, Aqaba to Amman",
+    "Solar covers about 30% of power"
+   ],
+   "watch": "Financial close and construction start.",
+   "caption": "Jordan launched its National Water Carrier on Nov 18: about $6.6 billion to desalinate 300 million cubic meters a year from the Gulf of Aqaba and pump it 417 km to Amman, with water due by end 2030.\n\nMore at carbonenergynexus.com\n\n#Water #Desalination #Jordan #EnergyWater"
+  }
+ },
+ "minerals": {
+  "intro": "The metals behind grids, batteries, magnets and reactors. Supply sits in a few countries, so policy moves prices as much as demand does, and every mine and refinery is also a water and power project.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "China's magnet exports hold; a Wyoming mine posts its numbers",
+    "text": "China exported 5,693 tonnes of rare earth permanent magnets in October, up 4% on the year and down 7.6% on September, and SMM expects about 64,800 tonnes for 2026, up 13%. In Wyoming, American Rare Earths released a prefeasibility study on Nov 19 for its Cowboy State Mine at Halleck Creek: about $840 million pre-production capital, an after-tax NPV of about $1.3 billion at 8% and roughly 2,500 tonnes of NdPr oxide a year from 2031. USA Rare Earth shares rose about 4% on Nov 19 after its chairman bought about $3 million of stock.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/SO3ZG5PR6T2RPLFIKKKWJZ6XZOOX725W2Y3BTTA-chinas-rare-earth-magnet-exports-rise-4-yoy-in-oct-2026-smm-projects-13-annual-growth"
+     },
+     {
+      "name": "American Rare Earths via GlobeNewswire, Nov 19, 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/19/3406810/0/en/cowboy-state-mine-prefeasibility-study-delivers-npv-uplift-and-maiden-ore-reserve.html"
+     },
+     {
+      "name": "Motley Fool, Nov 19, 2026",
+      "url": "https://www.fool.com/investing/2026/11/19/why-usa-rare-earth-stock-is-rising-today/"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "Slide extends to the lowest since June",
+    "text": "LME three month copper fell as much as 1.6% to $13,019 a tonne on Nov 18, its lowest since June 24, on a stronger dollar ahead of Fed minutes, an AI stock selloff and weak Chinese data. Bloomberg said copper was heading for its longest run of weekly declines in two years.",
+    "sources": [
+     {
+      "name": "Bloomberg via Yahoo Finance, Nov 18, 2026",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/copper-extends-fall-near-five-051625319.html"
+     }
+    ]
+   },
+   {
+    "symbol": "Li",
+    "name": "Lithium",
+    "headline": "Miners hit 12 month lows; POSCO signs with CATL",
+    "text": "SMM put battery grade lithium carbonate at 91,300 yuan a tonne on Nov 19, down 1.1% on the week. The LIT miners fund fell 2.2% to a 12 month low the same day, with Albemarle and SQM also at 12 month lows, on 2027 surplus fears and a broad market selloff. POSCO said on Nov 19 it will supply lithium to CATL from 2026 to 2028, without volumes or prices.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/ENBCAPB5J7UPD4XSUW2EDDL77EOQRPWZ4WV3C5I-smm-cobalt-lithium-morning-meeting-summary-lithium-prices-fell-before-rising-cobalt-prices-were-under-pressure-and-pulled-back-and-new-energy-demand-remained-differentiated"
+     },
+     {
+      "name": "Rio Times, Nov 20, 2026",
+      "url": "https://www.riotimesonline.com/lithium-markets-latam-thursday-november-19-2026"
+     },
+     {
+      "name": "Investing News Network, Nov 19, 2026",
+      "url": "https://investingnews.com/posco-signs-lithium-deal-catl"
+     }
+    ]
+   },
+   {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "headline": "Futures drop on delivery hedging",
+    "text": "Chinese refined cobalt futures fell from about 275,500 yuan a tonne on Monday to a midweek low of 255,000, mostly on delivery related hedging, SMM reported Nov 20. Mainstream smelter prices held near 285,000 yuan, and cobalt intermediates traded around $13 to $13.5 a pound.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/ENBCAPB5J7UPD4XSUW2EDDL77EOQRPWZ4WV3C5I-smm-cobalt-lithium-morning-meeting-summary-lithium-prices-fell-before-rising-cobalt-prices-were-under-pressure-and-pulled-back-and-new-energy-demand-remained-differentiated"
+     }
+    ]
+   },
+   {
+    "symbol": "C",
+    "name": "Graphite",
+    "headline": "China pushes its anode control pause to January",
+    "text": "China extended the suspension of its graphite anode export controls by two months to Jan 10, 2027, Mysteel reported Nov 11. Overseas anode capacity is still not ready to replace Chinese supply, so buyers face compliance work more than a sudden cutoff.",
+    "sources": [
+     {
+      "name": "Mysteel, Nov 11, 2026",
+      "url": "https://www.mysteel.net/news/5148376-china-extends-graphite-anode-export-control-suspension-again-alternative-supply-still-lags"
+     }
+    ]
+   },
+   {
+    "symbol": "§",
+    "name": "Minerals policy",
+    "headline": "Trump leaves China with no rare earth deal",
+    "text": "Trump's meetings with Xi in Shenzhen ended Nov 19 with no apparent agreement on rare earths, chips or tariffs, Yahoo Finance reported. A US official had said before the trip that China was not shipping rare earths at the pace the US wanted. The trade truce expires Jan 10, and the leaders may meet again at the G20 in Florida in December.",
+    "sources": [
+     {
+      "name": "Yahoo Finance, Nov 19, 2026",
+      "url": "https://finance.yahoo.com/markets/article/stalemates-over-semiconductors-and-rare-earth-minerals-appear-little-changed-as-trump-heads-home-from-china-121555352.html"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Longer lived iridium catalyst for electrolyzers",
+   "org": "Tohoku University",
+   "kind": "Academia",
+   "date": "Oct 20, 2026",
+   "text": "Iridium on a high entropy perovskite support ran more than 3,800 hours in a PEM electrolyzer with little loss, cutting the scarce metal's degradation problem. Published in JACS.",
+   "url": "https://www.eurekalert.org/news-releases/1148700"
+  },
+  {
+   "name": "Non-flammable electrolyte for sodium batteries",
+   "org": "Chonnam National University",
+   "kind": "Academia",
+   "date": "Nov 7, 2026",
+   "text": "A polymerizable deep eutectic electrolyte reached 1.39 mS/cm at 30°C and near 99% coulombic efficiency in full cells, aiming at safer, leak resistant sodium storage.",
+   "url": "https://bioengineer.org/new-polymer-electrolyte-makes-sodium-batteries-safer-and-more-durable/"
+  },
+  {
+   "name": "Industrial turbine on 100% hydrogen",
+   "org": "Siemens Energy and Smurfit Westrock",
+   "kind": "Private",
+   "date": "Nov 16, 2026",
+   "text": "An SGT-400 at a French paper mill ran on pure hydrogen through startup and full load cogeneration. Fuel supply cost remains the open question.",
+   "url": "https://cleantechnica.com/2026/11/19/hydrogen-turbine-hycoflex-public-grants-industrial-steam/"
+  },
+  {
+   "name": "BECCS through a repurposed oil well",
+   "org": "Remova Carbon Systems",
+   "kind": "Private",
+   "date": "Nov 19, 2026",
+   "text": "Selected by Canada to supply durable removals from a biomass plant near Whitecourt, Alberta, storing about 20,000 tonnes a year in a saline formation from 2028.",
+   "url": "https://globenewswire.com/news-release/2026/11/19/3406813/0/en/remova-carbon-systems-selected-by-government-of-canada-to-supply-durable-carbon-removal-credits.html"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Policy",
+   "what": "COP31 scheduled to close; second draft cover decision under negotiation",
+   "where": "Antalya",
+   "url": "https://www.sylvera.com/cop31"
+  },
+  {
+   "date": "2026-11-20",
+   "when": "Nov 20, 2026",
+   "type": "Carbon",
+   "what": "UK and EU summit; carbon market linkage on the agenda",
+   "where": "venue not yet listed",
+   "url": "https://www.abnamro.com/research/en/our-research/carbon-market-watch-carbon-prices-climb-as-policy-reforms-take-shape"
+  },
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+   "where": "China and United States",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-01",
+   "when": "Feb 1, 2027",
+   "type": "Power",
+   "what": "NRC rule narrowing reactor safeguards committee reviews takes effect",
+   "where": "United States",
+   "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  },
+  {
+   "date": "2033-01-01",
+   "when": "Jan 1, 2033",
+   "type": "Policy",
+   "what": "45Q deadline to begin construction of capture equipment",
+   "where": "United States",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
+ ]
+}

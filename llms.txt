@@ -7,12 +7,12 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [COP31's draft deal asks the world to build 500 million tonnes of carbon capture by 2035](https://carbonenergynexus.com/): November 19, 2026. COP31's first draft deal asks countries to scale carbon capture to at least 500 million tonnes a year by 2035. The world runs about 68 million today. The EU and a bloc including Saudi Arabia and India want changes before talks close Nov 20.
-- [Capital: North Carolina makes big data centers sign long contracts and pay for their own grid](https://carbonenergynexus.com/#money)
-- [Projects: India gets a $3.6 billion green ammonia plant with buyers in hand](https://carbonenergynexus.com/#world)
-- [Regulation: Colorado becomes the seventh state to permit its own CO2 storage wells](https://carbonenergynexus.com/#storage)
-- [Water: AI's biggest water draw sits at the power plant, not the server hall](https://carbonenergynexus.com/#water)
-- [Projects: Europe's first full cross-border CO2 chain is running, but the storage pipeline is thin](https://carbonenergynexus.com/#europe)
+- [COP31's new draft drops fossil fuel language but keeps a carbon capture goal](https://carbonenergynexus.com/): November 20, 2026. COP31's second draft deal, released Nov 19, removes every direct reference to fossil fuels but keeps a goal of at least 500 million tonnes of carbon capture a year by 2035, still in brackets, and a 35% electrification target.
+- [Markets: Canada starts buying durable carbon removal through a standing federal offer](https://carbonenergynexus.com/#money)
+- [Water: Jordan launches a $6.6 billion plan to pipe desalinated Red Sea water to Amman](https://carbonenergynexus.com/#world)
+- [Projects: New York names 10 nuclear developers as federal reviews speed up](https://carbonenergynexus.com/#nuclear)
+- [Projects: A paper mill turbine runs on pure hydrogen, and the cost question follows](https://carbonenergynexus.com/#hydrogen)
+- [Water: New Mexico drills for brackish water, and brine disposal goes underground](https://carbonenergynexus.com/#water)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,5 +20,6 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 20, 2026: COP31's new draft drops fossil fuel language but keeps a carbon capture goal](https://carbonenergynexus.com/archive/2026-11-20.html)
 - [November 19, 2026: COP31's draft deal asks the world to build 500 million tonnes of carbon capture by 2035](https://carbonenergynexus.com/archive/2026-11-19.html)
 - [November 17, 2026: Europe hands heavy industry more free carbon permits as COP31 enters its final week](https://carbonenergynexus.com/archive/2026-11-17.html)
