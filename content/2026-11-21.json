@@ -1,0 +1,704 @@
+{
+ "date": "2026-11-21",
+ "date_long": "November 21, 2026",
+ "edition": 4,
+ "lead": {
+  "kicker": "Carbon markets",
+  "headline": "The EU and UK agree to link their carbon markets, with cross-border CO2 storage next in line",
+  "dek": "The deal sealed at the Brussels summit on November 20 would let EU and UK allowances count in both systems from 2028 and spare goods traded between them from each side's carbon border tax. The storage industry says North Sea CO2 shipping could get cheaper.",
+  "body": [
+   "The EU and UK said at their summit in Brussels on November 20 that they had concluded negotiations to link their emissions trading systems. Allowances from each would be recognized in the other, and goods traded between the two would be exempt from each side's carbon border adjustment mechanism. Both sides aim to bring the link into effect in 2028, subject to legal procedures. The UK government said the link opens a route to waive EU CBAM charges on roughly £6.5 billion of UK goods.",
+   "The carbon deal is one of three agreements from the summit, which also covered a youth mobility scheme and food standards. The Irish Times, carrying the Financial Times report, said the EU's member states will only implement them if Britain agrees within six months to lower university fees for European students. Pre-summit reporting cited by Briefs Finance said the EU would recognize UK caps for 2028 to 2030, and from 2031 UK issuance would be limited to 7.1% of total EU ETS permits. On November 20 the UK December carbon contract traded at £58.40 a tonne and the EU benchmark at €81.85.",
+   "Storage is the industrial prize. Carbon Herald, citing industry analysis, reported that cross-border storage could cut offshore transport and storage costs for EU emitters by up to 28%, about €16 a tonne. The UK's Carbon Capture and Storage Association put the average saving at €11 a tonne and estimated £4 billion a year in UK export revenue and £7 billion of investment by 2040. It wants the EU to recognize storage in non-EU countries under the EU ETS by 2029. Critics such as MP Henry Tufnell have warned linkage could push UK carbon prices toward EU levels."
+  ],
+  "nexus": {
+   "electrons": "UK power generators pay a lower carbon price than their EU peers today. A linked market would tend to close that gap, which feeds through to wholesale power prices on both sides.",
+   "molecules": "Refiners, chemical plants and gas fired generators on both sides would face one carbon signal, and UK exporters of steel, aluminium and fertilizer would escape EU border charges.",
+   "pore": "The UK North Sea holds large depleted fields and saline aquifers. Recognition of cross-border storage would let EU emitters ship CO2 there and count it, which is where the €11 to €16 a tonne savings come from.",
+   "water": "More storage capacity means more capture, and capture is thirsty. A European Commission JRC assessment found adding CO2 capture raises a power plant's water use per unit of output by 50% to 62% for coal and gas combined cycle plants."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Price the spread between UK and EU allowances as a trade that should narrow toward 2028, but discount it for the six month condition attached to the summit package."
+   },
+   {
+    "who": "Regulators",
+    "text": "Cross-border storage needs matching rules on liability and monitoring. Start aligning permits now so CO2 can move when the link goes live."
+   },
+   {
+    "who": "Industry",
+    "text": "UK exporters to the EU should model their CBAM exposure with and without the waiver, since the waiver depends on linkage being completed."
+   },
+   {
+    "who": "Founders",
+    "text": "Shipping, terminals and measurement for cross-border CO2 are the gaps the deal opens. Build for both regulators at once."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Carbon Herald, Nov 20, 2026",
+    "url": "https://carbonherald.com/eu-and-uk-seal-carbon-market-deal-opening-billions-in-co2-storage-opportunities/"
+   },
+   {
+    "name": "Briefs Finance, Nov 20, 2026",
+    "url": "https://www.briefs.co/news/eu-uk-seal-plan-to-connect-carbon-markets-from-2028/"
+   },
+   {
+    "name": "Irish Times (FT), Nov 20, 2026",
+    "url": "https://www.irishtimes.com/world/uk/2026/11/20/the-deal-is-done-uk-says-brexit-reset-deal-with-eu-is-agreed/"
+   },
+   {
+    "name": "Euronews, Nov 6, 2026",
+    "url": "https://www.euronews.com/2026/11/06/eu-and-uk-set-to-link-carbon-markets-in-major-post-brexit-deal"
+   },
+   {
+    "name": "EC Joint Research Centre",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC69474"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "EU carbon (EUA)",
+   "value": "€81.85",
+   "note": "Benchmark allowance, Nov 20",
+   "source": {
+    "name": "Briefs Finance, Nov 20, 2026",
+    "url": "https://www.briefs.co/news/eu-uk-seal-plan-to-connect-carbon-markets-from-2028/"
+   }
+  },
+  {
+   "label": "UK carbon (UKA)",
+   "value": "£58.40",
+   "note": "December contract, Nov 20",
+   "source": {
+    "name": "Briefs Finance, Nov 20, 2026",
+    "url": "https://www.briefs.co/news/eu-uk-seal-plan-to-connect-carbon-markets-from-2028/"
+   }
+  },
+  {
+   "label": "Storage cost saving",
+   "value": "Up to 28%",
+   "note": "EU offshore CO2 transport and storage with UK link",
+   "source": {
+    "name": "Carbon Herald, Nov 20, 2026",
+    "url": "https://carbonherald.com/eu-and-uk-seal-carbon-market-deal-opening-billions-in-co2-storage-opportunities/"
+   }
+  },
+  {
+   "label": "LME copper",
+   "value": "$12,188/t",
+   "note": "Nov 20 morning, below $12,400 support",
+   "source": {
+    "name": "SMM, Nov 20, 2026",
+    "url": "https://news.metal.com/newscontent/OCS6AR3M67SVXDSWQKTOLONR7Z5D3JZBOME3GNA-us-fed-hawkish-expectations-pressure-copper-prices-low-inventory-pushes-spot-premiums-to-new-highs-smm-macro-weekly-review"
+   }
+  },
+  {
+   "label": "Alberta CCS grant",
+   "value": "12%",
+   "note": "Of eligible capital, now payable during construction",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   }
+  },
+  {
+   "label": "Tampere e-methane",
+   "value": "190 GWh/yr",
+   "note": "Ren-Gas plant reaches FID, more than €300 million",
+   "source": {
+    "name": "Hydrogen Central, Nov 21, 2026",
+    "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Capital",
+   "headline": "Finland's €300 million e-methane plant reaches a final investment decision",
+   "text": "Nordic Ren-Gas said its Tampere project reached a final investment decision, which it calls the largest e-methane project to do so. The plant would make about 190 GWh a year of e-methane from renewable hydrogen and about 40,000 tonnes a year of biogenic CO2 captured from a local waste to energy plant, and send up to 200 GWh a year of process heat to Tampere's district heating network. Equity comes from Allianz, Tesi, Japan Hydrogen Fund and Schroders Greencoat; debt from the European Investment Bank, which lends €60 million under InvestEU, plus Société Générale, Standard Chartered, Nordea and Finnvera. The gas would move through the European grid to Germany, mainly for heavy trucks. Completion is scheduled for 2029.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "The capital stack mixes insurers, a state fund and a Japanese hydrogen fund with export credit support. That template is worth copying for other e-fuel deals."
+    },
+    {
+     "who": "Industry",
+     "text": "Waste to energy plants have a CO2 stream someone will pay for. Check whether yours qualifies as biogenic."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Hydrogen Central, Nov 21, 2026",
+     "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+    },
+    {
+     "name": "Nordic Ren-Gas",
+     "url": "https://ren-gas.com/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Regulation",
+   "headline": "COP31 runs into overtime as fossil fuel and capture language divide countries",
+   "text": "The Antalya talks missed their November 20 close. A late Friday plenary approved only technical matters, and a third draft was expected on Saturday, AFP reported. The latest text has no mention of fossil fuels and keeps a 35% electrification target for 2035, while some countries objected to its call to scale up carbon capture. A dozen European and developing countries, from France to Panama and the Solomon Islands, asked for a clear transition away from fossil fuels, and Panama has threatened to block a deal without it. Decisions need consensus. Australia's Chris Bowen, chairing the talks, said he would work for as long as it takes.",
+   "use": [
+    {
+     "who": "Developers",
+     "text": "Do not plan around a COP capture number until it is adopted. National credits remain the economics."
+    },
+    {
+     "who": "Policy teams",
+     "text": "Watch whether the final text names renewable electricity in the 35% goal, which some countries are asking for."
+    }
+   ],
+   "sources": [
+    {
+     "name": "AFP via Dawn, Nov 21, 2026",
+     "url": "https://www.dawn.com/news/2045986/cop31-runs-into-overtime-over-fossil-fuel-dispute"
+    },
+    {
+     "name": "AFP via Business Recorder, Nov 21, 2026",
+     "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+    },
+    {
+     "name": "UN News, Nov 20, 2026",
+     "url": "https://news.un.org/en/story/2026/11/1168845"
+    }
+   ]
+  },
+  {
+   "id": "alberta",
+   "lane": "Regulation",
+   "headline": "Alberta pays carbon capture grants during construction, as Pathways papers slip",
+   "text": "Alberta changed its Carbon Capture Incentive Program so some grants, worth 12% of eligible capital for certain oil and gas, petrochemical and power projects, are paid during construction rather than only after startup. The change aligns it with the federal CCUS tax credit. Energy and minerals minister Brian Jean said it will help accelerate projects. The Canadian Press noted that definitive agreements for the Pathways project, targeted for about November 15, have not been finalized. Pathways is now planned at about 6 million tonnes a year by the mid 2030s, down from an earlier 22 million tonnes by 2030.",
+   "use": [
+    {
+     "who": "Developers",
+     "text": "Earlier cash lowers construction financing costs. Rerun project models with grant draws during the build."
+    },
+    {
+     "who": "Investors",
+     "text": "Pathways is the bellwether. Signed fiscal agreements, not incentive tweaks, are what move it to FID."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+     "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "lane": "Regulation",
+   "headline": "Oregon and North Carolina make data centers carry more of their grid costs",
+   "text": "Oregon regulators approved an agreement under which new Pacific Power data centers must pay their own energy costs from January 1, 2027, those above 100 MW pay a small surcharge for low income efficiency upgrades, and service can be curtailed in emergencies, according to a Sierra Club release. In North Carolina, the Utilities Commission created a rate schedule for Duke Energy customers of at least 50 MW with minimum contracts of 10 years, or 15 years at 100 MW or more, and demand charges on at least 75% of contracted demand, WRAL reported. Data centers make up 92% of the 6.7 GW Duke has contracted for new large customers.",
+   "use": [
+    {
+     "who": "Data center developers",
+     "text": "Long contracts and exit fees are becoming standard. Budget for them in site selection."
+    },
+    {
+     "who": "Regulators",
+     "text": "Both models protect households while keeping the door open. Compare them before writing your own tariff."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Sierra Club via CleanTechnica, Nov 19, 2026",
+     "url": "https://cleantechnica.com/2026/11/19/pacific-power-begins-new-customer-protections-against-data-centers/"
+    },
+    {
+     "name": "WRAL, Nov 17, 2026",
+     "url": "https://www.wral.com/news/state/nc-approves-duke-energy-rate-hikes-new-rules-for-data-centers-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "Permian water networks change hands as treatment tries to beat the disposal well",
+   "text": "Diamondback Energy and KKR agreed on November 10 to buy Five Point Infrastructure's 70% stake in Deep Blue, a Midland Basin water network that Diamondback says handles nearly 2 million barrels a day; Reuters, citing a source, put the price at about $2.1 billion, MarketScale reported. Closing is expected in the fourth quarter. In Reeves County, a plant near Orla treats up to 10,000 barrels a day of produced water by freezing rather than membranes, drawing 5.5 MW, Energies Media reported. It said Delaware Basin wells lift almost 5 barrels of water per barrel of oil, and that disposal costs about 60 cents a barrel against about $1.50 for reuse.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Water midstream is being valued like pipelines. Watch the gap between disposal and reuse costs, which decides growth."
+    },
+    {
+     "who": "Regulators",
+     "text": "Injection pressure is building in the basin. Discharge permits for treated water are the policy lever to watch."
+    }
+   ],
+   "sources": [
+    {
+     "name": "MarketScale, Nov 19, 2026",
+     "url": "https://www.marketscale.com/industries/energy/diamondback-and-kkr-agree-to-an-estimated-21-billion-permian-water-network-buyout"
+    },
+    {
+     "name": "Energies Media, Nov 10, 2026",
+     "url": "https://energiesmedia.com/a-permian-well-lifts-5-barrels-produced-water/"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Definitive agreements targeted for about Nov 15 not yet finalized; Alberta now pays capture grants during construction, Nov 20",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  },
+  {
+   "name": "Tampere e-methane plant",
+   "where": "Tampere, Finland",
+   "type": "E-methane from renewable hydrogen and biogenic CO2",
+   "sector": "Hydrogen",
+   "stage": 5,
+   "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+   "url": "https://ren-gas.com/",
+   "source": {
+    "name": "Hydrogen Central, Nov 21, 2026",
+    "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "Olivia Powis",
+   "role": "Carbon Capture and Storage Association",
+   "text": "Welcomed the agreement to link the EU and UK trading systems and urged EU policymakers to recognize storage in non-EU countries under the EU ETS by 2029.",
+   "source": {
+    "name": "Carbon Herald, Nov 20, 2026",
+    "url": "https://carbonherald.com/eu-and-uk-seal-carbon-market-deal-opening-billions-in-co2-storage-opportunities/"
+   }
+  },
+  {
+   "name": "Brian Jean",
+   "role": "Alberta energy and minerals minister",
+   "text": "Said strengthening the carbon capture incentive program will help accelerate projects.",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   }
+  },
+  {
+   "name": "Juan Carlos Navarro",
+   "role": "Panama environment minister",
+   "text": "Said the COP can still be saved if the text includes a fossil fuel phase-out and climate science language.",
+   "source": {
+    "name": "AFP via Dawn, Nov 21, 2026",
+    "url": "https://www.dawn.com/news/2045986/cop31-runs-into-overtime-over-fossil-fuel-dispute"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "Electrochemical direct air capture with a nickel hydroxide electrode",
+   "by": "University of Delaware, Nature Energy",
+   "date": "Oct 27, 2026",
+   "text": "Room temperature, battery style capture using about half the energy of conventional systems, under 1 MWh per tonne; a licensee's pilot ran more than 5,000 hours.",
+   "url": "https://www.eurekalert.org/news-releases/1149452"
+  },
+  {
+   "title": "BVR-X, a framework that keeps water and CO2 apart",
+   "by": "Oregon State University, Angewandte Chemie",
+   "date": "Nov 17, 2026",
+   "text": "Captured CO2 from a humid gas stream with only 4% CO2 over dozens of cycles, a step toward capture from wet flue gas.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+  },
+  {
+   "title": "Global Status of CCS 2026",
+   "by": "Global CCS Institute (summary by CO2CRC)",
+   "date": "Oct 2026",
+   "text": "68 Mt a year operating and 56 Mt under construction as of July 31, the baseline for any storage link and the COP31 capture debate.",
+   "url": "https://co2crc.com.au/news-and-media-releases/global-status-of-ccs-2026/"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "EU and UK agree to link carbon markets",
+  "points": [
+   "Link targeted for 2028",
+   "CBAM waived between them",
+   "Cheaper cross-border CO2 storage"
+  ],
+  "watch": "The six month condition on the summit package.",
+  "caption": "The EU and UK agreed on Nov 20 to link their carbon markets from 2028, recognizing each other's allowances and exempting traded goods from carbon border charges. Industry says cross-border CO2 storage could cut costs by up to 28%.\n\nWhat it means for investors, regulators and industry at carbonenergynexus.com\n\n#CarbonMarkets #EUETS #UKETS #CCS #CBAM"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Finland's €300M e-methane plant hits FID",
+   "points": [
+    "190 GWh of e-methane a year",
+    "40,000 t of biogenic CO2",
+    "Completion due in 2029"
+   ],
+   "watch": "Whether other e-fuel projects copy the financing.",
+   "caption": "Nordic Ren-Gas reached a final investment decision on its Tampere e-methane plant: more than €300 million, about 190 GWh a year from renewable hydrogen and biogenic CO2, backed by Allianz, the EIB and others.\n\nMore at carbonenergynexus.com\n\n#Hydrogen #EFuels #Finland #CarbonCapture"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "COP31 runs into overtime on fossil fuels",
+   "points": [
+    "Draft has no fossil fuel words",
+    "Some object to the capture call",
+    "Panama threatens to block"
+   ],
+   "watch": "Whether a third draft wins consensus this weekend.",
+   "caption": "COP31 in Antalya missed its Nov 20 close. The draft has no fossil fuel language and keeps a 35% electrification goal, some countries object to its carbon capture call, and Panama threatens to block a deal.\n\nMore at carbonenergynexus.com\n\n#COP31 #ClimatePolicy #CarbonCapture #EnergyTransition"
+  }
+ },
+ "minerals": {
+  "intro": "The metals behind grids, batteries, magnets and reactors. Supply sits in a few countries, so policy moves prices as much as demand does, and every mine and refinery is also a water and power project.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "US rare earth stocks slide again while Chinese offers rise",
+    "text": "Critical Metals fell 8% to $3.21 by midday on Nov 20, and USA Rare Earth and MP Materials each fell about 5%, extending a selloff after a Nov 18 rally on hopes for US and China talks, 24/7 Wall St. reported. In China, SMM said Pr-Nd oxide offers were raised through the day as low priced material tightened, though buyers turned cautious. China Rare Nonferrous said prices were stable with moderate gains in 2026 and it is relatively optimistic about 2027.",
+    "sources": [
+     {
+      "name": "24/7 Wall St., Nov 20, 2026",
+      "url": "https://247wallst.com/investing/2026/11/20/critical-metals-tumbles-8-as-rare-earth-stocks-extend-sell-off-usa-rare-earth-and-mp-materials-fall-5/"
+     },
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/6EVVQMLKFOQFOLM6C5QGNN3SLNGJM2QJAZHJOEA-smm-rare-earth-afternoon-trading-comment-on-november-20"
+     },
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/NKUNCEXXZIAIQAWG3V6QPS7R6K3NSTJBAFIFH6Q-china-rare-nonferrous-reports-stable-rare-earth-prices-optimistic-outlook-for-2027-amid-industry-challenges"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "LME copper breaks below $12,400 as Chinese premiums hit records",
+    "text": "LME copper stood at $12,188 a tonne on the morning of Nov 20, SMM said, after breaking the $13,000 and $12,400 levels during the week, and it expects $12,000 to $12,500 next week. Three month copper fell 5.5% on Nov 18, its biggest one day drop since April 2025, while the Yangshan import premium hit a record, Crux Investor reported. LME stocks are near 330,000 tonnes.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/OCS6AR3M67SVXDSWQKTOLONR7Z5D3JZBOME3GNA-us-fed-hawkish-expectations-pressure-copper-prices-low-inventory-pushes-spot-premiums-to-new-highs-smm-macro-weekly-review"
+     },
+     {
+      "name": "Crux Investor, Nov 20, 2026",
+      "url": "https://www.cruxinvestor.com/posts/fund-selling-drives-copper-to-seven-month-low-as-premiums-hit-records"
+     }
+    ]
+   },
+   {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "headline": "China's cobalt imports jump 41% in October",
+    "text": "China imported about 907 tonnes of unwrought cobalt in October, up 41% on September, led by Indonesia at 482 tonnes, and exported about 429 tonnes, down 19%, SMM reported Nov 20. January to October imports of 11,324 tonnes were nearly double last year. Domestic low end refined cobalt rebounded to 265,000 yuan a tonne by Nov 19 while Rotterdam fell to $18 a pound, turning exports unprofitable.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/ABB6IJXM724FIIFWIBVQZAXSYSYM6PSOON2RY7A-smm-analysis-chinas-unwrought-cobalt-imports-rose-41-mom-in-october-2026-while-exports-fell-19-mom"
+     }
+    ]
+   },
+   {
+    "symbol": "C",
+    "name": "Graphite",
+    "headline": "Anode prices hold, but cost support is fading",
+    "text": "Artificial graphite anode prices stayed largely stable in the week to Nov 19 as coke prices fell and cell orders stayed sluggish, SMM said, warning prices could loosen if December battery schedules weaken. The suspension of China's anode export controls, extended to Jan 10, 2027, is prolonging a year end export rush.",
+    "sources": [
+     {
+      "name": "SMM, Nov 19, 2026",
+      "url": "https://news.metal.com/newscontent/6BNA56RROH3V63WPX33ALJ26VK2GLDP6ZQ5J7TA-artificial-graphite-cost-support-weakens-equilibrium-not-yet-broken-smm-lithium-battery-anode-raw-material-market-weekly-review"
+     },
+     {
+      "name": "Mysteel, Nov 11, 2026",
+      "url": "https://www.mysteel.net/news/5148376-china-extends-graphite-anode-export-control-suspension-again-alternative-supply-still-lags"
+     }
+    ]
+   },
+   {
+    "symbol": "Ni",
+    "name": "Nickel",
+    "headline": "Indonesia's state fund plans an export service fee",
+    "text": "Danantara Sumberdaya Indonesia plans a single digit dollar per tonne service fee on commodity exports it supervises, starting with coal, palm oil and ferroalloys, its CEO said on Nov 13, with details due in December. Whether nickel products will be covered is not confirmed.",
+    "sources": [
+     {
+      "name": "SMM, Nov 13, 2026",
+      "url": "https://news.metal.com/newscontent/HH3Y6PGKBQA7345DURF6VT2TZB6PYMT75UKPQ6I-smm-nickel-flash-news-indonesias-dsi-plans-export-service-fee-rates-expected-in-december"
+     }
+    ]
+   },
+   {
+    "symbol": "U",
+    "name": "Uranium",
+    "headline": "Uranium holds near $90 a pound",
+    "text": "US uranium futures traded above $91 a pound in November, the highest since February, and held near $90 around Nov 20, Trading Economics reported. Kazatomprom's September quarter sales turnover rose 25% on the year, and the IAEA counts 78 reactors under construction.",
+    "sources": [
+     {
+      "name": "Trading Economics, Nov 2026",
+      "url": "https://tradingeconomics.com/commodity/uranium/news/599976"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Humidity tolerant CO2 capture framework",
+   "org": "Oregon State University",
+   "kind": "Academia",
+   "date": "Nov 17, 2026",
+   "text": "BVR-X keeps water and CO2 separated in its pores and captured CO2 from a humid 4% stream over dozens of cycles. Published in Angewandte Chemie; patent filed.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+  },
+  {
+   "name": "Battery style direct air capture at half the energy",
+   "org": "University of Delaware and RepAir",
+   "kind": "Academia and private",
+   "date": "Oct 27, 2026",
+   "text": "A nickel hydroxide electrode captures CO2 at room temperature using under 1 MWh per tonne. RepAir's pilot in Israel ran more than 5,000 hours. Published in Nature Energy.",
+   "url": "https://www.eurekalert.org/news-releases/1149452"
+  },
+  {
+   "name": "E-methane plant reaches FID",
+   "org": "Nordic Ren-Gas",
+   "kind": "Private",
+   "date": "Nov 2026",
+   "text": "More than €300 million to turn renewable hydrogen and 40,000 tonnes a year of biogenic CO2 into about 190 GWh of e-methane, with waste heat for Tampere.",
+   "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+  },
+  {
+   "name": "Freeze based produced water treatment",
+   "org": "Permian plant near Orla, Texas",
+   "kind": "Private",
+   "date": "Nov 10, 2026",
+   "text": "Treats up to 10,000 barrels a day of brine at about 130,000 ppm by freezing rather than membranes, drawing 5.5 MW; about half the volume comes out usable.",
+   "url": "https://energiesmedia.com/a-permian-well-lifts-5-barrels-produced-water/"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-21",
+   "when": "Nov 21 to 22, 2026",
+   "type": "Policy",
+   "what": "COP31 talks continue in overtime; third draft expected",
+   "where": "Antalya",
+   "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+  },
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "Dec 8 to 9, 2026",
+   "type": "Markets",
+   "what": "US Federal Reserve rate decision, a driver for copper and project finance costs",
+   "where": "Washington",
+   "url": "https://www.cruxinvestor.com/posts/fund-selling-drives-copper-to-seven-month-low-as-premiums-hit-records"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+   "where": "China and United States",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-01",
+   "when": "Feb 1, 2027",
+   "type": "Power",
+   "what": "NRC rule narrowing reactor safeguards committee reviews takes effect",
+   "where": "United States",
+   "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  },
+  {
+   "date": "2033-01-01",
+   "when": "Jan 1, 2033",
+   "type": "Policy",
+   "what": "45Q deadline to begin construction of capture equipment",
+   "where": "United States",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
+ ]
+}
