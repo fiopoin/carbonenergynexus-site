@@ -119,12 +119,25 @@ L += ["", "## Archive and feeds", f"- [Past editions]({SITE}archive/)", f"- [RSS
 L += [f"- [{d['date_long']}: {d['lead']['headline']}]({page_url(d, True)})" for d in list(reversed(data))[:30]]
 open("llms.txt", "w").write("\n".join(L) + "\n")
 
-# Social graphics
+# Social graphics: layouts and palettes rotate by date and slot so posts never look copy pasted
+import re, datetime
 G, PAPER, VOLT, EMBER, AQ, MUTE, LINE, WAT = (26, 34, 38), (238, 242, 241), (242, 193, 78), (228, 87, 46), (43, 138, 158), (174, 185, 183), (58, 70, 76), (95, 184, 230)
+NEXUS, ENERGY = (31, 122, 140), (208, 72, 30)
 def F(w, s): return ImageFont.truetype(f"tools/fonts/{w}.ttf", s)
 SERIF, SERIFB, SANS, SANSM, SANSB = "SourceSerif4-SemiBold", "SourceSerif4-Bold", "IBMPlexSans-Regular", "IBMPlexSans-Medium", "IBMPlexSans-SemiBold"
-lock = Image.open("brand/cen-lockup-white-1200.png").convert("RGBA")
-mark = Image.open("brand/cen-mark-white-400.png").convert("RGBA")
+LOGO = {True: Image.open("brand/cen-lockup-white-1200.png").convert("RGBA"), False: Image.open("brand/cen-lockup-light-1200.png").convert("RGBA")}
+_w = LOGO[True]; LOGO["solid"] = Image.merge("RGBA", (*[Image.new("L", _w.size, 255)] * 3, _w.split()[3]))
+MARK = {True: Image.open("brand/cen-mark-white-400.png").convert("RGBA"), False: Image.open("brand/cen-mark-dark-400.png").convert("RGBA")}
+THEMES = {  # alternating dark and light so each day mixes both
+    "graphite": dict(bg=G, fg=PAPER, mute=MUTE, acc=VOLT, acc2=(79, 176, 194), line=LINE, dark=True),
+    "paper": dict(bg=(244, 246, 245), fg=G, mute=(92, 104, 108), acc=ENERGY, acc2=NEXUS, line=(208, 214, 212), dark=False),
+    "deepteal": dict(bg=(14, 58, 68), fg=PAPER, mute=(160, 196, 202), acc=VOLT, acc2=WAT, line=(40, 88, 98), dark=True),
+    "sand": dict(bg=(250, 243, 228), fg=G, mute=(110, 100, 86), acc=ENERGY, acc2=AQ, line=(228, 216, 190), dark=False),
+    "navy": dict(bg=(18, 30, 52), fg=PAPER, mute=(160, 172, 192), acc=EMBER, acc2=WAT, line=(44, 58, 84), dark=True),
+    "mist": dict(bg=(226, 240, 243), fg=G, mute=(84, 108, 114), acc=NEXUS, acc2=ENERGY, line=(196, 220, 226), dark=False),
+}
+THEME_ORDER = list(THEMES)
+SLOT_IX = {"morning": 0, "midday": 1, "evening": 2}
 
 def wrap(dr, text, font, width):
     words, lines, cur = text.split(), [], ""
@@ -135,54 +148,174 @@ def wrap(dr, text, font, width):
     lines.append(cur)
     return lines
 
-def card(d, s, W, H, path, pad=0):
-    im = Image.new("RGB", (W, H), G); dr = ImageDraw.Draw(im); M = 84
-    lg = lock.resize((620, int(620 * lock.height / lock.width)), Image.LANCZOS); im.paste(lg, (M, M), lg)
-    y = M + lg.height + 70 + pad
-    dr.text((M, y), s["kicker"], font=F(SANSB, 34), fill=VOLT); y += 72
-    hf = F(SERIFB, 88 if H > W * 1.5 else 78)
-    for line in wrap(dr, s["headline"], hf, W - 2 * M):
-        dr.text((M, y), line, font=hf, fill=PAPER); y += int(hf.size * 1.13)
-    y += 44
+def mix(a, b, t): return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
+def paste_logo(im, dark, x, y, w):
+    lg = LOGO[dark].resize((w, int(w * LOGO[dark].height / LOGO[dark].width)), Image.LANCZOS); im.paste(lg, (x, y), lg); return lg.height
+def text_block(dr, x, y, text, font, fill, width, lead=1.13):
+    for line in wrap(dr, text, font, width):
+        dr.text((x, y), line, font=font, fill=fill); y += int(font.size * lead)
+    return y
+def watch_block(dr, s, th, x, y, width, label="What to watch"):
+    if not s.get("watch"): return y
+    dr.text((x, y), label, font=F(SANSB, 30), fill=th["acc2"]); y += 50
+    return text_block(dr, x, y, s["watch"], F(SANS, 38), th["fg"], width, 1.37)
+def footer(im, dr, d, th, W, H, M):
+    dr.line((M, H - M - 96, W - M, H - M - 96), fill=th["line"], width=2)
+    dr.text((M, H - M - 70), d["date_long"], font=F(SANS, 28), fill=th["mute"])
+    dr.text((M, H - M - 30), "carbonenergynexus.com", font=F(SANSB, 36), fill=th["fg"])
+    mk = MARK[th["dark"]].resize((120, 120), Image.LANCZOS); im.paste(mk, (W - M - 120, H - M - 112), mk)
+
+def lay_classic(im, dr, d, s, th, W, H, M, pad, n):
+    y = M + paste_logo(im, th["dark"], M, M, 620) + 70 + pad
+    dr.text((M, y), s["kicker"], font=F(SANSB, 34), fill=th["acc"]); y += 72
+    y = text_block(dr, M, y, s["headline"], F(SERIFB, 88 if H > W * 1.5 else 78), th["fg"], W - 2 * M) + 44
     seg = (W - 2 * M) // 4
     for i, c in enumerate((VOLT, EMBER, AQ, WAT)):
         dr.rectangle((M + i * seg, y, M + (i + 1) * seg - (8 if i < 3 else 0), y + 8), fill=c)
     y += 62
     pf = F(SANSM, 44)
     for i, p in enumerate(s["points"]):
-        c = (VOLT, EMBER, AQ)[i % 3]
-        dr.ellipse((M, y + 16, M + 20, y + 36), fill=c)
-        for line in wrap(dr, p, pf, W - 2 * M - 50):
-            dr.text((M + 48, y), line, font=pf, fill=PAPER); y += 58
-        y += 24
+        dr.ellipse((M, y + 16, M + 20, y + 36), fill=(VOLT, EMBER, AQ)[i % 3])
+        y = text_block(dr, M + 48, y, p, pf, th["fg"], W - 2 * M - 50, 1.32) + 24
+    return watch_block(dr, s, th, M, y + 22, W - 2 * M)
+
+def lay_split(im, dr, d, s, th, W, H, M, pad, n):
+    blocks = [ENERGY, NEXUS] if th["dark"] else [ENERGY, NEXUS, G]
+    blk = blocks[n % len(blocks)]
+    hf = F(SERIFB, 92 if H > W * 1.5 else 82)
+    hl = wrap(dr, s["headline"], hf, W - 2 * M)
+    top = M + 160 + pad
+    bh = top + 64 + len(hl) * int(hf.size * 1.12) + 56
+    dr.rectangle((0, 0, W, bh), fill=blk)
+    paste_logo(im, "solid", M, M, 460)
+    dr.text((M, top), s["kicker"].upper(), font=F(SANSB, 30), fill=mix(blk, (255, 255, 255), 0.8))
+    y = top + 64
+    for line in hl:
+        dr.text((M, y), line, font=hf, fill=(255, 255, 255)); y += int(hf.size * 1.12)
+    y = bh + 60
+    nf, pf = F(SERIFB, 64), F(SANSM, 42)
+    for i, p in enumerate(s["points"]):
+        dr.text((M, y - 10), f"0{i + 1}", font=nf, fill=(th["acc"], th["acc2"], blk if not th["dark"] else th["acc"])[i % 3])
+        y = text_block(dr, M + 120, y, p, pf, th["fg"], W - 2 * M - 120, 1.3) + 30
+    return watch_block(dr, s, th, M, y + 16, W - 2 * M, "Next")
+
+NUM = re.compile(r"[€$£]?\d[\d,.]*(?:%|\s?(?:GWh|GW|MW|Mt|bn|km|M|B|t)\b)?")
+def stat_of(s):
+    for i, p in enumerate(s["points"]):
+        m = NUM.search(p)
+        if m and len(m.group().strip()) >= 2: return i, m.group().strip()
+    return None
+def lay_stat(im, dr, d, s, th, W, H, M, pad, n):
+    st = stat_of(s)
+    if not st: return None
+    i0, num = st
+    y = M + paste_logo(im, th["dark"], M, M, 480) + 48 + pad
+    dr.text((M, y), s["kicker"], font=F(SANSB, 32), fill=th["acc2"]); y += 54
+    sz = 230 if H > W * 1.5 else 200
+    while dr.textlength(num, font=F(SERIFB, sz)) > W - 2 * M: sz -= 10
+    nf = F(SERIFB, sz)
+    dr.text((M, y - int(sz * 0.12)), num, font=nf, fill=th["acc"]); y += int(sz * 1.02)
+    y = text_block(dr, M, y, s["points"][i0], F(SANSM, 44), th["fg"], W - 2 * M, 1.3) + 26
+    dr.rectangle((M, y, M + 140, y + 10), fill=th["acc"]); y += 44
+    y = text_block(dr, M, y, s["headline"], F(SERIFB, 70 if H > W * 1.5 else 58), th["fg"], W - 2 * M, 1.12) + 22
+    pf = F(SANS, 38)
+    for i, p in enumerate(s["points"]):
+        if i == i0: continue
+        dr.rectangle((M, y + 22, M + 22, y + 28), fill=th["acc2"])
+        y = text_block(dr, M + 44, y, p, pf, th["fg"], W - 2 * M - 44, 1.3) + 10
+    return watch_block(dr, s, th, M, y + 14, W - 2 * M)
+
+def lay_editorial(im, dr, d, s, th, W, H, M, pad, n):
+    paste_logo(im, th["dark"], M, M, 440)
+    y = M + 150 + pad
+    kf = F(SANSB, 30)
+    kw = int(dr.textlength(s["kicker"], font=kf))
+    dr.rounded_rectangle((M, y, M + kw + 44, y + 54), radius=27, fill=th["acc"])
+    dr.text((M + 22, y + 9), s["kicker"], font=kf, fill=(255, 255, 255) if th["acc"] != VOLT else G); y += 84
+    hf = F(SERIFB, 96 if H > W * 1.5 else 80)
+    y1 = text_block(dr, M + 44, y, s["headline"], hf, th["fg"], W - 2 * M - 44, 1.1)
+    dr.rectangle((M, y + 10, M + 14, y1 - 14), fill=th["acc"])
+    y = y1 + 40
+    cw, gap = (W - 2 * M - 2 * 28) // 3, 28
+    pf, nf = F(SANSM, 34), F(SERIFB, 54)
+    tint = mix(th["bg"], th["fg"], 0.07)
+    hts = [len(wrap(dr, p, pf, cw - 44)) for p in s["points"]]
+    ch = 100 + max(hts) * 46 + 26
+    for i, p in enumerate(s["points"][:3]):
+        x = M + i * (cw + gap)
+        dr.rounded_rectangle((x, y, x + cw, y + ch), radius=22, fill=tint)
+        dr.text((x + 22, y + 14), str(i + 1), font=nf, fill=(th["acc"], th["acc2"], th["acc"])[i])
+        text_block(dr, x + 22, y + 92, p, pf, th["fg"], cw - 44, 1.35)
+    y += ch + 40
     if s.get("watch"):
-        y += 22
-        dr.text((M, y), "What to watch", font=F(SANSB, 30), fill=AQ if False else (126, 195, 209)); y += 50
+        y = text_block(dr, M, y, s["watch"], F(SERIF, 40), th["fg"], W - 2 * M, 1.3)
+    return y
+
+def lay_tiles(im, dr, d, s, th, W, H, M, pad, n):
+    y = M + paste_logo(im, th["dark"], M, M, 500) + 48 + pad
+    dr.text((M, y), s["kicker"], font=F(SANSB, 34), fill=th["acc"]); y += 60
+    y = text_block(dr, M, y, s["headline"], F(SERIFB, 84 if H > W * 1.5 else 72), th["fg"], W - 2 * M, 1.12) + 36
+    tint = mix(th["bg"], th["fg"], 0.08)
+    pf = F(SANSM, 42)
+    for i, p in enumerate(s["points"]):
+        ls = wrap(dr, p, pf, W - 2 * M - 80)
+        h = 36 + len(ls) * 52
+        dr.rounded_rectangle((M, y, W - M, y + h), radius=18, fill=tint)
+        dr.rounded_rectangle((M, y, M + 14, y + h), radius=7, fill=(VOLT, EMBER, AQ)[(i + n) % 3])
+        yy = y + 16
+        for line in ls:
+            dr.text((M + 48, yy), line, font=pf, fill=th["fg"]); yy += 52
+        y += h + 16
+    y += 12
+    if s.get("watch"):
         wf = F(SANS, 38)
-        for line in wrap(dr, s["watch"], wf, W - 2 * M):
-            dr.text((M, y), line, font=wf, fill=PAPER); y += 52
-    end = y
-    dr.line((M, H - M - 96, W - M, H - M - 96), fill=LINE, width=2)
-    dr.text((M, H - M - 70), d["date_long"], font=F(SANS, 28), fill=MUTE)
-    dr.text((M, H - M - 30), "carbonenergynexus.com", font=F(SANSB, 36), fill=PAPER)
-    mk = mark.resize((120, 120), Image.LANCZOS); im.paste(mk, (W - M - 120, H - M - 112), mk)
+        ls = wrap(dr, s["watch"], wf, W - 2 * M - 64)
+        h = 90 + len(ls) * 50
+        dr.rounded_rectangle((M, y, W - M, y + h), radius=18, outline=th["acc2"], width=3)
+        dr.text((M + 32, y + 20), "What to watch", font=F(SANSB, 30), fill=th["acc2"])
+        text_block(dr, M + 32, y + 68, s["watch"], wf, th["fg"], W - 2 * M - 64, 1.32)
+        y += h
+    return y
+
+LAYOUTS = {"classic": lay_classic, "split": lay_split, "stat": lay_stat, "editorial": lay_editorial, "tiles": lay_tiles}
+LAYOUT_ORDER = list(LAYOUTS)
+FORCE = False
+
+def design_for(d, s, slot):
+    n, k = datetime.date.fromisoformat(d["date"]).toordinal(), SLOT_IX.get(slot, 0)
+    li = (2 * n + k) % len(LAYOUT_ORDER)
+    ti = (n + (0, 3, 1)[k]) % len(THEME_ORDER)
+    lays = [s.get("design", {}).get("layout")] if s.get("design", {}).get("layout") in LAYOUTS else []
+    lays += [LAYOUT_ORDER[(li + j) % len(LAYOUT_ORDER)] for j in range(len(LAYOUT_ORDER))]
+    th = s.get("design", {}).get("theme")
+    return n + k, lays, THEMES[th if th in THEMES else THEME_ORDER[ti]]
+
+def card(d, s, W, H, path, lay, th, n, pad=0):
+    im = Image.new("RGB", (W, H), th["bg"]); dr = ImageDraw.Draw(im); M = 84
+    end = LAYOUTS[lay](im, dr, d, s, th, W, H, M, pad, n)
+    if end is None or (end > H - M - 130 and not FORCE): return None
+    footer(im, dr, d, th, W, H, M)
     im.save(path, optimize=True)
     return end
 
-def render_slot(d, s, base):
-    card(d, s, 1080, 1350, f"social/{base}.png")
-    end = card(d, s, 1080, 1920, f"social/{base}-story.png")
-    free = (1920 - 84 - 150) - end
-    if free > 80:
-        card(d, s, 1080, 1920, f"social/{base}-story.png", pad=free // 2)
+def render_slot(d, s, base, slot):
+    n, lays, th = design_for(d, s, slot)
+    for lay in lays:
+        if card(d, s, 1080, 1350, f"social/{base}.png", lay, th, n) is None: continue
+        end = card(d, s, 1080, 1920, f"social/{base}-story.png", lay, th, n)
+        free = (1920 - 84 - 150) - (end or 0)
+        if end and free > 80:
+            card(d, s, 1080, 1920, f"social/{base}-story.png", lay, th, n, pad=free // 2)
+        return lay
+    raise SystemExit(f"social card for {base} does not fit any layout; shorten the headline or points")
 
 for d in data:
     if "social" not in d: continue
     if d is latest or not os.path.exists(f"social/{d['date']}.png"):
-        render_slot(d, d["social"], d["date"])
+        render_slot(d, d["social"], d["date"], "morning")
         open(f"social/{d['date']}.txt", "w").write(d["social"]["caption"] + "\n")
         for slot, ss in d.get("social_slots", {}).items():
-            render_slot(d, ss, f"{d['date']}-{slot}")
+            render_slot(d, ss, f"{d['date']}-{slot}", slot)
             open(f"social/{d['date']}-{slot}.txt", "w").write(ss["caption"] + "\n")
 
 slots = {"morning": {"image": f"{SITE}social/{latest['date']}.png", "story": f"{SITE}social/{latest['date']}-story.png", "caption": latest["social"]["caption"]}}
