@@ -1,0 +1,676 @@
+{
+ "date": "2026-11-22",
+ "date_long": "November 22, 2026",
+ "edition": 5,
+ "lead": {
+  "kicker": "Water and power",
+  "headline": "The bigger water bill behind new data centers is at the power plant, Western estimates show",
+  "dek": "Nevada researchers put the water tied to generating power for planned data centers at nearly 22,000 acre-feet a year, above the facilities' own direct use. A Kansas utility is weighing a 50% higher rate for giant users, and federal auditors found agencies short on water rules.",
+  "body": [
+   "Desert Research Institute scientists Sean McKenna and Erik Henzl raised their projections for Nevada data center water use after NV Energy's 2026 resource plan listed more than three dozen data centers requesting 16,530 MW by 2036, up from 12 projects seeking 5,900 MW in the 2024 plan. Planned but unbuilt facilities would directly use about 4,200 to 12,800 acre-feet a year under low and medium assumptions. The medium scenario adds nearly 22,000 acre-feet a year of indirect water at power plants, part of it outside Nevada, a figure the researchers call very uncertain.",
+   "Cooling design decides the direct share. Novva's 100 MW closed loop campus in North Las Vegas used less than 2 acre-feet in 2025, while Google's evaporatively cooled Henderson site used about 636 acre-feet in 2024. In Arizona, KJZZ reported that researchers at ASU's Kyl Center see direct use as smaller than commonly assumed, and a Ceres study put data center driven water use at power plants at 14.5 billion gallons a year. Natural gas made 45.6% of Arizona's power in 2024, and the state's utility regulator does not require utilities to report generation water use.",
+   "Water utilities and auditors are moving. WaterOne in Johnson County, Kansas is weighing a rate 50% above its base block for users of 2 million gallons a day or more, though no data center has asked to connect. A GAO report dated Nov 18 found none of the five federal agencies building new data centers fully met energy and water planning requirements, and asked Congress to renew the federal data center law that lapsed Oct 1."
+  ],
+  "nexus": {
+   "electrons": "NV Energy expects data centers to grow from 5% of its sales today to 64% by 2046, and has proposed close to 12,000 MW of new generation, mostly solar, storage and gas.",
+   "molecules": "About 26 GW of behind the meter gas generation is planned for US data centers through 2030. Thermal plants are where most of the indirect water goes, so the fuel mix sets the water bill.",
+   "pore": "Adding CO2 capture to gas fired supply for data centers would need storage and raise water further: the EC Joint Research Centre found capture lifts a plant's water use per unit of output by 50% to 62%.",
+   "water": "Direct use swings by more than 300 times between closed loop and evaporative designs in the Nevada examples, so permits and tariffs that ask for cooling type and power source capture most of the risk."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Ask data center sponsors for water use at the power source, not only on site. Ceres frames unsustainable use as a financial risk for owners."
+   },
+   {
+    "who": "Regulators",
+    "text": "Generation water reporting is the gap. Arizona does not require it, and the federal data center law has lapsed."
+   },
+   {
+    "who": "Industry",
+    "text": "Closed loop and dry cooling cut direct use to almost nothing in Nevada, but shift load to the grid. Price both sides before choosing."
+   },
+   {
+    "who": "Founders",
+    "text": "Tools that tie a data center's hourly load to the water intensity of the plants serving it fill a reporting gap utilities and buyers now face."
+   }
+  ],
+  "sources": [
+   {
+    "name": "Las Vegas Newsroom via 96.3 KKLZ, Nov 20, 2026",
+    "url": "https://963kklz.com/2026/11/20/nevada-data-center-growth-pushes-researchers-to-raise-water-use-estimates/"
+   },
+   {
+    "name": "KJZZ via Wyoming Public Media, Nov 20, 2026",
+    "url": "https://www.wyomingpublicmedia.org/open-spaces/2026-11-20/arizona-data-centers-drive-up-water-demand-but-not-the-way-you-might-think"
+   },
+   {
+    "name": "Johnson County Post, Nov 20, 2026",
+    "url": "https://johnsoncountypost.com/2026/11/20/waterone-rate-data-centers-302235"
+   },
+   {
+    "name": "Smart Water Magazine, Nov 19, 2026",
+    "url": "https://smartwatermagazine.com/news/smart-water-magazine/us-auditor-finds-none-of-five-agencies-with-new-data-centres-fully-met-water-energy-rule"
+   },
+   {
+    "name": "Western Water, Nov 20, 2026",
+    "url": "https://www.western-water.com/2026/11/20/gao-federal-data-centers-fall-short-on-water-energy-rules/"
+   },
+   {
+    "name": "EC Joint Research Centre",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC69474"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "Nevada data center requests",
+   "value": "16,530 MW",
+   "note": "Asked of NV Energy by 2036, up from 5,900 MW",
+   "source": {
+    "name": "Las Vegas Newsroom via 96.3 KKLZ, Nov 20, 2026",
+    "url": "https://963kklz.com/2026/11/20/nevada-data-center-growth-pushes-researchers-to-raise-water-use-estimates/"
+   }
+  },
+  {
+   "label": "Indirect water, Nevada",
+   "value": "~22,000 af/yr",
+   "note": "Medium scenario, power for planned data centers",
+   "source": {
+    "name": "Las Vegas Newsroom via 96.3 KKLZ, Nov 20, 2026",
+    "url": "https://963kklz.com/2026/11/20/nevada-data-center-growth-pushes-researchers-to-raise-water-use-estimates/"
+   }
+  },
+  {
+   "label": "LME copper, week",
+   "value": "-9.23%",
+   "note": "Sixth straight weekly fall, to Nov 21",
+   "source": {
+    "name": "SMM, Nov 22, 2026",
+    "url": "https://news.metal.com/newscontent/M3PGTDHOQRYXTCMQFIS5G3LLTREKVGXCZ6EXHHQ-gold-silver-copper-and-tin-weekly-lines-plunge-metals-broadly-weaken-lme-copper-falls-for-six-consecutive-weeks-silver-weekly-line-drops-over-16-overnight-market"
+   }
+  },
+  {
+   "label": "China NdPr oxide",
+   "value": "¥726,000/t",
+   "note": "SMM, Nov 20",
+   "source": {
+    "name": "Radial Magnet market update, Nov 20, 2026",
+    "url": "https://radialmagnet.com/rare-earth-market-update-november-2026/"
+   }
+  },
+  {
+   "label": "Yttrium oxide gap",
+   "value": "125x",
+   "note": "Europe about $1,150/kg vs China about $9/kg",
+   "source": {
+    "name": "Lowy Institute, The Interpreter, Nov 20, 2026",
+    "url": "https://lowyinstitute.org/the-interpreter/the-yttrium-squeeze-how-a-little-known-rare-earth-became-china-s-latest-geopolitical-lever"
+   }
+  },
+  {
+   "label": "CORSIA units traded",
+   "value": "1.5 Mt",
+   "note": "Phase 1 units on Xpansiv CBL and IATA ACE",
+   "source": {
+    "name": "Carbon Herald, Nov 20, 2026",
+    "url": "https://carbonherald.com/corsia-carbon-credit-trading-on-xpansiv-and-iata-platforms-tops-1-5m-tonnes/"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Capital",
+   "headline": "UK National Wealth Fund backs 1 GW of Scottish battery storage",
+   "text": "The National Wealth Fund announced an equity investment alongside Matrix Renewables in two battery projects at Eccles and Kilmarnock in Scotland, with a combined 1 GW and 2 GWh, SolarQuarter reported on Nov 21. The amount was not disclosed, and Matrix keeps a majority stake in each. Eccles is under construction with commercial operation expected in October 2027; Kilmarnock is due to start construction in December 2026 and operate from September 2028. Both sit on transmission corridors between Scotland and England, where wind output is often constrained.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "State minority equity is moving into merchant style storage. Watch whether it crowds in debt at better terms."
+    },
+    {
+     "who": "Developers",
+     "text": "Sites on constrained Scotland to England corridors are the ones public capital is choosing."
+    }
+   ],
+   "sources": [
+    {
+     "name": "SolarQuarter, Nov 21, 2026",
+     "url": "https://solarquarter.com/2026/11/21/national-wealth-fund-and-matrix-renewables-partner-on-1-gw-battery-storage-projects-in-scotland/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Regulation",
+   "headline": "COP31 presidency puts a final text forward after a second night of overtime",
+   "text": "COP31 President Murat Kurum told a late Saturday plenary in Antalya that the presidency had put forward a text all parties could agree on, with objections due by 03:00 GMT and an approval session set for 06:00 GMT Sunday, Reuters and Al Jazeera reported. The text was not public. Kurum said concerns on fossil fuels and adaptation finance had been addressed. A Nov 19 draft had dropped fossil fuel transition language and added a provisional goal of at least 500 million tonnes a year of carbon capture by 2035. The EU's Wopke Hoekstra said on Saturday there was no compromise yet and that no deal beats a bad one.",
+   "use": [
+    {
+     "who": "Developers",
+     "text": "Check the adopted text for the capture goal and for whether gas counts in the electrification target before citing either."
+    },
+    {
+     "who": "Policy teams",
+     "text": "A capture number in a COP text is a signal, not money. National credits still set project economics."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Al Jazeera with AP and Reuters, Nov 22, 2026",
+     "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+    },
+    {
+     "name": "Reuters via RTE, Nov 22, 2026",
+     "url": "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/"
+    },
+    {
+     "name": "RTE, Nov 21, 2026",
+     "url": "https://www.rte.ie/news/environment/2026/1121/1600094-cop31-turkey/"
+    },
+    {
+     "name": "Carbon Herald, Nov 20, 2026",
+     "url": "https://carbonherald.com/cop31-draft-accord-drops-fossil-fuel-phaseout-language-in-favor-of-carbon-capture/"
+    }
+   ]
+  },
+  {
+   "id": "removals",
+   "lane": "Markets",
+   "headline": "Canada becomes a buyer of permanent carbon removal, listing 19 suppliers",
+   "text": "Canada set up a national master standing offer on Nov 19 that lets federal departments buy permanent carbon removal credits until March 31, 2029, with an option to extend two years, Carbon Herald reported. It is meant to offset federal operations including defence. The 19 domestic suppliers span direct air capture, BECCS, biochar, biomass storage and mineralization, among them Deep Sky, UNDO, Arca and North Star, a planned BECCS project by Meadow Lake Tribal Council and Svante. No volumes or budget were published.",
+   "use": [
+    {
+     "who": "Founders",
+     "text": "A standing offer is a route to market, not a purchase. Ask how call ups will be priced."
+    },
+    {
+     "who": "Investors",
+     "text": "Government demand helps bankability. Wait for disclosed volumes before valuing it."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Carbon Herald, Nov 20, 2026",
+     "url": "https://carbonherald.com/canada-launches-landmark-carbon-removal-procurement-listing-19-approved-suppliers/"
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "lane": "Projects",
+   "headline": "South Africa eSAF plant picks Honeywell carbon capture",
+   "text": "Phelan Green, through Phelan eFuels, contracted Honeywell for its Advanced Solvent Carbon Capture technology and modular engineering for Phase 1 of an e-SAF complex at Saldanha Bay, announced Nov 18. Phase 1, 35,000 tonnes a year, reached FID in September; the complex is planned at up to 140,000 tonnes a year in three phases, within a $2.5 billion wind, solar and storage development. Contract value was not disclosed.",
+   "use": [
+    {
+     "who": "Industry",
+     "text": "E-fuels need a steady CO2 stream. Capture supply is becoming part of fuel offtake talks."
+    },
+    {
+     "who": "Investors",
+     "text": "Phase 1 is a fraction of the plan. Underwrite the first 35,000 tonnes, not the 140,000."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Carbon Herald, Nov 20, 2026",
+     "url": "https://carbonherald.com/phelan-green-taps-honeywell-for-carbon-capture-at-south-africa-esaf-complex/"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "Kansas utility weighs 50% higher rate for the thirstiest users",
+   "text": "WaterOne staff in Johnson County, Kansas proposed charging users of 2 million gallons a day or more its Block 2 rate of $8.40 per thousand gallons, 50% above the $5.60 base, the Johnson County Post reported Nov 20. At 2 million gallons a day, that adds just over $2 million a year. No data center has asked to connect; staff framed it as equity, not scarcity. WaterOne's rated capacity is 180 million gallons a day, and its largest customer today uses 300,000 to over 400,000 gallons a day. Separately, a GAO report found none of the five federal agencies with new data centers fully met energy and water planning rules.",
+   "use": [
+    {
+     "who": "Data center developers",
+     "text": "Water tariffs for giant users are arriving before the users do. Model them in site selection."
+    },
+    {
+     "who": "Regulators",
+     "text": "A usage estimate certified by an engineer, with a fee for exceeding it, is a template worth copying."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Johnson County Post, Nov 20, 2026",
+     "url": "https://johnsoncountypost.com/2026/11/20/waterone-rate-data-centers-302235"
+    },
+    {
+     "name": "Smart Water Magazine, Nov 19, 2026",
+     "url": "https://smartwatermagazine.com/news/smart-water-magazine/us-auditor-finds-none-of-five-agencies-with-new-data-centres-fully-met-water-energy-rule"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  },
+  {
+   "name": "Tampere e-methane plant",
+   "where": "Tampere, Finland",
+   "type": "E-methane from renewable hydrogen and biogenic CO2",
+   "sector": "Hydrogen",
+   "stage": 5,
+   "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+   "url": "https://ren-gas.com/",
+   "source": {
+    "name": "Hydrogen Central, Nov 21, 2026",
+    "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "Wopke Hoekstra",
+   "role": "EU climate commissioner",
+   "text": "Said there was no compromise yet on fossil fuels and carbon capture, and that no deal would be better than a bad one.",
+   "source": {
+    "name": "RTE, Nov 21, 2026",
+    "url": "https://www.rte.ie/news/environment/2026/1121/1600094-cop31-turkey/"
+   }
+  },
+  {
+   "name": "Claude Letourneau",
+   "role": "President and CEO, Svante",
+   "text": "Said Canada's procurement would help unlock investment and that carbon removal could become a strategic Canadian export under Article 6.",
+   "source": {
+    "name": "Carbon Herald, Nov 20, 2026",
+    "url": "https://carbonherald.com/canada-launches-landmark-carbon-removal-procurement-listing-19-approved-suppliers/"
+   }
+  },
+  {
+   "name": "Mandy Wagner",
+   "role": "Assistant general manager, WaterOne",
+   "text": "Said the large user rate is preparation, and that the issue is fairness among customers rather than a shortage of water.",
+   "source": {
+    "name": "Johnson County Post, Nov 20, 2026",
+    "url": "https://johnsoncountypost.com/2026/11/20/waterone-rate-data-centers-302235"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "Federal data centers: agencies fell short on energy and water planning (GAO-27-108971)",
+   "by": "US Government Accountability Office",
+   "date": "Nov 18, 2026",
+   "text": "Of 1,392 federal data centers, seven are new; none of the five agencies building them fully met the energy and water assessment rule. GAO asks Congress to renew or replace the lapsed law.",
+   "url": "https://www.western-water.com/2026/11/20/gao-federal-data-centers-fall-short-on-water-energy-rules/"
+  },
+  {
+   "title": "Updated Nevada data center water projections",
+   "by": "Desert Research Institute",
+   "date": "Nov 2026",
+   "text": "Direct use of 4,200 to 12,800 acre-feet a year for planned facilities, plus nearly 22,000 acre-feet of indirect water at power plants in the medium case.",
+   "url": "https://963kklz.com/2026/11/20/nevada-data-center-growth-pushes-researchers-to-raise-water-use-estimates/"
+  },
+  {
+   "title": "Overview of Data Center Development in the Pass Area",
+   "by": "San Gorgonio Pass Water Agency (Jagger Mattox)",
+   "date": "Nov 13, 2026",
+   "text": "A hypothetical 100 MW data center would use about 419 acre-feet a year directly, about 5% of Banning's water, but nearly six times the city's 2024 electricity.",
+   "url": "https://www.prnewswire.com/news-releases/new-research-puts-data-center-water-demands-in-perspective-302938526.html"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "Data centers' bigger water use is at the power plant",
+  "points": [
+   "22,000 acre-feet a year, indirect",
+   "16,530 MW asked of NV Energy",
+   "Kansas weighs a 50% higher rate"
+  ],
+  "watch": "Whether utilities must report power plant water use.",
+  "caption": "22,000 acre-feet a year. That is the water Nevada researchers tie to generating power for planned data centers, more than the sites would use directly, as utilities and auditors start pricing data center water.\n\nRead the nexus angle at carbonenergynexus.com\n\n#DataCenters #Water #EnergyWater #Nevada #PowerGrid"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "State fund backs 1 GW of Scottish batteries",
+   "points": [
+    "2 GWh across two sites",
+    "Eccles online by Oct 2027",
+    "Kilmarnock build starts in Dec"
+   ],
+   "watch": "Whether public equity draws cheaper debt.",
+   "caption": "Who is putting money into Scottish batteries? The UK National Wealth Fund, taking equity alongside Matrix Renewables in 1 GW and 2 GWh at Eccles and Kilmarnock, on the Scotland to England transmission corridors.\n\nFull brief: carbonenergynexus.com\n\n#EnergyStorage #BESS #Scotland #ProjectFinance"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "COP31 text goes to a Sunday approval",
+   "points": [
+    "Fossil fuel row still open",
+    "Draft capture goal: 500 Mt by 2035",
+    "EU says no deal beats a bad one"
+   ],
+   "watch": "Whether the approval session holds without objection.",
+   "caption": "A final text, but no gavel yet. The COP31 presidency put a package forward after a second night of overtime in Antalya and set a Sunday approval session; the fossil fuel and carbon capture wording is still the fight.\n\nToday's edition: carbonenergynexus.com\n\n#COP31 #ClimatePolicy #CarbonCapture #Antalya"
+  }
+ },
+ "minerals": {
+  "intro": "Rare earth prices in China and outside it keep drifting apart while copper posted its sixth straight weekly fall. Export licences, not geology, are setting many of the spreads.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "NdPr near ¥726,000 a tonne as heavy rare earth licences stay",
+    "text": "SMM put Chinese NdPr oxide at about 726,000 yuan a tonne on Nov 20, while North American and European NdPr slipped below the $110 a kilogram floor in US defence agreements with MP Materials and Lynas, a Radial Magnet market update said. China's Nov 9 extension of its export control pause to Jan 10, 2027 covers five elements, but April 2025 licensing on seven medium and heavy rare earths, including dysprosium and terbium, remains. Lynas sold dysprosium and terbium at A$102.1 a kilogram in the September quarter, up from A$54.3.",
+    "sources": [
+     {
+      "name": "Radial Magnet market update, Nov 20, 2026",
+      "url": "https://radialmagnet.com/rare-earth-market-update-november-2026/"
+     },
+     {
+      "name": "ad-hoc-news, Nov 13, 2026",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/lynas-stock-china-keeps-heavy-rare-earth-export-curbs/70506605"
+     }
+    ]
+   },
+   {
+    "symbol": "Y",
+    "name": "Yttrium",
+    "headline": "Yttrium costs 125 times more in Europe than in China",
+    "text": "Yttrium oxide sells for about $9 a kilogram in China and about $1,150 in Europe, the Lowy Institute's Interpreter reported Nov 20. China's yttrium oxide exports to Japan reportedly fell 98% in the first nine months of 2026, from 887 tonnes to 18, and global exports fell 26%.",
+    "sources": [
+     {
+      "name": "Lowy Institute, The Interpreter, Nov 20, 2026",
+      "url": "https://lowyinstitute.org/the-interpreter/the-yttrium-squeeze-how-a-little-known-rare-earth-became-china-s-latest-geopolitical-lever"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "LME copper falls 9% in a week, its sixth weekly loss in a row",
+    "text": "LME copper dropped 2.9% in the Nov 21 overnight session and 9.23% over the week, its sixth straight weekly decline, while Shanghai copper fell 12.03% on the week, SMM reported. Earlier in the week Chinese spot premiums hit records as inventories stayed low.",
+    "sources": [
+     {
+      "name": "SMM, Nov 22, 2026",
+      "url": "https://news.metal.com/newscontent/M3PGTDHOQRYXTCMQFIS5G3LLTREKVGXCZ6EXHHQ-gold-silver-copper-and-tin-weekly-lines-plunge-metals-broadly-weaken-lme-copper-falls-for-six-consecutive-weeks-silver-weekly-line-drops-over-16-overnight-market"
+     }
+    ]
+   },
+   {
+    "symbol": "Li",
+    "name": "Lithium",
+    "headline": "Lithium carbonate sits near a one year low ahead of hydroxide futures",
+    "text": "Chinese lithium carbonate fell below 90,000 yuan a tonne in November, the lowest in more than a year, and steadied near 91,000 by Nov 20, Trading Economics reported, after SMM revised its method and added 175,000 tonnes to its estimate of Chinese stocks. Mysteel said Zimbabwe's export ban in early 2027 is a coming supply risk. Lithium hydroxide futures start on the Guangzhou Futures Exchange on Nov 26.",
+    "sources": [
+     {
+      "name": "Trading Economics, Nov 17 to 20, 2026",
+      "url": "https://tradingeconomics.com/commodity/lithium/news/601905"
+     },
+     {
+      "name": "Mysteel, Nov 19, 2026",
+      "url": "https://www.mysteel.net/analysis/5149502-lithium-daily-lithium-carbonate-transactions-slow-when-lithium-prices-increase-bearish-sentiment-dominates-still"
+     }
+    ]
+   },
+   {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "headline": "China's cobalt imports jump 41% in October",
+    "text": "China imported about 907 tonnes of unwrought cobalt in October, up 41% on September, led by Indonesia at 482 tonnes, and exported about 429 tonnes, down 19%, SMM reported Nov 20. Rotterdam prices near $18 a pound against a rebound in China made exports unprofitable.",
+    "sources": [
+     {
+      "name": "SMM, Nov 20, 2026",
+      "url": "https://news.metal.com/newscontent/ABB6IJXM724FIIFWIBVQZAXSYSYM6PSOON2RY7A-smm-analysis-chinas-unwrought-cobalt-imports-rose-41-mom-in-october-2026-while-exports-fell-19-mom"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Zeolite direct air capture raises over $10 million",
+   "org": "Planet Savers, from University of Tokyo research",
+   "kind": "Academia and private",
+   "date": "Nov 20, 2026",
+   "text": "A JPY 1.08 billion pre-Series A led by ANRI plus more than JPY 1.6 billion in public grants for an electrically driven zeolite DAC system; a storage project with Carbon Vault in South Australia is planned.",
+   "url": "https://carbonherald.com/japanese-dac-startup-planet-savers-secures-over-10m-to-scale-its-zeolite-based-technology/"
+  },
+  {
+   "name": "Solvent capture for an e-SAF plant",
+   "org": "Honeywell and Phelan Green",
+   "kind": "Private",
+   "date": "Nov 18, 2026",
+   "text": "Honeywell's Advanced Solvent Carbon Capture and modular engineering chosen for Phase 1, 35,000 tonnes a year, of a Saldanha Bay e-SAF complex.",
+   "url": "https://carbonherald.com/phelan-green-taps-honeywell-for-carbon-capture-at-south-africa-esaf-complex/"
+  },
+  {
+   "name": "Humidity tolerant CO2 capture framework",
+   "org": "Oregon State University",
+   "kind": "Academia",
+   "date": "Nov 17, 2026",
+   "text": "BVR-X keeps water and CO2 apart in its pores and captured CO2 from a humid 4% stream over dozens of cycles. Published in Angewandte Chemie.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+  },
+  {
+   "name": "Battery style direct air capture at half the energy",
+   "org": "University of Delaware and RepAir",
+   "kind": "Academia and private",
+   "date": "Oct 27, 2026",
+   "text": "A nickel hydroxide electrode captures CO2 at room temperature using under 1 MWh per tonne; RepAir's pilot ran more than 5,000 hours. Published in Nature Energy.",
+   "url": "https://www.eurekalert.org/news-releases/1149452"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "Dec 8 to 9, 2026",
+   "type": "Markets",
+   "what": "US Federal Reserve rate decision, a driver for copper and project finance costs",
+   "where": "Washington",
+   "url": "https://www.cruxinvestor.com/posts/fund-selling-drives-copper-to-seven-month-low-as-premiums-hit-records"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+   "where": "China and United States",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-01",
+   "when": "Feb 1, 2027",
+   "type": "Power",
+   "what": "NRC rule narrowing reactor safeguards committee reviews takes effect",
+   "where": "United States",
+   "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  },
+  {
+   "date": "2033-01-01",
+   "when": "Jan 1, 2033",
+   "type": "Policy",
+   "what": "45Q deadline to begin construction of capture equipment",
+   "where": "United States",
+   "url": "https://www.whitecase.com/insight-alert/irs-expands-and-extends-safe-harbor-reporting-storage-carbon-oxide-under-ss-45q"
+  }
+ ]
+}
