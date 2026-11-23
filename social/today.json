@@ -1,20 +1,20 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "slots": {
   "morning": {
-   "image": "https://carbonenergynexus.com/social/2026-11-22.png",
-   "story": "https://carbonenergynexus.com/social/2026-11-22-story.png",
-   "caption": "22,000 acre-feet a year. That is the water Nevada researchers tie to generating power for planned data centers, more than the sites would use directly, as utilities and auditors start pricing data center water.\n\nRead the nexus angle at carbonenergynexus.com\n\n#DataCenters #Water #EnergyWater #Nevada #PowerGrid"
+   "image": "https://carbonenergynexus.com/social/2026-11-23.png",
+   "story": "https://carbonenergynexus.com/social/2026-11-23-story.png",
+   "caption": "Two extra days in Antalya, but no cover decision. COP31 closed on Sunday after the EU and others rejected a text that named no fossil fuels, taking a draft 500 Mt a year capture goal and a 35% electrification target with it.\n\nWhy it matters for capital and water: carbonenergynexus.com\n\n#COP31 #ClimatePolicy #CarbonCapture #Electrification #EnergyTransition"
   },
   "midday": {
-   "image": "https://carbonenergynexus.com/social/2026-11-22-midday.png",
-   "story": "https://carbonenergynexus.com/social/2026-11-22-midday-story.png",
-   "caption": "Who is putting money into Scottish batteries? The UK National Wealth Fund, taking equity alongside Matrix Renewables in 1 GW and 2 GWh at Eccles and Kilmarnock, on the Scotland to England transmission corridors.\n\nFull brief: carbonenergynexus.com\n\n#EnergyStorage #BESS #Scotland #ProjectFinance"
+   "image": "https://carbonenergynexus.com/social/2026-11-23-midday.png",
+   "story": "https://carbonenergynexus.com/social/2026-11-23-midday-story.png",
+   "caption": "Data center developers and pipeline and power builders all have a stake: the US Senate passed S. 5653 on Nov 19, limiting court challenges, protecting issued permits and making data centers pay for their grid upgrades. The House decides next.\n\nToday's edition: carbonenergynexus.com\n\n#Permitting #DataCenters #PowerGrid #EnergyPolicy"
   },
   "evening": {
-   "image": "https://carbonenergynexus.com/social/2026-11-22-evening.png",
-   "story": "https://carbonenergynexus.com/social/2026-11-22-evening-story.png",
-   "caption": "A final text, but no gavel yet. The COP31 presidency put a package forward after a second night of overtime in Antalya and set a Sunday approval session; the fossil fuel and carbon capture wording is still the fight.\n\nToday's edition: carbonenergynexus.com\n\n#COP31 #ClimatePolicy #CarbonCapture #Antalya"
+   "image": "https://carbonenergynexus.com/social/2026-11-23-evening.png",
+   "story": "https://carbonenergynexus.com/social/2026-11-23-evening-story.png",
+   "caption": "London, Monday morning: three month LME copper dipped below $12,000 a ton, its weakest since March, after a 9% weekly fall as investors questioned AI data center demand. It recovered to about $12,240 by 03:40 GMT.\n\nFull brief: carbonenergynexus.com\n\n#Copper #Metals #CriticalMinerals #DataCenters"
   }
  }
 }

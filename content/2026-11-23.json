@@ -1,0 +1,708 @@
+{
+ "date": "2026-11-23",
+ "date_long": "November 23, 2026",
+ "edition": 6,
+ "lead": {
+  "kicker": "Climate talks",
+  "headline": "COP31 ends without a deal, and its carbon capture and electrification goals fall with it",
+  "dek": "Talks in Antalya closed on Sunday, two days late, with no cover decision after the EU and others objected to a text that named no fossil fuels. A draft goal of 500 million tonnes a year of capture by 2035 and a 35% electrification target went down with it.",
+  "body": [
+   "COP31 President Murat Kurum told the closing plenary on Sunday, Nov 22 that there was no agreement on the text, UN News and ABC News reported. The EU formally objected, joined by the UK, Norway, Panama, Belize, the Marshall Islands and Vanuatu, among others. Ireland's Darragh O'Brien, speaking for the EU, said it was unconscionable that the text made no reference to fossil fuels. China and India accepted the text, and Ghana, for the African Group, said it would not block it. The last summit to end without an overarching agreement was Copenhagen in 2009, IntelliNews noted.",
+   "The failed text carried two numbers this publication's readers track. Its third draft set a target of at least 500 million tonnes a year of industrial carbon capture by 2035, pushed by Saudi Arabia and other oil producers, Reuters reported via IntelliNews. It also aimed for electricity to reach 35% of final energy by 2035, up from about 23% in 2026, while calling for the greatest possible use of clean energy rather than renewables alone, ABC reported. Vanuatu's minister said capture had been singled out for attention it did not deserve.",
+   "Some pieces survived. Parties adopted a just transition mechanism, with views due by March 15, 2027, and a finance reporting timetable, The Planet Brief reported. Outside the formal text, at least 75 countries backed a voluntary 35 by 35 electrification pledge, and the presidency listed voluntary agreements on geothermal and greener freight corridors. Unresolved items go to the Bonn talks in June 2027, ahead of COP32 in Addis Ababa from Nov 8 to 19, 2027."
+  ],
+  "nexus": {
+   "electrons": "The 35% electrification by 2035 goal lives on only as a voluntary pledge backed by at least 75 countries, per the UN, with no agreed definition of clean power behind it.",
+   "molecules": "The final text referred back to the COP28 UAE Consensus but named no fossil fuels. Russia said it could not agree to any fossil fuel wording, Reuters reported.",
+   "pore": "No multilateral capture number exists after Antalya. Storage economics still rest on national credits and rules such as 45Q, Norway's and the EU's frameworks, not a COP target.",
+   "water": "The text dropped a $120 billion adaptation finance figure and only agreed to discuss tripling by 2035. Drought is already an energy issue: US Southwest hydropower ran 28% below its 10 year average from April to August, EIA data show."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Do not price a global capture target into storage projects. Underwrite on national credits and offtake."
+   },
+   {
+    "who": "Regulators",
+    "text": "With no cover decision, national rules and the March 15 just transition submissions carry the agenda into Bonn."
+   },
+   {
+    "who": "Industry",
+    "text": "Capture's role is contested in the talks. Expect scrutiny of capture claims in national plans and buyer contracts."
+   },
+   {
+    "who": "Founders",
+    "text": "Electrification and geothermal moved through voluntary pledges. Map which signatory countries back them with money."
+   }
+  ],
+  "sources": [
+   {
+    "name": "UN News, Nov 22, 2026",
+    "url": "https://news.un.org/en/story/2026/11/1168855"
+   },
+   {
+    "name": "ABC News, Nov 22, 2026",
+    "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+   },
+   {
+    "name": "IntelliNews via Yahoo, Nov 23, 2026",
+    "url": "https://www.yahoo.com/news/world/articles/cop31-turkey-collapses-without-deal-000618355.html"
+   },
+   {
+    "name": "The Planet Brief, Nov 22, 2026",
+    "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+   },
+   {
+    "name": "Euronews, Nov 22, 2026",
+    "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks"
+   },
+   {
+    "name": "MIT Technology Review, Nov 17, 2026",
+    "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "COP31 cover decision",
+   "value": "None",
+   "note": "Talks ended Nov 22, two days late",
+   "source": {
+    "name": "UN News, Nov 22, 2026",
+    "url": "https://news.un.org/en/story/2026/11/1168855"
+   }
+  },
+  {
+   "label": "Electrification pledge",
+   "value": "75+ countries",
+   "note": "Voluntary 35% by 2035 goal, per the UN",
+   "source": {
+    "name": "ABC News, Nov 22, 2026",
+    "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+   }
+  },
+  {
+   "label": "Loss and damage fund",
+   "value": "$2.8bn asked",
+   "note": "176 requests vs a $342m allocation",
+   "source": {
+    "name": "The Planet Brief, Nov 22, 2026",
+    "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+   }
+  },
+  {
+   "label": "US Senate permitting vote",
+   "value": "62-33",
+   "note": "S. 5653 passed Nov 19; House next",
+   "source": {
+    "name": "NewsOn6, Nov 20, 2026",
+    "url": "https://www.newson6.com/national-politics-oklahoma/senate-passes-permitting-reform-bill-just-as-its-chief-advocate-makes-for-the-exit"
+   }
+  },
+  {
+   "label": "LME copper, Monday low",
+   "value": "$11,959/t",
+   "note": "Weakest since March after a 9% week",
+   "source": {
+    "name": "Investing.com, Nov 22, 2026",
+    "url": "https://www.investing.com/news/commodities-news/lme-copper-briefly-falls-below-12000-a-ton-as-tech-selloff-deepens-5044280"
+   }
+  },
+  {
+   "label": "Southwest hydropower",
+   "value": "-28%",
+   "note": "Apr to Aug vs 10 year average, EIA",
+   "source": {
+    "name": "MIT Technology Review, Nov 17, 2026",
+    "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Capital",
+   "headline": "US Senate passes permitting bill 62 to 33; data centers would pay for grid upgrades",
+   "text": "The Senate passed S. 5653, the Bipartisan American Affordability and Jobs Act, on Thursday night, Nov 19, by 62 to 33, NACo and NewsOn6 reported. The bill narrows what triggers NEPA review, sets deadlines for each review step, limits court challenges and bars the federal government from rescinding permits for already authorized projects. Data centers would cover the full cost of the grid upgrades they need, and a new DOE program would advise communities on data center energy and water impacts. Sen. James Lankford put projects waiting on federal permits at about $1 trillion, his estimate. The House returns Nov 30, and its vote before Democrats take both chambers in January is uncertain.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "Permit certainty is the capital story. Watch whether the anti rescission clause survives the House."
+    },
+    {
+     "who": "Data center developers",
+     "text": "Budget for full grid upgrade costs in US sites if this becomes law."
+    }
+   ],
+   "sources": [
+    {
+     "name": "NACo, Nov 20, 2026",
+     "url": "https://www.naco.org/news/us-senate-passes-bipartisan-american-affordability-and-jobs-act"
+    },
+    {
+     "name": "NewsOn6, Nov 20, 2026",
+     "url": "https://www.newson6.com/national-politics-oklahoma/senate-passes-permitting-reform-bill-just-as-its-chief-advocate-makes-for-the-exit"
+    },
+    {
+     "name": "Dakota Free Press, Nov 20, 2026",
+     "url": "https://dakotafreepress.com/2026/11/20/senate-approves-permitting-reform-bill-heads-to-house-for-debate/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Regulation",
+   "headline": "Outside the failed text, electrification and geothermal move by voluntary pledge",
+   "text": "With no cover decision at COP31, the presidency pointed to voluntary agreements: a 35 by 35 Global Electrification Pledge that the UN said at least 75 countries backed, plus pacts on geothermal by 2050 and greener freight corridors, ABC News and IntelliNews reported. Co-president Chris Bowen of Australia called the overall outcome very disappointing. Parties did adopt a just transition mechanism and a finance reporting timetable, and the Standing Committee on Finance reports on the collective finance goal in November 2027. COP32 is set for Addis Ababa, Nov 8 to 19, 2027.",
+   "use": [
+    {
+     "who": "Policy teams",
+     "text": "Voluntary pledges have no compliance path. Track which signatories add them to national plans."
+    },
+    {
+     "who": "Geothermal developers",
+     "text": "A named geothermal pact gives a hook for development bank conversations."
+    }
+   ],
+   "sources": [
+    {
+     "name": "ABC News, Nov 22, 2026",
+     "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+    },
+    {
+     "name": "IntelliNews via Yahoo, Nov 23, 2026",
+     "url": "https://www.yahoo.com/news/world/articles/cop31-turkey-collapses-without-deal-000618355.html"
+    },
+    {
+     "name": "The Planet Brief, Nov 22, 2026",
+     "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "lane": "Water",
+   "headline": "Southwest hydropower ran 28% below average as Lake Powell neared turbine limits",
+   "text": "The US Southwest generated 28% less hydropower from April to August than its 10 year average, MIT Technology Review reported on Nov 17, citing EIA data. At the end of September Lake Powell stood at 3,518 feet, less than 1% above the level needed to run water through the Glen Canyon turbines, and Lake Mead was 9% above Hoover Dam's 950 foot minimum. The two plants produced nearly 7 TWh in 2025. EIA projects 2026 hydropower at its lowest in more than a decade, falling further in 2027. October and early November floods lifted Lake Powell more than 20 feet from its September low.",
+   "use": [
+    {
+     "who": "Utilities",
+     "text": "Plan for hydro shortfalls with firm replacement capacity, which in the West often means gas or storage."
+    },
+    {
+     "who": "Investors",
+     "text": "Storage and transmission into the Southwest gain value as hydro becomes less reliable."
+    }
+   ],
+   "sources": [
+    {
+     "name": "MIT Technology Review, Nov 17, 2026",
+     "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/"
+    },
+    {
+     "name": "US EIA, Today in Energy",
+     "url": "https://www.eia.gov/todayinenergy/detail.php?id=68445"
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "lane": "Projects",
+   "headline": "Dow's four reactor Texas nuclear plant holds a permit but not yet an FID",
+   "text": "The NRC approved a construction permit on Nov 9 for the Long Mott Generating Station at Dow's Seadrift site in Texas: four X-energy Xe-100 reactors of 80 MWe or 200 MWt each, up to 320 MWe, supplying power and high temperature steam, DOE said Nov 13. It is the first construction permit for a high temperature gas cooled reactor in more than 50 years and the first advanced nuclear plant approved at a US industrial site. Dow still has to take a final investment decision; construction could begin before 2030, Inside Climate News reported Nov 22, and DOE targets first energy in the early 2030s.",
+   "use": [
+    {
+     "who": "Industry",
+     "text": "Process steam, not just power, is the case here. Heat users should watch Dow's FID."
+    },
+    {
+     "who": "Investors",
+     "text": "A permit removes licensing risk for construction only; an operating licence comes later."
+    }
+   ],
+   "sources": [
+    {
+     "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+     "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+    },
+    {
+     "name": "Inside Climate News via ZME Science, Nov 22, 2026",
+     "url": "https://www.zmescience.com/ecology/climate/new-nuclear-reactors-approved-texas/"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  },
+  {
+   "name": "Tampere e-methane plant",
+   "where": "Tampere, Finland",
+   "type": "E-methane from renewable hydrogen and biogenic CO2",
+   "sector": "Hydrogen",
+   "stage": 5,
+   "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+   "url": "https://ren-gas.com/",
+   "source": {
+    "name": "Hydrogen Central, Nov 21, 2026",
+    "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+   }
+  },
+  {
+   "name": "Long Mott Generating Station",
+   "where": "Seadrift, Texas",
+   "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+   "sector": "Power",
+   "stage": 4,
+   "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+   "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+   "source": {
+    "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+    "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "António Guterres",
+   "role": "UN Secretary-General",
+   "text": "Called the outcome a deeply disappointing setback and said that while there may be no consensus in the room, there is no ambiguity in the science.",
+   "source": {
+    "name": "UN News, Nov 22, 2026",
+    "url": "https://news.un.org/en/story/2026/11/1168855"
+   }
+  },
+  {
+   "name": "Darragh O'Brien",
+   "role": "Irish minister, speaking for the EU",
+   "text": "Said it was unconscionable that the text made no reference to fossil fuels or to transitioning away from them.",
+   "source": {
+    "name": "ABC News, Nov 22, 2026",
+    "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+   }
+  },
+  {
+   "name": "Li Gao",
+   "role": "Head of China's delegation",
+   "text": "Said the result should not be seen as a failure of the multilateral process.",
+   "source": {
+    "name": "IntelliNews via Yahoo, Nov 23, 2026",
+    "url": "https://www.yahoo.com/news/world/articles/cop31-turkey-collapses-without-deal-000618355.html"
+   }
+  },
+  {
+   "name": "James Lankford",
+   "role": "US Senator, Oklahoma",
+   "text": "Said federal permits take three to five years against about one year for a state road, and that the bill now sits with the House.",
+   "source": {
+    "name": "NewsOn6, Nov 20, 2026",
+    "url": "https://www.newson6.com/national-politics-oklahoma/senate-passes-permitting-reform-bill-just-as-its-chief-advocate-makes-for-the-exit"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "Southwest hydropower generation, April to August 2026",
+   "by": "US Energy Information Administration",
+   "date": "Nov 2026",
+   "text": "Generation in the Southwest ran 28% below the 10 year average; EIA sees 2026 hydropower at a decade low and lower again in 2027.",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=68445"
+  },
+  {
+   "title": "Life cycle greenhouse gas reduction in BECCS processes for green hydrogen production",
+   "by": "Jeonbuk National University, Bioresource Technology vol. 456",
+   "date": "Released Nov 5, 2026",
+   "text": "Biomass hydrogen with capture reached net negative emissions with grid or on site power; the on site design gave a substantially larger benefit under the study's assumptions.",
+   "url": "https://www.eurekalert.org/news-releases/1150488"
+  },
+  {
+   "title": "Federal data centers: agencies fell short on energy and water planning (GAO-27-108971)",
+   "by": "US Government Accountability Office",
+   "date": "Nov 18, 2026",
+   "text": "Of 1,392 federal data centers, seven are new; none of the five agencies building them fully met the energy and water assessment rule. GAO asks Congress to renew or replace the lapsed law.",
+   "url": "https://www.western-water.com/2026/11/20/gao-federal-data-centers-fall-short-on-water-energy-rules/"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "COP31 ends with no deal on fossil fuels",
+  "points": [
+   "EU, UK and Norway objected",
+   "Draft 500 Mt capture goal falls",
+   "COP32: Addis Ababa, Nov 2027"
+  ],
+  "watch": "Bonn talks in June 2027 inherit the open items.",
+  "caption": "Two extra days in Antalya, but no cover decision. COP31 closed on Sunday after the EU and others rejected a text that named no fossil fuels, taking a draft 500 Mt a year capture goal and a 35% electrification target with it.\n\nWhy it matters for capital and water: carbonenergynexus.com\n\n#COP31 #ClimatePolicy #CarbonCapture #Electrification #EnergyTransition"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "US Senate passes permitting bill, 62 to 33",
+   "points": [
+    "62 votes to 33 in the Senate",
+    "Data centers pay grid upgrades",
+    "House returns Nov 30"
+   ],
+   "watch": "Whether the House votes before January.",
+   "caption": "Data center developers and pipeline and power builders all have a stake: the US Senate passed S. 5653 on Nov 19, limiting court challenges, protecting issued permits and making data centers pay for their grid upgrades. The House decides next.\n\nToday's edition: carbonenergynexus.com\n\n#Permitting #DataCenters #PowerGrid #EnergyPolicy"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Copper slips below $12,000 on AI demand doubts",
+   "points": [
+    "Monday low: $11,959 a ton",
+    "About 9% lost last week",
+    "Weakest level since March"
+   ],
+   "watch": "Fed rate signals and US tariff plans for refined copper.",
+   "caption": "London, Monday morning: three month LME copper dipped below $12,000 a ton, its weakest since March, after a 9% weekly fall as investors questioned AI data center demand. It recovered to about $12,240 by 03:40 GMT.\n\nFull brief: carbonenergynexus.com\n\n#Copper #Metals #CriticalMinerals #DataCenters"
+  }
+ },
+ "minerals": {
+  "intro": "Copper opened the week below $12,000 a ton, while policy deadlines set the pace elsewhere: China's pause on its gallium, germanium and antimony export ban to the US ends Nov 27, and Indonesia plans a smaller 2027 nickel ore quota.",
+  "items": [
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "Myanmar's rare earth mining sites multiply as buyers circle",
+    "text": "Kachin State mining sites have tripled since the 2021 coup, and UN figures cited by Eurasia Review show Shan State sites rising from 12 to 85. Myanmar's rare earth exports to China from 2017 to 2024 topped $4 billion, 84% of it after the coup, the Nov 22 analysis said, noting that China does about 90% of world refining and that the US, India and Russia have all sought access.",
+    "sources": [
+     {
+      "name": "Eurasia Review, Nov 22, 2026",
+      "url": "https://www.eurasiareview.com/22112026-global-interest-in-myanmars-rare-earths-might-overshadow-implementation-of-icjs-ruling-on-rohingyas-analysis/"
+     }
+    ]
+   },
+   {
+    "symbol": "Dy",
+    "name": "Heavy rare earths",
+    "headline": "Canadian rare earth developers still face funding and permitting gaps",
+    "text": "Ucore Rare Metals, owner of the Bokan Dotson Ridge heavy rare earth project in Alaska, is valued at about C$213 million and is pre revenue; Mkango, whose Songwe Hill project in Malawi targets Nd, Pr, Dy and Tb, at about C$253 million; and Aclara at about C$504 million, JournalArta reported Nov 22. Financing and permits remain unresolved for all three.",
+    "sources": [
+     {
+      "name": "JournalArta, Nov 22, 2026",
+      "url": "https://journalarta.com/en/2026/11/22/canadian-rare-earth-stocks-project-hurdles/"
+     }
+    ]
+   },
+   {
+    "symbol": "Cu",
+    "name": "Copper",
+    "headline": "LME copper dips below $12,000 a ton after its worst week in 19 months",
+    "text": "Three month LME copper fell to about $11,959 a ton early Monday, its weakest since March, then recovered to $12,240.50 by 03:40 GMT, Investing.com reported. It lost about 9% last week on doubts over AI data center spending, a stronger dollar and rate expectations. The record was near $15,000 in September, Business Upturn noted, and uncertainty over US tariffs on refined copper persists.",
+    "sources": [
+     {
+      "name": "Investing.com, Nov 22, 2026",
+      "url": "https://www.investing.com/news/commodities-news/lme-copper-briefly-falls-below-12000-a-ton-as-tech-selloff-deepens-5044280"
+     },
+     {
+      "name": "Business Upturn, Nov 23, 2026",
+      "url": "https://businessupturn.com/finance/stock-market/copper-slips-below-12-000-a-ton-on-lme-after-9-weekly-fall-as-doubts-over-ai-demand-deepen"
+     }
+    ]
+   },
+   {
+    "symbol": "§",
+    "name": "Gallium, germanium, antimony",
+    "headline": "China's pause on its US export ban for gallium and germanium ends Nov 27",
+    "text": "China's one year suspension of the ban on shipping gallium, germanium, antimony and superhard materials to the US closes Nov 27, 2026, with no public sign yet of an extension, Startup Fortune reported. The ban on dual use exports to US military users stays in force, and the licensing regimes for gallium and germanium from 2023 and antimony from 2024 remain.",
+    "sources": [
+     {
+      "name": "Startup Fortune, Oct 31, 2026",
+      "url": "https://startupfortune.com/chinas-one-year-pause-on-critical-mineral-export-bans-nears-its-deadline/"
+     }
+    ]
+   },
+   {
+    "symbol": "Ni",
+    "name": "Nickel",
+    "headline": "Indonesia signals a smaller 2027 nickel ore quota",
+    "text": "Indonesia's mines ministry said the 2027 nickel ore quota will be lower than the revised 2026 quota of 290 to 300 million tonnes, citing smelter cuts and a global surplus, Mysteel reported Oct 30. SMM put the surplus near 800,000 tonnes on Nov 4 and said 2027 cuts may be more aggressive than this year's. No figure has been published.",
+    "sources": [
+     {
+      "name": "Mysteel, Oct 30, 2026",
+      "url": "https://www.mysteel.net/news/5146767-flash-esdm-2027-rkab-quota-setting-to-consider-global-nickel-surplus"
+     },
+     {
+      "name": "SMM, Nov 4, 2026",
+      "url": "https://news.metal.com/newscontent/104204762-smm-nickel-flash-news-indonesia-signals-more-aggressive-nickel-ore-rkab-cuts-for-2027"
+     }
+    ]
+   },
+   {
+    "symbol": "U",
+    "name": "Uranium",
+    "headline": "Uranium futures hold near nine month highs",
+    "text": "US uranium futures traded above $91 a pound in November, the highest since February, Trading Economics reported Nov 10, as Kazatomprom's September quarter sales rose 25% and the IAEA counted 78 reactors under construction. Cameco's long term price indicator stood at $98 a pound at the end of October, InvestorNews reported.",
+    "sources": [
+     {
+      "name": "Trading Economics, Nov 10, 2026",
+      "url": "https://tradingeconomics.com/commodity/uranium/news/599976"
+     },
+     {
+      "name": "InvestorNews, Nov 8, 2026",
+      "url": "https://investornews.com/critical-minerals-rare-earths/critical-minerals-report-two-elections-and-two-deadlines-changed-the-arithmetic-for-western-supply/"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Zinc air battery with a vitamin B12 catalyst",
+   "org": "University of Córdoba",
+   "kind": "Academia",
+   "date": "Nov 18, 2026",
+   "text": "Vitamin B12 bound to carbon nanotubes served as the air electrode catalyst in a rechargeable zinc air prototype that lasted up to 250 cycles. Published in Journal of Materials Chemistry A; still at the research stage.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm"
+  },
+  {
+   "name": "Zeolite direct air capture raises over $10 million",
+   "org": "Planet Savers, from University of Tokyo research",
+   "kind": "Academia and private",
+   "date": "Nov 20, 2026",
+   "text": "A JPY 1.08 billion pre-Series A led by ANRI plus more than JPY 1.6 billion in public grants for an electrically driven zeolite DAC system; a storage project with Carbon Vault in South Australia is planned.",
+   "url": "https://carbonherald.com/japanese-dac-startup-planet-savers-secures-over-10m-to-scale-its-zeolite-based-technology/"
+  },
+  {
+   "name": "First US permit for a high temperature gas cooled reactor in 50 years",
+   "org": "X-energy and Dow",
+   "kind": "Private",
+   "date": "Nov 9, 2026",
+   "text": "NRC construction permit for four Xe-100 units at Seadrift, Texas, each 80 MWe or 200 MWt, designed to supply industrial steam as well as power.",
+   "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+  },
+  {
+   "name": "Humidity tolerant CO2 capture framework",
+   "org": "Oregon State University",
+   "kind": "Academia",
+   "date": "Nov 17, 2026",
+   "text": "BVR-X keeps water and CO2 apart in its pores and captured CO2 from a humid 4% stream over dozens of cycles. Published in Angewandte Chemie.",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-11-27",
+   "when": "Nov 27, 2026",
+   "type": "Minerals",
+   "what": "China's suspension of its gallium, germanium and antimony export ban to the US ends unless extended",
+   "where": "China and United States",
+   "url": "https://startupfortune.com/chinas-one-year-pause-on-critical-mineral-export-bans-nears-its-deadline/"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+   "where": "China and United States",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-01-12",
+   "when": "Jan 12 to 14, 2027",
+   "type": "Renewables",
+   "what": "World Future Energy Summit, part of Abu Dhabi Sustainability Week",
+   "where": "Abu Dhabi",
+   "url": "https://netzerocompare.com/events/world-future-energy-summit-2027"
+  },
+  {
+   "date": "2027-02-01",
+   "when": "Feb 1, 2027",
+   "type": "Power",
+   "what": "NRC rule narrowing reactor safeguards committee reviews takes effect",
+   "where": "United States",
+   "url": "https://www.ans.org/news/2026-11-17/article-8585/nrc-issues-final-rule-on-acrs-reform/"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-03-15",
+   "when": "Mar 15, 2027",
+   "type": "Policy",
+   "what": "Deadline for UNFCCC submissions on the new just transition mechanism",
+   "where": "UNFCCC",
+   "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-08",
+   "when": "Nov 8 to 19, 2027",
+   "type": "Policy",
+   "what": "COP32 UN climate conference",
+   "where": "Addis Ababa",
+   "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  }
+ ]
+}

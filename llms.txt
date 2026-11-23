@@ -7,12 +7,11 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [The bigger water bill behind new data centers is at the power plant, Western estimates show](https://carbonenergynexus.com/): November 22, 2026. 22,000 acre-feet a year. That is the water Nevada researchers tie to generating power for planned data centers, more than the sites would use directly, as utilities and auditors start pricing data center water.
-- [Capital: UK National Wealth Fund backs 1 GW of Scottish battery storage](https://carbonenergynexus.com/#money)
-- [Regulation: COP31 presidency puts a final text forward after a second night of overtime](https://carbonenergynexus.com/#world)
-- [Markets: Canada becomes a buyer of permanent carbon removal, listing 19 suppliers](https://carbonenergynexus.com/#removals)
-- [Projects: South Africa eSAF plant picks Honeywell carbon capture](https://carbonenergynexus.com/#projects)
-- [Water: Kansas utility weighs 50% higher rate for the thirstiest users](https://carbonenergynexus.com/#water)
+- [COP31 ends without a deal, and its carbon capture and electrification goals fall with it](https://carbonenergynexus.com/): November 23, 2026. Two extra days in Antalya, but no cover decision. COP31 closed on Sunday after the EU and others rejected a text that named no fossil fuels, taking a draft 500 Mt a year capture goal and a 35% electrification target with it.
+- [Capital: US Senate passes permitting bill 62 to 33; data centers would pay for grid upgrades](https://carbonenergynexus.com/#money)
+- [Regulation: Outside the failed text, electrification and geothermal move by voluntary pledge](https://carbonenergynexus.com/#world)
+- [Water: Southwest hydropower ran 28% below average as Lake Powell neared turbine limits](https://carbonenergynexus.com/#water)
+- [Projects: Dow's four reactor Texas nuclear plant holds a permit but not yet an FID](https://carbonenergynexus.com/#projects)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,6 +19,7 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 23, 2026: COP31 ends without a deal, and its carbon capture and electrification goals fall with it](https://carbonenergynexus.com/archive/2026-11-23.html)
 - [November 22, 2026: The bigger water bill behind new data centers is at the power plant, Western estimates show](https://carbonenergynexus.com/archive/2026-11-22.html)
 - [November 21, 2026: The EU and UK agree to link their carbon markets, with cross-border CO2 storage next in line](https://carbonenergynexus.com/archive/2026-11-21.html)
 - [November 20, 2026: COP31's new draft drops fossil fuel language but keeps a carbon capture goal](https://carbonenergynexus.com/archive/2026-11-20.html)
