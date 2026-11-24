@@ -1,0 +1,728 @@
+{
+ "date": "2026-11-24",
+ "date_long": "November 24, 2026",
+ "edition": 7,
+ "lead": {
+  "kicker": "Critical minerals",
+  "headline": "Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build",
+  "dek": "The world's largest cobalt supplier is swapping its quota for a full suspension with no end date, to be reviewed after four months. In northern Thailand, arsenic linked to mining across the border has more than 20,000 households on trucked water.",
+  "body": [
+   "Congo's strategic minerals regulator, ARECOMS, will suspend all cobalt exports from Nov 30, 2026, until further notice, SMM reported on Nov 23, citing Bloomberg. The decision was adopted at a Nov 9 meeting and covers industrial and artisanal mines, The Northern Miner reported. The regulator cited a sharp fall in prices since June, slower consumption growth, rising inventories and speculation, and said it will reassess after four months and revise how export quotas are allocated in the meantime.",
+   "It is Congo's second halt. The country supplied about three quarters of the world's mined cobalt before it first stopped shipments in February 2025, then switched to quotas in October 2025 with a 2026 ceiling of 96,600 tonnes. Cobalt hydroxide in Asia was $14.50 a pound of contained cobalt on Oct 14, down 43% since July 1, the Cobalt Institute said, citing Benchmark data. China's CMOC produced 99,694 tonnes of cobalt in the first nine months of 2026 but sold 12,661 tonnes, while Glencore's output fell by more than half to 13,700 tonnes.",
+   "Supply controls are tightening elsewhere too. Thailand plans to stop exporting chemicals used in rare earth mining to Myanmar after river contamination in its north, Reuters reported Nov 23. Vietnam broke ground the same day on a $60 million plant in Hai Phong to separate 10,000 tonnes a year of rare earth oxides from late 2028. And USA Rare Earth told the SEC that Brazil's new critical minerals law, whose rules are not yet written, could affect its Serra Verde operations."
+  ],
+  "nexus": {
+   "electrons": "Battery and magnet supply chains feel each control first. Niron Magnetics plans a $1.8 billion iron nitride magnet plant in Alabama, an alternative to neodymium magnets, with output from 2029.",
+   "molecules": "Mining runs on reagents. Thailand's deputy prime minister said on Nov 21 it would block exports of rare earth mining chemicals to Myanmar and other relevant countries, Reuters reported.",
+   "pore": "Some supply comes from the subsurface instead of a pit. Element3's Midland, Texas plant has extracted lithium from Permian produced water since February 2026, using Oak Ridge licensed technology.",
+   "water": "Thai authorities are trucking water to more than 20,000 households after arsenic reached 30 times the safe limit in Mae Sai tap water, Al Jazeera reported. Naresuan University traced much of the Sai River sediment to gold mining in Myanmar."
+  },
+  "use": [
+   {
+    "who": "Investors",
+    "text": "Cobalt price support now depends on a ban with no end date. Watch the four month review and CMOC's unsold stock."
+   },
+   {
+    "who": "Regulators",
+    "text": "Export controls, reagent bans and investment screening are converging. Map which apply to each supply route."
+   },
+   {
+    "who": "Industry",
+    "text": "Battery makers should check cobalt contracts for force majeure and origin terms before Nov 30."
+   },
+   {
+    "who": "Founders",
+    "text": "Rare earth free magnets and brine lithium are drawing capital. Proof of cost at scale is still ahead."
+   }
+  ],
+  "sources": [
+   {
+    "name": "SMM, Nov 23, 2026",
+    "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+   },
+   {
+    "name": "The Northern Miner, Nov 23, 2026",
+    "url": "https://www.northernminer.com/news/congo-resumes-cobalt-export-ban-as-prices-slide/1003898164/"
+   },
+   {
+    "name": "Reuters via Mining.com.au, Nov 23, 2026",
+    "url": "https://mining.com.au/thailand-to-block-exports-of-chemicals-for-rare-earth-mining"
+   },
+   {
+    "name": "Al Jazeera, Nov 18, 2026",
+    "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand"
+   },
+   {
+    "name": "TNGlobal, Nov 23, 2026",
+    "url": "https://technode.global/2026/11/23/vietnams-60m-rare-earth-plant-breaks-ground-targets-10000-tons-a-year"
+   },
+   {
+    "name": "The Rio Times, Nov 23, 2026",
+    "url": "https://riotimesonline.com/usa-rare-earth-flags-brazil-critical-minerals-law-risk"
+   },
+   {
+    "name": "SMM, Nov 24, 2026",
+    "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+   },
+   {
+    "name": "Industrial Info Resources, Oct 19, 2026",
+    "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/texas-plant-to-extract-lithium-from-oil-wastewater--363848"
+   }
+  ]
+ },
+ "signals": [
+  {
+   "label": "Congo cobalt exports",
+   "value": "Halted Nov 30",
+   "note": "No end date; review after four months",
+   "source": {
+    "name": "SMM, Nov 23, 2026",
+    "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+   }
+  },
+  {
+   "label": "Cobalt hydroxide, Asia",
+   "value": "$14.50/lb",
+   "note": "Oct 14, down 43% since July 1",
+   "source": {
+    "name": "The Northern Miner, Nov 23, 2026",
+    "url": "https://www.northernminer.com/news/congo-resumes-cobalt-export-ban-as-prices-slide/1003898164/"
+   }
+  },
+  {
+   "label": "Thai households on trucked water",
+   "value": "20,000+",
+   "note": "Arsenic in Mae Sai supply, Chiang Rai",
+   "source": {
+    "name": "Al Jazeera, Nov 18, 2026",
+    "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand"
+   }
+  },
+  {
+   "label": "Vietnam rare earth plant",
+   "value": "10,000 t/yr",
+   "note": "$60m, Hai Phong, operating from Q4 2028",
+   "source": {
+    "name": "TNGlobal, Nov 23, 2026",
+    "url": "https://technode.global/2026/11/23/vietnams-60m-rare-earth-plant-breaks-ground-targets-10000-tons-a-year"
+   }
+  },
+  {
+   "label": "Niron magnet complex",
+   "value": "$1.8bn",
+   "note": "Dothan, Alabama; production from 2029",
+   "source": {
+    "name": "SMM, Nov 24, 2026",
+    "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+   }
+  },
+  {
+   "label": "California geothermal grants",
+   "value": "Up to $18m",
+   "note": "Exploration and drilling; opens Jan 2027",
+   "source": {
+    "name": "California Energy Commission, Nov 23, 2026",
+    "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+   }
+  }
+ ],
+ "briefs": [
+  {
+   "id": "money",
+   "lane": "Capital",
+   "headline": "Niron plans a $1.8 billion rare earth free magnet complex in Alabama as rare earth stocks rebound",
+   "text": "Niron Magnetics plans to invest $1.8 billion in a permanent magnet complex in Dothan, Alabama, its second site, SMM reported Nov 24. Construction is expected to begin in 2028, with production from 2029 at 10,000 tonnes a year of iron nitride magnets, an alternative to neodymium magnets, for AI, automotive, defence and industrial buyers; about 700 jobs are expected. Rare earth stocks rallied with the wider market on Monday: USA Rare Earth rose 13% to $7.09 and MP Materials 6% to $35.98 in afternoon trading, 24/7 Wall St. reported, though both remain down for the year. On its Nov 5 call MP said it does not expect today's elevated prices for several medium and heavy rare earths to persist indefinitely.",
+   "use": [
+    {
+     "who": "Investors",
+     "text": "A 2028 construction start means years of execution risk. Weigh it against magnet price floors in existing offtakes."
+    },
+    {
+     "who": "Motor makers",
+     "text": "Ask for test data on iron nitride performance in your duty cycle before planning a switch."
+    }
+   ],
+   "sources": [
+    {
+     "name": "SMM, Nov 24, 2026",
+     "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+    },
+    {
+     "name": "24/7 Wall St., Nov 23, 2026",
+     "url": "https://247wallst.com/investing/2026/11/23/usa-rare-earth-jumps-13-as-critical-minerals-rebound-with-the-market-united-states-antimony-rallies-9-mp-materials-gains-6/"
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "lane": "Water",
+   "headline": "Thailand moves to cut off mining chemicals to Myanmar as arsenic reaches its taps",
+   "text": "Thailand plans to stop exporting chemicals used in rare earth mining to Myanmar amid cross border pollution, Deputy Prime Minister Yodchanan Wongsawat said on Saturday, Reuters reported. The government also plans to designate the Thai side of the Kok River a pollution control zone. Authorities are supplying clean water to more than 20,000 households after arsenic in Mae Sai district's waterworks reached 30 times the safe limit and untreated Sai River water 25 times the drinking water limit, Al Jazeera and AFP reported Nov 18. Researchers at Naresuan University traced much of the Sai River's arsenic laden sediment to gold mining in Myanmar. A joint Thai and Myanmar working group meets on Nov 25 and 26, The Nation reported, and Reuters said Thailand, China and Myanmar plan talks from Nov 24 to 26.",
+   "use": [
+    {
+     "who": "Magnet and battery buyers",
+     "text": "Ask suppliers whether feedstock traces to Shan or Kachin State mines. Pollution claims are becoming a trade issue."
+    },
+    {
+     "who": "Water utilities",
+     "text": "Upstream mining can outrun treatment. Arsenic monitoring and backup sources are the near term response."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via Mining.com.au, Nov 23, 2026",
+     "url": "https://mining.com.au/thailand-to-block-exports-of-chemicals-for-rare-earth-mining"
+    },
+    {
+     "name": "Al Jazeera, Nov 18, 2026",
+     "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand"
+    },
+    {
+     "name": "The Nation, Nov 17, 2026",
+     "url": "https://www.nationthailand.com/news/40073609"
+    },
+    {
+     "name": "The Nation, Nov 17, 2026",
+     "url": "https://www.nationthailand.com/news/40073593"
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "lane": "Projects",
+   "headline": "California offers up to $18 million for geothermal exploration and drilling",
+   "text": "California will make up to $18 million available through the California Energy Commission for geothermal exploration and drilling, with a competitive solicitation opening in January 2027, the state said Nov 23. Three to four projects are expected to win $4.5 million to $6 million each, and applicants must match at least 100% of the state money, so at least $36 million in total is expected. The Department of Conservation is putting $1.1 million into resource mapping and will start an overhaul of geothermal well rules in early December, which it called the most comprehensive in more than 50 years. A public workshop is set for Dec 15 and awards for May or June 2027.",
+   "use": [
+    {
+     "who": "Geothermal developers",
+     "text": "Line up matching capital now; the 100% match is the gate."
+    },
+    {
+     "who": "Drillers and service firms",
+     "text": "Comment on the well rule overhaul in December; it sets technical terms for decades."
+    }
+   ],
+   "sources": [
+    {
+     "name": "California Energy Commission, Nov 23, 2026",
+     "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+    }
+   ]
+  },
+  {
+   "id": "removals",
+   "lane": "Markets",
+   "headline": "Canada opens a carbon removal buying program to 19 offers, but nothing is bought yet",
+   "text": "Canada's Treasury Board announced a national master standing offer on Nov 19 with 19 offers from 17 suppliers across five categories: direct air capture with storage (4), BECCS (3), biochar (5), other biomass removal (4) and enhanced mineralization (3), The Deep Dive reported. A standing offer is not a contract; federal bodies must issue call ups before purchases bind. Ottawa has pledged at least C$10 million of removal purchases by 2030, about $7 million, Argus reported. Remova Carbon Systems of Calgary holds half the potential BECCS dollars for a plant near Whitecourt, Alberta, targeting about 20,000 tonnes a year from 2028. The offers run to March 31, 2029, with an option to 2031.",
+   "use": [
+    {
+     "who": "Removal suppliers",
+     "text": "A place on the standing offer is a sales channel, not revenue. Target departments with fleet emissions."
+    },
+    {
+     "who": "Buyers",
+     "text": "Government category splits are a useful benchmark for portfolio mixes."
+    }
+   ],
+   "sources": [
+    {
+     "name": "The Deep Dive, Nov 19, 2026",
+     "url": "https://thedeepdive.ca/ottawa-opens-carbon-removal-buying-program-to-19-projects-but-purchases-arent-guaranteed/"
+    },
+    {
+     "name": "Argus Media, Nov 11, 2026",
+     "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2902958-cop-canada-set-to-buy-carbon-removal-credits"
+    }
+   ]
+  },
+  {
+   "id": "policy",
+   "lane": "Regulation",
+   "headline": "Negotiators say Saudi Arabia led resistance to fossil fuel wording at COP31",
+   "text": "Negotiators from Europe, small island states, Latin America, Asia and Africa told Reuters that Saudi Arabia was at the forefront of resisting language on reducing reliance on fossil fuels at COP31, the main reason no political agreement was reached, Dawn reported Nov 24. About 130 countries had backed a proposal that any deal mention transitioning away from fossil fuels and drop the reference to carbon capture, Reuters and Carbon Herald reported. The failed text had set at least 500 million tonnes a year of capture capacity by 2035. The Turkish presidency said no group or country received preferential treatment; Saudi representatives did not immediately comment.",
+   "use": [
+    {
+     "who": "CCS developers",
+     "text": "Capture is now politically coded in UN talks. Expect buyers and lenders to ask how projects relate to fossil output."
+    },
+    {
+     "who": "Policy teams",
+     "text": "Bonn in June 2027 is the next chance to revisit the wording."
+    }
+   ],
+   "sources": [
+    {
+     "name": "Reuters via Dawn, Nov 24, 2026",
+     "url": "https://www.dawn.com/news/2046686/saudi-arabias-influence-loomed-large-over-cop31-negotiator"
+    },
+    {
+     "name": "Carbon Herald, Nov 23, 2026",
+     "url": "https://carbonherald.com/cop31-ends-without-deal-as-carbon-capture-and-removal-divide-deepens/"
+    }
+   ]
+  }
+ ],
+ "tracker": [
+  {
+   "name": "Northern Lights Phase II",
+   "where": "Norway",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr",
+   "source": {
+    "name": "Northern Lights",
+    "url": "https://norlights.com/news/northern-lights-signs-agreement-with-oresundskraft-for-co2-transport-and-storage-from-sweden/"
+   },
+   "url": "https://norlights.com/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Porthos",
+   "where": "Netherlands",
+   "type": "Transport and storage",
+   "stage": 6,
+   "last": "Still under construction, the European Commission said Nov 17",
+   "source": {
+    "name": "European Commission",
+    "url": "https://energy.ec.europa.eu/news/focus-industrial-carbon-management-how-it-works-and-why-we-need-it-2026-11-17_en"
+   },
+   "url": "https://www.porthosco2.nl/en/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Pathways CCS",
+   "where": "Alberta, Canada",
+   "type": "Capture, pipeline, storage",
+   "stage": 3,
+   "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+   "source": {
+    "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+    "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+   },
+   "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Havstjerne",
+   "where": "Norwegian North Sea",
+   "type": "Storage",
+   "stage": 3,
+   "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+   "source": {
+    "name": "World Oil",
+    "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+   },
+   "url": "https://harbourenergy.com/operations/ccs/norway",
+   "sector": "Carbon storage"
+  },
+  {
+   "name": "Cape Station",
+   "where": "Beaver County, Utah",
+   "type": "Enhanced geothermal power",
+   "sector": "Geothermal",
+   "stage": 7,
+   "last": "First 33 MW GeoBlock reached commercial operation Sept 30, the first greenfield enhanced geothermal plant to do so; Phase 1 is about 100 MW",
+   "url": "https://fervoenergy.com/",
+   "source": {
+    "name": "ThinkGeoEnergy",
+    "url": "https://www.thinkgeoenergy.com/fervo-energy-announces-commercial-operation-of-first-geothermal-power-plant-in-cape-station-utah/"
+   }
+  },
+  {
+   "name": "Project Obsidian",
+   "where": "Central Oregon",
+   "type": "Superhot geothermal power",
+   "sector": "Geothermal",
+   "stage": 4,
+   "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+   "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+   "source": {
+    "name": "Bend Bulletin, Nov 17, 2026",
+    "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+   }
+  },
+  {
+   "name": "Tampere e-methane plant",
+   "where": "Tampere, Finland",
+   "type": "E-methane from renewable hydrogen and biogenic CO2",
+   "sector": "Hydrogen",
+   "stage": 5,
+   "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+   "url": "https://ren-gas.com/",
+   "source": {
+    "name": "Hydrogen Central, Nov 21, 2026",
+    "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+   }
+  },
+  {
+   "name": "Long Mott Generating Station",
+   "where": "Seadrift, Texas",
+   "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+   "sector": "Power",
+   "stage": 4,
+   "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+   "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+   "source": {
+    "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+    "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+   }
+  },
+  {
+   "name": "Niron Magnetics Dothan complex",
+   "where": "Dothan, Alabama",
+   "type": "Rare earth free iron nitride permanent magnets",
+   "sector": "Minerals",
+   "stage": 1,
+   "last": "$1.8 billion plan announced Nov 24: construction from 2028, 10,000 t a year from 2029, about 700 jobs",
+   "url": "https://nironmagnetics.com/",
+   "source": {
+    "name": "SMM, Nov 24, 2026",
+    "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+   }
+  }
+ ],
+ "voices": [
+  {
+   "name": "Darragh O'Brien",
+   "role": "Irish climate minister, speaking for the EU",
+   "text": "Told Reuters the summit had been hijacked by some oil states.",
+   "source": {
+    "name": "Reuters via Dawn, Nov 24, 2026",
+    "url": "https://www.dawn.com/news/2046686/saudi-arabias-influence-loomed-large-over-cop31-negotiator"
+   }
+  },
+  {
+   "name": "Yodchanan Wongsawat",
+   "role": "Thai Deputy Prime Minister",
+   "text": "Said blocking chemical exports was part of using every possible avenue against rare earth production bound for Myanmar and other relevant countries.",
+   "source": {
+    "name": "Reuters via Mining.com.au, Nov 23, 2026",
+    "url": "https://mining.com.au/thailand-to-block-exports-of-chemicals-for-rare-earth-mining"
+   }
+  },
+  {
+   "name": "Michael Rosenthal",
+   "role": "COO, MP Materials",
+   "text": "Said the company does not expect today's elevated prices for several medium and heavy rare earths to last indefinitely.",
+   "source": {
+    "name": "24/7 Wall St., Nov 23, 2026",
+    "url": "https://247wallst.com/investing/2026/11/23/usa-rare-earth-jumps-13-as-critical-minerals-rebound-with-the-market-united-states-antimony-rallies-9-mp-materials-gains-6/"
+   }
+  }
+ ],
+ "research": [
+  {
+   "title": "Assessing the carbon emissions and energy consumption of US hyperscale data centers",
+   "by": "Harvard T.H. Chan School of Public Health, Nature Sustainability",
+   "date": "Nov 16, 2026",
+   "text": "Satellite imagery found 403 hyperscale sites using 68 to 99 TWh from May 2024 to April 2025, about 1.8% of US electricity and 25.7 Mt of CO2; about 54% of the power was fossil generated.",
+   "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/"
+  },
+  {
+   "title": "Ocean takes a growing share of carbon emissions while land absorption stalls",
+   "by": "Scripps Institution of Oceanography, UC San Diego, Science",
+   "date": "Nov 12, 2026",
+   "text": "Thirty years of O2 and CO2 records show the ocean took up 2.8 billion tonnes of CO2 a year from 1990 to 2019, about 35% of fossil emissions, while the land sink peaked around 2009 and has generally declined.",
+   "url": "https://www.eurekalert.org/news-releases/1151751"
+  },
+  {
+   "title": "Tracing arsenic in the Sai River",
+   "by": "Naresuan University, reported by Al Jazeera and AFP",
+   "date": "Nov 2026",
+   "text": "Chemical analysis and satellite modelling traced much of the arsenic laden sediment in the Sai River, a Mekong tributary, to gold mining across the border in Myanmar.",
+   "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand"
+  }
+ ],
+ "calendar": [],
+ "calendar_sources": [],
+ "social": {
+  "kicker": "Morning: the nexus",
+  "headline": "Congo halts cobalt exports again from Nov 30",
+  "points": [
+   "No end date; review in 4 months",
+   "Hydroxide down 43% since July 1",
+   "2026 quota was 96,600 t"
+  ],
+  "watch": "Whether buyers draw on stockpiles before the halt.",
+  "caption": "96,600 tonnes was Congo's 2026 cobalt export ceiling. From Nov 30 the quota gives way to a full suspension with no end date, as prices slide and inventories build, the regulator said.\n\nRead the nexus angle at carbonenergynexus.com\n\n#Cobalt #CriticalMinerals #Batteries #Mining #DRC"
+ },
+ "social_slots": {
+  "midday": {
+   "kicker": "Midday: the money",
+   "headline": "Niron plans $1.8bn rare earth free magnet plant",
+   "points": [
+    "Dothan, Alabama",
+    "10,000 t a year from 2029",
+    "About 700 jobs"
+   ],
+   "watch": "Whether rare earth stocks hold Monday's rebound.",
+   "caption": "Can magnets skip rare earths? Niron Magnetics plans to spend $1.8 billion on an iron nitride magnet complex in Dothan, Alabama, with 10,000 tonnes a year from 2029.\n\nFull brief: carbonenergynexus.com\n\n#RareEarths #Magnets #Manufacturing #CriticalMinerals",
+   "icon": "factory"
+  },
+  "evening": {
+   "kicker": "Evening: the world",
+   "headline": "Thailand moves to curb mining chemicals to Myanmar",
+   "points": [
+    "20,000+ households on trucked water",
+    "Arsenic 25 times limit in Sai River",
+    "Joint talks Nov 25 to 26"
+   ],
+   "watch": "What the Thai and Myanmar working group agrees this week.",
+   "caption": "More than 20,000 households in northern Thailand are on trucked water after arsenic linked to mining across the border reached their taps. Bangkok now plans to stop exporting rare earth mining chemicals to Myanmar.\n\nWhy it matters for water and minerals: carbonenergynexus.com\n\n#Water #RareEarths #Thailand #Mekong #Mining",
+   "icon": "drop"
+  }
+ },
+ "minerals": {
+  "intro": "Producers are reaching for controls as prices fall: Congo moves from a cobalt quota to a full export halt on Nov 30, Thailand targets reagents for Myanmar's rare earth mines, and new processing capacity breaks ground in Vietnam.",
+  "items": [
+   {
+    "symbol": "Co",
+    "name": "Cobalt",
+    "headline": "Congo suspends cobalt exports from Nov 30, with a review after four months",
+    "text": "ARECOMS adopted the suspension on Nov 9, citing a sharp price fall since June, slower consumption and rising inventories, and will revise quota allocation during the halt, SMM and The Northern Miner reported Nov 23. The 2026 export ceiling had been 96,600 tonnes. Cobalt hydroxide was $14.50 a pound on Oct 14, down 43% since July 1.",
+    "sources": [
+     {
+      "name": "SMM, Nov 23, 2026",
+      "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+     },
+     {
+      "name": "The Northern Miner, Nov 23, 2026",
+      "url": "https://www.northernminer.com/news/congo-resumes-cobalt-export-ban-as-prices-slide/1003898164/"
+     }
+    ]
+   },
+   {
+    "symbol": "Nd",
+    "name": "Rare earths",
+    "headline": "Vietnam breaks ground on a $60 million rare earth oxide plant in Hai Phong",
+    "text": "Khanh An Industrial Park JSC began building a 14 hectare plant with five hydrometallurgical separation lines and 10,000 tonnes a year of capacity for individual oxides above 99% purity, TNGlobal reported Nov 23. Prime Minister Le Minh Hung attended; commercial operation is set from Q4 2028.",
+    "sources": [
+     {
+      "name": "TNGlobal, Nov 23, 2026",
+      "url": "https://technode.global/2026/11/23/vietnams-60m-rare-earth-plant-breaks-ground-targets-10000-tons-a-year"
+     }
+    ]
+   },
+   {
+    "symbol": "§",
+    "name": "Rare earths policy",
+    "headline": "Thailand to block rare earth mining chemicals to Myanmar; USA Rare Earth flags Brazil law",
+    "text": "Thailand will stop exporting chemicals used in rare earth mining to Myanmar over river pollution, Reuters reported Nov 23. Separately, USA Rare Earth told the SEC that Brazil's Law 15,506/2026, which lets future rules set export conditions and screen foreign control, could affect its Serra Verde mine; no restriction is in place yet, The Rio Times reported.",
+    "sources": [
+     {
+      "name": "Reuters via Mining.com.au, Nov 23, 2026",
+      "url": "https://mining.com.au/thailand-to-block-exports-of-chemicals-for-rare-earth-mining"
+     },
+     {
+      "name": "The Rio Times, Nov 23, 2026",
+      "url": "https://riotimesonline.com/usa-rare-earth-flags-brazil-critical-minerals-law-risk"
+     }
+    ]
+   },
+   {
+    "symbol": "U",
+    "name": "Uranium",
+    "headline": "Cyberattack disrupts Peninsula Energy's Lance uranium mine in Wyoming",
+    "text": "Peninsula said a Nov 20 cyberattack hit Lance's operating server and requested an ASX trading halt; corporate systems were unaffected and it has not said whether production stopped, The Northern Miner reported Nov 23. It had already withdrawn its 2026 target of 400,000 to 500,000 lb U3O8 because of low well flows.",
+    "sources": [
+     {
+      "name": "The Northern Miner, Nov 23, 2026",
+      "url": "https://www.northernminer.com/news/cyberattack-hits-peninsulas-wyoming-uranium-mine/1003898172/"
+     }
+    ]
+   },
+   {
+    "symbol": "Li",
+    "name": "Lithium",
+    "headline": "Permian produced water becomes a lithium source in Midland, Texas",
+    "text": "Element3's plant in Midland started up in February 2026 and makes battery grade lithium carbonate from oilfield produced water using technology licensed from Oak Ridge National Laboratory, Industrial Info reported. It is not yet at capacity. The US produces under 1% of world lithium, per USGS.",
+    "sources": [
+     {
+      "name": "Industrial Info Resources, Oct 19, 2026",
+      "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/texas-plant-to-extract-lithium-from-oil-wastewater--363848"
+     }
+    ]
+   }
+  ]
+ },
+ "innovation": [
+  {
+   "name": "Satellite census of US hyperscale data center power",
+   "org": "Harvard T.H. Chan School of Public Health",
+   "kind": "Academia",
+   "date": "Nov 16, 2026",
+   "text": "Satellite imagery identified 403 hyperscale sites and estimated 68 to 99 TWh a year of use, two to three times a 2018 emissions estimate. Published in Nature Sustainability.",
+   "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/"
+  },
+  {
+   "name": "Oxygen records separate ocean and land carbon sinks",
+   "org": "Scripps Institution of Oceanography",
+   "kind": "Academia",
+   "date": "Nov 12, 2026",
+   "text": "More than 30 years of atmospheric O2 data show a growing ocean sink and a stalled land sink. Published in Science.",
+   "url": "https://www.eurekalert.org/news-releases/1151751"
+  },
+  {
+   "name": "Iron nitride magnets at 10,000 tonnes a year",
+   "org": "Niron Magnetics",
+   "kind": "Private",
+   "date": "Nov 24, 2026",
+   "text": "Plans a $1.8 billion complex in Dothan, Alabama to make rare earth free permanent magnets from 2029.",
+   "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+  },
+  {
+   "name": "Direct lithium extraction from oilfield water",
+   "org": "Element3 with Oak Ridge National Laboratory",
+   "kind": "Academia and private",
+   "date": "Oct 19, 2026",
+   "text": "Seven ORNL licensed technologies turn Permian produced water into battery grade lithium carbonate at a commercial plant in Midland, Texas.",
+   "url": "https://www.industrialinfo.com/iirenergy/industry-news/article/texas-plant-to-extract-lithium-from-oil-wastewater--363848"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-11-26",
+   "when": "Nov 26, 2026",
+   "type": "Minerals",
+   "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange",
+   "where": "Guangzhou",
+   "url": "https://news.metal.com/newscontent/104149086-smm-lithium-carbonate-daily-review-battery-grade-lithium-carbonate-spot-price-fell-by-2600-yuanmt-on-october-9-with-downstream-players-remaining-cautious-after-the-holiday"
+  },
+  {
+   "date": "2026-11-27",
+   "when": "Nov 27, 2026",
+   "type": "Minerals",
+   "what": "China's suspension of its gallium, germanium and antimony export ban to the US ends unless extended",
+   "where": "China and United States",
+   "url": "https://startupfortune.com/chinas-one-year-pause-on-critical-mineral-export-bans-nears-its-deadline/"
+  },
+  {
+   "date": "2026-11-30",
+   "when": "Nov 30, 2026",
+   "type": "Minerals",
+   "what": "Congo's suspension of all cobalt exports takes effect, with a review after four months",
+   "where": "Democratic Republic of the Congo",
+   "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+  },
+  {
+   "date": "2026-12-02",
+   "when": "Dec 2 to 3, 2026",
+   "type": "Carbon",
+   "what": "CCS 2026 conference, Norwegian Petroleum Society",
+   "where": "Fornebu, Oslo",
+   "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+  },
+  {
+   "date": "2026-12-08",
+   "when": "About Dec 8, 2026",
+   "type": "Minerals",
+   "what": "US final antidumping determination on large graphite electrodes from China and India",
+   "where": "United States",
+   "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+  },
+  {
+   "date": "2026-12-14",
+   "when": "Dec 14 to 17, 2026",
+   "type": "Carbon",
+   "what": "European Parliament plenary vote planned on EU ETS reform",
+   "where": "Strasbourg",
+   "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+  },
+  {
+   "date": "2026-12-15",
+   "when": "Dec 15, 2026",
+   "type": "Renewables",
+   "what": "California CEC and Department of Conservation geothermal workshop on the $18 million drilling program",
+   "where": "Online (Zoom)",
+   "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+  },
+  {
+   "date": "2027-01-10",
+   "when": "Jan 10, 2027",
+   "type": "Minerals",
+   "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+   "where": "China and United States",
+   "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+  },
+  {
+   "date": "2027-02-08",
+   "when": "Feb 8 to 11, 2027",
+   "type": "Minerals",
+   "what": "Mining Indaba",
+   "where": "Cape Town",
+   "url": "https://miningindaba.com/Register-your-interest"
+  },
+  {
+   "date": "2027-03-07",
+   "when": "Mar 7 to 10, 2027",
+   "type": "Minerals",
+   "what": "PDAC, the largest mineral exploration convention",
+   "where": "Toronto",
+   "url": "https://www.pdac.ca/convention"
+  },
+  {
+   "date": "2027-03-08",
+   "when": "Mar 8 to 12, 2027",
+   "type": "Power",
+   "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+   "where": "Houston",
+   "url": "https://baxtel.com/events/ceraweek-2027"
+  },
+  {
+   "date": "2027-03-15",
+   "when": "Mar 15, 2027",
+   "type": "Policy",
+   "what": "Deadline for UNFCCC submissions on the new just transition mechanism",
+   "where": "UNFCCC",
+   "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+  },
+  {
+   "date": "2027-04-20",
+   "when": "Apr 20 to 22, 2027",
+   "type": "Renewables",
+   "what": "WindEurope Annual Event, onshore and offshore wind",
+   "where": "Copenhagen",
+   "url": "https://windeurope.org/annual2027/information/"
+  },
+  {
+   "date": "2027-05-18",
+   "when": "May 18 to 20, 2027",
+   "type": "Hydrogen",
+   "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+   "where": "Rotterdam",
+   "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+  },
+  {
+   "date": "2027-06-08",
+   "when": "Jun 8 to 10, 2027",
+   "type": "Renewables",
+   "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+   "where": "Munich",
+   "url": "https://www.intersolar.de/en/about"
+  },
+  {
+   "date": "2027-10-06",
+   "when": "Oct 6 to 7, 2027",
+   "type": "Carbon",
+   "what": "Wood Mackenzie CCUS Conference",
+   "where": "Houston",
+   "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+  },
+  {
+   "date": "2027-11-08",
+   "when": "Nov 8 to 19, 2027",
+   "type": "Policy",
+   "what": "COP32 UN climate conference",
+   "where": "Addis Ababa",
+   "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+  },
+  {
+   "date": "2027-11-15",
+   "when": "Nov 15 to 18, 2027",
+   "type": "Renewables",
+   "what": "RE+, North America's largest clean energy event",
+   "where": "Las Vegas",
+   "url": "https://seia.org/events/re-2027/"
+  }
+ ]
+}

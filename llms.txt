@@ -7,12 +7,12 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [COP31 ends without a deal, and its carbon capture and electrification goals fall with it](https://carbonenergynexus.com/): November 23, 2026. Two extra days in Antalya, but no cover decision. COP31 closed on Sunday after the EU and others rejected a text that named no fossil fuels, taking a draft 500 Mt a year capture goal and a 35% electrification target with it.
-- [Capital: US Senate passes permitting bill 62 to 33; data centers would pay for grid upgrades](https://carbonenergynexus.com/#money)
-- [Markets: AI selloff pauses as Nvidia reinstates Jensen Huang; copper steadies](https://carbonenergynexus.com/#markets)
-- [Regulation: Outside the failed text, electrification and geothermal move by voluntary pledge](https://carbonenergynexus.com/#world)
-- [Water: Southwest hydropower ran 28% below average as Lake Powell neared turbine limits](https://carbonenergynexus.com/#water)
-- [Projects: Dow's four reactor Texas nuclear plant holds a permit but not yet an FID](https://carbonenergynexus.com/#projects)
+- [Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build](https://carbonenergynexus.com/): November 24, 2026. 96,600 tonnes was Congo's 2026 cobalt export ceiling. From Nov 30 the quota gives way to a full suspension with no end date, as prices slide and inventories build, the regulator said.
+- [Capital: Niron plans a $1.8 billion rare earth free magnet complex in Alabama as rare earth stocks rebound](https://carbonenergynexus.com/#money)
+- [Water: Thailand moves to cut off mining chemicals to Myanmar as arsenic reaches its taps](https://carbonenergynexus.com/#world)
+- [Projects: California offers up to $18 million for geothermal exploration and drilling](https://carbonenergynexus.com/#projects)
+- [Markets: Canada opens a carbon removal buying program to 19 offers, but nothing is bought yet](https://carbonenergynexus.com/#removals)
+- [Regulation: Negotiators say Saudi Arabia led resistance to fossil fuel wording at COP31](https://carbonenergynexus.com/#policy)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,6 +20,7 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 24, 2026: Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build](https://carbonenergynexus.com/archive/2026-11-24.html)
 - [November 23, 2026: COP31 ends without a deal, and its carbon capture and electrification goals fall with it](https://carbonenergynexus.com/archive/2026-11-23.html)
 - [November 22, 2026: The bigger water bill behind new data centers is at the power plant, Western estimates show](https://carbonenergynexus.com/archive/2026-11-22.html)
 - [November 21, 2026: The EU and UK agree to link their carbon markets, with cross-border CO2 storage next in line](https://carbonenergynexus.com/archive/2026-11-21.html)
