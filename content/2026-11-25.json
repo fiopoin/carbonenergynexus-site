@@ -1,0 +1,774 @@
+{
+  "date": "2026-11-25",
+  "date_long": "November 25, 2026",
+  "edition": 8,
+  "lead": {
+    "kicker": "Power and data centers",
+    "headline": "US data centers have announced more than 115 GW of their own gas plants, enough to add 152 Mt of CO2 a year",
+    "dek": "Speed to power is pulling AI campuses off the grid. Utilities are answering with long contracts and big upfront charges, while drought maps show where cooling water could run short.",
+    "body": [
+      "More than 100 behind-the-meter gas plants had been announced at US data centers by October 2026, totaling over 115 GW, more than double California's peak demand, MIT Technology Review reported Nov 24, citing Cleanview. About 4.9 GW is operating and 15.8 GW is under construction. BloombergNEF counts 181 GW of on-site data center gas announced worldwide, 90% of it in the US, and estimates the planned US plants could emit 345 million tonnes of CO2e a year by 2035, 152 million tonnes more than drawing the same power from the grid.",
+      "Utilities are pricing that load in. TVA disclosed $1.7 billion in aggregate payments from one unnamed data center customer under its new large-load rate, which charges about $1.5 million per MW of requested capacity above 5 MW, Utility Dive reported Nov 24. In North Carolina, regulators now require qualifying data centers to sign contracts of at least 10 years, pay demand charges on at least 75% of contracted capacity and post guarantees against stranded costs, WRAL reported.",
+      "Water is the next constraint. A BMI note published Nov 24 found that about 21% of 83.6 GW of tracked global data center capacity sits where El Niño raises water stress, with 14.9 GW highly exposed, 92% of it in Asia Pacific. In Nevada, a Desert Research Institute study estimates proposed data centers could use about 12,770 acre feet a year for cooling by 2036, plus 21,283 acre feet indirectly through power generation."
+    ],
+    "nexus": {
+      "electrons": "Grid operators face load that may never connect. TVA's large-load tariff and North Carolina's 75% minimum demand charge shift that risk onto the data center customer.",
+      "molecules": "Gas wins on speed. Mitsubishi Heavy Industries booked 8 GW of large gas turbine orders in the first half of its fiscal year and holds a 37 GW backlog, Utility Dive reported.",
+      "pore": "Capturing that CO2 would need storage wells. EPA has permitted 18 Class VI wells across 10 projects, with applications for more than 100 wells pending, the Carbon Capture Coalition said in reform proposals filed this month.",
+      "water": "BMI found drought in 25% to 37% of El Niño months since 2013 across the Johor, Singapore and Batam cluster, which has 6.6 GW of data center capacity live or planned."
+    },
+    "use": [
+      {
+        "who": "Investors",
+        "text": "On-site gas buys speed but carries fuel and carbon exposure. Check who holds the stranded cost if a campus stalls."
+      },
+      {
+        "who": "Regulators",
+        "text": "Minimum demand charges and exit guarantees are spreading. Compare TVA and North Carolina terms before setting your own."
+      },
+      {
+        "who": "Industry",
+        "text": "Turbine slots are scarce. Lock in equipment, water and permits together, not in sequence."
+      },
+      {
+        "who": "Founders",
+        "text": "Firm, low carbon power near load and dry cooling are clear gaps. Buyers want delivery dates, not pilots."
+      }
+    ],
+    "sources": [
+      {
+        "name": "MIT Technology Review, Nov 24, 2026",
+        "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+      },
+      {
+        "name": "Utility Dive, Nov 24, 2026",
+        "url": "https://www.utilitydive.com/news/tva-touts-17b-data-center-deal-under-new-large-load-tariff/875630/"
+      },
+      {
+        "name": "WRAL, Nov 24, 2026",
+        "url": "https://www.wral.com/news/state/data-centers-north-carolina-electric-bill-requirements-november-2026/"
+      },
+      {
+        "name": "TNGlobal, Nov 24, 2026",
+        "url": "https://technode.global/2026/11/24/el-nino-threatens-southeast-asias-data-center-expansion-as-water-risks-mount-says-bmi/"
+      },
+      {
+        "name": "Facilities Dive, Nov 20, 2026",
+        "url": "https://www.facilitiesdive.com/news/new-data-centers-could-draw-4b-gallons-of-water-a-year-out-of-nevada-drie/875249/"
+      },
+      {
+        "name": "Utility Dive, Nov 23, 2026",
+        "url": "https://www.utilitydive.com/news/data-centers-mitsubishi-gas-turbines-earnings/875146/"
+      },
+      {
+        "name": "Carbon Herald, Nov 24, 2026",
+        "url": "https://carbonherald.com/carbon-capture-coalition-submits-class-vi-permitting-reform-proposals-to-epa/"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "label": "US data center gas announced",
+      "value": "115+ GW",
+      "note": "4.9 GW operating, 15.8 GW being built",
+      "source": {
+        "name": "MIT Technology Review, Nov 24, 2026",
+        "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+      }
+    },
+    {
+      "label": "EU carbon, Dec 2026 EUA",
+      "value": "€81.26/t",
+      "note": "Down 7.8% on the week; about €83.6 Monday",
+      "source": {
+        "name": "cbam.news, Nov 24, 2026",
+        "url": "https://cbam.news/eu-carbon-allowances-fall-7-8-putting-fourth-quarter-cbam-price-in-focus/"
+      }
+    },
+    {
+      "label": "LME copper, 3 month",
+      "value": "$11,858.50/t",
+      "note": "Down 5.05% on Nov 24",
+      "source": {
+        "name": "Fastmarkets, Nov 24, 2026",
+        "url": "https://www.fastmarkets.com/insights/lme-base-metals-erase-nvidia-driven-gains-as-tin-copper-slump/"
+      }
+    },
+    {
+      "label": "Porthos maximum budget",
+      "value": "€1.7bn",
+      "note": "Up from €1.3bn at FID; operation likely 2028",
+      "source": {
+        "name": "Porthos, Nov 19, 2026",
+        "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+      }
+    },
+    {
+      "label": "Class VI wells permitted by EPA",
+      "value": "18",
+      "note": "More than 100 wells pending review",
+      "source": {
+        "name": "Carbon Herald, Nov 24, 2026",
+        "url": "https://carbonherald.com/carbon-capture-coalition-submits-class-vi-permitting-reform-proposals-to-epa/"
+      }
+    },
+    {
+      "label": "US uranium output, Q3",
+      "value": "243,673 lb",
+      "note": "Down 78% from Q1 as White Mesa ran rare earths",
+      "source": {
+        "name": "World Nuclear News, Nov 24, 2026",
+        "url": "https://world-nuclear-news.org/articles/white-mesa-mill-to-resume-processing-as-us-uranium-production-falls"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "id": "money",
+      "lane": "Capital",
+      "headline": "Porthos budget rises to as much as €1.7 billion and start up slips to 2028",
+      "text": "The Rotterdam CO2 transport and storage project now expects costs to rise by up to €397 million, including a risk buffer, from a €1.3 billion baseline at its investment decision, Porthos said Nov 19. Work will finish at the end of 2027 at the earliest, with a realistic possibility of operation in 2028 after testing. It blamed slower work on the offshore platform and compressor station and contractors staying on longer. Separately, Equinor chief executive Anders Opedal said delays at European capture plants leave very little CO2 available for new storage contracts, Briefs Finance reported Nov 24, citing Bloomberg.",
+      "use": [
+        {
+          "who": "Emitters",
+          "text": "If your capture plant depends on Porthos, plan for a 2028 start and check delay clauses."
+        },
+        {
+          "who": "Investors",
+          "text": "Storage cost overruns and thin CO2 supply are now the two risks to price in European CCS."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Porthos, Nov 19, 2026",
+          "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+        },
+        {
+          "name": "Briefs Finance, Nov 24, 2026",
+          "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "lane": "Markets",
+      "headline": "China will join the airline carbon offset scheme CORSIA for 2027 to 2029, keeping a veto on credits",
+      "text": "The Civil Aviation Administration of China said Nov 23 it will join CORSIA voluntarily and in an orderly manner for 2027 to 2029, and offsets used by Chinese airlines will need government approval, Carbon Herald reported. ICAO has approved four crediting programs for the period. IATA estimates airlines may need 200 to 250 million eligible units by January 2028, well above supply. Separately, the EU and UK concluded talks on Nov 20 to link their emissions trading systems from Jan 1, 2028, subject to ratification, Rigzone reported.",
+      "use": [
+        {
+          "who": "Credit developers",
+          "text": "CORSIA eligible supply is short. Check whether your methodology and host country authorization qualify."
+        },
+        {
+          "who": "Airlines",
+          "text": "Price 2027 to 2029 compliance now; Chinese approval rules could narrow the pool."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 24, 2026",
+          "url": "https://carbonherald.com/china-to-join-corsia-from-2027-but-retains-control-over-eligible-carbon-credits"
+        },
+        {
+          "name": "Rigzone, Nov 24, 2026",
+          "url": "https://www.rigzone.com/news/eu_uk_agree_to_link_emissions_trading_systems-24-nov-2026-185154-article/"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "lane": "Regulation",
+      "headline": "Carbon capture groups ask EPA for 12 month Class VI permit reviews and area permits",
+      "text": "The Carbon Capture Coalition sent EPA recommendations to improve the Class VI program, Carbon Herald reported Nov 24. It asks for a 12 month window to finish permit reviews, area permits that cover several wells in one storage complex, standard emergency response protocols and a definition of the CO2 stream that explicitly includes direct air capture. EPA has permitted 18 Class VI wells across 10 projects, and applications for more than 100 wells are pending. Seven states now run their own Class VI programs, including Colorado from November.",
+      "use": [
+        {
+          "who": "Developers",
+          "text": "Area permits would change how you sequence wells. Model both single and area permit timelines."
+        },
+        {
+          "who": "State regulators",
+          "text": "Primacy states set the pace. Track Utah's pending application and Colorado's first decisions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 24, 2026",
+          "url": "https://carbonherald.com/carbon-capture-coalition-submits-class-vi-permitting-reform-proposals-to-epa/"
+        }
+      ]
+    },
+    {
+      "id": "carbon",
+      "lane": "Markets",
+      "headline": "EU carbon posts its sharpest weekly drop in nine months after an ETS vote stalls",
+      "text": "The December 2026 EU allowance fell 7.8% on the week to €81.26 a tonne and briefly touched €80.03, the lowest since late July, before rising almost 3% to about €83.6 on Monday, cbam.news reported Nov 24. Weekly volume reached 183 million allowances against a 2026 average of 133 million. On Nov 19 the European Parliament's industry committee rejected a compromise on the post 2030 ETS review and postponed its vote, EU Perspectives reported. The provisional fourth quarter CBAM certificate price was €86.69.",
+      "use": [
+        {
+          "who": "Compliance buyers",
+          "text": "The dip came without compliance demand. Consider hedging before the Dec 14 final auction of the year."
+        },
+        {
+          "who": "Importers",
+          "text": "CBAM costs track EUA prices. Use the €86.69 provisional figure for fourth quarter budgets."
+        }
+      ],
+      "sources": [
+        {
+          "name": "cbam.news, Nov 24, 2026",
+          "url": "https://cbam.news/eu-carbon-allowances-fall-7-8-putting-fourth-quarter-cbam-price-in-focus/"
+        },
+        {
+          "name": "EU Perspectives, Nov 19, 2026",
+          "url": "https://euperspectives.eu/2026/11/ets-reform-industry-committee-compromise-vote-postponed/"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "lane": "Water",
+      "headline": "El Niño puts 14.9 GW of data center capacity at high water risk, most of it in Asia Pacific",
+      "text": "BMI found that about 21% of 83.6 GW of tracked global data center capacity sits where El Niño raises water stress, TNGlobal reported Nov 24. Some 14.9 GW across 16 locations is highly exposed, 92% of it in Asia Pacific, and 12.4 GW faces both drought and higher cooling demand. Bangkok and Chonburi saw drought in 44% of El Niño months against 5% in neutral periods. Daily highs could rise 0.5 to 1.1 degrees C in Hyderabad, Bangkok, Jakarta and Ho Chi Minh City.",
+      "use": [
+        {
+          "who": "Developers",
+          "text": "Run site water plans against El Niño years, not averages."
+        },
+        {
+          "who": "Utilities",
+          "text": "Expect cooling demand and water stress to peak together in the same months."
+        }
+      ],
+      "sources": [
+        {
+          "name": "TNGlobal, Nov 24, 2026",
+          "url": "https://technode.global/2026/11/24/el-nino-threatens-southeast-asias-data-center-expansion-as-water-risks-mount-says-bmi/"
+        }
+      ]
+    },
+    {
+      "id": "nuclear",
+      "lane": "Projects",
+      "headline": "New York targets 5 GW of new nuclear as India restarts Kaiga 1",
+      "text": "New York released an advanced nuclear master plan targeting 5 GWe of new capacity upstate, with the New York Power Authority planning at least 1 GWe, World Nuclear News reported Nov 23. In India, Kaiga 1 reached criticality on Nov 22 after about 600 days offline for coolant channel replacement, and the regulator cleared the 700 MWe RAPP 8 unit in Rajasthan for first criticality on Nov 19. Korea's K-Sure and Slovakia's Eximbanka signed a memorandum on co-financing power projects, including nuclear.",
+      "use": [
+        {
+          "who": "Suppliers",
+          "text": "New York's developer list is set. Position for fuel, components and grid work."
+        },
+        {
+          "who": "Lenders",
+          "text": "Export credit pacts like K-Sure and Eximbanka are becoming the template for nuclear finance."
+        }
+      ],
+      "sources": [
+        {
+          "name": "World Nuclear News, Nov 23, 2026",
+          "url": "https://world-nuclear-news.org/articles/new-york-unveils-advanced-nuclear-master-plan"
+        },
+        {
+          "name": "World Nuclear News, Nov 24, 2026",
+          "url": "https://world-nuclear-news.org/articles/start-up-milestones-for-indian-plants"
+        },
+        {
+          "name": "World Nuclear News, Nov 23, 2026",
+          "url": "https://world-nuclear-news.org/articles/korean-slovakian-partnership-for-financing-nuclear-projects"
+        }
+      ]
+    }
+  ],
+  "tracker": [
+    {
+      "name": "Northern Lights Phase II",
+      "where": "Norway",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr; Equinor CEO said Nov 24 that capture delays leave little CO2 for new storage contracts",
+      "source": {
+        "name": "Briefs Finance, Nov 24, 2026",
+        "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+      },
+      "url": "https://norlights.com/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Porthos",
+      "where": "Netherlands",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Maximum budget raised to €1.7 billion from €1.3 billion; finish end 2027 at the earliest, operation likely 2028 (Nov 19)",
+      "source": {
+        "name": "Porthos, Nov 19, 2026",
+        "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+      },
+      "url": "https://www.porthosco2.nl/en/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Pathways CCS",
+      "where": "Alberta, Canada",
+      "type": "Capture, pipeline, storage",
+      "stage": 3,
+      "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+      "source": {
+        "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+        "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+      },
+      "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Havstjerne",
+      "where": "Norwegian North Sea",
+      "type": "Storage",
+      "stage": 3,
+      "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+      "source": {
+        "name": "World Oil",
+        "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+      },
+      "url": "https://harbourenergy.com/operations/ccs/norway",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Cape Station",
+      "where": "Beaver County, Utah",
+      "type": "Enhanced geothermal power",
+      "sector": "Geothermal",
+      "stage": 7,
+      "last": "First 33 MW GeoBlock operating since Sept 30; a 105 MW Longroad transmission deal on Nov 18 lifts contracted firm transmission to 505 MW from 2028",
+      "url": "https://fervoenergy.com/",
+      "source": {
+        "name": "Fervo Energy, Nov 18, 2026",
+        "url": "https://fervoenergy.com/fervo-energy-and-longroad-energy-execute-105-megawatt-long-term-transmission-service-agreement-expanding-transmission-at-cape-station/"
+      }
+    },
+    {
+      "name": "Project Obsidian",
+      "where": "Central Oregon",
+      "type": "Superhot geothermal power",
+      "sector": "Geothermal",
+      "stage": 4,
+      "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+      "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+      "source": {
+        "name": "Bend Bulletin, Nov 17, 2026",
+        "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+      }
+    },
+    {
+      "name": "Tampere e-methane plant",
+      "where": "Tampere, Finland",
+      "type": "E-methane from renewable hydrogen and biogenic CO2",
+      "sector": "Hydrogen",
+      "stage": 5,
+      "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+      "url": "https://ren-gas.com/",
+      "source": {
+        "name": "Hydrogen Central, Nov 21, 2026",
+        "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+      }
+    },
+    {
+      "name": "Long Mott Generating Station",
+      "where": "Seadrift, Texas",
+      "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+      "sector": "Power",
+      "stage": 4,
+      "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+      "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+      "source": {
+        "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+        "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+      }
+    },
+    {
+      "name": "Niron Magnetics Dothan complex",
+      "where": "Dothan, Alabama",
+      "type": "Rare earth free iron nitride permanent magnets",
+      "sector": "Minerals",
+      "stage": 1,
+      "last": "$1.8 billion plan announced Nov 24: construction from 2028, 10,000 t a year from 2029, about 700 jobs",
+      "url": "https://nironmagnetics.com/",
+      "source": {
+        "name": "SMM, Nov 24, 2026",
+        "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "name": "Anders Opedal",
+      "role": "Chief executive, Equinor",
+      "text": "Said delays at European capture projects leave very little CO2 for new storage contracts, and that bigger volumes are needed to bring costs down.",
+      "source": {
+        "name": "Briefs Finance, Nov 24, 2026",
+        "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+      }
+    },
+    {
+      "name": "Brendan Pierpont",
+      "role": "Director of electricity, Energy Innovation",
+      "text": "Called on-site gas a very expensive way for data centers to bridge a five to seven year wait for a grid connection.",
+      "source": {
+        "name": "MIT Technology Review, Nov 24, 2026",
+        "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+      }
+    },
+    {
+      "name": "Floyd McKissick",
+      "role": "Commissioner, North Carolina Utilities Commission",
+      "text": "Said he doubts the commission could have gone further on data center protections, and would have preferred rules covering all large users.",
+      "source": {
+        "name": "WRAL, Nov 24, 2026",
+        "url": "https://www.wral.com/news/state/data-centers-north-carolina-electric-bill-requirements-november-2026/"
+      }
+    }
+  ],
+  "research": [
+    {
+      "title": "Data Center Water and Electricity Consumption in Nevada (update)",
+      "by": "Desert Research Institute",
+      "date": "Nov 18, 2026",
+      "text": "Proposed data centers seeking 16,530 MW could use about 12,770 acre feet a year directly for cooling by 2036 and 21,283 acre feet indirectly through power generation.",
+      "url": "https://www.dri.edu/wp-content/uploads/Data_Center_Report_11_18_2026.pdf"
+    },
+    {
+      "title": "European hydrogen markets 2026 Monitoring Report",
+      "by": "ACER",
+      "date": "Nov 13, 2026",
+      "text": "About 4.2 GW of electrolysers are operating, under construction or at FID in Europe, but only about 510 MW operate, against 30 to 58 GW assumed for 2030.",
+      "url": "https://www.acer.europa.eu/sites/default/files/documents/Publications/ACER-2026-Monitoring-Report-European-hydrogen-markets.pdf"
+    },
+    {
+      "title": "Our Geothermal Nation",
+      "by": "National Geothermal Centre, UK",
+      "date": "Nov 19, 2026",
+      "text": "Roadmap targets up to 10 GW of geothermal heat, 1.5 GW of geothermal power and up to 50,000 jobs by 2050, with 16 recommendations.",
+      "url": "https://www.thinkgeoenergy.com/national-geothermal-center-published-strategic-roadmap-to-accelerate-geothermal-growth-in-the-uk/"
+    }
+  ],
+  "calendar": [],
+  "calendar_sources": [],
+  "social": {
+    "kicker": "Morning: the nexus",
+    "headline": "Data centers plan 115 GW of their own gas plants",
+    "points": [
+      "4.9 GW running, 15.8 GW being built",
+      "345 Mt CO2e a year by 2035",
+      "181 GW announced worldwide"
+    ],
+    "watch": "Whether more states copy TVA and North Carolina load rules.",
+    "caption": "Data centers want power fast, but the fastest route is gas. US campuses have announced more than 115 GW of on-site gas plants, which BloombergNEF says could add 152 Mt of CO2 a year versus the grid.\n\nToday's edition: carbonenergynexus.com\n\n#DataCenters #NaturalGas #Power #AI #Emissions"
+  },
+  "social_slots": {
+    "midday": {
+      "kicker": "Midday: the money",
+      "headline": "Porthos CCS budget rises to up to €1.7bn",
+      "points": [
+        "€1.3bn at investment decision",
+        "Up to €397m more, with buffer",
+        "Operation likely in 2028"
+      ],
+      "watch": "Whether other European CO2 stores report similar slips.",
+      "caption": "Rotterdam, Nov 19: the Porthos CO2 storage project says costs could rise by up to €397 million and operation will likely start in 2028.\n\nTrack the project at carbonenergynexus.com\n\n#CCS #CarbonCapture #Netherlands #Infrastructure",
+      "icon": "factory"
+    },
+    "evening": {
+      "kicker": "Evening: the world",
+      "headline": "China to join airline carbon offset scheme",
+      "points": [
+        "CORSIA from 2027 to 2029",
+        "Beijing must approve credits",
+        "200m to 250m units needed by 2028"
+      ],
+      "watch": "Which credits Beijing approves for its airlines.",
+      "caption": "Who will supply airline offsets? China says its carriers will join CORSIA for 2027 to 2029, with government approval of every credit, as IATA warns of a shortfall.\n\nMore at carbonenergynexus.com\n\n#CORSIA #CarbonMarkets #Aviation #China",
+      "icon": "plane"
+    }
+  },
+  "minerals": {
+    "intro": "China buys two more months of calm on gallium, germanium, antimony and graphite, while copper gives back its AI rally and lithium gets a new futures contract in Guangzhou.",
+    "items": [
+      {
+        "symbol": "§",
+        "name": "Minerals policy",
+        "headline": "China extends its reprieve on US bound gallium, germanium and antimony to Jan 27",
+        "text": "China's Commerce Ministry on Nov 24 extended its suspension of the ban on exports of gallium, germanium, antimony and superhard materials to the US until Jan 27, 2027, along with the pause on stricter end use reviews for graphite. The suspension had been due to end Nov 27. The ban on dual use items for US military users stays in force.",
+        "sources": [
+          {
+            "name": "IBTimes, Nov 24, 2026",
+            "url": "https://www.ibtimes.com/china-extends-us-critical-mineral-export-suspension-3810139"
+          },
+          {
+            "name": "Reuters via Media Selangor, Nov 24, 2026",
+            "url": "https://mediaselangor.com/en/2026/11/409016"
+          }
+        ]
+      },
+      {
+        "symbol": "Nd",
+        "name": "Rare earths",
+        "headline": "NdPr oxide holds near a monthly high as Lynas meets shareholders without a permanent CEO",
+        "text": "Chinese Pr-Nd oxide traded at 725,000 to 727,000 yuan a tonne on Nov 19, up from 715,000 to 718,000 a week earlier, SMM said. Lynas held its AGM on Nov 25 with an interim chief executive; the board's global search continues after Amanda Lacaze retired June 30. USA Rare Earth fell 5% to $6.69 on Nov 24, while MP Materials held at $35.69.",
+        "sources": [
+          {
+            "name": "SMM, Nov 19, 2026",
+            "url": "https://news.metal.com/newscontent/HPLV6NBELCO5AQDNQYMMS4OASIEB5PKPMV2BZRQ-rare-earth-chain-continues-to-rise-pr-nd-hits-new-monthly-high-smm-rare-earth-weekly-review"
+          },
+          {
+            "name": "Lynas AGM transcript, Nov 25, 2026",
+            "url": "https://stockanalysis.com/quote/asx/LYC/transcripts/770857-agm-2026/"
+          },
+          {
+            "name": "24/7 Wall St., Nov 24, 2026",
+            "url": "https://247wallst.com/investing/2026/11/24/united-states-antimony-sinks-9-as-mondays-critical-minerals-rebound-splinters-usa-rare-earth-drops-5-mp-materials-holds-steady/"
+          }
+        ]
+      },
+      {
+        "symbol": "Cu",
+        "name": "Copper",
+        "headline": "Copper drops 5% back below $12,000 as the AI rally fades",
+        "text": "LME three month copper fell 5.05% to $11,858.50 a tonne on Nov 24, erasing Monday's jump after Nvidia reinstated Jensen Huang, Fastmarkets reported. Reuters had it at $11,790.50 late in the day, the weakest since March 23. Tin fell below $40,000 for the first time since December.",
+        "sources": [
+          {
+            "name": "Fastmarkets, Nov 24, 2026",
+            "url": "https://www.fastmarkets.com/insights/lme-base-metals-erase-nvidia-driven-gains-as-tin-copper-slump/"
+          },
+          {
+            "name": "Reuters via Business Recorder, Nov 25, 2026",
+            "url": "https://www.brecorder.com/news/40450614/copper-and-tin-tumble-as-ai-rally-fades"
+          }
+        ]
+      },
+      {
+        "symbol": "Li",
+        "name": "Lithium",
+        "headline": "Guangzhou launches lithium hydroxide futures on Nov 26 as SQM warns on prices",
+        "text": "The Guangzhou Futures Exchange starts lithium hydroxide futures on Nov 26 and options on Nov 27, its second lithium contract after carbonate, with first deliveries from June 2027, SMM reported. SQM shares fell 3.78% to $46.88 on Nov 24 after it warned fourth quarter prices could be substantially lower than the third.",
+        "sources": [
+          {
+            "name": "SMM, Nov 13, 2026",
+            "url": "https://news.metal.com/newscontent/D2KA72D5YAJMT26D4YPKRSSWEQNWRVC5VJR7S7A-smm-news-gfex-to-launch-lithium-hydroxide-futures-on-nov-26-and-options-on-nov-27"
+          },
+          {
+            "name": "Wisevoter, Nov 25, 2026",
+            "url": "https://wisevoter.com/world/2026/11/25/lithium-stocks-slide-sqm-warns-lower-prices"
+          }
+        ]
+      },
+      {
+        "symbol": "Co",
+        "name": "Cobalt",
+        "headline": "Congo's export halt starts Nov 30 after shipments fell by more than half",
+        "text": "Congo exported 61,441 tonnes of cobalt in the first nine months of 2026, against more than 145,000 tonnes in the same period of 2024, Miningmx reported Nov 24. The regulator will suspend exports from Nov 30 until further notice, citing a significant and sustained price decline since June. CMOC, Glencore and ERG hold the largest quotas.",
+        "sources": [
+          {
+            "name": "Miningmx, Nov 24, 2026",
+            "url": "https://miningmx.com/2026-11-24-congo-to-reimpose-ban-on-cobalt-exports/"
+          }
+        ]
+      },
+      {
+        "symbol": "U",
+        "name": "Uranium",
+        "headline": "US uranium output falls 78% as the only conventional mill runs rare earths",
+        "text": "US production fell to 243,673 pounds of U3O8 in the third quarter from 1,087,504 in the first, as Energy Fuels' White Mesa mill in Utah processed rare earths instead, World Nuclear News reported Nov 24. A December campaign should yield about 1 million pounds before the mill returns to rare earths through much of 2027.",
+        "sources": [
+          {
+            "name": "World Nuclear News, Nov 24, 2026",
+            "url": "https://world-nuclear-news.org/articles/white-mesa-mill-to-resume-processing-as-us-uranium-production-falls"
+          }
+        ]
+      }
+    ]
+  },
+  "innovation": [
+    {
+      "name": "Planning for surplus wind and solar",
+      "org": "MIT, published in Joule",
+      "kind": "Academia",
+      "date": "Nov 24, 2026",
+      "text": "Modeling US grids at 80% renewables over 40 years of weather, the team found cost optimal systems can regularly produce surplus power, usually in 7 to 12 hour midday episodes, even if storage costs fall to a tenth of today's.",
+      "url": "https://news.mit.edu/2026/excess-renewable-energy-could-power-new-industrial-processes-1124"
+    },
+    {
+      "name": "Well casing for superhot geothermal",
+      "org": "USC Viterbi and Oak Ridge National Laboratory",
+      "kind": "Academia",
+      "date": "Nov 23, 2026",
+      "text": "A $3 million ARPA-E SUPERHOT award funds a composite production casing for reservoirs above 375 degrees C that should last at least 15 years.",
+      "url": "https://www.eurekalert.org/news-releases/1153089"
+    },
+    {
+      "name": "Heat free direct air capture",
+      "org": "Planet Savers",
+      "kind": "Private",
+      "date": "Nov 24, 2026",
+      "text": "The University of Tokyo spinout raised more than 1.6 billion yen, including 1.08 billion in a pre-Series A led by ANRI, for an all electric zeolite system that needs no heat or water.",
+      "url": "https://www.esgtoday.com/planet-savers-raises-over-10-million-to-scale-direct-air-capture-technology-in-japan/"
+    },
+    {
+      "name": "Solar hydrogen back to power at night",
+      "org": "PowerCell",
+      "kind": "Private",
+      "date": "Nov 20, 2026",
+      "text": "A SEK 440 million order from a southern US electric cooperative for 20 MW of rated fuel cell capacity that turns surplus solar hydrogen into power when output is low.",
+      "url": "https://www.renewableenergymagazine.com/hydrogen/powercell-gets-sek-440-million-order-for-20261120"
+    },
+    {
+      "name": "Battery graphite and hydrogen from gas",
+      "org": "Molten Industries",
+      "kind": "Private",
+      "date": "Nov 19, 2026",
+      "text": "A 300 tonne a year methane pyrolysis demonstration plant in Oakland began operating, with customer sampling from Dec 1.",
+      "url": "https://hydrogen-central.com/molten-industries-commissions-worlds-first-plant-to-produce-battery-grade-graphite-and-hydrogen-from-natural-gas/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-26",
+      "when": "Nov 26, 2026",
+      "type": "Minerals",
+      "what": "Lithium hydroxide futures start trading on the Guangzhou Futures Exchange, with options from Nov 27",
+      "where": "Guangzhou",
+      "url": "https://news.metal.com/newscontent/D2KA72D5YAJMT26D4YPKRSSWEQNWRVC5VJR7S7A-smm-news-gfex-to-launch-lithium-hydroxide-futures-on-nov-26-and-options-on-nov-27"
+    },
+    {
+      "date": "2026-11-30",
+      "when": "Nov 30, 2026",
+      "type": "Minerals",
+      "what": "Congo's suspension of all cobalt exports takes effect, with a review after four months",
+      "where": "Democratic Republic of the Congo",
+      "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+    },
+    {
+      "date": "2026-12-02",
+      "when": "Dec 2 to 3, 2026",
+      "type": "Carbon",
+      "what": "CCS 2026 conference, Norwegian Petroleum Society",
+      "where": "Fornebu, Oslo",
+      "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "when": "About Dec 8, 2026",
+      "type": "Minerals",
+      "what": "US final antidumping determination on large graphite electrodes from China and India",
+      "where": "United States",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14 to 17, 2026",
+      "type": "Carbon",
+      "what": "European Parliament plenary vote planned on EU ETS reform",
+      "where": "Strasbourg",
+      "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+    },
+    {
+      "date": "2026-12-15",
+      "when": "Dec 15, 2026",
+      "type": "Renewables",
+      "what": "California CEC and Department of Conservation geothermal workshop on the $18 million drilling program",
+      "where": "Online (Zoom)",
+      "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+    },
+    {
+      "date": "2027-01-10",
+      "when": "Jan 10, 2027",
+      "type": "Minerals",
+      "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+      "where": "China and United States",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+    },
+    {
+      "date": "2027-01-27",
+      "when": "Jan 27, 2027",
+      "type": "Minerals",
+      "what": "China's suspension of its gallium, germanium and antimony export ban to the US, and of stricter graphite reviews, ends unless extended",
+      "where": "China and United States",
+      "url": "https://www.ibtimes.com/china-extends-us-critical-mineral-export-suspension-3810139"
+    },
+    {
+      "date": "2027-02-08",
+      "when": "Feb 8 to 11, 2027",
+      "type": "Minerals",
+      "what": "Mining Indaba",
+      "where": "Cape Town",
+      "url": "https://miningindaba.com/Register-your-interest"
+    },
+    {
+      "date": "2027-03-07",
+      "when": "Mar 7 to 10, 2027",
+      "type": "Minerals",
+      "what": "PDAC, the largest mineral exploration convention",
+      "where": "Toronto",
+      "url": "https://www.pdac.ca/convention"
+    },
+    {
+      "date": "2027-03-08",
+      "when": "Mar 8 to 12, 2027",
+      "type": "Power",
+      "what": "CERAWeek by S&P Global, with a growing AI and data center power track",
+      "where": "Houston",
+      "url": "https://baxtel.com/events/ceraweek-2027"
+    },
+    {
+      "date": "2027-03-15",
+      "when": "Mar 15, 2027",
+      "type": "Policy",
+      "what": "Deadline for UNFCCC submissions on the new just transition mechanism",
+      "where": "UNFCCC",
+      "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+    },
+    {
+      "date": "2027-04-20",
+      "when": "Apr 20 to 22, 2027",
+      "type": "Renewables",
+      "what": "WindEurope Annual Event, onshore and offshore wind",
+      "where": "Copenhagen",
+      "url": "https://windeurope.org/annual2027/information/"
+    },
+    {
+      "date": "2027-05-18",
+      "when": "May 18 to 20, 2027",
+      "type": "Hydrogen",
+      "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+      "where": "Rotterdam",
+      "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+    },
+    {
+      "date": "2027-06-08",
+      "when": "Jun 8 to 10, 2027",
+      "type": "Renewables",
+      "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+      "where": "Munich",
+      "url": "https://www.intersolar.de/en/about"
+    },
+    {
+      "date": "2027-10-06",
+      "when": "Oct 6 to 7, 2027",
+      "type": "Carbon",
+      "what": "Wood Mackenzie CCUS Conference",
+      "where": "Houston",
+      "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+    },
+    {
+      "date": "2027-11-08",
+      "when": "Nov 8 to 19, 2027",
+      "type": "Policy",
+      "what": "COP32 UN climate conference",
+      "where": "Addis Ababa",
+      "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+    },
+    {
+      "date": "2027-11-15",
+      "when": "Nov 15 to 18, 2027",
+      "type": "Renewables",
+      "what": "RE+, North America's largest clean energy event",
+      "where": "Las Vegas",
+      "url": "https://seia.org/events/re-2027/"
+    }
+  ]
+}

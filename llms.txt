@@ -7,12 +7,13 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build](https://carbonenergynexus.com/): November 24, 2026. 96,600 tonnes was Congo's 2026 cobalt export ceiling. From Nov 30 the quota gives way to a full suspension with no end date, as prices slide and inventories build, the regulator said.
-- [Capital: Niron plans a $1.8 billion rare earth free magnet complex in Alabama as rare earth stocks rebound](https://carbonenergynexus.com/#money)
-- [Water: Thailand moves to cut off mining chemicals to Myanmar as arsenic reaches its taps](https://carbonenergynexus.com/#world)
-- [Projects: California offers up to $18 million for geothermal exploration and drilling](https://carbonenergynexus.com/#projects)
-- [Markets: Canada opens a carbon removal buying program to 19 offers, but nothing is bought yet](https://carbonenergynexus.com/#removals)
-- [Regulation: Negotiators say Saudi Arabia led resistance to fossil fuel wording at COP31](https://carbonenergynexus.com/#policy)
+- [US data centers have announced more than 115 GW of their own gas plants, enough to add 152 Mt of CO2 a year](https://carbonenergynexus.com/): November 25, 2026. Data centers want power fast, but the fastest route is gas. US campuses have announced more than 115 GW of on-site gas plants, which BloombergNEF says could add 152 Mt of CO2 a year versus the grid.
+- [Capital: Porthos budget rises to as much as €1.7 billion and start up slips to 2028](https://carbonenergynexus.com/#money)
+- [Markets: China will join the airline carbon offset scheme CORSIA for 2027 to 2029, keeping a veto on credits](https://carbonenergynexus.com/#world)
+- [Regulation: Carbon capture groups ask EPA for 12 month Class VI permit reviews and area permits](https://carbonenergynexus.com/#policy)
+- [Markets: EU carbon posts its sharpest weekly drop in nine months after an ETS vote stalls](https://carbonenergynexus.com/#carbon)
+- [Water: El Niño puts 14.9 GW of data center capacity at high water risk, most of it in Asia Pacific](https://carbonenergynexus.com/#water)
+- [Projects: New York targets 5 GW of new nuclear as India restarts Kaiga 1](https://carbonenergynexus.com/#nuclear)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,6 +21,7 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 25, 2026: US data centers have announced more than 115 GW of their own gas plants, enough to add 152 Mt of CO2 a year](https://carbonenergynexus.com/archive/2026-11-25.html)
 - [November 24, 2026: Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build](https://carbonenergynexus.com/archive/2026-11-24.html)
 - [November 23, 2026: COP31 ends without a deal, and its carbon capture and electrification goals fall with it](https://carbonenergynexus.com/archive/2026-11-23.html)
 - [November 22, 2026: The bigger water bill behind new data centers is at the power plant, Western estimates show](https://carbonenergynexus.com/archive/2026-11-22.html)
