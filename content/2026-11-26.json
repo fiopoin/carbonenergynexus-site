@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-26",
+  "date_long": "November 26, 2026",
+  "edition": 9,
+  "lead": {
+    "kicker": "Carbon storage",
+    "headline": "Australia agrees to store Singapore's CO2 as Gorgon injected only 26% of its separated CO2 last year",
+    "dek": "A new treaty sets the rules for shipping captured CO2 across borders to sub-seabed storage. Western Australia's regulator says Gorgon's August plume was planned venting while its injection system was constrained.",
+    "body": [
+      "Singapore and Australia signed a treaty in Canberra on Nov 24 that sets binding rules for shipping liquefied CO2 captured in Singapore to offshore geological storage under Australian jurisdiction, Carbon Herald reported Nov 25. Singapore has no domestic geological storage, and the agreement targets its refining, petrochemical and power sectors. Liability for fugitive emissions passes from Singapore to Australia at a defined handover point, such as a terminal, port or offshore buoy. A joint committee will meet at least once a year, and the treaty enters into force 30 days after both countries complete ratification.",
+      "The deal lands as Australia's largest CO2 injection project faces scrutiny. Western Australia's Department of Water and Environmental Regulation said a methane plume seen by satellite in August at Chevron's Gorgon LNG plant on Barrow Island was planned venting of reservoir CO2 through approved infrastructure during periods when capture and storage constraints limited operation, ABC News reported Nov 25. In the past financial year about 5.54 million tonnes of CO2 was separated from Gorgon gas and 1.45 million tonnes, or 26%, was injected. Five satellite observations averaged 4.9 tonnes of methane an hour, nearly five times the reported rate. The minister said the licence may be amended.",
+      "Pore space is also in demand for water. New Mexico is studying whether about 1.3 trillion gallons of brackish groundwater could be desalinated, with WSP planning two deep wells at Quail Ranch, and the state's brine plan names deep injection wells and evaporation ponds as disposal options, The Cool Down reported Nov 19. In Scotland, EnEarth agreed on Nov 23 to buy Storegga's 30% stake and lead role in the Acorn store, which targets more than 140 million tonnes of capacity."
+    ],
+    "nexus": {
+      "electrons": "Power is one of three Singapore sectors the treaty targets. With no storage at home, capture at its power plants depends on Australian pore space.",
+      "molecules": "Gorgon's LNG output has run about 8% above its 15.6 Mt a year design capacity since 2021, ABC reported, while only a quarter of its separated CO2 went underground last year.",
+      "pore": "The handover point model splits liability between the sending and storing country. Acorn's two licensed North Sea stores sit about 2.5 km below the seabed.",
+      "water": "Brine from inland desalination competes for the same deep injection capacity. New Mexico's plan for 1.3 trillion gallons of brackish water lists injection wells as one disposal route."
+    },
+    "use": [
+      {
+        "who": "Investors",
+        "text": "Cross border storage opens Asian demand for Australian pore space. Watch ratification timing before pricing any shipping chain."
+      },
+      {
+        "who": "Regulators",
+        "text": "Gorgon shows injection shortfalls turn into venting. Tie licences to measured injection rates and satellite checks."
+      },
+      {
+        "who": "Industry",
+        "text": "Singapore emitters can now plan export chains. Define the handover point and its liability terms in every contract."
+      },
+      {
+        "who": "Founders",
+        "text": "Monitoring is the gap. Independent measurement of injected and vented volumes is what regulators are now asking for."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Carbon Herald, Nov 25, 2026",
+        "url": "https://carbonherald.com/singapore-and-australia-sign-cross-border-co2-transport-and-storage-treaty/"
+      },
+      {
+        "name": "ABC News, Nov 25, 2026",
+        "url": "https://www.abc.net.au/news/2026-11-25/chevron-methane-plumes-deliberately-vented-says-regulator/107416308"
+      },
+      {
+        "name": "The Cool Down via Yahoo, Nov 19, 2026",
+        "url": "https://www.yahoo.com/news/science/articles/mexico-weighs-desalination-estimated-1-075100896.html"
+      },
+      {
+        "name": "Carbon Herald, Nov 23, 2026",
+        "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "label": "Gorgon CO2 injected, last FY",
+      "value": "1.45 Mt",
+      "note": "26% of 5.54 Mt separated",
+      "source": {
+        "name": "ABC News, Nov 25, 2026",
+        "url": "https://www.abc.net.au/news/2026-11-25/chevron-methane-plumes-deliberately-vented-says-regulator/107416308"
+      }
+    },
+    {
+      "label": "Acorn storage target",
+      "value": "140+ Mt",
+      "note": "5 to 10 Mt a year injection",
+      "source": {
+        "name": "Carbon Herald, Nov 23, 2026",
+        "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+      }
+    },
+    {
+      "label": "Data center line charges, 10 yr",
+      "value": "$55bn",
+      "note": "Grid Strategies estimate under Senate bill",
+      "source": {
+        "name": "Daily Caller, Nov 25, 2026",
+        "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+      }
+    },
+    {
+      "label": "LME copper, 3 month",
+      "value": "$11,738/t",
+      "note": "Down 0.7%, near this year's low",
+      "source": {
+        "name": "Wisevoter, Nov 25, 2026",
+        "url": "https://wisevoter.com/world/2026/11/25/copper-aluminium-tin-prices-fall-lme"
+      }
+    },
+    {
+      "label": "Yttrium oxide, North America",
+      "value": "$1,650/kg",
+      "note": "About $9/kg in China, Nov 17",
+      "source": {
+        "name": "Wisevoter, Nov 25, 2026",
+        "url": "https://wisevoter.com/world/2026/11/25/rare-earth-price-gap-china-exports"
+      }
+    },
+    {
+      "label": "Malaysia rare earth resources",
+      "value": "274,887 t",
+      "note": "Surveyed as of 2025; not reserves",
+      "source": {
+        "name": "Malay Mail, Nov 25, 2026",
+        "url": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysia-identifies-nearly-275000-tonnes-of-rare-earth-resources-says-minister/244710"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "id": "money",
+      "lane": "Capital",
+      "headline": "Greek group EnEarth buys Storegga's 30% of Scotland's Acorn CO2 store and takes the lead role",
+      "text": "EnEarth Holdings signed an agreement on Nov 23 to buy Storegga's 30% working interest and lead developer status in the Acorn CCS project in north east Scotland, subject to approvals and due to close by the end of 2026, Carbon Herald reported. Shell and Harbour Energy remain partners. Acorn's two licensed stores target 5 to 10 million tonnes a year of injection and more than 140 million tonnes of capacity. EnEarth says the deal creates an independent European CO2 transport and storage group spanning Acorn, Prinos in Greece, Devnya in Bulgaria and CO2 shipping.",
+      "use": [
+        {
+          "who": "Emitters",
+          "text": "Scottish and shipped CO2 supply now has a new counterparty. Recheck terms with the incoming lead developer."
+        },
+        {
+          "who": "Investors",
+          "text": "Independent storage platforms are consolidating across countries. Watch UK business case terms before close."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 23, 2026",
+          "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+        },
+        {
+          "name": "Scottish Financial Review, Nov 23, 2026",
+          "url": "https://scottishfinancialreview.com/2026/11/23/enearth-of-greece-to-lead-scots-carbon-capture/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "lane": "Projects",
+      "headline": "Europe builds hydrogen ready power and pipes: RWE wins 2.1 GW, Wood gets the BarMar subsea design",
+      "text": "Germany's Federal Network Agency awarded RWE three hydrogen compatible gas plants in North Rhine Westphalia totaling about 2,100 MW in its long term capacity tender, and RWE said construction of the first should start within weeks, Renewable Energy Magazine reported Nov 23. On Nov 25, Wood won the front end engineering contract for BarMar, the roughly 380 km Barcelona to Marseille subsea section of H2med, designed for up to 2 million tonnes of hydrogen a year, with work running to April 2028.",
+      "use": [
+        {
+          "who": "Suppliers",
+          "text": "Hydrogen ready turbines and 100% hydrogen compressors are now in live orders. Qualify early."
+        },
+        {
+          "who": "Developers",
+          "text": "BarMar's timeline sets when Iberian hydrogen can reach France. Plan offtake around 2028 design completion."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Renewable Energy Magazine, Nov 23, 2026",
+          "url": "https://www.renewableenergymagazine.com/hydrogen/rwe-set-to-build-three-new-hydrogencompatible-20261123"
+        },
+        {
+          "name": "Renewable Energy Magazine, Nov 25, 2026",
+          "url": "https://www.renewableenergymagazine.com/hydrogen/wood-awarded-feed-contract-for-landmark-subsea-20261125"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "lane": "Regulation",
+      "headline": "Senate bill heading to the House could make new data centers pay $55 billion for power lines",
+      "text": "New data centers would pay about $55 billion in transmission charges over 10 years under the Senate passed Bipartisan American Affordability and Jobs Act, about $35 billion more than without it, according to a Grid Strategies estimate reported by the Daily Caller on Nov 25. The Senate passed the bill 62 to 33 on Nov 19, and the House schedule lists it for the week of Nov 30. A Goldman Sachs note said US data center power capacity and demand have risen nearly 30% this year and that 52 GW more could come online in 2028.",
+      "use": [
+        {
+          "who": "Data center developers",
+          "text": "Model higher transmission charges in site economics now, not after a FERC rule."
+        },
+        {
+          "who": "Utilities",
+          "text": "FERC would have 90 days to act. Prepare cost allocation filings."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daily Caller, Nov 25, 2026",
+          "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+        },
+        {
+          "name": "Reuters via Business Standard, Nov 25, 2026",
+          "url": "https://www.business-standard.com/world-news/us-data-centre-boom-through-2028-will-lift-power-gas-demand-goldman-sachs-126112500233_1.html"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "lane": "Water",
+      "headline": "UAE studies desalination plants on its east coast, outside the Gulf",
+      "text": "The UAE is studying new desalination plants on its east coast and their links to transmission networks, and will expand underground water storage, Energy Minister Suhail Al Mazrouei said, The National reported Nov 26. The aim is to raise capacity and diversify where water is produced. In May, a 60 million imperial gallon a day reverse osmosis plant, Fujairah I, was signed at the Port of Fujairah on the Gulf of Oman for Dh1.046 billion ($284.8 million). The National noted that desalination plants in Bahrain and Kuwait were attacked in March.",
+      "use": [
+        {
+          "who": "Water investors",
+          "text": "Site diversification is now a security goal. Expect more east coast tenders tied to grid links."
+        },
+        {
+          "who": "Power planners",
+          "text": "Reverse osmosis load moves with the plants. Plan transmission to new water sites together."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The National, Nov 26, 2026",
+          "url": "https://www.thenationalnews.com/business/energy/2026/11/26/uae-explores-water-desalination-plants-on-east-coast-outside-arabian-gulf/"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "lane": "Projects",
+      "headline": "Italy's storage auction and a French geothermal heat network add firm low carbon capacity",
+      "text": "A BW ESS and A2A joint venture won Italy's MACSE auction awards for four battery projects of about 400 MW and 2,608 MWh in Sicily and Brindisi, Renewable Energy Magazine reported Nov 25. In France, ENGIE signed a 30 year, €94 million contract on Nov 25 for a 36 km heat network in the Yvelines supplied by deep geothermal from the Dogger aquifer at about 1,500 m, delivering about 141 GWh of heat a year and avoiding about 27,700 tonnes of CO2, Energynews.pro reported.",
+      "use": [
+        {
+          "who": "Storage developers",
+          "text": "Long duration auction contracts are bankable. Six and a half hour systems are winning in Italy."
+        },
+        {
+          "who": "Cities",
+          "text": "Deep aquifer heat can serve whole districts. Construction on the Yvelines network starts in 2027."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Renewable Energy Magazine, Nov 25, 2026",
+          "url": "https://www.renewableenergymagazine.com/storage/bw-ess-and-a2a-joint-venture-secures-20261125"
+        },
+        {
+          "name": "Energynews.pro, Nov 26, 2026",
+          "url": "https://energynews.pro/en/engie-signs-94-million-geothermal-heat-network-contract-in-frances-yvelines"
+        }
+      ]
+    }
+  ],
+  "tracker": [
+    {
+      "name": "Northern Lights Phase II",
+      "where": "Norway",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr; Equinor CEO said Nov 24 that capture delays leave little CO2 for new storage contracts",
+      "source": {
+        "name": "Briefs Finance, Nov 24, 2026",
+        "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+      },
+      "url": "https://norlights.com/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Porthos",
+      "where": "Netherlands",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Maximum budget raised to €1.7 billion from €1.3 billion; finish end 2027 at the earliest, operation likely 2028 (Nov 19)",
+      "source": {
+        "name": "Porthos, Nov 19, 2026",
+        "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+      },
+      "url": "https://www.porthosco2.nl/en/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Pathways CCS",
+      "where": "Alberta, Canada",
+      "type": "Capture, pipeline, storage",
+      "stage": 3,
+      "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+      "source": {
+        "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+        "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+      },
+      "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Havstjerne",
+      "where": "Norwegian North Sea",
+      "type": "Storage",
+      "stage": 3,
+      "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+      "source": {
+        "name": "World Oil",
+        "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+      },
+      "url": "https://harbourenergy.com/operations/ccs/norway",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Cape Station",
+      "where": "Beaver County, Utah",
+      "type": "Enhanced geothermal power",
+      "sector": "Geothermal",
+      "stage": 7,
+      "last": "First 33 MW GeoBlock operating since Sept 30; a 105 MW Longroad transmission deal on Nov 18 lifts contracted firm transmission to 505 MW from 2028",
+      "url": "https://fervoenergy.com/",
+      "source": {
+        "name": "Fervo Energy, Nov 18, 2026",
+        "url": "https://fervoenergy.com/fervo-energy-and-longroad-energy-execute-105-megawatt-long-term-transmission-service-agreement-expanding-transmission-at-cape-station/"
+      }
+    },
+    {
+      "name": "Project Obsidian",
+      "where": "Central Oregon",
+      "type": "Superhot geothermal power",
+      "sector": "Geothermal",
+      "stage": 4,
+      "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+      "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+      "source": {
+        "name": "Bend Bulletin, Nov 17, 2026",
+        "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+      }
+    },
+    {
+      "name": "Tampere e-methane plant",
+      "where": "Tampere, Finland",
+      "type": "E-methane from renewable hydrogen and biogenic CO2",
+      "sector": "Hydrogen",
+      "stage": 5,
+      "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+      "url": "https://ren-gas.com/",
+      "source": {
+        "name": "Hydrogen Central, Nov 21, 2026",
+        "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+      }
+    },
+    {
+      "name": "Long Mott Generating Station",
+      "where": "Seadrift, Texas",
+      "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+      "sector": "Power",
+      "stage": 4,
+      "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+      "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+      "source": {
+        "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+        "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+      }
+    },
+    {
+      "name": "Niron Magnetics Dothan complex",
+      "where": "Dothan, Alabama",
+      "type": "Rare earth free iron nitride permanent magnets",
+      "sector": "Minerals",
+      "stage": 1,
+      "last": "$1.8 billion plan announced Nov 24: construction from 2028, 10,000 t a year from 2029, about 700 jobs",
+      "url": "https://nironmagnetics.com/",
+      "source": {
+        "name": "SMM, Nov 24, 2026",
+        "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+      }
+    },
+    {
+      "name": "Acorn CCS",
+      "where": "North east Scotland",
+      "type": "CO2 transport and storage",
+      "sector": "Carbon storage",
+      "stage": 2,
+      "last": "EnEarth agreed Nov 23 to buy Storegga's 30% stake and lead developer role; close due by end 2026; 5 to 10 Mt a year target",
+      "url": "https://theacornproject.uk/",
+      "source": {
+        "name": "Carbon Herald, Nov 23, 2026",
+        "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "name": "Matthew Swinbourn",
+      "role": "Environment Minister, Western Australia",
+      "text": "Said the Gorgon plume was not an uncontrolled leak or unauthorised emission source, and that the plant's licence may be amended.",
+      "source": {
+        "name": "ABC News, Nov 25, 2026",
+        "url": "https://www.abc.net.au/news/2026-11-25/chevron-methane-plumes-deliberately-vented-says-regulator/107416308"
+      }
+    },
+    {
+      "name": "Tim Baxter",
+      "role": "Energy researcher",
+      "text": "Estimated that more than 4 million tonnes of reservoir CO2 was vented at Gorgon.",
+      "source": {
+        "name": "ABC News, Nov 25, 2026",
+        "url": "https://www.abc.net.au/news/2026-11-25/chevron-methane-plumes-deliberately-vented-says-regulator/107416308"
+      }
+    },
+    {
+      "name": "Jeffrey Samson",
+      "role": "Engineer, WSP",
+      "text": "Said the New Mexico brackish water test wells will target depths of about 7,600 feet.",
+      "source": {
+        "name": "The Cool Down via Yahoo, Nov 19, 2026",
+        "url": "https://www.yahoo.com/news/science/articles/mexico-weighs-desalination-estimated-1-075100896.html"
+      }
+    }
+  ],
+  "research": [
+    {
+      "title": "Assessing the Carbon Emissions and Energy Consumption of US Hyperscale Data Centers",
+      "by": "Harvard T.H. Chan School of Public Health, Nature Sustainability",
+      "date": "Nov 16, 2026",
+      "text": "Satellite imagery found 403 US hyperscale data centers using 68 to 99 TWh in a year, about 1.8% of US electricity and 25.7 Mt of CO2, with about 54% of their power from fossil fuels.",
+      "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/"
+    },
+    {
+      "title": "Data center transmission cost estimate under BAAJA",
+      "by": "Grid Strategies",
+      "date": "Nov 25, 2026",
+      "text": "Rough estimate that about 40.3 GW of new data centers outside Texas would pay about $55 billion in transmission charges over 10 years under the Senate bill.",
+      "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+    },
+    {
+      "title": "European hydrogen markets 2026 Monitoring Report",
+      "by": "ACER",
+      "date": "Nov 13, 2026",
+      "text": "About 4.2 GW of electrolysers are operating, under construction or at FID in Europe, but only about 510 MW operate, against 30 to 58 GW assumed for 2030.",
+      "url": "https://www.acer.europa.eu/sites/default/files/documents/Publications/ACER-2026-Monitoring-Report-European-hydrogen-markets.pdf"
+    }
+  ],
+  "calendar": [],
+  "calendar_sources": [],
+  "social": {
+    "kicker": "Morning: the nexus",
+    "headline": "Australia to store Singapore's captured CO2",
+    "points": [
+      "Gorgon injected 26% last year",
+      "Treaty signed in Canberra, Nov 24",
+      "Liability moves at the handover point"
+    ],
+    "watch": "Ratification in both countries starts a 30 day clock.",
+    "caption": "Canberra, Nov 24: Singapore and Australia signed a treaty to ship CO2 captured in Singapore to offshore storage under Australian jurisdiction, as Gorgon data shows only 26% of its separated CO2 was injected last year.\n\nRead the nexus angle at carbonenergynexus.com\n\n#CCS #CarbonCapture #Australia #Singapore #Climate"
+  },
+  "social_slots": {
+    "midday": {
+      "kicker": "Midday: the money",
+      "headline": "EnEarth takes the lead on Scotland's Acorn CCS",
+      "points": [
+        "30% stake bought from Storegga",
+        "140 Mt+ of storage capacity",
+        "Closing due by end of 2026"
+      ],
+      "watch": "Regulatory approvals and UK business case terms.",
+      "caption": "30% of Scotland's biggest CO2 store changes hands. Greece's EnEarth is buying Storegga's stake and lead role in Acorn, which targets 5 to 10 Mt a year.\n\nFull brief: carbonenergynexus.com\n\n#CCS #Scotland #NorthSea #CarbonStorage"
+    },
+    "evening": {
+      "kicker": "Evening: the world",
+      "headline": "UAE studies desalination outside the Gulf",
+      "points": [
+        "New plants eyed on the east coast",
+        "Fujairah I: $284.8m, 60 MIGD",
+        "More underground water storage"
+      ],
+      "watch": "Which sites get grid links first.",
+      "caption": "Where should a desert country make its water? The UAE says it is studying desalination plants on its east coast, outside the Gulf, plus more underground storage.\n\nWhy it matters for capital and water: carbonenergynexus.com\n\n#Water #Desalination #UAE #Infrastructure"
+    }
+  },
+  "minerals": {
+    "intro": "Malaysia counts its rare earths as the price gap between China and the West widens, copper sits near its low for the year, and Canada and Finland test cleaner battery material supply.",
+    "items": [
+      {
+        "symbol": "Nd",
+        "name": "Rare earths",
+        "headline": "Malaysia reports 274,887 tonnes of surveyed rare earth resources",
+        "text": "Minister Arthur Joseph Kurup told parliament on Nov 25 that surveys show 274,887 tonnes of rare earth resources as of 2025, with preliminary estimates of 16.1 million tonnes, and stressed these are not verified reserves. A RM38.49 million second phase covers 160 square km in 10 states. Lynas and South Korea's JS Link are building a 3,000 tonne a year magnet plant in Kuantan.",
+        "sources": [
+          {
+            "name": "Malay Mail, Nov 25, 2026",
+            "url": "https://www.malaymail.com/news/malaysia/2026/11/25/malaysia-identifies-nearly-275000-tonnes-of-rare-earth-resources-says-minister/244710"
+          }
+        ]
+      },
+      {
+        "symbol": "Y",
+        "name": "Heavy rare earths",
+        "headline": "Yttrium oxide costs about $1,650 a kg in North America against about $9 in China",
+        "text": "The gap was recorded on Nov 17, Wisevoter reported Nov 25, citing The Northern Miner. China's controlled rare earth shipments to the US averaged 19.3 tonnes a month from November 2025 through September. Sprott analysts argue long term minimum price contracts can finance projects outside China.",
+        "sources": [
+          {
+            "name": "Wisevoter, Nov 25, 2026",
+            "url": "https://wisevoter.com/world/2026/11/25/rare-earth-price-gap-china-exports"
+          }
+        ]
+      },
+      {
+        "symbol": "§",
+        "name": "Minerals policy",
+        "headline": "Price floors spread as the West tries to fund rare earth supply",
+        "text": "MP Materials has a 10 year US Defense Department agreement with a $110 a kg floor for NdPr, and Lynas set up a price floor with JARE in March, Wisevoter reported Nov 25. China refined 91% of magnet rare earths in 2024 and made 94% of sintered magnets. Beijing's broader controls are suspended until Jan 10, 2027.",
+        "sources": [
+          {
+            "name": "Wisevoter, Nov 25, 2026",
+            "url": "https://wisevoter.com/world/2026/11/25/rare-earth-price-gap-china-exports"
+          }
+        ]
+      },
+      {
+        "symbol": "Cu",
+        "name": "Copper",
+        "headline": "LME copper slips to $11,738 near its lowest level this year",
+        "text": "Three month copper fell 0.7% to $11,738 a tonne and tin fell 3.8% to $38,020, Wisevoter reported Nov 25, citing The Edge Malaysia. Copper hit a record near $15,000 in September. The CPER copper fund is down 19.39% over 20 sessions.",
+        "sources": [
+          {
+            "name": "Wisevoter, Nov 25, 2026",
+            "url": "https://wisevoter.com/world/2026/11/25/copper-aluminium-tin-prices-fall-lme"
+          },
+          {
+            "name": "Rio Times, Nov 25, 2026",
+            "url": "https://www.riotimesonline.com/copper-markets-latam-wednesday-november-25-2026/"
+          }
+        ]
+      },
+      {
+        "symbol": "C",
+        "name": "Graphite",
+        "headline": "Ontario's Kearney graphite mine tests a 22 tonne electric haul truck before restart",
+        "text": "MEDATech Engineering is running a one week trial at the Kearney mine, funded by Natural Resources Canada, Global Battery Materials said Nov 23. The July study shows a US$183 million post tax NPV, about 23,000 tonnes a year of concentrate and a full restart in 2028. No binding offtake has been disclosed.",
+        "sources": [
+          {
+            "name": "Discovery Alert, Nov 25, 2026",
+            "url": "https://discoveryalert.com/news/kearney-graphite-mine-electric-haul-truck-trial-november-2026"
+          }
+        ]
+      },
+      {
+        "symbol": "Ni",
+        "name": "Nickel and cobalt",
+        "headline": "Fortum makes first battery grade nickel and cobalt sulphate samples from recycled material in Finland",
+        "text": "Fortum produced its first battery grade nickel sulphate, cobalt sulphate and lithium hydroxide samples at Harjavalta, SustainabilityOnline reported Nov 24. BASF agreed to sell its European and North American battery recycling business to cylib, with completion expected in mid 2027.",
+        "sources": [
+          {
+            "name": "SustainabilityOnline, Nov 24, 2026",
+            "url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-24-november-2026"
+          }
+        ]
+      }
+    ]
+  },
+  "innovation": [
+    {
+      "name": "Humidity proof CO2 capture material",
+      "org": "Oregon State University, in Angewandte Chemie",
+      "kind": "Academia",
+      "date": "Nov 17, 2026",
+      "text": "BVR-X, a metal organic framework that keeps water and CO2 apart in its pores, captured CO2 from a humid stream of only 4% CO2 and was reused across dozens of cycles. A patent is pending.",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+    },
+    {
+      "name": "Satellite census of data center power",
+      "org": "Harvard T.H. Chan School of Public Health",
+      "kind": "Academia",
+      "date": "Nov 16, 2026",
+      "text": "Researchers mapped 403 US hyperscale sites from satellite imagery to estimate their electricity use and emissions, two to three times an earlier estimate.",
+      "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/"
+    },
+    {
+      "name": "Battery grade metals from black mass",
+      "org": "Fortum",
+      "kind": "Private",
+      "date": "Nov 24, 2026",
+      "text": "First battery grade nickel sulphate, cobalt sulphate and lithium hydroxide samples produced at Harjavalta, Finland.",
+      "url": "https://sustainabilityonline.net/news/sustainabilityonline-the-sustainability-brief-24-november-2026"
+    },
+    {
+      "name": "Electric haul truck at a graphite mine",
+      "org": "MEDATech Engineering and Global Battery Materials",
+      "kind": "Private",
+      "date": "Nov 23, 2026",
+      "text": "A 22 tonne battery electric haul truck is in a one week trial at the Kearney graphite mine in Ontario, backed by Natural Resources Canada.",
+      "url": "https://discoveryalert.com/news/kearney-graphite-mine-electric-haul-truck-trial-november-2026"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-30",
+      "when": "Nov 30, 2026",
+      "type": "Minerals",
+      "what": "Congo's suspension of all cobalt exports takes effect, with a review after four months",
+      "where": "Democratic Republic of the Congo",
+      "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+    },
+    {
+      "date": "2026-11-30",
+      "when": "Week of Nov 30, 2026",
+      "type": "Power",
+      "what": "US House floor schedule lists the Senate passed permitting and data center transmission bill",
+      "where": "Washington, DC",
+      "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+    },
+    {
+      "date": "2026-12-02",
+      "when": "Dec 2 to 3, 2026",
+      "type": "Carbon",
+      "what": "CCS 2026 conference, Norwegian Petroleum Society",
+      "where": "Fornebu, Oslo",
+      "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "when": "About Dec 8, 2026",
+      "type": "Minerals",
+      "what": "US final antidumping determination on large graphite electrodes from China and India",
+      "where": "United States",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14 to 17, 2026",
+      "type": "Carbon",
+      "what": "European Parliament plenary vote planned on EU ETS reform",
+      "where": "Strasbourg",
+      "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14, 2026",
+      "type": "Carbon",
+      "what": "Last EU ETS primary auction of 2026, about 2.85 million allowances",
+      "where": "Common auction platform",
+      "url": "https://theindustryspread.com/eua-carbon-final-auction-case/"
+    },
+    {
+      "date": "2026-12-15",
+      "when": "Dec 15, 2026",
+      "type": "Renewables",
+      "what": "California CEC and Department of Conservation geothermal workshop on the $18 million drilling program",
+      "where": "Online (Zoom)",
+      "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+    },
+    {
+      "date": "2027-01-10",
+      "when": "Jan 10, 2027",
+      "type": "Minerals",
+      "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+      "where": "China and United States",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+    },
+    {
+      "date": "2027-01-27",
+      "when": "Jan 27, 2027",
+      "type": "Minerals",
+      "what": "China's suspension of its gallium, germanium and antimony export ban to the US, and of stricter graphite reviews, ends unless extended",
+      "where": "China and United States",
+      "url": "https://www.ibtimes.com/china-extends-us-critical-mineral-export-suspension-3810139"
+    },
+    {
+      "date": "2027-02-08",
+      "when": "Feb 8 to 11, 2027",
+      "type": "Minerals",
+      "what": "Mining Indaba",
+      "where": "Cape Town",
+      "url": "https://miningindaba.com/Register-your-interest"
+    },
+    {
+      "date": "2027-03-07",
+      "when": "Mar 7 to 10, 2027",
+      "type": "Minerals",
+      "what": "PDAC, the largest mineral exploration convention",
+      "where": "Toronto",
+      "url": "https://www.pdac.ca/convention"
+    },
+    {
+      "date": "2027-03-15",
+      "when": "Mar 15, 2027",
+      "type": "Policy",
+      "what": "Deadline for UNFCCC submissions on the new just transition mechanism",
+      "where": "UNFCCC",
+      "url": "https://theplanetbrief.com/carbon/climate-policy/cop31-outcomes-antalya-pact-2026/"
+    },
+    {
+      "date": "2027-04-20",
+      "when": "Apr 20 to 22, 2027",
+      "type": "Renewables",
+      "what": "WindEurope Annual Event, onshore and offshore wind",
+      "where": "Copenhagen",
+      "url": "https://windeurope.org/annual2027/information/"
+    },
+    {
+      "date": "2027-05-18",
+      "when": "May 18 to 20, 2027",
+      "type": "Hydrogen",
+      "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+      "where": "Rotterdam",
+      "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+    },
+    {
+      "date": "2027-06-08",
+      "when": "Jun 8 to 10, 2027",
+      "type": "Renewables",
+      "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+      "where": "Munich",
+      "url": "https://www.intersolar.de/en/about"
+    },
+    {
+      "date": "2027-10-06",
+      "when": "Oct 6 to 7, 2027",
+      "type": "Carbon",
+      "what": "Wood Mackenzie CCUS Conference",
+      "where": "Houston",
+      "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+    },
+    {
+      "date": "2027-11-08",
+      "when": "Nov 8 to 19, 2027",
+      "type": "Policy",
+      "what": "COP32 UN climate conference",
+      "where": "Addis Ababa",
+      "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+    },
+    {
+      "date": "2027-11-15",
+      "when": "Nov 15 to 18, 2027",
+      "type": "Renewables",
+      "what": "RE+, North America's largest clean energy event",
+      "where": "Las Vegas",
+      "url": "https://seia.org/events/re-2027/"
+    }
+  ]
+}
