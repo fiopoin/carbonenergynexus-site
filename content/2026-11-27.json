@@ -1,0 +1,723 @@
+{
+  "date": "2026-11-27",
+  "date_long": "November 27, 2026",
+  "edition": 10,
+  "lead": {
+    "kicker": "Carbon removal",
+    "headline": "IEA raises its 2050 carbon removal need by 30% as operating capture capacity sits at 68 Mt a year",
+    "dek": "The IEA's net zero pathway now needs 6.4 billion tonnes of CO2 captured a year by 2050. UK cement and lime makers say they need firm support to build their share.",
+    "body": [
+      "The IEA's World Energy Outlook 2026 net zero scenario needs about 2.7 billion tonnes a year of removals from direct air capture and bioenergy with storage by 2050, about 30% more than its previous outlook, Carbon Herald reported Nov 25. The IEA links the increase to higher emissions in 2025 and a resulting temperature overshoot. Total CO2 capture rises from about 100 million tonnes in 2025 to 2.2 billion tonnes in 2035, 3.9 billion in 2040 and 6.4 billion in 2050. The Global CCS Institute counts 113 commercial projects operating with 68 million tonnes a year of capture capacity, and cautions that capacity is not the same as CO2 actually stored.",
+      "Industry accounts for more than a quarter of captured emissions by 2035 in the IEA pathway, with cement, steel and chemicals named. In Westminster on Nov 25, Breedon, Tarmac, Holcim, Buxton Lime, the GMB, Unite and the TUC signed a Cement and Lime Charter asking the UK government for long term certainty on carbon capture support, Carbon Herald reported Nov 26. Their Peak Cluster project would link four Derbyshire and Staffordshire plants making about 40% of UK cement and lime, capture more than 3 million tonnes a year, and pipe it to the Morecambe Net Zero store under the East Irish Sea. A development consent application is planned for 2027.",
+      "New capture and removal plants will compete for power and water with other new loads. In Nevada, a Desert Research Institute report estimates data centers could use 13,000 acre feet of water a year directly by 2036, about 4 billion gallons, plus 22,000 acre feet indirectly, and an amount of power equal to all of Nevada's 2024 generation, Planetizen reported Nov 24, citing Facilities Dive."
+    ],
+    "nexus": {
+      "electrons": "In the IEA net zero case, electricity rises from under a quarter of final energy today to 35% by 2035, with low emissions sources near 90% of generation.",
+      "molecules": "Cement's CO2 comes mostly from limestone itself, not fuel, which is why the industry says capture is its main route. Industry is over a quarter of IEA captured volumes by 2035.",
+      "pore": "6.4 billion tonnes a year by 2050 means storage on a scale far beyond the 68 Mt a year of capture capacity running today. Peak Cluster relies on one offshore store, Morecambe Net Zero.",
+      "water": "Capture and removal sites draw on the same water as data centers. Nevada's estimate of 13,000 acre feet a year of direct data center use by 2036 shows how fast that demand can grow."
+    },
+    "use": [
+      {
+        "who": "Investors",
+        "text": "The removal gap widened in the IEA's own numbers. Track contracted storage, not announced capacity."
+      },
+      {
+        "who": "Regulators",
+        "text": "Industrial clusters want long term revenue support. Clear timelines decide whether Peak Cluster files in 2027."
+      },
+      {
+        "who": "Industry",
+        "text": "Process emitters have few alternatives to capture. Secure pipeline and storage access early."
+      },
+      {
+        "who": "Founders",
+        "text": "Measured, verified stored tonnes are the gap between capacity and storage. Build for that."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Carbon Herald, Nov 25, 2026",
+        "url": "https://carbonherald.com/iea-raises-2050-carbon-removal-target-by-30-as-co2-capture-needs-surge/"
+      },
+      {
+        "name": "Carbon Herald, Nov 26, 2026",
+        "url": "https://carbonherald.com/uk-cement-and-lime-industry-calls-on-government-for-carbon-capture-support"
+      },
+      {
+        "name": "Planetizen via Facilities Dive, Nov 24, 2026",
+        "url": "https://www.planetizen.com/news/2026/11/138935-data-centers-may-drain-4-billion-gallons-water-annually-uss-driest-state"
+      },
+      {
+        "name": "IEA World Energy Outlook 2026",
+        "url": "https://www.iea.org/reports/world-energy-outlook-2026/the-outlook-for-energy-transitions"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "label": "IEA net zero CO2 capture, 2050",
+      "value": "6.4 Gt/yr",
+      "note": "From about 100 Mt in 2025",
+      "source": {
+        "name": "Carbon Herald, Nov 25, 2026",
+        "url": "https://carbonherald.com/iea-raises-2050-carbon-removal-target-by-30-as-co2-capture-needs-surge/"
+      }
+    },
+    {
+      "label": "Operating capture capacity",
+      "value": "68 Mt/yr",
+      "note": "113 commercial projects, Global CCS Institute",
+      "source": {
+        "name": "Carbon Herald, Nov 25, 2026",
+        "url": "https://carbonherald.com/iea-raises-2050-carbon-removal-target-by-30-as-co2-capture-needs-surge/"
+      }
+    },
+    {
+      "label": "China pure hydrogen pipeline",
+      "value": "195 km",
+      "note": "Design up to 100,000 t a year",
+      "source": {
+        "name": "BioEnergy Times, Nov 26, 2026",
+        "url": "https://bioenergytimes.com/china-commissions-195-km-pure-hydrogen-pipeline-in-inner-mongolia/"
+      }
+    },
+    {
+      "label": "Australia battery FID, Q3",
+      "value": "13.8 GWh",
+      "note": "20 GWh so far in 2026",
+      "source": {
+        "name": "RenewEconomy, Nov 26, 2026",
+        "url": "https://reneweconomy.com.au/records-tumble-for-big-and-small-renewables-as-doubling-of-big-batteries-helps-slash-cost-of-power/"
+      }
+    },
+    {
+      "label": "LME copper, 3 month",
+      "value": "$11,958/t",
+      "note": "Up 2.65% early Nov 26",
+      "source": {
+        "name": "Reuters via Business Recorder, Nov 26, 2026",
+        "url": "https://www.brecorder.com/news/40450844/copper-bounces-back-toward-12000-as-us-tariff-fears-ease"
+      }
+    },
+    {
+      "label": "Nevada data center water, 2036",
+      "value": "13,000 ac-ft",
+      "note": "Direct use estimate, DRI",
+      "source": {
+        "name": "Planetizen via Facilities Dive, Nov 24, 2026",
+        "url": "https://www.planetizen.com/news/2026/11/138935-data-centers-may-drain-4-billion-gallons-water-annually-uss-driest-state"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "id": "money",
+      "lane": "Capital",
+      "headline": "Australia sets a record for renewable investment decisions as big battery commitments double",
+      "text": "New large scale renewable capacity reaching final investment decision hit 2.1 GW in the September quarter, taking 2026 to 5 GW, above all of 2025, and a record 5.5 GW including deals after the quarter, the Clean Energy Regulator's quarterly report shows, RenewEconomy reported Nov 26. Wind took 1.1 GW, its strongest quarter on record. Big batteries reached 13.8 GWh of FIDs in the quarter and 20 GWh for the year, and the average new battery grew to 621 MWh from 265 MWh in 2025. NEM wholesale prices fell 27% from a year earlier.",
+      "use": [
+        {
+          "who": "Investors",
+          "text": "More than half of FIDs had Capacity Investment Scheme backing. Watch the next tender rounds."
+        },
+        {
+          "who": "Storage developers",
+          "text": "Bigger batteries are now the norm. Plan grid connection for 600 MWh plus systems."
+        }
+      ],
+      "sources": [
+        {
+          "name": "RenewEconomy, Nov 26, 2026",
+          "url": "https://reneweconomy.com.au/records-tumble-for-big-and-small-renewables-as-doubling-of-big-batteries-helps-slash-cost-of-power/"
+        },
+        {
+          "name": "Energy-Storage.news, Nov 2026",
+          "url": "https://www.energy-storage.news/greater-operational-flexibility-australias-aemo-leans-on-5-3gw-of-new-battery-storage-for-summer/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "lane": "Projects",
+      "headline": "China commissions a 195 km pipeline built only for hydrogen in Inner Mongolia",
+      "text": "The pipeline links green hydrogen production in Darhan Muminggan United Banner with industrial users and is designed for up to 100,000 tonnes a year, BioEnergy Times reported Nov 26, citing Xinhua. Transport cost is expected to fall about 77% at full capacity, to about 3 yuan a kg from 13. Developer Inner Mongolia Huadian Hydrogen Energy said it will inform larger networks, and Baotou Steel made steel for hydrogen embrittlement. In the same week, China Energy Engineering's Songyuan park got its first central incentive funds and its Phase I produces over 700 tonnes of green ammonia a day, SMM reported.",
+      "use": [
+        {
+          "who": "Hydrogen developers",
+          "text": "Dedicated pipe changes delivered cost more than electrolyser price. Compare trucking and pipe per kg."
+        },
+        {
+          "who": "Steel and pipe makers",
+          "text": "Embrittlement resistant grades are now in service. Expect qualification demand."
+        }
+      ],
+      "sources": [
+        {
+          "name": "BioEnergy Times, Nov 26, 2026",
+          "url": "https://bioenergytimes.com/china-commissions-195-km-pure-hydrogen-pipeline-in-inner-mongolia/"
+        },
+        {
+          "name": "SMM, Nov 26, 2026",
+          "url": "https://news.metal.com/newscontent/EYUMC4GZRTU2NRD466SBR4242HPPFSJRVQON2KQ-smm-survey-hydrogen-energy-industry-weekly-review-20261120-1126"
+        }
+      ]
+    },
+    {
+      "id": "policy",
+      "lane": "Regulation",
+      "headline": "UK cement and lime makers and unions sign a charter asking for carbon capture certainty",
+      "text": "Producers Breedon, Tarmac, Holcim and Buxton Lime, unions GMB, Unite and the TUC, and the Mineral Products Association, the Global Cement and Concrete Association and the Carbon Capture and Storage Association signed the Cement and Lime Charter at a Westminster summit on Nov 25, Carbon Herald reported. Speakers said uneven carbon pricing and higher carbon imports hurt competitiveness. Peak Cluster says it would protect about 2,000 jobs and create 1,500 construction roles.",
+      "use": [
+        {
+          "who": "Policymakers",
+          "text": "Industry and unions are asking together. Revenue model and timing decisions are the next step."
+        },
+        {
+          "who": "Builders",
+          "text": "Domestic low carbon cement depends on capture. Factor it into long term supply plans."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 26, 2026",
+          "url": "https://carbonherald.com/uk-cement-and-lime-industry-calls-on-government-for-carbon-capture-support"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "lane": "Water",
+      "headline": "Nevada study says data centers could use 4 billion gallons of water a year by 2036",
+      "text": "A Desert Research Institute report estimates Nevada's data centers could use 13,000 acre feet of water a year directly by 2036, plus 22,000 acre feet indirectly, Planetizen reported Nov 24, citing Facilities Dive. Nevada, the driest US state, has more than three dozen data centers with several dozen more planned. Data centers used 22% of the state's generation capacity in 2024, and the report estimates their 2036 use would equal all of Nevada's 2024 generation. Direct water use depends on cooling choices such as direct to chip and immersion.",
+      "use": [
+        {
+          "who": "Data center developers",
+          "text": "Cooling choice sets water demand. Expect permits to ask for it."
+        },
+        {
+          "who": "Water utilities",
+          "text": "Indirect use through power is larger than direct use. Plan with the power sector."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Planetizen via Facilities Dive, Nov 24, 2026",
+          "url": "https://www.planetizen.com/news/2026/11/138935-data-centers-may-drain-4-billion-gallons-water-annually-uss-driest-state"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "lane": "Projects",
+      "headline": "India and The Gambia add battery storage: L&T wins 900 MWh at Khavda, NVVN seeks 750 MWh",
+      "text": "L&T won an order for a 300 MW, 900 MWh three hour battery at Khavda in Gujarat, SolarQuarter reported Nov 26. NVVN is seeking bids for 187.5 MW, 750 MWh in two projects, with viability gap funding capped at Rs 18 lakh per MWh or 30% of capital cost and bids due Dec 21, Power Peak Digest reported. The Gambia signed agreements for a $68 million, 52 MWp solar plant with a 40.9 MWh battery at Soma, with a 25 year PPA with NAWEC and about 101 GWh a year expected.",
+      "use": [
+        {
+          "who": "Suppliers",
+          "text": "Indian tenders are moving to four hour systems. Price bids against the VGF cap."
+        },
+        {
+          "who": "Development lenders",
+          "text": "West African solar plus storage is reaching signed PPAs. Watch financial close."
+        }
+      ],
+      "sources": [
+        {
+          "name": "SolarQuarter, Nov 26, 2026",
+          "url": "https://solarquarter.com/2026/11/26/lt-secures-significant-order-for-300-mw-900-mwh-battery-storage-project-in-gujarat"
+        },
+        {
+          "name": "Power Peak Digest, Nov 26, 2026",
+          "url": "https://powerpeakdigest.com/nvvn-tender-750-mwh-bess-projects/"
+        },
+        {
+          "name": "SolarQuarter, Nov 26, 2026",
+          "url": "https://solarquarter.com/2026/11/26/gambia-signs-us68-million-deal-for-52-mw-solar-and-40-9-mwh-battery-storage-project"
+        }
+      ]
+    }
+  ],
+  "tracker": [
+    {
+      "name": "Northern Lights Phase II",
+      "where": "Norway",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr; Equinor CEO said Nov 24 that capture delays leave little CO2 for new storage contracts",
+      "source": {
+        "name": "Briefs Finance, Nov 24, 2026",
+        "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+      },
+      "url": "https://norlights.com/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Porthos",
+      "where": "Netherlands",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Maximum budget raised to €1.7 billion from €1.3 billion; finish end 2027 at the earliest, operation likely 2028 (Nov 19)",
+      "source": {
+        "name": "Porthos, Nov 19, 2026",
+        "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+      },
+      "url": "https://www.porthosco2.nl/en/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Pathways CCS",
+      "where": "Alberta, Canada",
+      "type": "Capture, pipeline, storage",
+      "stage": 3,
+      "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+      "source": {
+        "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+        "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+      },
+      "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Havstjerne",
+      "where": "Norwegian North Sea",
+      "type": "Storage",
+      "stage": 3,
+      "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+      "source": {
+        "name": "World Oil",
+        "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+      },
+      "url": "https://harbourenergy.com/operations/ccs/norway",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Cape Station",
+      "where": "Beaver County, Utah",
+      "type": "Enhanced geothermal power",
+      "sector": "Geothermal",
+      "stage": 7,
+      "last": "First 33 MW GeoBlock operating since Sept 30; a 105 MW Longroad transmission deal on Nov 18 lifts contracted firm transmission to 505 MW from 2028",
+      "url": "https://fervoenergy.com/",
+      "source": {
+        "name": "Fervo Energy, Nov 18, 2026",
+        "url": "https://fervoenergy.com/fervo-energy-and-longroad-energy-execute-105-megawatt-long-term-transmission-service-agreement-expanding-transmission-at-cape-station/"
+      }
+    },
+    {
+      "name": "Project Obsidian",
+      "where": "Central Oregon",
+      "type": "Superhot geothermal power",
+      "sector": "Geothermal",
+      "stage": 4,
+      "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+      "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+      "source": {
+        "name": "Bend Bulletin, Nov 17, 2026",
+        "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+      }
+    },
+    {
+      "name": "Tampere e-methane plant",
+      "where": "Tampere, Finland",
+      "type": "E-methane from renewable hydrogen and biogenic CO2",
+      "sector": "Hydrogen",
+      "stage": 5,
+      "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+      "url": "https://ren-gas.com/",
+      "source": {
+        "name": "Hydrogen Central, Nov 21, 2026",
+        "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+      }
+    },
+    {
+      "name": "Long Mott Generating Station",
+      "where": "Seadrift, Texas",
+      "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+      "sector": "Power",
+      "stage": 4,
+      "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+      "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+      "source": {
+        "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+        "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+      }
+    },
+    {
+      "name": "Niron Magnetics Dothan complex",
+      "where": "Dothan, Alabama",
+      "type": "Rare earth free iron nitride permanent magnets",
+      "sector": "Minerals",
+      "stage": 1,
+      "last": "$1.8 billion plan announced Nov 24: construction from 2028, 10,000 t a year from 2029, about 700 jobs",
+      "url": "https://nironmagnetics.com/",
+      "source": {
+        "name": "SMM, Nov 24, 2026",
+        "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+      }
+    },
+    {
+      "name": "Acorn CCS",
+      "where": "North east Scotland",
+      "type": "CO2 transport and storage",
+      "sector": "Carbon storage",
+      "stage": 2,
+      "last": "EnEarth agreed Nov 23 to buy Storegga's 30% stake and lead developer role; close due by end 2026; 5 to 10 Mt a year target",
+      "url": "https://theacornproject.uk/",
+      "source": {
+        "name": "Carbon Herald, Nov 23, 2026",
+        "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "name": "David Parkin",
+      "role": "CEO, Peak Cluster",
+      "text": "Said that without dedicated carbon capture, Britain risks losing industrial output, jobs and investment overseas and relying more on imported building materials.",
+      "source": {
+        "name": "Carbon Herald, Nov 26, 2026",
+        "url": "https://carbonherald.com/uk-cement-and-lime-industry-calls-on-government-for-carbon-capture-support"
+      }
+    },
+    {
+      "name": "Bonnie Glaser",
+      "role": "German Marshall Fund",
+      "text": "Said China's two month extension roughly lines up with the expiry of the US China tariff deal, and that general licensing rules and the ban on US military users stay in place.",
+      "source": {
+        "name": "VOA, Nov 26, 2026",
+        "url": "https://voanews.com/a/china-extends-suspension-period-for-its-ban-on-export-of-critical-minerals-to-us-20261126/8228334.html"
+      }
+    },
+    {
+      "name": "Michael Gatt",
+      "role": "Executive general manager, operations, AEMO",
+      "text": "Said new batteries give the grid more flexibility this summer, but conditions can change quickly in extreme heat.",
+      "source": {
+        "name": "Energy-Storage.news, Nov 2026",
+        "url": "https://www.energy-storage.news/greater-operational-flexibility-australias-aemo-leans-on-5-3gw-of-new-battery-storage-for-summer/"
+      }
+    }
+  ],
+  "research": [
+    {
+      "title": "World Energy Outlook 2026",
+      "by": "International Energy Agency",
+      "date": "Nov 2026",
+      "text": "In the net zero case, energy CO2 falls below 19 Gt by 2035, warming overshoots 1.6 C for almost 40 years before returning below 1.5 C by 2100, and clean energy investment averages about $4.5 trillion a year.",
+      "url": "https://www.iea.org/reports/world-energy-outlook-2026/the-outlook-for-energy-transitions"
+    },
+    {
+      "title": "Quarterly Carbon Market Report, September quarter 2026",
+      "by": "Clean Energy Regulator, Australia",
+      "date": "Nov 26, 2026",
+      "text": "Record 5.5 GW of renewable FIDs in 2026 so far, 20 GWh of big battery FIDs, and 10.3 GWh of home batteries installed or approved.",
+      "url": "https://reneweconomy.com.au/records-tumble-for-big-and-small-renewables-as-doubling-of-big-batteries-helps-slash-cost-of-power/"
+    },
+    {
+      "title": "Data center water and power demand in Nevada",
+      "by": "Desert Research Institute",
+      "date": "Nov 2026",
+      "text": "Estimates 13,000 acre feet a year of direct water use and 22,000 indirect by 2036, depending on cooling technology.",
+      "url": "https://www.planetizen.com/news/2026/11/138935-data-centers-may-drain-4-billion-gallons-water-annually-uss-driest-state"
+    }
+  ],
+  "calendar": [],
+  "calendar_sources": [],
+  "social": {
+    "kicker": "Morning: the nexus",
+    "headline": "IEA lifts its 2050 carbon removal need by 30%",
+    "points": [
+      "6.4 Gt a year captured by 2050",
+      "68 Mt a year of capacity today",
+      "UK cement makers ask for support"
+    ],
+    "watch": "Whether capture capacity turns into stored tonnes.",
+    "caption": "30% more carbon removal by 2050: that is the IEA's new net zero need, with 6.4 billion tonnes of CO2 captured a year against 68 million tonnes of capacity running today.\n\nToday's edition: carbonenergynexus.com\n\n#CarbonCapture #CarbonRemoval #CCS #IEA #Climate"
+  },
+  "social_slots": {
+    "midday": {
+      "kicker": "Midday: the money",
+      "headline": "Australia sets a record for clean power FIDs",
+      "points": [
+        "5.5 GW of renewables in 2026",
+        "13.8 GWh of batteries in Q3",
+        "Wholesale prices down 27%"
+      ],
+      "watch": "Capacity Investment Scheme tender results.",
+      "caption": "Australian wind, solar and battery builders just had their best year for investment decisions, with 5.5 GW of renewables and 20 GWh of big batteries committed in 2026 so far.\n\nThe capital view: carbonenergynexus.com\n\n#Australia #EnergyStorage #Renewables #Investment"
+    },
+    "evening": {
+      "kicker": "Evening: the world",
+      "headline": "China opens a 195 km pure hydrogen pipeline",
+      "points": [
+        "Up to 100,000 t a year",
+        "Transport cost seen down 77%",
+        "Built with embrittlement steel"
+      ],
+      "watch": "Whether more provinces build dedicated pipe.",
+      "caption": "Making green hydrogen is one cost, moving it is another. China's new 195 km pipeline in Inner Mongolia is expected to cut transport cost from about 13 yuan a kg to 3.\n\nFull brief: carbonenergynexus.com\n\n#Hydrogen #China #Pipelines #EnergyTransition"
+    }
+  },
+  "minerals": {
+    "intro": "Lynas reports record output and prices, China keeps its mineral export pause to the US in place to January, and copper bounces off an 11 month low.",
+    "items": [
+      {
+        "symbol": "Nd",
+        "name": "Rare earths",
+        "headline": "Lynas reports record NdPr output and an 88% jump in average selling price",
+        "text": "Lynas produced a record 2,082 tonnes of NdPr in the September quarter and sales revenue rose 55% to A$310.1 million, with an average price of A$102.1 a kg across its products, Motley Fool Australia reported Nov 26. Shares rose about 7% to A$13.70. The company is targeting 900 tonnes of NdPr a month.",
+        "sources": [
+          {
+            "name": "Motley Fool Australia, Nov 26, 2026",
+            "url": "https://fool.com.au/2026/11/26/lynas-rare-earths-shares-are-up-7-today-and-id-still-rate-them-a-buy"
+          }
+        ]
+      },
+      {
+        "symbol": "§",
+        "name": "Export controls",
+        "headline": "China keeps its gallium, germanium and antimony export ban to the US suspended to Jan 27",
+        "text": "China's Commerce Ministry extended by two months, from Nov 28 through Jan 27, 2027, the suspension of its ban on US bound gallium, germanium, antimony and superhard materials, and kept stricter graphite reviews on hold, VOA reported Nov 26. Other controls remain. The US China trade truce expires Jan 10, 2027.",
+        "sources": [
+          {
+            "name": "VOA, Nov 26, 2026",
+            "url": "https://voanews.com/a/china-extends-suspension-period-for-its-ban-on-export-of-critical-minerals-to-us-20261126/8228334.html"
+          }
+        ]
+      },
+      {
+        "symbol": "§",
+        "name": "Minerals deals",
+        "headline": "Qatar and the US sign a critical minerals and rare earths memorandum",
+        "text": "The memorandum, signed in Washington alongside the eighth Qatar US Strategic Dialogue, covers mining and processing of critical minerals and rare earths and joint investment, Arab News reported Nov 25. No financial commitments, sites or timetables were disclosed.",
+        "sources": [
+          {
+            "name": "Arab News, Nov 25, 2026",
+            "url": "https://www.arabnews.com/business/qatar-us-sign-ai-pact-and-critical-minerals-deal-to-bolster-supply-chains-3013961"
+          }
+        ]
+      },
+      {
+        "symbol": "Cu",
+        "name": "Copper",
+        "headline": "LME copper rebounds toward $12,000 from an 11 month low",
+        "text": "Three month copper rose 2.65% to $11,958 a tonne early on Nov 26 after touching $12,089, Reuters reported, as proposed US tariffs on 14 trading partners were seen as unlikely to start before February or March. It settled at $11,820.58 on Nov 25, the lowest since December, and is still down more than 15% in November.",
+        "sources": [
+          {
+            "name": "Reuters via Business Recorder, Nov 26, 2026",
+            "url": "https://www.brecorder.com/news/40450844/copper-bounces-back-toward-12000-as-us-tariff-fears-ease"
+          },
+          {
+            "name": "The Private Banker, Nov 26, 2026",
+            "url": "https://leprivatebanker.com/2026/11/26/copper-rebounds-more-than-3-from-an-11-month-low-as-short-covering-meets-thin-pre-thanksgiving-trade/"
+          }
+        ]
+      },
+      {
+        "symbol": "Ta",
+        "name": "Tantalum",
+        "headline": "China's Xinhai to fund Arcadia's Namibia tantalum plant for up to 60% of the project",
+        "text": "Xinhai Mining Services will fully fund construction and commissioning of the Swanson tantalum processing plant, designed for 15,000 tonnes a month, until a 30 day production test, Wisevoter reported Nov 27. The joint venture plans to pay out at least 70% of annual net profit as dividends.",
+        "sources": [
+          {
+            "name": "Wisevoter, Nov 27, 2026",
+            "url": "https://wisevoter.com/world/2026/11/27/arcadia-minerals-xinhai-namibia-tantalum-joint-venture"
+          }
+        ]
+      },
+      {
+        "symbol": "C",
+        "name": "Graphite",
+        "headline": "Molten Industries starts a plant making battery graphite and hydrogen from natural gas",
+        "text": "The Oakland, California demonstration plant splits methane into graphite and hydrogen without combustion and can make 300 tonnes of anode graphite a year, the company said Nov 18. Samples are due from Dec 1. The company cites a US report that China controls 96% of battery graphite processing.",
+        "sources": [
+          {
+            "name": "Business Wire via Batteries News, Nov 19, 2026",
+            "url": "https://batteriesnews.com/molten-industries-commissions-worlds-first-plant-to-produce-battery-grade-graphite-and-hydrogen-from-natural-gas/"
+          }
+        ]
+      }
+    ]
+  },
+  "innovation": [
+    {
+      "name": "Four electron iodine chemistry for water based batteries",
+      "org": "University College London, in Nature",
+      "kind": "Academia",
+      "date": "Nov 13, 2026",
+      "text": "A new electrolyte lets iodine transfer four electrons instead of two, raising the capacity of safer aqueous zinc iodine batteries, which kept almost all capacity over thousands of cycles in pouch and coin cells.",
+      "url": "https://www.ucl.ac.uk/news/2026/nov/breakthrough-opens-new-possibilities-safer-water-based-batteries"
+    },
+    {
+      "name": "What limits electrified methanol from CO",
+      "org": "Ohio State University, in Nature Chemistry",
+      "kind": "Academia",
+      "date": "Nov 2, 2026",
+      "text": "Researchers found that at higher voltages the speed of CO binding to a cobalt catalyst, not electron transfer, limits methanol output, so more power does not guarantee more efficiency.",
+      "url": "https://news.osu.edu/study-advances-new-path-for-better-methanol-manufacturing/"
+    },
+    {
+      "name": "Graphite and hydrogen from natural gas",
+      "org": "Molten Industries",
+      "kind": "Private",
+      "date": "Nov 18, 2026",
+      "text": "First plant to make battery grade graphite from methane, with no graphitization furnace and reported yields above 95%.",
+      "url": "https://batteriesnews.com/molten-industries-commissions-worlds-first-plant-to-produce-battery-grade-graphite-and-hydrogen-from-natural-gas/"
+    },
+    {
+      "name": "Dedicated pure hydrogen pipeline",
+      "org": "Inner Mongolia Huadian Hydrogen Energy and Baotou Steel",
+      "kind": "Private",
+      "date": "Nov 26, 2026",
+      "text": "China's first 195 km pipeline for pure hydrogen entered service using steel developed to resist embrittlement.",
+      "url": "https://bioenergytimes.com/china-commissions-195-km-pure-hydrogen-pipeline-in-inner-mongolia/"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-30",
+      "when": "Nov 30, 2026",
+      "type": "Minerals",
+      "what": "Congo's suspension of all cobalt exports takes effect, with a review after four months",
+      "where": "Democratic Republic of the Congo",
+      "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+    },
+    {
+      "date": "2026-11-30",
+      "when": "Week of Nov 30, 2026",
+      "type": "Power",
+      "what": "US House floor schedule lists the Senate passed permitting and data center transmission bill",
+      "where": "Washington, DC",
+      "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+    },
+    {
+      "date": "2026-12-02",
+      "when": "Dec 2 to 3, 2026",
+      "type": "Carbon",
+      "what": "CCS 2026 conference, Norwegian Petroleum Society",
+      "where": "Fornebu, Oslo",
+      "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "when": "About Dec 8, 2026",
+      "type": "Minerals",
+      "what": "US final antidumping determination on large graphite electrodes from China and India",
+      "where": "United States",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14 to 17, 2026",
+      "type": "Carbon",
+      "what": "European Parliament plenary vote planned on EU ETS reform",
+      "where": "Strasbourg",
+      "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14, 2026",
+      "type": "Carbon",
+      "what": "Last EU ETS primary auction of 2026, about 2.85 million allowances",
+      "where": "Common auction platform",
+      "url": "https://theindustryspread.com/eua-carbon-final-auction-case/"
+    },
+    {
+      "date": "2026-12-15",
+      "when": "Dec 15, 2026",
+      "type": "Renewables",
+      "what": "California CEC and Department of Conservation geothermal workshop on the $18 million drilling program",
+      "where": "Online (Zoom)",
+      "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+    },
+    {
+      "date": "2026-12-21",
+      "when": "Dec 21, 2026",
+      "type": "Power",
+      "what": "Bid deadline for NVVN's 187.5 MW, 750 MWh battery storage tender",
+      "where": "India",
+      "url": "https://powerpeakdigest.com/nvvn-tender-750-mwh-bess-projects/"
+    },
+    {
+      "date": "2027-01-10",
+      "when": "Jan 10, 2027",
+      "type": "Minerals",
+      "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+      "where": "China and United States",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+    },
+    {
+      "date": "2027-01-27",
+      "when": "Jan 27, 2027",
+      "type": "Minerals",
+      "what": "China's suspension of its gallium, germanium and antimony export ban to the US, and of stricter graphite reviews, ends unless extended",
+      "where": "China and United States",
+      "url": "https://www.ibtimes.com/china-extends-us-critical-mineral-export-suspension-3810139"
+    },
+    {
+      "date": "2027-02-08",
+      "when": "Feb 8 to 11, 2027",
+      "type": "Minerals",
+      "what": "Mining Indaba",
+      "where": "Cape Town",
+      "url": "https://miningindaba.com/Register-your-interest"
+    },
+    {
+      "date": "2027-03-07",
+      "when": "Mar 7 to 10, 2027",
+      "type": "Minerals",
+      "what": "PDAC, the largest mineral exploration convention",
+      "where": "Toronto",
+      "url": "https://www.pdac.ca/convention"
+    },
+    {
+      "date": "2027-04-20",
+      "when": "Apr 20 to 22, 2027",
+      "type": "Renewables",
+      "what": "WindEurope Annual Event, onshore and offshore wind",
+      "where": "Copenhagen",
+      "url": "https://windeurope.org/annual2027/information/"
+    },
+    {
+      "date": "2027-05-18",
+      "when": "May 18 to 20, 2027",
+      "type": "Hydrogen",
+      "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+      "where": "Rotterdam",
+      "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+    },
+    {
+      "date": "2027-06-08",
+      "when": "Jun 8 to 10, 2027",
+      "type": "Renewables",
+      "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+      "where": "Munich",
+      "url": "https://www.intersolar.de/en/about"
+    },
+    {
+      "date": "2027-10-06",
+      "when": "Oct 6 to 7, 2027",
+      "type": "Carbon",
+      "what": "Wood Mackenzie CCUS Conference",
+      "where": "Houston",
+      "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+    },
+    {
+      "date": "2027-11-08",
+      "when": "Nov 8 to 19, 2027",
+      "type": "Policy",
+      "what": "COP32 UN climate conference",
+      "where": "Addis Ababa",
+      "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+    },
+    {
+      "date": "2027-11-15",
+      "when": "Nov 15 to 18, 2027",
+      "type": "Renewables",
+      "what": "RE+, North America's largest clean energy event",
+      "where": "Las Vegas",
+      "url": "https://seia.org/events/re-2027/"
+    }
+  ]
+}

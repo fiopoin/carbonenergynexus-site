@@ -7,12 +7,12 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [Australia agrees to store Singapore's CO2 as Gorgon injected only 26% of its separated CO2 last year](https://carbonenergynexus.com/): November 26, 2026. Canberra, Nov 24: Singapore and Australia signed a treaty to ship CO2 captured in Singapore to offshore storage under Australian jurisdiction, as Gorgon data shows only 26% of its separated CO2 was injected last year.
-- [Capital: Greek group EnEarth buys Storegga's 30% of Scotland's Acorn CO2 store and takes the lead role](https://carbonenergynexus.com/#money)
-- [Projects: Europe builds hydrogen ready power and pipes: RWE wins 2.1 GW, Wood gets the BarMar subsea design](https://carbonenergynexus.com/#world)
-- [Regulation: Senate bill heading to the House could make new data centers pay $55 billion for power lines](https://carbonenergynexus.com/#policy)
-- [Water: UAE studies desalination plants on its east coast, outside the Gulf](https://carbonenergynexus.com/#water)
-- [Projects: Italy's storage auction and a French geothermal heat network add firm low carbon capacity](https://carbonenergynexus.com/#storage)
+- [IEA raises its 2050 carbon removal need by 30% as operating capture capacity sits at 68 Mt a year](https://carbonenergynexus.com/): November 27, 2026. 30% more carbon removal by 2050: that is the IEA's new net zero need, with 6.4 billion tonnes of CO2 captured a year against 68 million tonnes of capacity running today.
+- [Capital: Australia sets a record for renewable investment decisions as big battery commitments double](https://carbonenergynexus.com/#money)
+- [Projects: China commissions a 195 km pipeline built only for hydrogen in Inner Mongolia](https://carbonenergynexus.com/#world)
+- [Regulation: UK cement and lime makers and unions sign a charter asking for carbon capture certainty](https://carbonenergynexus.com/#policy)
+- [Water: Nevada study says data centers could use 4 billion gallons of water a year by 2036](https://carbonenergynexus.com/#water)
+- [Projects: India and The Gambia add battery storage: L&T wins 900 MWh at Khavda, NVVN seeks 750 MWh](https://carbonenergynexus.com/#storage)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,6 +20,7 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 27, 2026: IEA raises its 2050 carbon removal need by 30% as operating capture capacity sits at 68 Mt a year](https://carbonenergynexus.com/archive/2026-11-27.html)
 - [November 26, 2026: Australia agrees to store Singapore's CO2 as Gorgon injected only 26% of its separated CO2 last year](https://carbonenergynexus.com/archive/2026-11-26.html)
 - [November 25, 2026: US data centers have announced more than 115 GW of their own gas plants, enough to add 152 Mt of CO2 a year](https://carbonenergynexus.com/archive/2026-11-25.html)
 - [November 24, 2026: Congo will halt cobalt exports again from Nov 30 as prices slide and stockpiles build](https://carbonenergynexus.com/archive/2026-11-24.html)
