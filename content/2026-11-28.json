@@ -1,0 +1,753 @@
+{
+  "date": "2026-11-28",
+  "date_long": "November 28, 2026",
+  "edition": 11,
+  "lead": {
+    "kicker": "Storage safety",
+    "headline": "Study links two felt Edmonton earthquakes to CO2 injection at Quest, a first for carbon storage",
+    "dek": "University of Bristol researchers say the ML 4.0 and 4.2 quakes in April and May were likely induced by a decade of injection at Shell's Quest project, and that standard forecasting models would have seen them coming.",
+    "body": [
+      "Two earthquakes widely felt across Edmonton on April 1 and May 9, 2026, measured ML 4.0 and ML 4.2, were likely caused by CO2 injection at the Quest carbon capture and storage project, according to a study by James Verdon, Cindy Lim and Germán Rodríguez-Pradilla of the University of Bristol in the International Journal of Greenhouse Gas Control (October 2026). The authors call it the first known example of felt induced seismicity caused by CCS operations. Phys.org coverage on Nov 27 brought the paper wide attention. The Alberta Energy Regulator said it received no reports of damage or injuries after the May event.",
+      "Quest captures CO2 from hydrogen production at the Scotford Upgrader north of Edmonton and has stored more than 10 million tonnes since 2015, about 1 million tonnes a year, through three wells into the Basal Cambrian Sandstone saline aquifer about 2 km down. The quakes sat deeper, at about 3.6 km and 4.6 km in the upper Precambrian basement, within the expected pressure footprint. The paper rules out the nearby Redwater waterflood oilfield as a cause, and says a seismogenic index model and an extreme value model would both have forecast ML 4 events before they happened.",
+      "The paper lists mitigation options used elsewhere: lower injection rates, regular pauses, injecting into layers hydraulically isolated from the basement and, in extreme cases, producing water out of the formation to relieve pressure. It also asks for history matched reservoir models, better seismic coverage and a fuller microseismic catalogue. The findings land as Alberta expands storage hubs and as the IEA pathway calls for billions of tonnes of storage a year by 2050."
+    ],
+    "nexus": {
+      "electrons": "Quest's CO2 comes from hydrogen made at Scotford. Any injection limits would ripple back to the low carbon hydrogen and fuels it supports.",
+      "molecules": "More than 10 million tonnes of CO2 stored since 2015 at about 1 million tonnes a year, the paper says, making Quest one of the longest running dedicated storage sites.",
+      "pore": "Pressure from injection 2 km down reached faults in the basement below. Seal and caprock are not the only risk; what sits beneath the reservoir matters too.",
+      "water": "The storage zone is a deep saline aquifer, and one mitigation the authors name is pulling brine back out to lower pressure, which creates a produced water stream to handle."
+    },
+    "use": [
+      {
+        "who": "Investors",
+        "text": "Seismic monitoring and rate limits are now a real operating risk for storage hubs. Ask how often injection could be curtailed."
+      },
+      {
+        "who": "Regulators",
+        "text": "The paper says common forecasting models would have flagged ML 4 events. Traffic light rules can be set before injection scales."
+      },
+      {
+        "who": "Industry",
+        "text": "Map basement faults and plan for pressure management, including possible brine production, from the permit stage."
+      },
+      {
+        "who": "Founders",
+        "text": "Better microseismic catalogues and pressure forecasting are gaps the authors name directly. That is a market."
+      }
+    ],
+    "sources": [
+      {
+        "name": "Verdon, Lim and Rodríguez-Pradilla, Int. J. Greenhouse Gas Control, Oct 2026",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+      },
+      {
+        "name": "The Morning Science via Phys.org, Nov 27, 2026",
+        "url": "https://themorning.science/story/carbon-storage-wells-linked-to-earthquakes-near-canadian-city-58b078f7f9ff2fef"
+      },
+      {
+        "name": "News Minimalist, Nov 27, 2026",
+        "url": "https://www.newsminimalist.com/articles/carbon-storage-wells-linked-to-earthquakes-near-edmonton-canada-0522231d"
+      }
+    ]
+  },
+  "signals": [
+    {
+      "label": "Quest CO2 stored since 2015",
+      "value": "10+ Mt",
+      "note": "About 1 Mt a year, three wells",
+      "source": {
+        "name": "Int. J. Greenhouse Gas Control, Oct 2026",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+      }
+    },
+    {
+      "label": "Largest Quest linked quake",
+      "value": "ML 4.2",
+      "note": "May 9, 2026, felt in Edmonton",
+      "source": {
+        "name": "Int. J. Greenhouse Gas Control, Oct 2026",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+      }
+    },
+    {
+      "label": "EUA Dec 2026 contract",
+      "value": "€83.75/t",
+      "note": "Nov 23, after a 7.8% weekly fall",
+      "source": {
+        "name": "CBAM News, Nov 24, 2026",
+        "url": "https://cbam.news/eu-carbon-rebounds-to-e83-75-as-colder-forecasts-and-policy-uncertainty-reshape-balkan-export-costs/"
+      }
+    },
+    {
+      "label": "CF Industries Faustina deal",
+      "value": "$600M",
+      "note": "Includes 20 year ammonia offtake",
+      "source": {
+        "name": "Carbon Herald, Nov 27, 2026",
+        "url": "https://carbonherald.com/cf-industries-to-acquire-mosaics-faustina-ammonia-complex-in-600m-deal/"
+      }
+    },
+    {
+      "label": "China lithium carbonate",
+      "value": "CNY 84,350/t",
+      "note": "Nov 27, down 2.03% on the day",
+      "source": {
+        "name": "Trading Economics, Nov 27, 2026",
+        "url": "https://tradingeconomics.com/commodity/lithium"
+      }
+    },
+    {
+      "label": "Uranium spot",
+      "value": "$89.70/lb",
+      "note": "Nov 25, up 17.49% on the year",
+      "source": {
+        "name": "Gotrade via Trading Economics, Nov 26, 2026",
+        "url": "https://www.heygotrade.com/en/market-outlook/uranium-stocks-news/"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "id": "money",
+      "lane": "Capital",
+      "headline": "CF Industries buys Mosaic's Louisiana ammonia plant for $600 million and will study CO2 capture there",
+      "text": "CF Industries agreed to buy Mosaic's Faustina ammonia complex in St. James, Louisiana, for a total of $600 million: $360 million in cash and $240 million tied to a 20 year deal to supply Mosaic up to 200,000 tons of ammonia a year, Carbon Herald reported Nov 27. The plant has run at about 60% utilization over five years against CF's 96% network average. CF plans about $100 million over three years to lift output from about 300,000 tons a year to 480,000 in year one and about 570,000 by 2030, and will evaluate CO2 dehydration and compression for low carbon ammonia with geological storage. Closing is targeted for the first half of 2027.",
+      "use": [
+        {
+          "who": "Investors",
+          "text": "Brownfield ammonia plus a CCS option is a cheaper route than new build. Watch the capture decision."
+        },
+        {
+          "who": "Storage developers",
+          "text": "Another Gulf Coast ammonia source may need pipeline and pore space. Position early."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 27, 2026",
+          "url": "https://carbonherald.com/cf-industries-to-acquire-mosaics-faustina-ammonia-complex-in-600m-deal/"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "lane": "Regulation",
+      "headline": "EU sets the CBAM timetable: certificate sales open Feb 1, 2027, first surrender due Sept 30",
+      "text": "Under Commission document C(2026)8367, importers can buy CBAM certificates from Feb 1, 2027 and must cover 2026 imports by Sept 30, 2027, when the first annual declaration and surrender are due, Carbon Herald reported Nov 27. From 2027, importers must hold certificates for at least 50% of embedded emissions at each quarter end. One certificate equals one tonne of CO2e, adjusted for free allocation and carbon prices paid abroad. Prices are set quarterly for 2026 imports and weekly from 2027. The Q3 2026 CBAM price was fixed at €82.32, and the December EUA contract stood at €83.75 on Nov 23, CBAM News reported.",
+      "use": [
+        {
+          "who": "Exporters to the EU",
+          "text": "Document carbon prices you already pay. They reduce certificates owed."
+        },
+        {
+          "who": "Importers",
+          "text": "Budget for 2026 imports now and plan quarterly holdings from 2027."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Carbon Herald, Nov 27, 2026",
+          "url": "https://carbonherald.com/eu-sets-timetable-for-cbam-certificate-trading-and-annual-compliance/"
+        },
+        {
+          "name": "CBAM News, Nov 24, 2026",
+          "url": "https://cbam.news/eu-carbon-rebounds-to-e83-75-as-colder-forecasts-and-policy-uncertainty-reshape-balkan-export-costs/"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "lane": "Water",
+      "headline": "Canadian lithium brine moves: E3 starts Phase 3 at Clearwater, Prairie Lithium pulls first brine",
+      "text": "E3 Lithium advanced its Clearwater project near Olds, Alberta to Phase 3 of its demonstration program, backed by up to C$36.5 million from Natural Resources Canada, after its producer and injector well pair produced more than 80,000 cubic metres of Leduc brine, Wisevoter reported Nov 27, citing Mining Weekly. The Alberta Energy Regulator moved its processing facility application to the second and final phase. In Saskatchewan, Prairie Lithium produced its first surface brine from a Duperow Formation well at Pad #1, feeding a four column direct lithium extraction unit, Mining Technology reported Nov 23. It has C$6.3 million in interest free federal financing.",
+      "use": [
+        {
+          "who": "Water managers",
+          "text": "DLE projects produce and reinject large brine volumes. Track disposal and injection well permits."
+        },
+        {
+          "who": "Oil and gas operators",
+          "text": "Old wells and brine know how are transferring to lithium. Look for partnership demand."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Wisevoter via Mining Weekly, Nov 27, 2026",
+          "url": "https://wisevoter.com/world/ca/ab/2026/11/27/e3-lithium-clearwater-brine-project-phase-3"
+        },
+        {
+          "name": "Mining Technology, Nov 23, 2026",
+          "url": "https://www.mining-technology.com/news/prairie-lithium-first-surface-brine-saskatchewan/"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "lane": "Projects",
+      "headline": "Spain funds 552 MWh of hybrid batteries and a German investor enters the Dutch battery market",
+      "text": "Spain's MITECO awarded €56.1 million to three Iberdrola battery projects in Granada province, each 44.5 MW and 183.94 MWh, co-located with solar and wind, ESS News reported Nov 27. The programme now funds 130 projects with €826 million, about 2.2 GW and 9.4 GWh, due by end 2029. In the Netherlands, Hamburg based Blue Elephant Energy bought 95% of the 40 MW, 160 MWh Zuidvelde battery from TPSolar; it shares the solar park's grid connection, is financed by ING and should be commissioned in Q3 2027, Energy Global reported Nov 27.",
+      "use": [
+        {
+          "who": "Developers",
+          "text": "Co-location and cable pooling avoid new grid connections. Use them where queues are long."
+        },
+        {
+          "who": "Lenders",
+          "text": "Public grants are filling hybrid battery stacks in Spain. Model them into debt sizing."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ESS News, Nov 27, 2026",
+          "url": "https://www.ess-news.com/2026/11/27/spain-awards-e56-1-million-for-three-hybrid-battery-projects"
+        },
+        {
+          "name": "Energy Global, Nov 27, 2026",
+          "url": "https://www.energyglobal.com/energy-storage/27112026/blue-elephant-energy-enters-dutch-battery-market-with-bess-zuidvelde/"
+        }
+      ]
+    },
+    {
+      "id": "markets",
+      "lane": "Markets",
+      "headline": "EU carbon recovers to €83.75 after its sharpest weekly drop in nine months",
+      "text": "The December 2026 EUA contract fell 7.8% in the week to Nov 20 to close at €81.26, touching €80.03, the lowest since late July, on volume of 183 million allowances, CBAM News reported. It rebounded 3.06% to €83.75 on Nov 23. The market traded above €90 as recently as mid November. The provisional Q4 CBAM price was €86.69, with the final figure due in early January after the last 2026 primary auction on Dec 14.",
+      "use": [
+        {
+          "who": "Compliance buyers",
+          "text": "Volatility is up ahead of the Parliament vote. Stagger purchases."
+        },
+        {
+          "who": "Analysts",
+          "text": "The EUA now feeds CBAM prices directly. Track both together."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBAM News, Nov 24, 2026",
+          "url": "https://cbam.news/eu-carbon-allowances-fall-7-8-putting-fourth-quarter-cbam-price-in-focus/"
+        },
+        {
+          "name": "CBAM News, Nov 24, 2026",
+          "url": "https://cbam.news/eu-carbon-rebounds-to-e83-75-as-colder-forecasts-and-policy-uncertainty-reshape-balkan-export-costs/"
+        }
+      ]
+    }
+  ],
+  "tracker": [
+    {
+      "name": "Northern Lights Phase II",
+      "where": "Norway",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Seven industrial customers in four countries; Yara Sluiskil chain inaugurated Sept 7; expanding to more than 5 Mt/yr; Equinor CEO said Nov 24 that capture delays leave little CO2 for new storage contracts",
+      "source": {
+        "name": "Briefs Finance, Nov 24, 2026",
+        "url": "https://briefs.co/news/equinor-flags-ccs-bottleneck-not-enough-captured-co2-to-sign"
+      },
+      "url": "https://norlights.com/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Porthos",
+      "where": "Netherlands",
+      "type": "Transport and storage",
+      "stage": 6,
+      "last": "Maximum budget raised to €1.7 billion from €1.3 billion; finish end 2027 at the earliest, operation likely 2028 (Nov 19)",
+      "source": {
+        "name": "Porthos, Nov 19, 2026",
+        "url": "https://www.porthosco2.nl/en/longer-project-duration-leads-to-higher-porthos-project-budget/"
+      },
+      "url": "https://www.porthosco2.nl/en/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Pathways CCS",
+      "where": "Alberta, Canada",
+      "type": "Capture, pipeline, storage",
+      "stage": 3,
+      "last": "Definitive agreements targeted for about Nov 15 still not announced; Alberta now pays capture grants during construction, Nov 20",
+      "source": {
+        "name": "Canadian Press via BNN Bloomberg, Nov 20, 2026",
+        "url": "https://bnnbloomberg.ca/business/politics/2026/11/20/alberta-tweaks-carbon-capture-incentive-program-to-allow-grants-during-construction"
+      },
+      "url": "https://oilsandsalliance.ca/pathways-project/carbon-capture-and-storage-ccs/",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Havstjerne",
+      "where": "Norwegian North Sea",
+      "type": "Storage",
+      "stage": 3,
+      "last": "SLB and OneSubsea selected for engineering as it advances toward FID, Aug 25",
+      "source": {
+        "name": "World Oil",
+        "url": "https://worldoil.com/topics/energy-transition/carbon-capture"
+      },
+      "url": "https://harbourenergy.com/operations/ccs/norway",
+      "sector": "Carbon storage"
+    },
+    {
+      "name": "Cape Station",
+      "where": "Beaver County, Utah",
+      "type": "Enhanced geothermal power",
+      "sector": "Geothermal",
+      "stage": 7,
+      "last": "First 33 MW GeoBlock operating since Sept 30; a 105 MW Longroad transmission deal on Nov 18 lifts contracted firm transmission to 505 MW from 2028",
+      "url": "https://fervoenergy.com/",
+      "source": {
+        "name": "Fervo Energy, Nov 18, 2026",
+        "url": "https://fervoenergy.com/fervo-energy-and-longroad-energy-execute-105-megawatt-long-term-transmission-service-agreement-expanding-transmission-at-cape-station/"
+      }
+    },
+    {
+      "name": "Project Obsidian",
+      "where": "Central Oregon",
+      "type": "Superhot geothermal power",
+      "sector": "Geothermal",
+      "stage": 4,
+      "last": "Google signed a 50 MW power purchase agreement Nov 17; power as early as 2030, with room for 250 MW or more",
+      "url": "https://www.quaise.com/news/quaise-energy-signs-50-mw-geothermal-power-purchase-agreement-with-google",
+      "source": {
+        "name": "Bend Bulletin, Nov 17, 2026",
+        "url": "https://bendbulletin.com/2026/11/17/google-to-use-geothermal-power-from-newberry-caldera-to-power-data-centers/"
+      }
+    },
+    {
+      "name": "Tampere e-methane plant",
+      "where": "Tampere, Finland",
+      "type": "E-methane from renewable hydrogen and biogenic CO2",
+      "sector": "Hydrogen",
+      "stage": 5,
+      "last": "FID reached; more than €300 million, about 190 GWh a year of e-methane, completion scheduled for 2029",
+      "url": "https://ren-gas.com/",
+      "source": {
+        "name": "Hydrogen Central, Nov 21, 2026",
+        "url": "https://hydrogen-central.com/nordic-ren-gas-tampere-project-becomes-worlds-largest-e-methane-facility-to-reach-final-investment-decision/"
+      }
+    },
+    {
+      "name": "Long Mott Generating Station",
+      "where": "Seadrift, Texas",
+      "type": "Advanced nuclear, four Xe-100 reactors for power and steam",
+      "sector": "Power",
+      "stage": 4,
+      "last": "NRC construction permit issued Nov 9 for up to 320 MWe; Dow has not taken FID",
+      "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas",
+      "source": {
+        "name": "US DOE Office of Nuclear Energy, Nov 13, 2026",
+        "url": "https://www.energy.gov/ne/articles/dow-x-energy-receive-construction-permit-advanced-nuclear-project-texas"
+      }
+    },
+    {
+      "name": "Niron Magnetics Dothan complex",
+      "where": "Dothan, Alabama",
+      "type": "Rare earth free iron nitride permanent magnets",
+      "sector": "Minerals",
+      "stage": 1,
+      "last": "$1.8 billion plan announced Nov 24: construction from 2028, 10,000 t a year from 2029, about 700 jobs",
+      "url": "https://nironmagnetics.com/",
+      "source": {
+        "name": "SMM, Nov 24, 2026",
+        "url": "https://news.metal.com/newscontent/PTPRQ6R6P24ZTJUYAYRDDWZKBP6GXOWHP246CRI-niron-magnetics-to-build-18bn-alabama-rare-earth-free-magnet-facility"
+      }
+    },
+    {
+      "name": "Acorn CCS",
+      "where": "North east Scotland",
+      "type": "CO2 transport and storage",
+      "sector": "Carbon storage",
+      "stage": 2,
+      "last": "EnEarth agreed Nov 23 to buy Storegga's 30% stake and lead developer role; close due by end 2026; 5 to 10 Mt a year target",
+      "url": "https://theacornproject.uk/",
+      "source": {
+        "name": "Carbon Herald, Nov 23, 2026",
+        "url": "https://carbonherald.com/storegga-exits-acorn-ccs-project-as-enearth-acquires-30-stake/"
+      }
+    },
+    {
+      "name": "Quest CCS",
+      "where": "Near Edmonton, Alberta",
+      "type": "Capture from hydrogen production and saline aquifer storage",
+      "sector": "Carbon storage",
+      "stage": 7,
+      "last": "More than 10 Mt stored since 2015; Bristol study links felt ML 4.0 and 4.2 quakes in April and May 2026 to injection (coverage Nov 27)",
+      "url": "https://www.shell.ca/en_ca/about-us/projects-and-sites/quest-carbon-capture-and-storage-project.html",
+      "source": {
+        "name": "Int. J. Greenhouse Gas Control, Oct 2026",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+      }
+    },
+    {
+      "name": "Clearwater lithium brine",
+      "where": "Near Olds, Alberta",
+      "type": "Direct lithium extraction from Leduc brine",
+      "sector": "Minerals",
+      "stage": 2,
+      "last": "Demonstration moved to Phase 3 with up to C$36.5 million federal support; processing facility application in final AER review phase (Nov 27)",
+      "url": "https://www.e3lithium.ca/",
+      "source": {
+        "name": "Wisevoter via Mining Weekly, Nov 27, 2026",
+        "url": "https://wisevoter.com/world/ca/ab/2026/11/27/e3-lithium-clearwater-brine-project-phase-3"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "name": "James Verdon, Cindy Lim and Germán Rodríguez-Pradilla",
+      "role": "University of Bristol",
+      "text": "Wrote that the April and May quakes were likely caused by injection at Quest, and that seismogenic index and extreme value models would both have forecast the ML 4 events ahead of time.",
+      "source": {
+        "name": "Int. J. Greenhouse Gas Control, Oct 2026",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+      }
+    },
+    {
+      "name": "Alberta Energy Regulator",
+      "role": "Provincial regulator",
+      "text": "Said after the May 9 earthquake that it had received no reports of damage or injuries.",
+      "source": {
+        "name": "The Morning Science via Phys.org, Nov 27, 2026",
+        "url": "https://themorning.science/story/carbon-storage-wells-linked-to-earthquakes-near-canadian-city-58b078f7f9ff2fef"
+      }
+    },
+    {
+      "name": "Ziyi Liu",
+      "role": "Analyst, Wood Mackenzie",
+      "text": "Said constraints on sulphur supply for Indonesian nickel processing are unlikely to ease quickly.",
+      "source": {
+        "name": "Batteries News, Nov 27, 2026",
+        "url": "https://batteriesnews.com/indonesian-supply-constraints-and-shifting-battery-chemistry-reshape-global-nickel-and-cobalt-markets"
+      }
+    }
+  ],
+  "research": [
+    {
+      "title": "Induced seismicity at the Quest Carbon Capture and Storage project, Alberta",
+      "by": "Verdon, Lim and Rodríguez-Pradilla, University of Bristol",
+      "date": "Oct 2026",
+      "text": "Open access paper linking felt ML 4.0 and 4.2 quakes to CO2 injection, with mitigation and data recommendations.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+    },
+    {
+      "title": "Hydrogen derivatives enable cost-effective carbon neutrality in China",
+      "by": "Huazhong University of Science and Technology, Harvard and Shandong University, in Nature",
+      "date": "Nov 5, 2026",
+      "text": "Modelling finds pathways using hydrogen derivatives cost $10.7 trillion less than renewables plus electrification alone, per a summary by the Swiss Power-to-X network.",
+      "url": "https://www.nature.com/articles/s41586-026-11351-4"
+    },
+    {
+      "title": "Takeaways from the 2026 Antaike Nickel and Cobalt Conference",
+      "by": "Wood Mackenzie",
+      "date": "Nov 27, 2026",
+      "text": "Indonesian sulphur imports fell 29% in the first half after the Strait of Hormuz closure, putting more than 600 kt of nickel MHP capacity at risk.",
+      "url": "https://batteriesnews.com/indonesian-supply-constraints-and-shifting-battery-chemistry-reshape-global-nickel-and-cobalt-markets"
+    }
+  ],
+  "calendar": [],
+  "calendar_sources": [],
+  "social": {
+    "kicker": "Morning: the nexus",
+    "headline": "Felt quakes linked to CO2 storage at Quest",
+    "points": [
+      "ML 4.2 quake felt in Edmonton",
+      "10 Mt stored since 2015",
+      "Models could have forecast it"
+    ],
+    "watch": "How Alberta sets injection and monitoring rules.",
+    "caption": "Can carbon storage cause earthquakes people feel? A University of Bristol study says two quakes felt across Edmonton this year were likely caused by CO2 injection at Shell's Quest project.\n\nRead the nexus angle at carbonenergynexus.com\n\n#CarbonCapture #CCS #Alberta #Geoscience #Energy"
+  },
+  "social_slots": {
+    "midday": {
+      "kicker": "Midday: the money",
+      "headline": "CF Industries pays $600M for a Louisiana plant",
+      "points": [
+        "$600M total, $240M via offtake",
+        "Output target 570,000 t by 2030",
+        "CO2 capture under study"
+      ],
+      "watch": "Whether CF commits to capture at Faustina.",
+      "caption": "$600 million buys CF Industries Mosaic's Faustina ammonia complex in Louisiana, plus a 20 year supply deal. CF also plans to study capturing the plant's CO2 for storage.\n\nWhy it matters for capital and water: carbonenergynexus.com\n\n#Ammonia #CarbonCapture #Louisiana #Fertilizer #MandA"
+    },
+    "evening": {
+      "kicker": "Evening: the world",
+      "headline": "EU fixes dates for CBAM certificate trading",
+      "points": [
+        "Sales open Feb 1, 2027",
+        "First surrender by Sept 30",
+        "50% quarterly holding rule"
+      ],
+      "watch": "The final Q4 CBAM price, due in early January.",
+      "caption": "Brussels, Nov 27: the EU has set the CBAM calendar. Importers buy certificates from Feb 1, 2027 and surrender them for 2026 imports by Sept 30.\n\nTrack the dates at carbonenergynexus.com\n\n#CBAM #EUETS #CarbonPricing #Trade"
+    }
+  },
+  "minerals": {
+    "intro": "Lynas locks in a price floor with Japan, USA Rare Earth gets a deep target cut, Indonesian nickel faces a sulphur squeeze and lithium slips again.",
+    "items": [
+      {
+        "symbol": "Nd",
+        "name": "Rare earths",
+        "headline": "Lynas tells its AGM of a 5,000 t NdPr offtake with a $110 a kg floor to 2038",
+        "text": "Lynas reported FY26 revenue of A$977.9 million and 7,260 tonnes of NdPr at its Nov 25 AGM, and cited an amended agreement with Japan's JARE carrying a 5,000 tonne firm NdPr offtake at a floor of US$110 a kg, in force to 2038, Kalkine reported. Its Malaysian licence was renewed for 10 years, and a JS Link deal targets a 3,000 tonne NdFeB magnet plant in Kuantan. In China, SMM said Pr-Nd oxide quotes edged down on Nov 27 on weak demand.",
+        "sources": [
+          {
+            "name": "Kalkine, Nov 2026",
+            "url": "https://kalkine.com.au/news/announcements/lynas-rare-earths-reports-record-fy26-revenue-of-9779m-at-2026-agm"
+          },
+          {
+            "name": "SMM, Nov 27, 2026",
+            "url": "https://news.metal.com/newscontent/THYGBOA53UR4662HS7FHBTAJP6XWOTOJFLTX25Y-smm-rare-earth-afternoon-trading-comment-on-november-27"
+          }
+        ]
+      },
+      {
+        "symbol": "Nd",
+        "name": "Rare earths",
+        "headline": "Canaccord cuts its USA Rare Earth target to $10 from $32 as shares fall 27% in a month",
+        "text": "USA Rare Earth traded at $6.52 on Nov 27, down 27% over a month, after Canaccord cut its target 69% and kept a Buy rating, 24/7 Wall St reported. Q3 revenue was $3 million against $22.9 million cost of revenue. The company guides at least 325 tonnes of TREO sold from Serra Verde in Q4 and 4,000 tonnes a year after Stage 1 in Q2 2027.",
+        "sources": [
+          {
+            "name": "24/7 Wall St, Nov 27, 2026",
+            "url": "https://247wallst.com/investing/2026/11/27/usa-rare-earth-is-down-27-in-a-month-can-usar-stock-get-back-to-canaccords-10-target/"
+          }
+        ]
+      },
+      {
+        "symbol": "Ni",
+        "name": "Nickel",
+        "headline": "Indonesian nickel faces a sulphur squeeze that puts 600 kt of new capacity at risk",
+        "text": "Indonesia's sulphur imports fell 29% in the first half of 2026 after the Strait of Hormuz closure and average prices nearly tripled, putting more than 600 kt of incoming MHP nickel capacity at risk, Wood Mackenzie said in a Nov 27 summary. It also expects global refined cobalt use to contract in 2026. GEM shipped 30,812 tonnes of contained nickel from Indonesia in Q3, SMM reported Nov 27.",
+        "sources": [
+          {
+            "name": "Batteries News, Nov 27, 2026",
+            "url": "https://batteriesnews.com/indonesian-supply-constraints-and-shifting-battery-chemistry-reshape-global-nickel-and-cobalt-markets"
+          },
+          {
+            "name": "SMM, Nov 27, 2026",
+            "url": "https://news.metal.com/newscontent/S3L7LSR4OZKMFH5JFW2NBYPIH64QSRBFKG3HOGQ-smm-nickel-market-flash-gems-q3-indonesia-nickel-shipments-reach-30812-mt"
+          }
+        ]
+      },
+      {
+        "symbol": "Li",
+        "name": "Lithium",
+        "headline": "China lithium carbonate drops to CNY 84,350 a tonne, down almost 16% in a month",
+        "text": "Battery grade lithium carbonate fell 2.03% on Nov 27 to CNY 84,350 a tonne, down 15.69% over a month and 10.03% over a year, Trading Economics data show. In Chile, the water agency is collecting community input on a water plan for the Salar de Atacama, where SQM reported net brine extraction of 1,017 litres a second in 2025, Discovery Alert reported Nov 16.",
+        "sources": [
+          {
+            "name": "Trading Economics, Nov 27, 2026",
+            "url": "https://tradingeconomics.com/commodity/lithium"
+          },
+          {
+            "name": "Discovery Alert, Nov 16, 2026",
+            "url": "https://discoveryalert.com/analysis/salar-atacama-water-planning-lithium-november-2026/"
+          }
+        ]
+      },
+      {
+        "symbol": "U",
+        "name": "Uranium",
+        "headline": "Uranium holds near $90 a pound as Energy Fuels plans a 1 million lb milling run",
+        "text": "Spot uranium was $89.70 a pound on Nov 25, down 0.22% over a month and up 17.49% over a year, Gotrade reported, citing Trading Economics. Energy Fuels plans about 1 million lb of concentrate at its White Mesa Mill in Utah from December through Q1 2027, and Kazakhstan targets a strategic reserve of at least 150,000 tonnes by 2050.",
+        "sources": [
+          {
+            "name": "Gotrade, Nov 26, 2026",
+            "url": "https://www.heygotrade.com/en/market-outlook/uranium-stocks-news/"
+          }
+        ]
+      },
+      {
+        "symbol": "Cu",
+        "name": "Copper",
+        "headline": "Copper miners rally for a second day as Freeport rises 4.57%",
+        "text": "The CPER copper fund rose 2.31% to $33.26 on Nov 27, still 19.7% below its September high, while Southern Copper gained 4.26% and Freeport McMoRan 4.57%, The Rio Times reported. It cited short covering and a stronger stock market, against a firmer dollar and a 4.94% US 10 year yield.",
+        "sources": [
+          {
+            "name": "The Rio Times, Nov 27, 2026",
+            "url": "https://www.riotimesonline.com/copper-markets-latam-friday-november-27-2026/"
+          }
+        ]
+      }
+    ]
+  },
+  "innovation": [
+    {
+      "name": "Forecasting felt quakes at a CO2 store",
+      "org": "University of Bristol, in Int. J. Greenhouse Gas Control",
+      "kind": "Academia",
+      "date": "Oct 2026",
+      "text": "Shows seismogenic index and extreme value models would have forecast the ML 4 Quest events, giving storage operators a tested early warning approach.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1750583626002288"
+    },
+    {
+      "name": "Hydrogen derivatives in China's net zero path",
+      "org": "Huazhong University of Science and Technology and Harvard, in Nature",
+      "kind": "Academia",
+      "date": "Nov 5, 2026",
+      "text": "A model of 29 provinces and more than 46,000 transport routes finds hydrogen based fuels cut transition cost by $10.7 trillion versus electrification alone.",
+      "url": "https://www.nature.com/articles/s41586-026-11351-4"
+    },
+    {
+      "name": "First surface brine at a Saskatchewan DLE site",
+      "org": "Prairie Lithium",
+      "kind": "Private",
+      "date": "Nov 23, 2026",
+      "text": "Produced first brine from a Duperow Formation well into a commercial scale four column direct lithium extraction unit, meeting its Q4 milestone.",
+      "url": "https://www.mining-technology.com/news/prairie-lithium-first-surface-brine-saskatchewan/"
+    },
+    {
+      "name": "Clearwater demonstration Phase 3",
+      "org": "E3 Lithium",
+      "kind": "Private",
+      "date": "Nov 27, 2026",
+      "text": "Moved to Phase 3 after more than 80,000 cubic metres of brine produced, with a larger single DLE column expected in 2027.",
+      "url": "https://wisevoter.com/world/ca/ab/2026/11/27/e3-lithium-clearwater-brine-project-phase-3"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-30",
+      "when": "Nov 30, 2026",
+      "type": "Minerals",
+      "what": "Congo's suspension of all cobalt exports takes effect, with a review after four months",
+      "where": "Democratic Republic of the Congo",
+      "url": "https://news.metal.com/newscontent/MURYNEJW44VQ25NCURQOJBKM633VG323DUSAYYI-drc-announces-suspension-of-cobalt-exports-again-from-november-30-to-reassess-the-ban-after-four-months"
+    },
+    {
+      "date": "2026-11-30",
+      "when": "Week of Nov 30, 2026",
+      "type": "Power",
+      "what": "US House floor schedule lists the Senate passed permitting and data center transmission bill",
+      "where": "Washington, DC",
+      "url": "https://dailycaller.com/2026/11/25/data-centers-transmission-costs-baaja-grid-strategies-sheldon-whitehouse-shelley-moore-capito"
+    },
+    {
+      "date": "2026-12-02",
+      "when": "Dec 2 to 3, 2026",
+      "type": "Carbon",
+      "what": "CCS 2026 conference, Norwegian Petroleum Society",
+      "where": "Fornebu, Oslo",
+      "url": "https://netzerocompare.com/events/carbon-capture-and-storage-conference-ccs-2026"
+    },
+    {
+      "date": "2026-12-08",
+      "when": "About Dec 8, 2026",
+      "type": "Minerals",
+      "what": "US final antidumping determination on large graphite electrodes from China and India",
+      "where": "United States",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/will-policy-deadlines-reshape-us-graphite-supply-before-45220"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14 to 17, 2026",
+      "type": "Carbon",
+      "what": "European Parliament plenary vote planned on EU ETS reform",
+      "where": "Strasbourg",
+      "url": "https://www.energyconnects.com/news/utilities/2026/november/eu-carbon-reform-splits-top-parties-before-first-parliament-vote/"
+    },
+    {
+      "date": "2026-12-14",
+      "when": "Dec 14, 2026",
+      "type": "Carbon",
+      "what": "Last EU ETS primary auction of 2026, about 2.85 million allowances",
+      "where": "Common auction platform",
+      "url": "https://theindustryspread.com/eua-carbon-final-auction-case/"
+    },
+    {
+      "date": "2026-12-15",
+      "when": "Dec 15, 2026",
+      "type": "Renewables",
+      "what": "California CEC and Department of Conservation geothermal workshop on the $18 million drilling program",
+      "where": "Online (Zoom)",
+      "url": "https://www.energy.ca.gov/news/2026-11/california-announces-nearly-20-million-available-unlock-new-geothermal-energy"
+    },
+    {
+      "date": "2026-12-21",
+      "when": "Dec 21, 2026",
+      "type": "Power",
+      "what": "Bid deadline for NVVN's 187.5 MW, 750 MWh battery storage tender",
+      "where": "India",
+      "url": "https://powerpeakdigest.com/nvvn-tender-750-mwh-bess-projects/"
+    },
+    {
+      "date": "2027-01-10",
+      "when": "Jan 10, 2027",
+      "type": "Minerals",
+      "what": "China's pauses on rare earth, battery and graphite anode export controls end unless extended; US and China tariff truce also expires",
+      "where": "China and United States",
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/110926-china-extends-rare-earth-export-suspension-to-january-2027"
+    },
+    {
+      "date": "2027-01-27",
+      "when": "Jan 27, 2027",
+      "type": "Minerals",
+      "what": "China's suspension of its gallium, germanium and antimony export ban to the US, and of stricter graphite reviews, ends unless extended",
+      "where": "China and United States",
+      "url": "https://www.ibtimes.com/china-extends-us-critical-mineral-export-suspension-3810139"
+    },
+    {
+      "date": "2027-02-01",
+      "when": "Feb 1, 2027",
+      "type": "Carbon",
+      "what": "EU CBAM certificate sales open; 2026 imports must be covered by Sept 30, 2027",
+      "where": "European Union",
+      "url": "https://carbonherald.com/eu-sets-timetable-for-cbam-certificate-trading-and-annual-compliance/"
+    },
+    {
+      "date": "2027-02-08",
+      "when": "Feb 8 to 11, 2027",
+      "type": "Minerals",
+      "what": "Mining Indaba",
+      "where": "Cape Town",
+      "url": "https://miningindaba.com/Register-your-interest"
+    },
+    {
+      "date": "2027-03-07",
+      "when": "Mar 7 to 10, 2027",
+      "type": "Minerals",
+      "what": "PDAC, the largest mineral exploration convention",
+      "where": "Toronto",
+      "url": "https://www.pdac.ca/convention"
+    },
+    {
+      "date": "2027-04-20",
+      "when": "Apr 20 to 22, 2027",
+      "type": "Renewables",
+      "what": "WindEurope Annual Event, onshore and offshore wind",
+      "where": "Copenhagen",
+      "url": "https://windeurope.org/annual2027/information/"
+    },
+    {
+      "date": "2027-05-18",
+      "when": "May 18 to 20, 2027",
+      "type": "Hydrogen",
+      "what": "World Hydrogen Summit, with CCUS and energy storage zones",
+      "where": "Rotterdam",
+      "url": "https://www.world-hydrogen-summit.com/plan-your-visit"
+    },
+    {
+      "date": "2027-06-08",
+      "when": "Jun 8 to 10, 2027",
+      "type": "Renewables",
+      "what": "The smarter E Europe and Intersolar Europe, solar and storage",
+      "where": "Munich",
+      "url": "https://www.intersolar.de/en/about"
+    },
+    {
+      "date": "2027-10-06",
+      "when": "Oct 6 to 7, 2027",
+      "type": "Carbon",
+      "what": "Wood Mackenzie CCUS Conference",
+      "where": "Houston",
+      "url": "https://www.woodmac.com/es/events/carbon-capture-utilization-storage-conference"
+    },
+    {
+      "date": "2027-11-08",
+      "when": "Nov 8 to 19, 2027",
+      "type": "Policy",
+      "what": "COP32 UN climate conference",
+      "where": "Addis Ababa",
+      "url": "https://abcnews.com/Technology/climate-conference-ends-signature-agreement-countries-clash-fossil/story?id=138359179"
+    }
+  ]
+}

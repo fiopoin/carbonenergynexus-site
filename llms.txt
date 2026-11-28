@@ -7,12 +7,12 @@
 - [Frameworks](https://carbonenergynexus.com/frameworks.html): how projects, policy and carbon claims are judged
 
 ## Today's edition
-- [IEA raises its 2050 carbon removal need by 30% as operating capture capacity sits at 68 Mt a year](https://carbonenergynexus.com/): November 27, 2026. 30% more carbon removal by 2050: that is the IEA's new net zero need, with 6.4 billion tonnes of CO2 captured a year against 68 million tonnes of capacity running today.
-- [Capital: Australia sets a record for renewable investment decisions as big battery commitments double](https://carbonenergynexus.com/#money)
-- [Projects: China commissions a 195 km pipeline built only for hydrogen in Inner Mongolia](https://carbonenergynexus.com/#world)
-- [Regulation: UK cement and lime makers and unions sign a charter asking for carbon capture certainty](https://carbonenergynexus.com/#policy)
-- [Water: Nevada study says data centers could use 4 billion gallons of water a year by 2036](https://carbonenergynexus.com/#water)
-- [Projects: India and The Gambia add battery storage: L&T wins 900 MWh at Khavda, NVVN seeks 750 MWh](https://carbonenergynexus.com/#storage)
+- [Study links two felt Edmonton earthquakes to CO2 injection at Quest, a first for carbon storage](https://carbonenergynexus.com/): November 28, 2026. Can carbon storage cause earthquakes people feel? A University of Bristol study says two quakes felt across Edmonton this year were likely caused by CO2 injection at Shell's Quest project.
+- [Capital: CF Industries buys Mosaic's Louisiana ammonia plant for $600 million and will study CO2 capture there](https://carbonenergynexus.com/#money)
+- [Regulation: EU sets the CBAM timetable: certificate sales open Feb 1, 2027, first surrender due Sept 30](https://carbonenergynexus.com/#world)
+- [Water: Canadian lithium brine moves: E3 starts Phase 3 at Clearwater, Prairie Lithium pulls first brine](https://carbonenergynexus.com/#water)
+- [Projects: Spain funds 552 MWh of hybrid batteries and a German investor enters the Dutch battery market](https://carbonenergynexus.com/#storage)
+- [Markets: EU carbon recovers to €83.75 after its sharpest weekly drop in nine months](https://carbonenergynexus.com/#markets)
 
 ## Archive and feeds
 - [Past editions](https://carbonenergynexus.com/archive/)
@@ -20,6 +20,7 @@
 - [Sitemap](https://carbonenergynexus.com/sitemap.xml)
 
 ## Recent editions
+- [November 28, 2026: Study links two felt Edmonton earthquakes to CO2 injection at Quest, a first for carbon storage](https://carbonenergynexus.com/archive/2026-11-28.html)
 - [November 27, 2026: IEA raises its 2050 carbon removal need by 30% as operating capture capacity sits at 68 Mt a year](https://carbonenergynexus.com/archive/2026-11-27.html)
 - [November 26, 2026: Australia agrees to store Singapore's CO2 as Gorgon injected only 26% of its separated CO2 last year](https://carbonenergynexus.com/archive/2026-11-26.html)
 - [November 25, 2026: US data centers have announced more than 115 GW of their own gas plants, enough to add 152 Mt of CO2 a year](https://carbonenergynexus.com/archive/2026-11-25.html)
